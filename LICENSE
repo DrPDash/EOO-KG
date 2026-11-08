@@ -1,0 +1,22 @@
+# EOO-KG — License and Attribution Scope
+
+## Ontology datasets (upon authorized release)
+
+Ontology datasets explicitly designated as released under this license are made available under the **Creative Commons Attribution 4.0 International Public License (CC BY 4.0)**.
+
+Authoritative legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+Under CC BY 4.0, users must give appropriate credit, provide a link to the license, indicate whether changes were made, and must not imply endorsement. Attribution must be reasonable for the medium and use.
+
+**Requested attribution:** CADENCE-EOO / EOO-KG; P. Dash and P. M. DiGiacomo; the exact released dataset version; and https://github.com/DrPDash/EOO-KG.
+
+**Scholarly citation request (not an additional CC BY legal condition):** When publishing research that uses the ontology, please cite the associated CADENCE-EOO scientific paper when available, as well as the exact dataset version. Until a formal paper citation is available, cite the repository and version.
+
+## Software and other materials
+
+**No software license is granted by this file.** The Python ontology Explorer and other source code require a separate, expressly approved software license before public distribution. The CC BY 4.0 designation above does not extend to private CADENCE implementations, internal processing code, unreleased datasets, or other unpublished materials.
+
+## Pre-release status
+
+This file documents the **intended license for future authorized dataset releases**. It does not itself authorize publication of local `ontology/v0/`, `ontology/v1/`, or subsequent snapshots. Rights ownership, coauthor and institutional permissions, and the final scope of release must be verified before distribution.

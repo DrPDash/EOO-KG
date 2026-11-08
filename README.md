@@ -1,57 +1,63 @@
-# EOO-KG
+# EOO-KG: Earth Observation Ontology for Knowledge Graphs
 
-**Earth Observation Ontology for Knowledge Graphs**
+<h3>CADENCE-EOO: A Corpus-Guided Earth Observation Ontology</h3>
+<p><strong>Prasanjit Dash and Paul M. DiGiacomo</strong><br>
+<em>Manuscript in preparation for <a href="https://link.springer.com/journal/12145">Earth Science Informatics (Springer Nature), Nov 2026</a></em></p>
 
-EOO-KG is a governed ontology resource for representing scientific concepts and relationships in Earth observation (EO) knowledge systems.
+EOO-KG provides governed scientific concepts for Earth observation (EO), developed within **CADENCE (Cognitive Analysis by Data-Enabled Neural Computation and Evaluation)**.
 
 ![EOO-KG — Eight connected vocabularies for Earth Observation science](assets/HERO_EOO-KG.png)
 
-EOO-KG is developed within **CADENCE (Cognitive Analysis by Data-Enabled Neural Computation and Evaluation)**, a research framework for scientifically grounded and trustworthy AI.
+## Ontology
 
-## Scope
+Eight resources: **parameters, processes, methods, regions, sensors, systems, units, and scientific trends**. They support canonical identities, alias resolution, explicit semantic relationships, deterministic validation, and interoperability.
 
-EOO-KG provides controlled semantic resources spanning key Earth observation concept families, including:
+For the scientific design, see [Architecture Overview](architecture.md).
 
-- Parameters
-- Processes
-- Methods
-- Regions
-- Sensors
-- Systems
-- Units
-- Scientific trend concepts
+| Version | Snapshot       | Basis                                                             |
+| ------- | -------------- | ----------------------------------------------------------------- |
+| `v0`    | September 2026 | Manuscript-associated ontology; 101 research papers               |
+| `v1`    | November 2026  | Expanded ontology; approximately 500,000 EO question–answer pairs |
 
-The ontology is designed to support canonical scientific identity, semantic interoperability, and knowledge-graph construction across heterogeneous Earth observation literature and data resources.
+The `ontology/cadence_eoo_manifest.json` defines available ontology snapshots and the default version. Adding a version requires a new data directory and manifest entry.
 
-## Design Principles
+<blockquote>
+  <p><strong>📢 Release Notice:</strong> The CADENCE-EOO Explorer source code and ontology datasets will be made available following manuscript submission, subject to release approval.</p>
+</blockquote>
 
-EOO-KG is developed around several core principles:
+## Repository Structure
 
-- **Canonical identity** — scientifically equivalent terms resolve to governed canonical concepts.
-- **Explicit relationships** — concepts may carry hierarchical and other defined semantic relationships.
-- **Alias resolution** — alternative terminology, abbreviations, and lexical variants can be associated with canonical concepts.
-- **Scientific context** — concepts such as parameters, units, methods, sensors, systems, processes, and regions are represented as distinct semantic families.
-- **Deterministic validation** — released ontology resources are subjected to structural and semantic consistency checks.
-- **Interoperability** — the ontology is intended to support knowledge-graph and linked-data representations.
+```text
+EOO-KG/
+├── README.md                          Documentation
+├── LICENSE                            Dataset licensing terms
+├── architecture.md                    Scientific architecture
+├── cadence_eo_ontology_explorer.py    Read-only ontology explorer
+├── assets/                            Diagrams and hero images
+└── ontology/
+    ├── cadence_eoo_manifest.json      Version metadata
+    ├── v0/                            Eight ontology JSON resources
+    └── v1/                            Eight ontology JSON resources
+```
 
-## Repository Status
+## Run the Explorer (local)
 
-**Pre-release / active development.**
+```cmd
+python -m pip install fastapi uvicorn
+python cadence_eo_ontology_explorer.py
+python cadence_eo_ontology_explorer.py -cev v1
+```
 
-EOO-KG is currently undergoing scientific review, expansion, validation, and release preparation.
+Open http://127.0.0.1:8010/cadence-ontology/ (`-h` for options). The read-only Explorer browses six concept families; units and trends are supporting resources.
 
-Versioned ontology artifacts and supporting documentation will be added to this repository as they are formally released.
+## Attribution & Release
 
-## Relationship to CADENCE
+**Scientific authors:** Prasanjit Dash and Paul M. DiGiacomo. **Scientific quality control:** Human/expert adjudication. **Coding assistance:** OpenAI ChatGPT.
 
-EOO-KG is a scientific resource developed within the CADENCE research framework.
+The manuscript concerns `v0`; `v1` is a separate expanded snapshot, not part of the manuscript's evaluation.
 
-This repository contains released EOO-KG ontology resources and associated public documentation. It does **not** constitute a release of the CADENCE architecture or implementation, including its corpus-processing, knowledge-governance, QA-generation, knowledge-graph construction, retrieval, validation, or model-development systems.
+**Citation:** Credit Dash and DiGiacomo, identify the ontology version, and link to [EOO-KG](https://github.com/DrPDash/EOO-KG). For scholarly use, cite the associated paper when available.
 
-## Citation
+**License:** Ontology datasets are designated for [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) upon authorized release and rights clearance; see [LICENSE](LICENSE). The Explorer requires a separate software license.
 
-Citation information will accompany the first formal EOO-KG release.
-
-## License
-
-Licensing information will be provided with the first formal release.
+**Release status:** Local release candidate. The Python Ontology Explorer and v0/v1 datasets are **not yet publicly available**. Private CADENCE systems remain outside the repository's release scope.
