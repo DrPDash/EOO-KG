@@ -1,0 +1,2130 @@
+{
+  "adjacency correction": {
+    "class": "Process:AdjacencyCorrection",
+    "process_scope": "pipeline"
+  },
+
+  "adjacency effect": {
+    "class": "Process:AdjacencyInteraction",
+    "process_scope": "physical"
+  },
+
+  "aerosol_absorption": {
+    "class": "Process:AerosolAbsorption",
+    "process_scope": "physical",
+    "long_name": "Aerosol Absorption",
+    "aliases": [
+      "aerosol absorption",
+      "aerosol effect",
+      "aerosol effects",
+      "unaccounted aerosol absorption"
+    ]
+  },
+
+  "air_sea_gas_exchange": {
+    "class": "Process:AirSeaGasExchange",
+    "process_scope": "physical",
+    "long_name": "Air-Sea Gas Exchange",
+    "aliases": [
+      "air-sea gas exchange",
+      "air sea gas exchange",
+      "gas exchange"
+    ]
+  },
+
+  "air-sea interaction": {
+    "class": "Process:AirSeaInteraction",
+    "process_scope": "physical",
+    "aliases": [
+      "Air–sea interactions"
+    ]
+  },
+  "energy flux": {
+    "class": "Process:AirSeaInteraction",
+    "process_scope": "physical"
+  },
+
+  "angular_effect": {
+    "class": "Process:AngularEffect",
+    "process_scope": "physical",
+    "long_name": "Angular Effect",
+    "aliases": [
+      "angular effect",
+      "angular effects",
+      "viewing-angle effect",
+      "viewing angle effect",
+      "zenith angle effect",
+      "observation geometry effect",
+      "angular variation"
+    ]
+  },
+
+  "anthropogenic forcing": {
+    "class": "Process:AnthropogenicForcing",
+    "process_scope": "physical"
+  },
+
+  "aquatic_continuum": {
+    "class": "Process:AquaticContinuumLinkage",
+    "process_scope": "environmental",
+    "aliases": [
+      "aquatic continuum",
+      "land ocean continuum",
+      "river to ocean continuum",
+      "aquatic continuum linkage"
+    ]
+  },
+
+  "atmospheric_absorption": {
+    "class": "Process:AtmosphericAbsorption",
+    "process_scope": "physical",
+    "long_name": "Atmospheric Absorption",
+    "aliases": [
+      "atmospheric absorption",
+      "gaseous absorption",
+      "molecular absorption",
+      "water vapor absorption",
+      "trace gas absorption",
+      "absorbed by the atmosphere"
+    ]
+  },
+
+  "atmospheric_circulation": {
+    "class": "Process:AtmosphericCirculation",
+    "process_scope": "physical",
+    "long_name": "Atmospheric Circulation"
+  },
+
+  "aerosol correction": {
+    "class": "Process:AtmosphericCorrection",
+    "process_scope": "pipeline"
+  },
+  "atmospheric correction": {
+    "class": "Process:AtmosphericCorrection",
+    "process_scope": "pipeline"
+  },
+  "atmospheric correction (ac)": {
+    "class": "Process:AtmosphericCorrection",
+    "process_scope": "pipeline"
+  },
+  "rayleigh correction": {
+    "class": "Process:AtmosphericCorrection",
+    "process_scope": "pipeline"
+  },
+
+  "atmospheric_deposition": {
+    "class": "Process:AtmosphericDeposition",
+    "process_scope": "physical",
+    "long_name": "Atmospheric Deposition",
+    "aliases": [
+      "wet and dry atmospheric deposition"
+    ]
+  },
+
+  "atmospheric_emission": {
+    "class": "Process:AtmosphericEmission",
+    "process_scope": "physical",
+    "long_name": "Atmospheric Emission",
+    "aliases": [
+      "atmospheric emission",
+      "upward atmospheric emission",
+      "upwelling atmospheric emission",
+      "atmospheric contribution",
+      "path emission"
+    ]
+  },
+
+  "atmospheric forcing": {
+    "class": "Process:AtmosphericForcing",
+    "long_name": "Atmospheric Forcing",
+    "aliases": [
+      "atmospheric forcing"
+    ],
+    "process_scope": "physical"
+  },
+  "heat flux forcing": {
+    "class": "Process:AtmosphericForcing",
+    "process_scope": "physical"
+  },
+  "wind forcing": {
+    "class": "Process:AtmosphericForcing",
+    "process_scope": "physical"
+  },
+
+  "inverse_barometer_effect": {
+    "class": "Process:AtmosphericSeaLevelResponse",
+    "process_scope": "physical",
+    "aliases": [
+      "inverse barometer effect",
+      "inverse barometer correction",
+      "barometric sea level response"
+    ]
+  },
+
+  "bidirectional reflectance correction": {
+    "class": "Process:BRDFCorrection",
+    "process_scope": "pipeline"
+  },
+  "brdf correction": {
+    "class": "Process:BRDFCorrection",
+    "process_scope": "pipeline"
+  },
+
+  "barystatic_sea_level_change": {
+    "class": "Process:BarystaticSeaLevelChange",
+    "process_scope": "physical",
+    "aliases": [
+      "barystatic sea level change",
+      "mass-driven sea level change",
+      "ocean mass change"
+    ]
+  },
+
+  "benthic reflectance": {
+    "class": "Process:BenthicInteraction",
+    "process_scope": "physical"
+  },
+  "substrate mapping": {
+    "class": "Process:BenthicInteraction",
+    "process_scope": "physical"
+  },
+
+  "bias corrected": {
+    "class": "Process:BiasCorrection",
+    "process_scope": "pipeline"
+  },
+
+  "bio-optical model": {
+    "class": "Process:BioOpticalModeling",
+    "process_scope": "analytical"
+  },
+
+  "nutrient loading": {
+    "class": "Process:BiogeochemicalForcing",
+    "process_scope": "physical"
+  },
+
+  "carbon fixation": {
+    "class": "Process:BiologicalProduction",
+    "process_scope": "physical"
+  },
+  "photosynthesis": {
+    "class": "Process:BiologicalProduction",
+    "process_scope": "physical"
+  },
+  "phytoplankton growth": {
+    "class": "Process:BiologicalProduction",
+    "long_name": "Phytoplankton Growth",
+    "aliases": [
+      "phytoplankton growth"
+    ],
+    "process_scope": "physical"
+  },
+  "primary production": {
+    "class": "Process:BiologicalProduction",
+    "process_scope": "physical",
+    "aliases": [
+      "biological production"
+    ]
+  },
+
+  "blackbody_radiation": {
+    "class": "Process:BlackbodyRadiation",
+    "process_scope": "physical",
+    "long_name": "Blackbody Radiation",
+    "aliases": [
+      "blackbody radiation",
+      "black body radiation",
+      "planck radiation",
+      "thermal blackbody emission"
+    ]
+  },
+
+  "harmful algal bloom": {
+    "class": "Process:BloomEvent",
+    "process_scope": "physical",
+    "aliases": [
+      "HAB",
+      "algal bloom",
+      "blooms",
+      "Bloom",
+      "phytoplankton bloom",
+      "phytoplankton blooms",
+      "HABs",
+      "harmful algal blooms",
+      "harmful algal blooms (HABs)",
+      "bloom event",
+      "bloom events"
+    ]
+  },
+  "spring bloom": {
+    "class": "Process:BloomEvent",
+    "long_name": "Spring Bloom",
+    "aliases": [
+      "spring bloom",
+      "spring phytoplankton bloom"
+    ],
+    "process_scope": "physical"
+  },
+
+  "bottom friction": {
+    "class": "Process:BottomFriction",
+    "long_name": "Bottom Friction",
+    "aliases": [
+      "bottom friction",
+      "bed friction"
+    ],
+    "process_scope": "physical"
+  },
+
+  "bulk_to_skin_sst_conversion": {
+    "class": "Process:BulkToSkinSSTConversion",
+    "process_scope": "physical",
+    "long_name": "Bulk-to-Skin SST Conversion",
+    "aliases": [
+      "bulk-to-skin sst conversion",
+      "bulk-to-skin conversion",
+      "skin-bulk difference",
+      "bulk sst corrected for the skin-bulk difference"
+    ]
+  },
+  "skin effect": {
+    "class": "Process:BulkToSkinSSTConversion",
+    "long_name": "Skin Effect",
+    "aliases": [
+      "skin effect"
+    ],
+    "process_scope": "physical"
+  },
+
+  "co2_outgassing": {
+    "class": "Process:CO2Outgassing",
+    "process_scope": "physical",
+    "long_name": "CO2 Outgassing",
+    "aliases": [
+      "outgassing"
+    ]
+  },
+
+  "calcification": {
+    "class": "Process:Calcification",
+    "process_scope": "biological",
+    "long_name": "Calcification",
+    "aliases": [
+      "calcify"
+    ]
+  },
+
+  "carbon_cycle": {
+    "class": "Process:CarbonCycle",
+    "process_scope": "physical",
+    "long_name": "Carbon Cycle",
+    "aliases": [
+      "ocean carbon cycle",
+      "marine carbon cycling"
+    ]
+  },
+
+  "carbon_sequestration": {
+    "class": "Process:CarbonSequestration",
+    "process_scope": "physical",
+    "long_name": "Carbon Sequestration"
+  },
+
+  "currents": {
+    "class": "Process:Circulation",
+    "process_scope": "physical",
+    "aliases": [
+      "ocean currents",
+      "oceanic currents"
+    ]
+  },
+  "cyclonic circulation": {
+    "class": "Process:Circulation",
+    "long_name": "Cyclonic Circulation",
+    "aliases": [
+      "cyclonic circulation"
+    ],
+    "process_scope": "physical"
+  },
+  "lake circulation": {
+    "class": "Process:Circulation",
+    "long_name": "Lake Circulation",
+    "aliases": [
+      "lake circulation"
+    ],
+    "process_scope": "physical"
+  },
+  "ocean circulation": {
+    "class": "Process:Circulation",
+    "process_scope": "physical",
+    "aliases": [
+      "circulation",
+      "oceanic circulation",
+      "ocean circulations",
+      "circulation patterns"
+    ]
+  },
+
+  "climate_change": {
+    "class": "Process:ClimateChange",
+    "process_scope": "environmental",
+    "long_name": "Climate Change",
+    "aliases": [
+      "global climate change",
+      "anthropogenic climate change"
+    ]
+  },
+  "global warming": {
+    "class": "Process:ClimateChange",
+    "long_name": "Global Warming",
+    "aliases": [
+      "global warming"
+    ],
+    "process_scope": "environmental"
+  },
+
+  "cloud_contamination": {
+    "class": "Process:CloudContamination",
+    "process_scope": "physical",
+    "long_name": "Cloud Contamination",
+    "aliases": [
+      "cloud contamination",
+      "residual cloud contamination",
+      "ambient cloud",
+      "residual cloud",
+      "indirect cloud effect",
+      "cloud halos",
+      "aerosol halos"
+    ]
+  },
+
+  "cloud_formation": {
+    "class": "Process:CloudFormation",
+    "process_scope": "physical",
+    "long_name": "Cloud Formation"
+  },
+
+  "coastal current": {
+    "class": "Process:CoastalCurrent",
+    "process_scope": "physical",
+    "aliases": [
+      "coastal currents"
+    ]
+  },
+
+  "coastal_erosion": {
+    "class": "Process:CoastalErosion",
+    "process_scope": "physical",
+    "long_name": "Coastal Erosion",
+    "aliases": [
+      "coastal erosion",
+      "shoreline erosion"
+    ]
+  },
+
+  "coastal_flooding": {
+    "class": "Process:CoastalFlooding",
+    "process_scope": "physical",
+    "long_name": "Coastal Flooding",
+    "aliases": [
+      "coastal flooding",
+      "coastal inundation",
+      "coastal flood",
+      "coastal floods"
+    ]
+  },
+
+  "coastal trapped wave": {
+    "class": "Process:CoastalTrappedWave",
+    "process_scope": "physical",
+    "long_name": "Coastal-Trapped Wave",
+    "aliases": [
+      "coastal trapped waves",
+      "coastal-trapped wave",
+      "coastal-trapped waves"
+    ]
+  },
+
+  "coastal_urbanization": {
+    "class": "Process:CoastalUrbanization",
+    "process_scope": "anthropogenic",
+    "aliases": [
+      "coastal urbanization",
+      "urbanization"
+    ]
+  },
+
+  "collocation_error": {
+    "class": "Process:CollocationError",
+    "process_scope": "computational",
+    "long_name": "Collocation Error",
+    "aliases": [
+      "collocation error",
+      "space-time mismatch",
+      "space–time mismatch",
+      "spatial and temporal mismatch",
+      "rtm/avhrr space-time mismatch"
+    ]
+  },
+
+  "compositing": {
+    "class": "Process:Compositing",
+    "process_scope": "pipeline"
+  },
+  "temporal compositing": {
+    "class": "Process:Compositing",
+    "process_scope": "pipeline"
+  },
+
+  "calculated from": {
+    "class": "Process:Computation",
+    "process_scope": "analytical"
+  },
+
+  "convection": {
+    "class": "Process:Convection",
+    "process_scope": "physical",
+    "long_name": "Convection"
+  },
+
+  "coral_bleaching": {
+    "class": "Process:CoralBleaching",
+    "process_scope": "biophysical",
+    "aliases": [
+      "coral bleaching",
+      "bleaching event",
+      "reef bleaching"
+    ]
+  },
+
+  "corrected": {
+    "class": "Process:Correction",
+    "process_scope": "pipeline"
+  },
+  "correcting": {
+    "class": "Process:Correction",
+    "process_scope": "pipeline"
+  },
+  "correction": {
+    "class": "Process:Correction",
+    "process_scope": "pipeline"
+  },
+
+  "combined": {
+    "class": "Process:DataFusion",
+    "process_scope": "pipeline"
+  },
+  "fusion": {
+    "class": "Process:DataFusion",
+    "process_scope": "pipeline"
+  },
+  "merged": {
+    "class": "Process:DataFusion",
+    "process_scope": "pipeline"
+  },
+  "merging": {
+    "class": "Process:DataFusion",
+    "process_scope": "pipeline"
+  },
+  "multi-sensor": {
+    "class": "Process:DataFusion",
+    "process_scope": "pipeline"
+  },
+
+  "data reconstruction": {
+    "class": "Process:DataReconstruction",
+    "process_scope": "pipeline"
+  },
+  "gap filling": {
+    "class": "Process:DataReconstruction",
+    "process_scope": "pipeline"
+  },
+
+  "decomposition": {
+    "class": "Process:Decomposition",
+    "process_scope": "biological",
+    "long_name": "Decomposition",
+    "aliases": [
+      "organic decomposition"
+    ]
+  },
+
+  "denitrification": {
+    "class": "Process:Denitrification",
+    "process_scope": "physical",
+    "long_name": "Denitrification",
+    "aliases": [
+      "denitrification",
+      "benthic denitrification",
+      "sedimentary denitrification"
+    ]
+  },
+
+  "deoxygenation": {
+    "class": "Process:Deoxygenation",
+    "process_scope": "physical",
+    "long_name": "Deoxygenation",
+    "aliases": [
+      "deoxygenation",
+      "ocean deoxygenation",
+      "oceanic deoxygenation"
+    ]
+  },
+
+  "derived from": {
+    "class": "Process:Derivation",
+    "process_scope": "analytical"
+  },
+
+  "dissolution": {
+    "class": "Process:Dissolution",
+    "process_scope": "physical",
+    "long_name": "Dissolution",
+    "aliases": [
+      "shell dissolution",
+      "CaCO3 shell dissolution"
+    ]
+  },
+
+  "diurnal warming": {
+    "class": "Process:DiurnalWarming",
+    "long_name": "Diurnal Warming",
+    "aliases": [
+      "diurnal warming"
+    ],
+    "process_scope": "physical"
+  },
+
+  "earthquake": {
+    "class": "Process:Earthquake",
+    "process_scope": "physical",
+    "long_name": "Earthquake",
+    "aliases": [
+      "earthquakes"
+    ]
+  },
+
+  "recovery": {
+    "class": "Process:EcologicalResponse",
+    "process_scope": "physical"
+  },
+
+  "bloom composition": {
+    "class": "Process:EcosystemStructure",
+    "process_scope": "physical"
+  },
+  "phytoplankton functional types": {
+    "class": "Process:EcosystemStructure",
+    "process_scope": "physical"
+  },
+
+  "emissivity_effect": {
+    "class": "Process:EmissivityEffect",
+    "process_scope": "physical",
+    "long_name": "Emissivity Effect",
+    "aliases": [
+      "emissivity effect",
+      "emissivity effects",
+      "effect of emissivity",
+      "effects of emissivity",
+      "emissivity influence"
+    ]
+  },
+
+  "cleanup efforts": {
+    "class": "Process:EnvironmentalIntervention",
+    "process_scope": "physical"
+  },
+  "management": {
+    "class": "Process:EnvironmentalIntervention",
+    "process_scope": "physical"
+  },
+  "mitigation": {
+    "class": "Process:EnvironmentalIntervention",
+    "process_scope": "physical"
+  },
+  "regulation": {
+    "class": "Process:EnvironmentalIntervention",
+    "process_scope": "physical"
+  },
+  "restoration": {
+    "class": "Process:EnvironmentalIntervention",
+    "process_scope": "physical"
+  },
+
+  "estimated from": {
+    "class": "Process:Estimation",
+    "process_scope": "analytical"
+  },
+
+  "eutrophication": {
+    "class": "Process:Eutrophication",
+    "process_scope": "physical"
+  },
+
+  "evaporation": {
+    "class": "Process:Evaporation",
+    "process_scope": "physical",
+    "long_name": "Evaporation"
+  },
+
+  "flooding": {
+    "class": "Process:Flooding",
+    "process_scope": "physical",
+    "long_name": "Flooding",
+    "aliases": [
+      "flood",
+      "floods"
+    ]
+  },
+
+  "forcing": {
+    "class": "Process:Forcing",
+    "process_scope": "physical"
+  },
+
+  "front": {
+    "class": "Process:FrontalDynamics",
+    "process_scope": "physical"
+  },
+  "frontogenesis": {
+    "class": "Process:FrontalDynamics",
+    "process_scope": "physical"
+  },
+  "ocean front": {
+    "class": "Process:FrontalDynamics",
+    "process_scope": "physical",
+    "aliases": [
+      "fronts"
+    ]
+  },
+
+  "geolocation correction": {
+    "class": "Process:GeolocationCorrection",
+    "process_scope": "pipeline"
+  },
+
+  "glacial_isostatic_adjustment": {
+    "class": "Process:GlacialIsostaticAdjustment",
+    "process_scope": "physical",
+    "aliases": [
+      "glacial isostatic adjustment",
+      "GIA",
+      "postglacial rebound",
+      "glacio-isostatic adjustment"
+    ]
+  },
+
+  "glint correction": {
+    "class": "Process:GlintCorrection",
+    "process_scope": "pipeline"
+  },
+
+  "policy": {
+    "class": "Process:GovernanceForcing",
+    "process_scope": "physical"
+  },
+
+  "gridded": {
+    "class": "Process:Gridding",
+    "process_scope": "pipeline"
+  },
+  "gridding": {
+    "class": "Process:Gridding",
+    "process_scope": "pipeline"
+  },
+  "mapped to grid": {
+    "class": "Process:Gridding",
+    "process_scope": "pipeline"
+  },
+
+  "groundwater_extraction": {
+    "class": "Process:GroundwaterExtraction",
+    "process_scope": "anthropogenic",
+    "long_name": "Groundwater Extraction"
+  },
+
+  "heat_transport": {
+    "class": "Process:HeatTransport",
+    "process_scope": "physical",
+    "long_name": "Heat Transport",
+    "aliases": [
+      "heat transport",
+      "ocean heat transport",
+      "oceanic heat transport"
+    ]
+  },
+
+  "hydrological_cycle": {
+    "class": "Process:HydrologicalCycle",
+    "process_scope": "physical",
+    "long_name": "Hydrological Cycle",
+    "aliases": [
+      "hydrological cycle",
+      "water cycle"
+    ]
+  },
+
+  "freshwater forcing": {
+    "class": "Process:HydrologicalForcing",
+    "process_scope": "physical"
+  },
+  "river discharge forcing": {
+    "class": "Process:HydrologicalForcing",
+    "process_scope": "physical",
+    "aliases": [
+      "riverine freshwater forcing"
+    ]
+  },
+  "runoff": {
+    "class": "Process:HydrologicalForcing",
+    "process_scope": "physical",
+    "aliases": [
+      "river runoff",
+      "terrestrial runoff",
+      "terrestrial runoffs"
+    ]
+  },
+
+  "hypoxia": {
+    "class": "Process:Hypoxia",
+    "process_scope": "physical",
+    "long_name": "Hypoxia",
+    "aliases": [
+      "hypoxia",
+      "hypoxic conditions",
+      "oxygen depletion"
+    ]
+  },
+
+  "ice_albedo_feedback": {
+    "class": "Process:IceAlbedoFeedback",
+    "process_scope": "physical",
+    "long_name": "Ice-Albedo Feedback",
+    "aliases": [
+      "ice-albedo feedback",
+      "ice albedo feedback"
+    ]
+  },
+
+  "ice_sheet_melt": {
+    "class": "Process:IceSheetMelt",
+    "process_scope": "physical",
+    "long_name": "Ice-Sheet Melt",
+    "aliases": [
+      "melting of ice sheets",
+      "land ice melt"
+    ]
+  },
+
+  "coregistration": {
+    "class": "Process:ImageRegistration",
+    "process_scope": "pipeline"
+  },
+  "image registration": {
+    "class": "Process:ImageRegistration",
+    "process_scope": "pipeline"
+  },
+
+  "fluorescence": {
+    "class": "Process:InelasticScattering",
+    "process_scope": "physical"
+  },
+  "hyperspectral fluorescence": {
+    "class": "Process:InelasticScattering",
+    "process_scope": "physical",
+    "long_name": "Hyperspectral Fluorescence"
+  },
+  "inelastic scattering": {
+    "class": "Process:InelasticScattering",
+    "process_scope": "physical"
+  },
+  "pigment fluorescence": {
+    "class": "Process:InelasticScattering",
+    "process_scope": "physical",
+    "long_name": "Pigment Fluorescence"
+  },
+  "raman scattering": {
+    "class": "Process:InelasticScattering",
+    "process_scope": "physical"
+  },
+
+  "destriping": {
+    "class": "Process:InstrumentArtifactCorrection",
+    "process_scope": "pipeline"
+  },
+
+  "gain settings": {
+    "class": "Process:InstrumentCalibration",
+    "process_scope": "instrumental"
+  },
+  "high gain settings": {
+    "class": "Process:InstrumentCalibration",
+    "process_scope": "instrumental"
+  },
+  "low gain settings": {
+    "class": "Process:InstrumentCalibration",
+    "process_scope": "instrumental"
+  },
+
+  "thermal stabilization": {
+    "class": "Process:InstrumentThermalControl",
+    "process_scope": "instrumental"
+  },
+
+  "internal waves": {
+    "class": "Process:InternalWave",
+    "long_name": "Internal Waves",
+    "aliases": [
+      "internal wave",
+      "internal waves"
+    ],
+    "process_scope": "physical"
+  },
+
+  "interpolated": {
+    "class": "Process:Interpolation",
+    "process_scope": "pipeline"
+  },
+
+  "inversion": {
+    "class": "Process:InversionAlgorithm",
+    "process_scope": "analytical"
+  },
+
+  "land_reclamation": {
+    "class": "Process:LandReclamation",
+    "process_scope": "anthropogenic",
+    "long_name": "Land Reclamation"
+  },
+
+  "land_use_change": {
+    "class": "Process:LandUseChange",
+    "process_scope": "anthropogenic",
+    "long_name": "Land-Use Change"
+  },
+
+  "marine_heatwave": {
+    "class": "Process:MarineHeatwave",
+    "process_scope": "physical",
+    "long_name": "Marine Heatwave",
+    "aliases": [
+      "marine heatwave",
+      "marine heatwaves",
+      "MHW",
+      "MHWs"
+    ]
+  },
+
+  "cloud masking": {
+    "class": "Process:Masking",
+    "process_scope": "pipeline"
+  },
+  "land masking": {
+    "class": "Process:Masking",
+    "process_scope": "pipeline"
+  },
+  "water masking": {
+    "class": "Process:Masking",
+    "process_scope": "pipeline"
+  },
+
+  "eddy": {
+    "class": "Process:MesoscaleDynamics",
+    "process_scope": "physical"
+  },
+  "eddy stirring": {
+    "class": "Process:MesoscaleDynamics",
+    "process_scope": "physical"
+  },
+  "mesoscale eddy": {
+    "class": "Process:MesoscaleDynamics",
+    "process_scope": "physical",
+    "aliases": [
+      "eddies",
+      "mesoscale eddies",
+      "Ocean Eddies",
+      "mesoscale activity"
+    ]
+  },
+
+  "meteotsunami": {
+    "class": "Process:Meteotsunami",
+    "process_scope": "physical",
+    "long_name": "Meteotsunami",
+    "aliases": [
+      "meteo-tsunami",
+      "meteo-tsunamis",
+      "meteotsunamis"
+    ]
+  },
+
+  "near-inertial oscillations": {
+    "class": "Process:NearInertialOscillation",
+    "long_name": "Near-Inertial Oscillation",
+    "aliases": [
+      "near-inertial oscillation",
+      "near-inertial oscillations",
+      "near inertial oscillation",
+      "near inertial oscillations"
+    ],
+    "process_scope": "physical"
+  },
+
+  "nitrification": {
+    "class": "Process:Nitrification",
+    "process_scope": "physical",
+    "long_name": "Nitrification",
+    "aliases": [
+      "nitrification",
+      "nitrification process"
+    ]
+  },
+
+  "nitrogen_cycle": {
+    "class": "Process:NitrogenCycle",
+    "process_scope": "physical",
+    "long_name": "Nitrogen Cycle",
+    "aliases": [
+      "nitrogen cycling",
+      "nitrogen cycling processes",
+      "marine nitrogen cycle processes"
+    ]
+  },
+
+  "nitrogen_fixation": {
+    "class": "Process:NitrogenFixation",
+    "process_scope": "biological",
+    "long_name": "Nitrogen Fixation"
+  },
+
+  "nutrient cycling": {
+    "class": "Process:NutrientCycling",
+    "long_name": "Nutrient Cycling",
+    "aliases": [
+      "nutrient cycle",
+      "nutrient cycling"
+    ],
+    "process_scope": "physical"
+  },
+
+  "ocean_acidification": {
+    "class": "Process:OceanAcidification",
+    "process_scope": "physical",
+    "long_name": "Ocean Acidification",
+    "aliases": [
+      "ocean acidification",
+      "marine acidification",
+      "seawater acidification",
+      "acidification"
+    ]
+  },
+
+  "ocean_ventilation": {
+    "class": "Process:OceanVentilation",
+    "process_scope": "physical",
+    "long_name": "Ocean Ventilation",
+    "aliases": [
+      "ocean ventilation",
+      "oceanic ventilation",
+      "deep ocean ventilation",
+      "ventilation"
+    ]
+  },
+
+  "ocean_warming": {
+    "class": "Process:OceanWarming",
+    "process_scope": "physical",
+    "long_name": "Ocean Warming",
+    "aliases": [
+      "oceanic warming",
+      "global ocean warming"
+    ]
+  },
+
+  "oil spill": {
+    "class": "Process:OilSpill",
+    "process_scope": "physical",
+    "aliases": [
+      "oil spill",
+      "oil spills"
+    ]
+  },
+
+  "cdom photobleaching": {
+    "class": "Process:OpticalBiogeochemistry",
+    "process_scope": "physical"
+  },
+  "photobleaching": {
+    "class": "Process:OpticalBiogeochemistry",
+    "process_scope": "physical"
+  },
+
+  "optical water type classification": {
+    "class": "Process:OpticalClassification",
+    "process_scope": "analytical",
+    "aliases": [
+      "owt classification"
+    ]
+  },
+  "species discrimination": {
+    "class": "Process:OpticalClassification",
+    "process_scope": "analytical"
+  },
+
+  "absorption": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical"
+  },
+  "atmospheric attenuation": {
+    "class": "Process:OpticalInteraction",
+    "long_name": "Atmospheric Attenuation",
+    "aliases": [
+      "atmospheric attenuation"
+    ],
+    "process_scope": "physical"
+  },
+  "attenuation": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical"
+  },
+  "backscattering": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical"
+  },
+  "cdom absorption": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical"
+  },
+  "forward scattering": {
+    "class": "Process:OpticalInteraction",
+    "long_name": "Forward Scattering",
+    "aliases": [
+      "forward scattering"
+    ],
+    "process_scope": "physical"
+  },
+  "hyperspectral scattering": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical",
+    "long_name": "Hyperspectral Scattering"
+  },
+  "light absorbing": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical",
+    "long_name": "Light Absorption"
+  },
+  "light absorbing properties": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical",
+    "long_name": "Light Absorbing Properties"
+  },
+  "light absorption": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical",
+    "long_name": "Light Absorption"
+  },
+  "optical refraction": {
+    "class": "Process:OpticalInteraction",
+    "aliases": [
+      "light refraction",
+      "ray refraction"
+    ],
+    "process_scope": "physical"
+  },
+  "optical scattering": {
+    "class": "Process:OpticalInteraction",
+    "aliases": [
+      "light scattering",
+      "radiative scattering"
+    ],
+    "process_scope": "physical"
+  },
+  "particle scattering": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical"
+  },
+  "phytoplankton absorption": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical"
+  },
+  "pigment absorption": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical"
+  },
+  "reduced absorption": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical",
+    "long_name": "Reduced Absorption"
+  },
+  "reflection": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical"
+  },
+  "scattering enhancement": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical",
+    "long_name": "Scattering Enhancement"
+  },
+  "scattering enhancements": {
+    "class": "Process:OpticalInteraction",
+    "process_scope": "physical",
+    "long_name": "Scattering Enhancements"
+  },
+  "volume scattering": {
+    "class": "Process:OpticalInteraction",
+    "long_name": "Volume Scattering",
+    "aliases": [
+      "volume scattering"
+    ],
+    "process_scope": "physical"
+  },
+
+  "optimally interpolated": {
+    "class": "Process:OptimalInterpolation",
+    "process_scope": "pipeline"
+  },
+
+  "oxygen_consumption": {
+    "class": "Process:OxygenConsumption",
+    "process_scope": "physical",
+    "long_name": "Oxygen Consumption",
+    "aliases": [
+      "bottom oxygen demand"
+    ]
+  },
+
+  "permafrost_thaw": {
+    "class": "Process:PermafrostThaw",
+    "process_scope": "physical",
+    "long_name": "Permafrost Thaw"
+  },
+
+  "coastal_downwelling": {
+    "class": "Process:PhysicalMixing",
+    "process_scope": "physical",
+    "long_name": "Coastal Downwelling",
+    "aliases": [
+      "coastal downwelling",
+      "wind-driven downwelling",
+      "wind driven downwelling"
+    ]
+  },
+  "equatorial upwelling": {
+    "class": "Process:PhysicalMixing",
+    "long_name": "Equatorial Upwelling",
+    "aliases": [
+      "equatorial upwelling"
+    ],
+    "process_scope": "physical"
+  },
+  "upwelling": {
+    "class": "Process:PhysicalMixing",
+    "process_scope": "physical",
+    "aliases": [
+      "coastal upwelling",
+      "upwelling processes",
+      "upwelling events"
+    ]
+  },
+  "vertical mixing": {
+    "class": "Process:PhysicalMixing",
+    "process_scope": "physical",
+    "aliases": [
+      "mixing",
+      "ocean mixing",
+      "physical mixing processes"
+    ]
+  },
+  "wind_driven_upwelling": {
+    "class": "Process:PhysicalMixing",
+    "process_scope": "physical",
+    "long_name": "Wind-Driven Upwelling",
+    "aliases": [
+      "wind-driven upwelling",
+      "wind driven upwelling"
+    ]
+  },
+
+  "phytoplankton_diversity": {
+    "class": "Process:PhytoplanktonDiversity",
+    "process_scope": "biological",
+    "aliases": [
+      "phytoplankton diversity"
+    ]
+  },
+
+  "phytoplankton_size_classes": {
+    "class": "Process:PhytoplanktonSizeClasses",
+    "process_scope": "biological",
+    "aliases": [
+      "phytoplankton size classes",
+      "phytoplankton size class",
+      "PSC",
+      "picoplankton",
+      "nanoplankton",
+      "microplankton",
+      "phytoplankton size structure"
+    ]
+  },
+
+  "polar_amplification": {
+    "class": "Process:PolarAmplification",
+    "process_scope": "physical",
+    "long_name": "Polar Amplification",
+    "aliases": [
+      "polar amplification"
+    ]
+  },
+
+  "flagging": {
+    "class": "Process:QualityControl",
+    "process_scope": "pipeline"
+  },
+  "quality controlled": {
+    "class": "Process:QualityControl",
+    "process_scope": "pipeline"
+  },
+  "quality flagging": {
+    "class": "Process:QualityControl",
+    "process_scope": "pipeline"
+  },
+
+  "bottom reflectance influence": {
+    "class": "Process:RadiativeTransfer",
+    "process_scope": "physical"
+  },
+  "light propagation": {
+    "class": "Process:RadiativeTransfer",
+    "process_scope": "physical"
+  },
+  "radiative cooling": {
+    "class": "Process:RadiativeTransfer",
+    "long_name": "Radiative Cooling",
+    "aliases": [
+      "radiative cooling"
+    ],
+    "process_scope": "physical"
+  },
+  "radiative transfer": {
+    "class": "Process:RadiativeTransfer",
+    "process_scope": "physical"
+  },
+  "radiative_transfer": {
+    "class": "Process:RadiativeTransfer",
+    "process_scope": "physical",
+    "long_name": "Radiative Transfer",
+    "aliases": [
+      "radiative transfer",
+      "radiative transfer process",
+      "radiation transport",
+      "radiative transport"
+    ]
+  },
+  "solar heating": {
+    "class": "Process:RadiativeTransfer",
+    "long_name": "Solar Heating",
+    "aliases": [
+      "solar heating"
+    ],
+    "process_scope": "physical"
+  },
+  "subsurface light interaction": {
+    "class": "Process:RadiativeTransfer",
+    "process_scope": "physical"
+  },
+
+  "vicarious calibration": {
+    "class": "Process:RadiometricCalibration",
+    "process_scope": "instrumental"
+  },
+
+  "radiometric_harmonization": {
+    "class": "Process:RadiometricHarmonization",
+    "process_scope": "instrumental",
+    "aliases": [
+      "radiometric harmonization",
+      "radiometric harmonisation",
+      "radiometric consistency"
+    ]
+  },
+
+  "abrupt change": {
+    "class": "Process:RegimeChange",
+    "process_scope": "physical"
+  },
+  "regime shift": {
+    "class": "Process:RegimeChange",
+    "process_scope": "physical"
+  },
+  "temporal breakpoint": {
+    "class": "Process:RegimeChange",
+    "process_scope": "physical"
+  },
+
+  "regridded": {
+    "class": "Process:Regridding",
+    "process_scope": "pipeline"
+  },
+  "regridding": {
+    "class": "Process:Regridding",
+    "process_scope": "pipeline"
+  },
+
+  "relative_sea_level_change": {
+    "class": "Process:RelativeSeaLevelChange",
+    "process_scope": "physical",
+    "aliases": [
+      "relative sea level change",
+      "relative sea-level change",
+      "local sea level change"
+    ]
+  },
+
+  "remineralization": {
+    "class": "Process:Remineralization",
+    "process_scope": "physical",
+    "long_name": "Remineralization",
+    "aliases": [
+      "remineralization",
+      "organic matter remineralization",
+      "nutrient remineralization",
+      "remineralize",
+      "remineralized",
+      "remineralization process"
+    ]
+  },
+
+  "respiration": {
+    "class": "Process:Respiration",
+    "process_scope": "biological",
+    "long_name": "Respiration",
+    "aliases": [
+      "respiration",
+      "community respiration",
+      "ecosystem respiration"
+    ]
+  },
+
+  "salinization": {
+    "class": "Process:Salinization",
+    "process_scope": "physical",
+    "long_name": "Salinization"
+  },
+
+  "saltwater_intrusion": {
+    "class": "Process:SaltwaterIntrusion",
+    "process_scope": "physical",
+    "long_name": "Saltwater Intrusion",
+    "aliases": [
+      "salt-water intrusion"
+    ]
+  },
+
+  "sea_ice_formation": {
+    "class": "Process:SeaIceFormation",
+    "process_scope": "physical",
+    "long_name": "Sea-Ice Formation",
+    "aliases": [
+      "sea ice growth",
+      "freeze up",
+      "freezing"
+    ]
+  },
+
+  "sea_ice_loss": {
+    "class": "Process:SeaIceLoss",
+    "process_scope": "physical",
+    "long_name": "Sea-Ice Loss",
+    "aliases": [
+      "loss of sea ice",
+      "sea-ice reduction"
+    ]
+  },
+
+  "sea_ice_melt": {
+    "class": "Process:SeaIceMelt",
+    "process_scope": "physical",
+    "long_name": "Sea-Ice Melt",
+    "aliases": [
+      "sea-ice melt",
+      "sea ice melt",
+      "sea-ice melting",
+      "sea ice melting",
+      "melting of sea ice",
+      "melting sea ice",
+      "melt sea ice"
+    ]
+  },
+
+  "sea_level_change": {
+    "class": "Process:SeaLevelChange",
+    "process_scope": "physical",
+    "long_name": "Sea-Level Change"
+  },
+
+  "sea_level_rise": {
+    "class": "Process:SeaLevelRise",
+    "process_scope": "physical",
+    "aliases": [
+      "sea level rise",
+      "sea-level rise",
+      "rising sea level",
+      "increase in sea level"
+    ]
+  },
+
+  "particle resuspension": {
+    "class": "Process:SedimentDynamics",
+    "process_scope": "physical"
+  },
+  "sediment resuspension": {
+    "class": "Process:SedimentDynamics",
+    "process_scope": "physical",
+    "aliases": [
+      "resuspension",
+      "resuspension of sediments"
+    ]
+  },
+  "sediment transport": {
+    "class": "Process:SedimentDynamics",
+    "process_scope": "physical"
+  },
+
+  "sedimentation": {
+    "class": "Process:Sedimentation",
+    "process_scope": "physical",
+    "long_name": "Sedimentation",
+    "aliases": [
+      "sedimentation",
+      "sediment deposition",
+      "sediment accumulation"
+    ]
+  },
+
+  "seiche": {
+    "class": "Process:Seiche",
+    "process_scope": "physical",
+    "long_name": "Seiche",
+    "aliases": [
+      "seiches"
+    ]
+  },
+
+  "semi-analytical": {
+    "class": "Process:SemiAnalyticalModel",
+    "process_scope": "analytical"
+  },
+
+  "sensor_calibration_error": {
+    "class": "Process:SensorCalibrationError",
+    "process_scope": "instrumental",
+    "long_name": "Sensor Calibration Error",
+    "aliases": [
+      "sensor calibration error",
+      "calibration error",
+      "avhrr calibration error",
+      "errors in sensor calibration",
+      "calibration coefficients"
+    ]
+  },
+
+  "sensor_harmonization": {
+    "class": "Process:SensorHarmonization",
+    "process_scope": "pipeline",
+    "aliases": [
+      "sensor harmonization",
+      "harmonisation",
+      "harmonization",
+      "cross-sensor harmonization",
+      "cross sensor harmonization",
+      "sensor-to-sensor harmonization"
+    ]
+  },
+
+  "serial_dependence": {
+    "class": "Process:SerialDependence",
+    "process_scope": "analytical",
+    "aliases": [
+      "serial dependence",
+      "serial correlation",
+      "autocorrelation",
+      "temporal autocorrelation"
+    ]
+  },
+
+  "shoreline_change": {
+    "class": "Process:ShorelineChange",
+    "process_scope": "physical",
+    "long_name": "Shoreline Change",
+    "aliases": [
+      "shoreline changes",
+      "shoreline retreat"
+    ]
+  },
+
+  "snow accumulation": {
+    "class": "Process:SnowAccumulation",
+    "long_name": "Snow Accumulation",
+    "aliases": [
+      "snow accumulation"
+    ],
+    "process_scope": "physical"
+  },
+
+  "snow_melt": {
+    "class": "Process:SnowMelt",
+    "process_scope": "physical",
+    "long_name": "Snowmelt",
+    "aliases": [
+      "snow melt"
+    ]
+  },
+
+  "binned": {
+    "class": "Process:SpatialAggregation",
+    "process_scope": "pipeline"
+  },
+  "binning": {
+    "class": "Process:SpatialAggregation",
+    "process_scope": "pipeline"
+  },
+  "spatially averaged": {
+    "class": "Process:SpatialAggregation",
+    "process_scope": "pipeline"
+  },
+  "spatially binned": {
+    "class": "Process:SpatialAggregation",
+    "process_scope": "pipeline"
+  },
+
+  "spectral feature detection": {
+    "class": "Process:SpectralAnalysis",
+    "process_scope": "analytical"
+  },
+  "spectral shape analysis": {
+    "class": "Process:SpectralAnalysis",
+    "process_scope": "analytical"
+  },
+
+  "smile correction": {
+    "class": "Process:SpectralCalibration",
+    "process_scope": "instrumental"
+  },
+
+  "spectral shift": {
+    "class": "Process:SpectralChange",
+    "process_scope": "physical"
+  },
+
+  "complementarity": {
+    "class": "Process:SpectralComplementarity",
+    "process_scope": "ecological_optical",
+    "long_name": "Spectral Complementarity"
+  },
+  "spectral complementarity": {
+    "class": "Process:SpectralComplementarity",
+    "process_scope": "ecological_optical",
+    "long_name": "Spectral Complementarity"
+  },
+
+  "spectral_convolution": {
+    "class": "Process:SpectralConvolution",
+    "process_scope": "computational",
+    "long_name": "Spectral Convolution",
+    "aliases": [
+      "spectral convolution",
+      "spectral integration",
+      "band integration",
+      "band weighting",
+      "convolved with the channel spectral response functions",
+      "convolving with rsr",
+      "convolved with rsr"
+    ]
+  },
+
+  "blue portion of the spectrum": {
+    "class": "Process:SpectralDominance",
+    "process_scope": "physical"
+  },
+  "peak rrs": {
+    "class": "Process:SpectralDominance",
+    "process_scope": "physical"
+  },
+  "peak wavelength": {
+    "class": "Process:SpectralDominance",
+    "process_scope": "physical"
+  },
+  "spectral maximum": {
+    "class": "Process:SpectralDominance",
+    "process_scope": "physical"
+  },
+  "spectral peak": {
+    "class": "Process:SpectralDominance",
+    "process_scope": "physical"
+  },
+
+  "spectral niche partitioning": {
+    "class": "Process:SpectralNichePartitioning",
+    "process_scope": "ecological_optical",
+    "long_name": "Spectral Niche Partitioning"
+  },
+
+  "spectral_response_error": {
+    "class": "Process:SpectralResponseError",
+    "process_scope": "instrumental",
+    "long_name": "Spectral Response Error",
+    "aliases": [
+      "spectral response error",
+      "relative spectral response error",
+      "rsr error",
+      "errors in channel relative spectral response",
+      "spectral response function uncertainty"
+    ]
+  },
+
+  "steric effect": {
+    "class": "Process:StericEffect",
+    "process_scope": "physical"
+  },
+  "thermal expansion": {
+    "class": "Process:StericEffect",
+    "process_scope": "physical"
+  },
+
+  "steric_sea_level_change": {
+    "class": "Process:StericSeaLevelChange",
+    "process_scope": "physical",
+    "aliases": [
+      "steric sea level change",
+      "steric sea-level change",
+      "density-driven sea level change"
+    ]
+  },
+
+  "storm_surge": {
+    "class": "Process:StormSurge",
+    "process_scope": "physical",
+    "long_name": "Storm Surge",
+    "aliases": [
+      "storm surge",
+      "storm surges"
+    ]
+  },
+
+  "stratification": {
+    "class": "Process:Stratification",
+    "process_scope": "physical"
+  },
+  "vertical stratification": {
+    "class": "Process:Stratification",
+    "long_name": "Vertical Stratification",
+    "aliases": [
+      "vertical stratification"
+    ],
+    "process_scope": "physical"
+  },
+  "water column stratification": {
+    "class": "Process:Stratification",
+    "long_name": "Water Column Stratification",
+    "aliases": [
+      "water-column stratification",
+      "water column stratification"
+    ],
+    "process_scope": "physical"
+  },
+
+  "structural_break": {
+    "class": "Process:StructuralBreak",
+    "process_scope": "analytical",
+    "aliases": [
+      "structural break",
+      "change point",
+      "changepoint",
+      "breakpoint"
+    ]
+  },
+
+  "tectonic_subsidence": {
+    "class": "Process:Subsidence",
+    "process_scope": "physical",
+    "aliases": [
+      "tectonic subsidence",
+      "land subsidence",
+      "subsidence"
+    ]
+  },
+
+  "sun glint": {
+    "class": "Process:SunGlint",
+    "process_scope": "physical",
+    "aliases": [
+      "sun glint",
+      "sunglint"
+    ]
+  },
+
+  "surface_energy_balance": {
+    "class": "Process:SurfaceEnergyBalance",
+    "process_scope": "physical",
+    "long_name": "Surface Energy Balance",
+    "aliases": [
+      "surface energy balance",
+      "SEB",
+      "energy balance",
+      "thermal energy balance"
+    ]
+  },
+
+  "surface_reflection": {
+    "class": "Process:SurfaceReflection",
+    "process_scope": "physical",
+    "long_name": "Surface Reflection",
+    "aliases": [
+      "surface reflection",
+      "surface reflections",
+      "surface reflectance",
+      "specular reflection",
+      "reflection from the surface",
+      "fresnel reflection"
+    ]
+  },
+
+  "teleconnections": {
+    "class": "Process:Teleconnection",
+    "long_name": "Teleconnection",
+    "aliases": [
+      "teleconnection",
+      "teleconnections",
+      "climate teleconnection",
+      "climate teleconnections"
+    ],
+    "process_scope": "physical"
+  },
+
+  "temporally averaged": {
+    "class": "Process:TemporalAggregation",
+    "process_scope": "pipeline"
+  },
+
+  "temporal_change": {
+    "class": "Process:TemporalChange",
+    "process_scope": "physical"
+  },
+
+  "annual cycle": {
+    "class": "Process:TemporalCycle",
+    "process_scope": "physical"
+  },
+  "diurnal cycle": {
+    "class": "Process:TemporalCycle",
+    "long_name": "Diurnal Cycle",
+    "aliases": [
+      "diurnal cycle",
+      "diurnal variability"
+    ],
+    "process_scope": "physical"
+  },
+  "inter-annual variability": {
+    "class": "Process:TemporalCycle",
+    "process_scope": "physical"
+  },
+  "interannual variability": {
+    "class": "Process:TemporalCycle",
+    "process_scope": "physical"
+  },
+  "oscillation": {
+    "class": "Process:TemporalCycle",
+    "process_scope": "physical"
+  },
+  "oscillatory": {
+    "class": "Process:TemporalCycle",
+    "process_scope": "physical"
+  },
+  "seasonal cycle": {
+    "class": "Process:TemporalCycle",
+    "process_scope": "physical",
+    "aliases": [
+      "seasonal variability",
+      "seasonal variation",
+      "seasonal variations",
+      "annual cycles",
+      "seasonal cycles",
+      "oscillations"
+    ]
+  },
+  "seasonality": {
+    "class": "Process:TemporalCycle",
+    "process_scope": "physical"
+  },
+
+  "moving window": {
+    "class": "Process:TemporalFiltering",
+    "process_scope": "pipeline"
+  },
+  "smoothing": {
+    "class": "Process:TemporalFiltering",
+    "process_scope": "pipeline"
+  },
+
+  "cold blob": {
+    "class": "Process:ThermalAnomaly",
+    "process_scope": "physical"
+  },
+  "warming hole": {
+    "class": "Process:ThermalAnomaly",
+    "process_scope": "physical"
+  },
+
+  "thermal_emission": {
+    "class": "Process:ThermalEmission",
+    "process_scope": "physical",
+    "long_name": "Thermal Emission",
+    "aliases": [
+      "thermal emission",
+      "surface emission",
+      "surface-emitted emission",
+      "earth-emitted radiation",
+      "emission from the surface"
+    ]
+  },
+
+  "global overturning circulation": {
+    "class": "Process:ThermohalineCirculation",
+    "long_name": "Global Overturning Circulation",
+    "aliases": [
+      "global overturning circulation",
+      "global ocean overturning circulation"
+    ],
+    "process_scope": "physical"
+  },
+  "thermohaline_circulation": {
+    "class": "Process:ThermohalineCirculation",
+    "process_scope": "physical",
+    "long_name": "Thermohaline Circulation",
+    "aliases": [
+      "THC"
+    ]
+  },
+
+  "tides": {
+    "class": "Process:TidalDynamics",
+    "process_scope": "physical",
+    "long_name": "Tidal Dynamics",
+    "aliases": [
+      "tides",
+      "tide",
+      "tidal process",
+      "tidal processes",
+      "tidal dynamics",
+      "tidal currents",
+      "tidal changes"
+    ]
+  },
+
+  "advection": {
+    "class": "Process:Transport",
+    "process_scope": "physical"
+  },
+  "diffusion": {
+    "class": "Process:Transport",
+    "process_scope": "physical"
+  },
+  "dispersion": {
+    "class": "Process:Transport",
+    "process_scope": "physical"
+  },
+  "ekman_transport": {
+    "class": "Process:Transport",
+    "process_scope": "physical",
+    "long_name": "Ekman Transport",
+    "aliases": [
+      "Ekman transport",
+      "ekman transport"
+    ]
+  },
+  "horizontal advection": {
+    "class": "Process:Transport",
+    "process_scope": "physical"
+  },
+
+  "acceleration": {
+    "class": "Process:TrendDynamics",
+    "process_scope": "physical",
+    "order": "second"
+  },
+  "deceleration": {
+    "class": "Process:TrendDynamics",
+    "process_scope": "physical",
+    "order": "second"
+  },
+  "trend reversal": {
+    "class": "Process:TrendDynamics",
+    "process_scope": "physical",
+    "order": "second"
+  },
+  "trend_acceleration": {
+    "class": "Process:TrendDynamics",
+    "process_scope": "analytical",
+    "order": "second",
+    "aliases": [
+      "trend acceleration",
+      "acceleration of trend",
+      "accelerating trend"
+    ]
+  },
+  "trend_deceleration": {
+    "class": "Process:TrendDynamics",
+    "process_scope": "analytical",
+    "order": "second",
+    "aliases": [
+      "trend deceleration",
+      "deceleration of trend",
+      "slowing trend"
+    ]
+  },
+
+  "tropical_cyclone": {
+    "class": "Process:TropicalCyclone",
+    "process_scope": "physical",
+    "long_name": "Tropical Cyclone",
+    "aliases": [
+      "tropical cyclone",
+      "tropical cyclones",
+      "hurricane",
+      "hurricanes",
+      "typhoon",
+      "typhoons"
+    ]
+  },
+
+  "tsunami": {
+    "class": "Process:Tsunami",
+    "process_scope": "physical",
+    "long_name": "Tsunami",
+    "aliases": [
+      "tsunami",
+      "tsunamis"
+    ]
+  },
+
+  "error characterization": {
+    "class": "Process:UncertaintyQuantification",
+    "process_scope": "analytical"
+  },
+  "uncertainty estimation": {
+    "class": "Process:UncertaintyQuantification",
+    "process_scope": "analytical"
+  },
+
+  "matchup": {
+    "class": "Process:Validation",
+    "process_scope": "pipeline"
+  },
+  "matchup analysis": {
+    "class": "Process:Validation",
+    "process_scope": "pipeline"
+  },
+  "validated": {
+    "class": "Process:Validation",
+    "process_scope": "pipeline"
+  },
+
+  "vegetation growth": {
+    "class": "Process:VegetationGrowth",
+    "long_name": "Vegetation Growth",
+    "aliases": [
+      "vegetation growth"
+    ],
+    "process_scope": "biological"
+  },
+
+  "uplift": {
+    "class": "Process:VerticalLandMotion",
+    "process_scope": "physical",
+    "long_name": "Uplift",
+    "aliases": [
+      "uplift",
+      "land uplift",
+      "vertical uplift"
+    ]
+  },
+  "vertical_land_motion": {
+    "class": "Process:VerticalLandMotion",
+    "process_scope": "physical",
+    "aliases": [
+      "vertical land motion",
+      "VLM",
+      "land uplift",
+      "crustal motion"
+    ]
+  },
+
+  "volcanic_eruption": {
+    "class": "Process:VolcanicEruption",
+    "process_scope": "physical",
+    "long_name": "Volcanic Eruption",
+    "aliases": [
+      "volcanic eruptions"
+    ]
+  },
+
+  "walker_circulation": {
+    "class": "Process:WalkerCirculation",
+    "process_scope": "physical",
+    "long_name": "Walker Circulation"
+  },
+
+  "water_mass_formation": {
+    "class": "Process:WaterMassFormation",
+    "process_scope": "physical",
+    "long_name": "Water-Mass Formation"
+  },
+
+  "water_vapor_continuum_absorption": {
+    "class": "Process:WaterVaporContinuumAbsorption",
+    "process_scope": "physical",
+    "long_name": "Water Vapor Continuum Absorption",
+    "aliases": [
+      "water vapor continuum absorption",
+      "h2o continuum absorption",
+      "continuum absorption",
+      "ckd water vapor continuum",
+      "ckd2.4 water vapor continuum"
+    ]
+  },
+
+  "wave generation": {
+    "class": "Process:WaveGeneration",
+    "long_name": "Wave Generation",
+    "aliases": [
+      "wave generation",
+      "wind-wave generation"
+    ],
+    "process_scope": "physical"
+  },
+
+  "wave_setup": {
+    "class": "Process:WaveSetup",
+    "process_scope": "physical",
+    "long_name": "Wave Setup",
+    "aliases": [
+      "wind-wave setup"
+    ]
+  },
+
+  "wetland_loss": {
+    "class": "Process:WetlandLoss",
+    "process_scope": "environmental",
+    "aliases": [
+      "wetland loss",
+      "wetland degradation"
+    ]
+  },
+
+  "whitecap correction": {
+    "class": "Process:WhitecapCorrection",
+    "process_scope": "pipeline"
+  }
+}

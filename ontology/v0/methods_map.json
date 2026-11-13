@@ -1,0 +1,3030 @@
+{
+  "ales_retracker": {
+    "class": "Method:ALESRetracker",
+    "parent": "Method:Retracking",
+    "long_name": "Adaptive Leading Edge Subwaveform Retracker",
+    "aliases": [
+      "ales",
+      "ales retracker",
+      "adaptive leading edge subwaveform",
+      "adaptive leading edge subwaveform retracker"
+    ]
+  },
+
+  "algorithm_validation": {
+    "class": "Method:AlgorithmValidation",
+    "aliases": [
+      "algorithm validation",
+      "performance evaluation",
+      "independent validation"
+    ]
+  },
+
+  "alpha_residual_method": {
+    "class": "Method:AlphaResidualMethod",
+    "long_name": "Alpha Residual Method",
+    "parent": "Method:EmissivityRetrieval",
+    "aliases": [
+      "alpha residual method",
+      "alpha residuals",
+      "alpha-residual method",
+      "alpha-residuals"
+    ]
+  },
+
+  "atmospheric_correction": {
+    "class": "Method:AtmosphericCorrection",
+    "long_name": "Atmospheric Correction",
+    "aliases": [
+      "atmospheric corrections"
+    ],
+    "parent": "Method:RemoteSensingPreprocessing"
+  },
+  "dynamic_atmosphere_correction": {
+    "class": "Method:AtmosphericCorrection",
+    "long_name": "Dynamic Atmosphere Correction",
+    "parent": "Method:RemoteSensingPreprocessing",
+    "aliases": [
+      "DAC",
+      "dynamic atmospheric correction",
+      "dynamic atmosphere correction"
+    ]
+  },
+  "wet_tropospheric_correction": {
+    "class": "Method:AtmosphericCorrection",
+    "long_name": "Wet Tropospheric Correction",
+    "parent": "Method:RemoteSensingPreprocessing",
+    "aliases": [
+      "wet troposphere correction",
+      "wet tropospheric correction",
+      "GPD wet tropospheric correction"
+    ]
+  },
+
+  "attribution_analysis": {
+    "class": "Method:AttributionAnalysis",
+    "parent": "Method:StatisticalInference",
+    "long_name": "Detection and Attribution Analysis",
+    "aliases": [
+      "attribution analysis",
+      "detection and attribution"
+    ]
+  },
+
+  "autonomous_atmospheric_compensation": {
+    "class": "Method:AutonomousAtmosphericCompensation",
+    "long_name": "Autonomous Atmospheric Compensation Method",
+    "parent": "Method:AtmosphericCorrection",
+    "aliases": [
+      "autonomous atmospheric compensation",
+      "AAC",
+      "aac method",
+      "AAC method"
+    ]
+  },
+
+  "bayesian_cloud_detection": {
+    "class": "Method:BayesianCloudDetection",
+    "parent": "Method:CloudDetection",
+    "long_name": "Bayesian Cloud Detection Method",
+    "aliases": [
+      "bayesian cloud detection",
+      "bayesian cloud screening"
+    ]
+  },
+
+  "bias correction": {
+    "class": "Method:BiasCorrection",
+    "long_name": "Bias Correction",
+    "aliases": [
+      "bias corrections",
+      "bias adjustment",
+      "bias adjustments",
+      "empirical bias correction",
+      "local bias correction",
+      "monthly bias correction"
+    ],
+    "parent": "Method:Preprocessing"
+  },
+
+  "bio_optical_parameterization": {
+    "class": "Method:BioOpticalParameterization",
+    "aliases": [
+      "bio-optical parameterization",
+      "bio optical parameterization",
+      "optical parameterization"
+    ]
+  },
+
+  "automated_bloom_detection": {
+    "class": "Method:BloomDetection",
+    "parent": "Method:Classification",
+    "long_name": "Automated Bloom Detection Method",
+    "aliases": [
+      "phytoplankton bloom detection",
+      "satellite bloom detection"
+    ]
+  },
+
+  "bulk_to_skin_sst_correction": {
+    "class": "Method:BulkToSkinSSTCorrection",
+    "long_name": "Bulk-to-Skin SST Correction",
+    "aliases": [
+      "bulk-to-skin sst correction",
+      "skin-bulk correction",
+      "wind speed dependent correction"
+    ]
+  },
+
+  "changepoint_model": {
+    "class": "Method:ChangePointModel",
+    "long_name": "Change-Point Model",
+    "aliases": [
+      "change point model",
+      "change-point model",
+      "breakpoint model",
+      "structural break model",
+      "regime shift model"
+    ],
+    "parent": "Method:TrendAnalysis"
+  },
+  "multiple_changepoint_model": {
+    "class": "Method:ChangePointModel",
+    "parent": "Method:TrendAnalysis",
+    "long_name": "Multiple Change-Point Model",
+    "aliases": [
+      "multiple change point",
+      "multiple changepoint",
+      "multiple breakpoint model",
+      "multiple structural breaks"
+    ]
+  },
+
+  "maximum_likelihood_classification": {
+    "class": "Method:Classification",
+    "aliases": [
+      "maximum likelihood classification",
+      "maximum likelihood classifier"
+    ]
+  },
+
+  "classification_based_emissivity": {
+    "class": "Method:ClassificationBasedEmissivity",
+    "long_name": "Classification-Based Emissivity Method",
+    "parent": "Method:EmissivityRetrieval",
+    "aliases": [
+      "classification-based emissivity",
+      "classification based emissivity",
+      "classification-based emissivity method",
+      "classification based emissivity method"
+    ]
+  },
+
+  "climatological_analysis": {
+    "class": "Method:ClimatologicalAnalysis",
+    "long_name": "Climatological Analysis",
+    "aliases": [
+      "climatology",
+      "monthly climatology"
+    ]
+  },
+
+  "cloud_detection": {
+    "class": "Method:CloudDetection",
+    "long_name": "Cloud Detection Method",
+    "aliases": [
+      "cloud detection",
+      "cloud screening",
+      "cloud identification"
+    ]
+  },
+
+  "coastal altimetry": {
+    "class": "Method:CoastalAltimetry",
+    "aliases": [
+      "coastal satellite altimetry"
+    ]
+  },
+
+  "coastal_altimetry_retracking": {
+    "class": "Method:CoastalAltimetryRetracking",
+    "long_name": "Coastal Altimetry Retracking",
+    "aliases": [
+      "coastal retracking",
+      "waveform retracking",
+      "subwaveform retracking",
+      "altimetry retracking"
+    ],
+    "parent": "Method:Retracking"
+  },
+
+  "coincident_radiometry": {
+    "class": "Method:CoincidentRadiometry",
+    "aliases": [
+      "coincident radiometric measurements",
+      "coincident surface radiometry",
+      "surface radiometric measurements"
+    ]
+  },
+
+  "cost_function_optimization": {
+    "class": "Method:CostFunctionOptimization",
+    "aliases": [
+      "cost function",
+      "optimization cost",
+      "cost.gsm",
+      "cost.emp"
+    ]
+  },
+
+  "ensemble data assimilation": {
+    "class": "Method:DataAssimilation",
+    "long_name": "Ensemble-Based Data Assimilation"
+  },
+  "ensemble kalman filter": {
+    "class": "Method:DataAssimilation",
+    "long_name": "Ensemble Kalman Filter",
+    "aliases": [
+      "enkf",
+      "ensemble kalman filtering"
+    ]
+  },
+
+  "data_fusion": {
+    "class": "Method:DataFusion",
+    "long_name": "Data Fusion",
+    "aliases": [
+      "data fusion",
+      "multi-source data fusion",
+      "multisource data fusion",
+      "information fusion"
+    ]
+  },
+
+  "amelia": {
+    "class": "Method:DataReconstruction",
+    "long_name": "Amelia Time-Series Cross-Section Multiple Imputation"
+  },
+  "dineof": {
+    "class": "Method:DataReconstruction",
+    "long_name": "Data Interpolating Empirical Orthogonal Functions",
+    "aliases": [
+      "dineof method"
+    ]
+  },
+  "gain-network": {
+    "class": "Method:DataReconstruction",
+    "long_name": "Generative Adversarial Imputation Networks",
+    "aliases": [
+      "generative adversarial imputation network",
+      "gain network"
+    ]
+  },
+  "grin": {
+    "class": "Method:DataReconstruction",
+    "long_name": "Gated Recurrent Imputation Network"
+  },
+  "mice": {
+    "class": "Method:DataReconstruction",
+    "long_name": "Multivariate Imputation by Chained Equations"
+  },
+  "pca-reconstruction": {
+    "class": "Method:DataReconstruction",
+    "long_name": "PCA-based Gap Filling"
+  },
+  "poisson_gap_filling": {
+    "class": "Method:DataReconstruction",
+    "long_name": "Poisson Equation Gap Filling",
+    "aliases": [
+      "poisson gap filling",
+      "poisson equation gap filling",
+      "poisson's equation gap filling"
+    ]
+  },
+  "sea_level_reconstruction": {
+    "class": "Method:DataReconstruction",
+    "long_name": "Sea-Level Reconstruction Method",
+    "aliases": [
+      "sea level reconstruction",
+      "sea-level reconstruction",
+      "reconstructed sea level"
+    ]
+  },
+  "successive_over_relaxation": {
+    "class": "Method:DataReconstruction",
+    "long_name": "Successive Over-Relaxation",
+    "aliases": [
+      "successive over-relaxation",
+      "successive over-relaxation scheme",
+      "SOR"
+    ]
+  },
+
+  "multi_criteria_evaluation": {
+    "class": "Method:DecisionAnalysis",
+    "long_name": "Multi-Criteria Evaluation",
+    "aliases": [
+      "multi-criteria evaluation",
+      "multi criteria evaluation techniques"
+    ]
+  },
+  "multi_objective_prioritization": {
+    "class": "Method:DecisionAnalysis",
+    "long_name": "Multi-Objective Prioritization",
+    "aliases": [
+      "multi-objective prioritizations",
+      "multi-objective optimization",
+      "joint multi-objective optimization"
+    ]
+  },
+  "ranking_algorithm": {
+    "class": "Method:DecisionAnalysis",
+    "long_name": "Ranking Algorithm"
+  },
+
+  "wqdm": {
+    "class": "Method:DecisionSupport",
+    "long_name": "Water Quality Decision Matrix",
+    "aliases": [
+      "water quality decision matrix",
+      "satellite-based water quality decision matrix"
+    ]
+  },
+
+  "DMD": {
+    "class": "Method:Decomposition",
+    "long_name": "Dynamic Mode Decomposition",
+    "aliases": [
+      "dynamic mode decomposition"
+    ]
+  },
+  "eemd": {
+    "class": "Method:Decomposition",
+    "long_name": "Ensemble Empirical Mode Decomposition"
+  },
+  "ICA": {
+    "class": "Method:Decomposition",
+    "long_name": "Independent Component Analysis"
+  },
+  "isomap": {
+    "class": "Method:Decomposition",
+    "long_name": "Isometric Feature Mapping"
+  },
+  "mstl": {
+    "class": "Method:Decomposition",
+    "long_name": "Multiple Seasonal-Trend Decomposition using LOESS",
+    "aliases": [
+      "multiple seasonal trend decomposition using loess",
+      "multiple stl",
+      "mstl decomposition"
+    ]
+  },
+  "NMF": {
+    "class": "Method:Decomposition",
+    "long_name": "Non-negative Matrix Factorization"
+  },
+  "rotated-pca": {
+    "class": "Method:Decomposition",
+    "long_name": "Rotated Principal Component Analysis",
+    "aliases": [
+      "reof",
+      "varimax rotation"
+    ]
+  },
+  "singular value decomposition": {
+    "class": "Method:Decomposition",
+    "long_name": "Singular Value Decomposition",
+    "aliases": [
+      "SVD",
+      "singular value decomposition analysis"
+    ]
+  },
+  "SMA": {
+    "class": "Method:Decomposition",
+    "long_name": "Simple Moving Average",
+    "aliases": [
+      "seasonal moving average",
+      "simple moving average"
+    ]
+  },
+  "SSA": {
+    "class": "Method:Decomposition",
+    "long_name": "Singular Spectrum Analysis"
+  },
+  "STL": {
+    "class": "Method:Decomposition",
+    "long_name": "Seasonal-Trend Decomposition using LOESS",
+    "aliases": [
+      "seasonal trend decomposition using loess",
+      "seasonal-trend decomposition",
+      "stl decomposition"
+    ]
+  },
+  "VMD": {
+    "class": "Method:Decomposition",
+    "long_name": "Variational Mode Decomposition"
+  },
+
+  "diffusion maps": {
+    "class": "Method:DiffusionMaps",
+    "long_name": "Diffusion Map Manifold Learning",
+    "parent": "Method:Decomposition",
+    "aliases": [
+      "diffusion map",
+      "diffusion maps",
+      "diffusion-maps"
+    ]
+  },
+
+  "downscaling": {
+    "class": "Method:Downscaling",
+    "long_name": "Downscaling",
+    "aliases": [
+      "dynamic downscaling",
+      "dynamical downscaling",
+      "model-based dynamical downscaling"
+    ]
+  },
+
+  "emissivity retrieval": {
+    "class": "Method:EmissivityRetrieval",
+    "long_name": "Emissivity Retrieval",
+    "parent": "Method:RetrievalAlgorithm",
+    "aliases": [
+      "emissivity-retrieval",
+      "emissivity retrieval method",
+      "emissivity retrieval methods"
+    ]
+  },
+
+  "EMD": {
+    "class": "Method:EmpiricalModeDecomposition",
+    "long_name": "Empirical Mode Decomposition",
+    "aliases": [
+      "empirical mode decomposition",
+      "emd method"
+    ],
+    "parent": "Method:Decomposition"
+  },
+  "empirical_mode_trend_extraction": {
+    "class": "Method:EmpiricalModeDecomposition",
+    "parent": "Method:Decomposition",
+    "long_name": "Empirical Mode Trend Extraction",
+    "aliases": [
+      "emd trend extraction",
+      "trend extraction by emd",
+      "residual trend from emd"
+    ]
+  },
+
+  "exponential_smoothing": {
+    "class": "Method:ExponentialSmoothing",
+    "long_name": "Exponential Smoothing",
+    "aliases": [
+      "exponential smoother",
+      "single exponential smoothing"
+    ],
+    "parent": "Method:Smoothing"
+  },
+  "holt_linear_trend": {
+    "class": "Method:ExponentialSmoothing",
+    "parent": "Method:Smoothing",
+    "long_name": "Holt Linear Trend Method",
+    "aliases": [
+      "holt method",
+      "holt linear method",
+      "double exponential smoothing"
+    ]
+  },
+  "holt_winters": {
+    "class": "Method:ExponentialSmoothing",
+    "parent": "Method:Smoothing",
+    "long_name": "Holt–Winters Seasonal Smoothing",
+    "aliases": [
+      "holt winters",
+      "holt-winters",
+      "triple exponential smoothing"
+    ]
+  },
+
+  "block maxima": {
+    "class": "Method:ExtremeValue",
+    "long_name": "Block Maxima Method"
+  },
+  "GEV": {
+    "class": "Method:ExtremeValue",
+    "long_name": "Generalized Extreme Value Distribution",
+    "aliases": [
+      "gev distribution"
+    ]
+  },
+  "GPD": {
+    "class": "Method:ExtremeValue",
+    "long_name": "Generalized Pareto Distribution",
+    "aliases": [
+      "gpd distribution"
+    ]
+  },
+  "peaks over threshold": {
+    "class": "Method:ExtremeValue",
+    "long_name": "Peaks Over Threshold Method"
+  },
+
+  "band_pass_filter": {
+    "class": "Method:Filtering",
+    "long_name": "Band-Pass Filter",
+    "aliases": [
+      "band pass filter",
+      "band-pass filtering",
+      "band pass filtering"
+    ]
+  },
+  "butterworth_filter": {
+    "class": "Method:Filtering",
+    "long_name": "Butterworth Filter",
+    "aliases": [
+      "butterworth",
+      "butterworth filtering",
+      "Butterworth filtered"
+    ]
+  },
+  "extended kalman filter": {
+    "class": "Method:Filtering",
+    "long_name": "Extended Kalman Filter",
+    "aliases": [
+      "EKF"
+    ]
+  },
+  "gaussian_convolution_filter": {
+    "class": "Method:Filtering",
+    "long_name": "Gaussian Convolution Filtering",
+    "aliases": [
+      "gaussian convolution filter",
+      "gaussian convolution filtering",
+      "gaussian-shaped convolution filter",
+      "gaussian shaped convolution filter"
+    ]
+  },
+  "high_pass_filter": {
+    "class": "Method:Filtering",
+    "long_name": "High-Pass Filter",
+    "aliases": [
+      "high pass filter",
+      "high-pass filtering",
+      "high pass filtering"
+    ]
+  },
+  "hodrick_prescott_filter": {
+    "class": "Method:Filtering",
+    "long_name": "Hodrick–Prescott Filter",
+    "aliases": [
+      "hp filter",
+      "hodrick prescott",
+      "hodrick-prescott filter"
+    ]
+  },
+  "kalman filter": {
+    "class": "Method:Filtering",
+    "long_name": "Kalman State-Space Filter",
+    "aliases": [
+      "KF",
+      "kalman filtering"
+    ]
+  },
+  "low_pass_filter": {
+    "class": "Method:Filtering",
+    "long_name": "Low-Pass Filter",
+    "aliases": [
+      "low pass filter",
+      "low-pass filtering",
+      "low pass filtering"
+    ]
+  },
+  "particle filter": {
+    "class": "Method:Filtering",
+    "long_name": "Sequential Monte Carlo Particle Filter",
+    "aliases": [
+      "smc filter"
+    ]
+  },
+
+  "first_optical_depth": {
+    "class": "Method:FirstOpticalDepthSelection",
+    "aliases": [
+      "optical depth selection",
+      "satellite detectable depth"
+    ]
+  },
+
+  "forward_rtm_validation": {
+    "class": "Method:ForwardRTMValidation",
+    "long_name": "Forward Radiative Transfer Model Validation",
+    "aliases": [
+      "forward rtm validation",
+      "rtm validation",
+      "forward model validation",
+      "radiative transfer model validation",
+      "validation of forward rtm",
+      "validation of radiative transfer model"
+    ]
+  },
+
+  "FFT": {
+    "class": "Method:FourierTransform",
+    "parent": "Method:SpectralAnalysis",
+    "long_name": "Fast Fourier Transform",
+    "aliases": [
+      "FFT",
+      "fast fourier",
+      "fast fourier transform"
+    ]
+  },
+  "fourier transform": {
+    "class": "Method:FourierTransform",
+    "long_name": "Fourier Transform",
+    "parent": "Method:SpectralAnalysis",
+    "aliases": [
+      "fourier",
+      "FT"
+    ]
+  },
+
+  "fresnel_reflectance_modeling": {
+    "class": "Method:FresnelReflectanceModeling",
+    "long_name": "Fresnel Reflectance and Emissivity Modeling",
+    "aliases": [
+      "fresnel model",
+      "fresnel's model",
+      "fresnel reflection model",
+      "fresnel reflectance model",
+      "fresnel emissivity model",
+      "fresnel equations",
+      "flat fresnel surface",
+      "flat fresnel's surface"
+    ]
+  },
+
+  "gps_velocity_estimation": {
+    "class": "Method:GPSVelocityEstimation",
+    "parent": "Method:StatisticalInference",
+    "long_name": "GPS Velocity Estimation"
+  },
+
+  "generalized_least_squares_trend": {
+    "class": "Method:GeneralizedLeastSquares",
+    "parent": "Method:Regression",
+    "long_name": "Generalized Least-Squares Trend Estimation",
+    "aliases": [
+      "gls trend",
+      "generalized least squares trend",
+      "trend with autocorrelated errors"
+    ]
+  },
+  "GLS": {
+    "class": "Method:GeneralizedLeastSquares",
+    "long_name": "Generalized Least Squares",
+    "aliases": [
+      "gls regression"
+    ],
+    "parent": "Method:Regression"
+  },
+
+  "genetic_algorithm": {
+    "class": "Method:GeneticAlgorithm",
+    "parent": "Method:CostFunctionOptimization",
+    "long_name": "Genetic Algorithm",
+    "aliases": [
+      "Genetic Algorithm (GA)",
+      "GA procedure"
+    ]
+  },
+
+  "heat_budget_analysis": {
+    "class": "Method:HeatBudgetAnalysis",
+    "long_name": "Heat Budget Analysis",
+    "aliases": [
+      "heat budget calculation",
+      "heat budget calculations",
+      "Heat Budget Closure",
+      "heat budget framework"
+    ]
+  },
+
+  "obrgie": {
+    "class": "Method:ImageSegmentation",
+    "long_name": "Object-Based Region Growing Integrated with Edge Detection",
+    "aliases": [
+      "object-based region growing integrated with edge detection"
+    ]
+  },
+
+  "insar": {
+    "class": "Method:InSAR",
+    "long_name": "Interferometric Synthetic Aperture Radar",
+    "aliases": [
+      "InSAR",
+      "SAR interferometry",
+      "Differential SAR Interferometry—DInSAR",
+      "DInSAR",
+      "Permanent Scatterer InSAR—PSInSAR",
+      "PSInSAR",
+      "Squeezed SAR—SqueeSAR",
+      "SqueeSAR",
+      "Interferometric Point Target Analysis—IPTA",
+      "IPTA"
+    ]
+  },
+
+  "bias-aware-oi": {
+    "class": "Method:Interpolation",
+    "long_name": "Bias-Aware Optimal Interpolation"
+  },
+  "bilinear_interpolation": {
+    "class": "Method:Interpolation",
+    "long_name": "Bilinear Interpolation",
+    "aliases": [
+      "bilinear interpolation",
+      "bi-linear interpolation",
+      "bilinear interpolant",
+      "bi-linear interpolant"
+    ]
+  },
+  "diva": {
+    "class": "Method:Interpolation",
+    "long_name": "Data-Interpolating Variational Analysis",
+    "aliases": [
+      "Data-Interpolating Variational Analysis (DIVA)",
+      "DIVA gridding"
+    ]
+  },
+  "kriging": {
+    "class": "Method:Interpolation",
+    "long_name": "Geostatistical Kriging"
+  },
+  "objective analysis": {
+    "class": "Method:Interpolation",
+    "long_name": "Objective Analysis"
+  },
+  "OI": {
+    "class": "Method:Interpolation",
+    "long_name": "Optimal Interpolation",
+    "aliases": [
+      "OI method",
+      "optimal interpolation (OI) method",
+      "objective analysis procedure",
+      "pentadal objective analysis"
+    ]
+  },
+  "optimal interpolation": {
+    "class": "Method:Interpolation",
+    "long_name": "Optimal Interpolation"
+  },
+  "spline interpolation": {
+    "class": "Method:Interpolation",
+    "long_name": "Spline Interpolation"
+  },
+
+  "EOF": {
+    "class": "Method:KarhunenLoeveTransform",
+    "long_name": "Empirical Orthogonal Function Analysis",
+    "parent": "Method:Decomposition",
+    "aliases": [
+      "empirical orthogonal functions",
+      "eof analysis"
+    ]
+  },
+  "kl-transform": {
+    "class": "Method:KarhunenLoeveTransform",
+    "long_name": "Karhunen–Loève Transform",
+    "aliases": [
+      "karhunen loeve",
+      "karhunen-loeve transform"
+    ],
+    "parent": "Method:Decomposition"
+  },
+  "PCA": {
+    "class": "Method:KarhunenLoeveTransform",
+    "long_name": "Principal Component Analysis",
+    "parent": "Method:Decomposition",
+    "aliases": [
+      "principal components analysis",
+      "principal components",
+      "pc analysis"
+    ]
+  },
+
+  "ascorbic_acid_reduction": {
+    "class": "Method:LaboratoryAnalysis",
+    "long_name": "Ascorbic Acid Reduction Method"
+  },
+  "epa_method_365": {
+    "class": "Method:LaboratoryAnalysis",
+    "long_name": "EPA Method 365",
+    "aliases": [
+      "EPA method",
+      "EPA method 365"
+    ]
+  },
+  "fluorometric_method": {
+    "class": "Method:LaboratoryAnalysis",
+    "long_name": "Fluorometric Method",
+    "aliases": [
+      "fluorometric methods"
+    ]
+  },
+  "headspace_method": {
+    "class": "Method:LaboratoryAnalysis",
+    "long_name": "Headspace Method"
+  },
+  "high_performance_liquid_chromatography": {
+    "class": "Method:LaboratoryAnalysis",
+    "long_name": "High-Performance Liquid Chromatography",
+    "aliases": [
+      "high-performance liquid chromatography",
+      "high performance liquid chromatography",
+      "HPLC",
+      "hplc",
+      "HPLC pigment analysis",
+      "pigment analysis by HPLC"
+    ]
+  },
+  "winkler_titration": {
+    "class": "Method:LaboratoryAnalysis",
+    "long_name": "Winkler Titration",
+    "aliases": [
+      "computer-aided Winkler titration methods"
+    ]
+  },
+
+  "linear_interpolation": {
+    "class": "Method:LinearInterpolation",
+    "long_name": "Linear Interpolation",
+    "aliases": [
+      "linear interpolation",
+      "linear interpolations",
+      "linearly interpolated",
+      "interpolated linearly"
+    ]
+  },
+
+  "log_error_analysis": {
+    "class": "Method:LogErrorAnalysis",
+    "aliases": [
+      "log bias",
+      "log rms",
+      "logarithmic error analysis",
+      "log-transformed statistics"
+    ]
+  },
+
+  "lookup_table_interpolation": {
+    "class": "Method:LookupTableInterpolation",
+    "long_name": "Lookup Table Interpolation",
+    "aliases": [
+      "lookup table interpolation",
+      "temperature-to-radiance conversion lookup tables",
+      "look-up tables",
+      "lookup tables"
+    ]
+  },
+
+  "multi-photo geometrically constrained least squares matching": {
+    "class": "Method:MPGCLSM",
+    "long_name": "Multi-Photo Geometrically Constrained Least Squares Matching",
+    "aliases": [
+      "MPGC LSM"
+    ],
+    "parent": "Method:RemoteSensingPreprocessing"
+  },
+
+  "artificial intelligence": {
+    "class": "Method:MachineLearning",
+    "long_name": "Artificial Intelligence",
+    "aliases": [
+      "AI",
+      "ai model",
+      "ai models"
+    ]
+  },
+  "clustering": {
+    "class": "Method:MachineLearning",
+    "long_name": "Clustering",
+    "aliases": [
+      "cluster analysis",
+      "unsupervised clustering"
+    ]
+  },
+  "CNN": {
+    "class": "Method:MachineLearning",
+    "long_name": "Convolutional Neural Network",
+    "aliases": [
+      "cnns",
+      "convolutional neural network",
+      "convolutional neural networks",
+      "cnn model"
+    ]
+  },
+  "dimensionality reduction hyperspectral": {
+    "class": "Method:MachineLearning",
+    "long_name": "Dimensionality Reduction for Hyperspectral Data"
+  },
+  "foundation model": {
+    "class": "Method:MachineLearning",
+    "long_name": "Foundation Model",
+    "aliases": [
+      "foundation models"
+    ]
+  },
+  "fourcastnet": {
+    "class": "Method:MachineLearning",
+    "long_name": "FourCastNet Earth System Transformer"
+  },
+  "generative ai": {
+    "class": "Method:MachineLearning",
+    "long_name": "Generative AI",
+    "aliases": [
+      "genai",
+      "genai model",
+      "generative ai model"
+    ]
+  },
+  "graphcast": {
+    "class": "Method:MachineLearning",
+    "long_name": "GraphCast Weather Forecasting Model"
+  },
+  "GRU": {
+    "class": "Method:MachineLearning",
+    "long_name": "Gated Recurrent Unit",
+    "aliases": [
+      "grus"
+    ]
+  },
+  "hyperspectral feature extraction": {
+    "class": "Method:MachineLearning",
+    "long_name": "Feature Extraction for Hyperspectral Data"
+  },
+  "large language model": {
+    "class": "Method:MachineLearning",
+    "long_name": "Large Language Model",
+    "aliases": [
+      "LLM",
+      "llm model",
+      "large language models"
+    ]
+  },
+  "lstm": {
+    "class": "Method:MachineLearning",
+    "long_name": "Long Short-Term Memory Network",
+    "aliases": [
+      "lstms"
+    ]
+  },
+  "machine learning": {
+    "class": "Method:MachineLearning",
+    "long_name": "Machine Learning",
+    "aliases": [
+      "ML",
+      "machine learning model",
+      "machine learning models"
+    ]
+  },
+  "pinn": {
+    "class": "Method:MachineLearning",
+    "long_name": "Physics-Informed Neural Network",
+    "aliases": [
+      "pinns"
+    ]
+  },
+  "random forest": {
+    "class": "Method:MachineLearning",
+    "long_name": "Random Forest",
+    "aliases": [
+      "random forests",
+      "random forest model",
+      "rf model"
+    ]
+  },
+  "st-gnn": {
+    "class": "Method:MachineLearning",
+    "long_name": "Spatio-Temporal Graph Neural Network"
+  },
+  "t-sne": {
+    "class": "Method:MachineLearning",
+    "long_name": "t-Distributed Stochastic Neighbor Embedding",
+    "aliases": [
+      "tsne"
+    ]
+  },
+  "transformer": {
+    "class": "Method:MachineLearning",
+    "long_name": "Transformer Neural Network",
+    "aliases": [
+      "transformer model",
+      "transformer architecture"
+    ]
+  },
+  "umap": {
+    "class": "Method:MachineLearning",
+    "long_name": "Uniform Manifold Approximation and Projection"
+  },
+  "VIT": {
+    "class": "Method:MachineLearning",
+    "long_name": "Vision Transformer",
+    "aliases": [
+      "vision transformers"
+    ]
+  },
+  "xgboost": {
+    "class": "Method:MachineLearning",
+    "long_name": "Extreme Gradient Boosting",
+    "aliases": [
+      "xgboost model"
+    ]
+  },
+
+  "bathymetry_masking": {
+    "class": "Method:Masking",
+    "long_name": "Bathymetry-Based Masking",
+    "aliases": [
+      "mask areas shallower than a specific depth",
+      "masking using bathymetry data"
+    ]
+  },
+
+  "matchup_database_analysis": {
+    "class": "Method:MatchupDatabaseAnalysis",
+    "aliases": [
+      "matchup database",
+      "coincident database",
+      "in situ matchup dataset"
+    ]
+  },
+
+  "colored_noise_maximum_likelihood": {
+    "class": "Method:MaximumLikelihoodEstimation",
+    "parent": "Method:StatisticalInference",
+    "long_name": "Maximum Likelihood Estimation with Colored Noise",
+    "aliases": [
+      "colored noise maximum likelihood",
+      "maximum likelihood with colored noise",
+      "mle with autocorrelated noise"
+    ]
+  },
+  "maximum likelihood": {
+    "class": "Method:MaximumLikelihoodEstimation",
+    "long_name": "Maximum Likelihood Estimation",
+    "aliases": [
+      "MLE",
+      "maximum likelihood estimation"
+    ],
+    "parent": "Method:StatisticalInference"
+  },
+  "maximum_likelihood_trend_estimation": {
+    "class": "Method:MaximumLikelihoodEstimation",
+    "parent": "Method:StatisticalInference",
+    "long_name": "Maximum-Likelihood Trend Estimation",
+    "aliases": [
+      "maximum likelihood trend",
+      "mle trend estimation",
+      "maximum-likelihood trend"
+    ]
+  },
+
+  "mean_absolute_error": {
+    "class": "Method:MeanAbsoluteError",
+    "aliases": [
+      "MAE",
+      "mean absolute error"
+    ]
+  },
+
+  "meta_analysis": {
+    "class": "Method:MetaAnalysis",
+    "parent": "Method:StatisticalInference",
+    "long_name": "Meta-Analysis",
+    "aliases": [
+      "meta-analysis",
+      "meta-analyses"
+    ]
+  },
+
+  "mie_theory": {
+    "class": "Method:MieScatteringModel",
+    "parent": "Method:PhysicalModel",
+    "long_name": "Mie Scattering Theory",
+    "aliases": [
+      "Mie theory",
+      "Mie (1976) theory"
+    ]
+  },
+
+  "mixed_pixel_identification": {
+    "class": "Method:MixedPixelIdentification",
+    "long_name": "Mixed-Pixel Identification",
+    "parent": "Method:SpectralUnmixing",
+    "aliases": [
+      "mixed pixel identification",
+      "mixed-pixel identification",
+      "mixed pixel detection"
+    ]
+  },
+
+  "durbin_watson_test": {
+    "class": "Method:ModelDiagnostics",
+    "long_name": "Durbin–Watson Test",
+    "aliases": [
+      "durbin watson",
+      "dw test"
+    ]
+  },
+  "kpss_test": {
+    "class": "Method:ModelDiagnostics",
+    "long_name": "KPSS Stationarity Test",
+    "aliases": [
+      "kpss",
+      "kwiatkowski phillips schmidt shin test"
+    ]
+  },
+  "ljung_box_test": {
+    "class": "Method:ModelDiagnostics",
+    "long_name": "Ljung–Box Test",
+    "aliases": [
+      "ljung box",
+      "ljung-box q test",
+      "portmanteau test"
+    ]
+  },
+  "residual_autocorrelation_test": {
+    "class": "Method:ModelDiagnostics",
+    "long_name": "Residual Autocorrelation Test",
+    "aliases": [
+      "residual autocorrelation",
+      "autocorrelation of residuals",
+      "serial correlation test"
+    ]
+  },
+
+  "AIC": {
+    "class": "Method:ModelSelection",
+    "long_name": "Akaike Information Criterion",
+    "aliases": [
+      "akaike information criterion",
+      "aic criterion"
+    ]
+  },
+  "aicc": {
+    "class": "Method:ModelSelection",
+    "long_name": "Corrected Akaike Information Criterion",
+    "aliases": [
+      "corrected aic",
+      "akaike information criterion corrected",
+      "small-sample aic"
+    ]
+  },
+  "bayes_factor": {
+    "class": "Method:ModelSelection",
+    "long_name": "Bayes Factor Model Comparison",
+    "aliases": [
+      "bayes factor",
+      "bayesian model comparison"
+    ]
+  },
+  "BIC": {
+    "class": "Method:ModelSelection",
+    "long_name": "Bayesian Information Criterion",
+    "aliases": [
+      "bayes information criterion",
+      "schwarz criterion"
+    ]
+  },
+  "cross_validation": {
+    "class": "Method:ModelSelection",
+    "long_name": "Cross-Validation",
+    "aliases": [
+      "cross validation",
+      "k-fold cross-validation",
+      "out-of-sample validation"
+    ]
+  },
+  "deviance_information_criterion": {
+    "class": "Method:ModelSelection",
+    "long_name": "Deviance Information Criterion",
+    "aliases": [
+      "deviance information criterion",
+      "DIC criterion"
+    ]
+  },
+  "likelihood_ratio_test": {
+    "class": "Method:ModelSelection",
+    "long_name": "Likelihood Ratio Test",
+    "aliases": [
+      "likelihood-ratio test",
+      "LRT",
+      "likelihood ratio"
+    ]
+  },
+  "trend_model_selection": {
+    "class": "Method:ModelSelection",
+    "long_name": "Trend Model Selection",
+    "aliases": [
+      "trend model selection",
+      "selection of trend model",
+      "model comparison for trends"
+    ]
+  },
+
+  "multi_angle_method": {
+    "class": "Method:MultiAngleMethod",
+    "long_name": "Multi-Angle Method",
+    "parent": "Method:RetrievalAlgorithm",
+    "aliases": [
+      "multi-angle method",
+      "multi angle method",
+      "multi-angle methods",
+      "multi angle methods",
+      "dual-angle technique",
+      "dual angle technique",
+      "biangular method",
+      "biangularmode"
+    ]
+  },
+
+  "ndvi_based_emissivity_method": {
+    "class": "Method:NDVIBasedEmissivityMethod",
+    "long_name": "NDVI-Based Emissivity Method",
+    "parent": "Method:EmissivityRetrieval",
+    "aliases": [
+      "ndvi-based method",
+      "ndvi based method",
+      "ndvi-based methods",
+      "ndvi based methods",
+      "ndvi-based emissivity method",
+      "ndvi based emissivity method",
+      "NDVI-based methods"
+    ]
+  },
+
+  "neural_network": {
+    "class": "Method:NeuralNetwork",
+    "parent": "Method:MachineLearning",
+    "long_name": "Neural Network",
+    "aliases": [
+      "neural network",
+      "neural networks",
+      "neural network model",
+      "artificial neural network",
+      "artificial neural networks",
+      "ANN",
+      "anns",
+      "NN"
+    ]
+  },
+
+  "normalized_emissivity_method": {
+    "class": "Method:NormalizedEmissivityMethod",
+    "long_name": "Normalized Emissivity Method",
+    "parent": "Method:EmissivityRetrieval",
+    "aliases": [
+      "normalized emissivity method",
+      "NEM"
+    ]
+  },
+
+  "optical_weighting": {
+    "class": "Method:OpticalWeighting",
+    "aliases": [
+      "optical weighting",
+      "optically weighted",
+      "optically weighted average",
+      "optically weighted mean"
+    ]
+  },
+
+  "OLS": {
+    "class": "Method:OrdinaryLeastSquares",
+    "long_name": "Ordinary Least Squares",
+    "aliases": [
+      "ols regression",
+      "ordinary least squares regression",
+      "linear regression",
+      "linear regression model",
+      "linear regressions",
+      "simple linear regression",
+      "linear least-squares regression"
+    ],
+    "parent": "Method:Regression"
+  },
+  "ordinary_least_squares_trend": {
+    "class": "Method:OrdinaryLeastSquares",
+    "parent": "Method:Regression",
+    "long_name": "Ordinary Least-Squares Trend Estimation",
+    "aliases": [
+      "ols trend",
+      "least squares trend",
+      "ordinary least squares trend"
+    ]
+  },
+
+  "polymer": {
+    "class": "Method:POLYMER",
+    "long_name": "POLYnomial based algorithm applied to MERIS",
+    "parent": "Method:AtmosphericCorrection",
+    "aliases": [
+      "polymer",
+      "POLYMER",
+      "polynomial based algorithm applied to meris",
+      "polynomial based algorithm applied to modis-aqua"
+    ]
+  },
+
+  "phenology_analysis": {
+    "class": "Method:PhenologyAnalysis",
+    "long_name": "Phenology Analysis",
+    "aliases": [
+      "phenological analysis"
+    ]
+  },
+
+  "physical model": {
+    "class": "Method:PhysicalModel",
+    "long_name": "Physical Model",
+    "aliases": [
+      "physical-model",
+      "physics-based model",
+      "physics based model"
+    ]
+  },
+
+  "broken_stick_model": {
+    "class": "Method:PiecewiseLinearTrend",
+    "parent": "Method:TrendAnalysis",
+    "long_name": "Broken-Stick Trend Model",
+    "aliases": [
+      "broken stick model",
+      "broken-stick model",
+      "broken-stick trend",
+      "broken stick trend"
+    ]
+  },
+  "piecewise_linear_trend": {
+    "class": "Method:PiecewiseLinearTrend",
+    "long_name": "Piecewise Linear Trend Model",
+    "aliases": [
+      "piecewise linear trend",
+      "segmented linear trend",
+      "broken-line trend",
+      "piecewise regression"
+    ],
+    "parent": "Method:TrendAnalysis"
+  },
+
+  "power_law_noise_model": {
+    "class": "Method:PowerLawNoiseModel",
+    "long_name": "Power-Law Noise Model",
+    "aliases": [
+      "power law noise",
+      "power-law noise",
+      "colored noise model",
+      "spectral power law noise"
+    ],
+    "parent": "Method:TimeSeriesModel"
+  },
+  "power_law_plus_white_noise_model": {
+    "class": "Method:PowerLawNoiseModel",
+    "parent": "Method:TimeSeriesModel",
+    "long_name": "Power-Law Plus White Noise Model",
+    "aliases": [
+      "power law plus white noise",
+      "power-law plus white noise",
+      "power-law noise plus white noise"
+    ]
+  },
+
+  "noise-injection": {
+    "class": "Method:Preprocessing",
+    "long_name": "Stochastic Noise Addition",
+    "aliases": [
+      "noise injection",
+      "stochastic noise addition"
+    ]
+  },
+  "spectral smoothing": {
+    "class": "Method:Preprocessing",
+    "long_name": "Spectral Smoothing",
+    "aliases": [
+      "spectral filtering",
+      "spectral noise reduction"
+    ]
+  },
+
+  "median_absolute_deviation": {
+    "class": "Method:QualityControl",
+    "long_name": "Median Absolute Deviation Outlier Detection",
+    "aliases": [
+      "MAD",
+      "MAD_hat",
+      "scaled median absolute deviation",
+      "median absolute deviation",
+      "mad outlier detection"
+    ]
+  },
+
+  "radiative_transfer_model": {
+    "class": "Method:RadiativeTransferModel",
+    "long_name": "Radiative Transfer Model",
+    "parent": "Method:PhysicalModel",
+    "aliases": [
+      "radiative transfer model",
+      "radiative transfer models",
+      "RTM",
+      "forward calculation",
+      "forward calculations"
+    ]
+  },
+
+  "ar1_trend_model": {
+    "class": "Method:RedNoiseModel",
+    "parent": "Method:TimeSeriesModel",
+    "long_name": "Linear Trend with AR(1) Noise",
+    "aliases": [
+      "trend with ar1 noise",
+      "trend with ar(1) errors",
+      "linear trend with autocorrelated noise"
+    ]
+  },
+  "red_noise_model": {
+    "class": "Method:RedNoiseModel",
+    "long_name": "Red Noise Model",
+    "aliases": [
+      "red noise",
+      "ar1 noise",
+      "ar(1) noise",
+      "first-order autoregressive noise"
+    ],
+    "parent": "Method:TimeSeriesModel"
+  },
+
+  "empirical_regression": {
+    "class": "Method:Regression",
+    "long_name": "Empirical Regression",
+    "aliases": [
+      "empirical regression",
+      "regression model",
+      "power-law regression",
+      "linear fit",
+      "linear fits"
+    ]
+  },
+  "GAM": {
+    "class": "Method:Regression",
+    "long_name": "Generalized Additive Model"
+  },
+  "lasso": {
+    "class": "Method:Regression",
+    "long_name": "Least Absolute Shrinkage and Selection Operator",
+    "aliases": [
+      "l1 regularization"
+    ]
+  },
+  "MLR": {
+    "class": "Method:Regression",
+    "long_name": "Multiple Linear Regression",
+    "aliases": [
+      "multiple linear regression",
+      "mlr regression"
+    ]
+  },
+  "multivariate_linear_regression": {
+    "class": "Method:Regression",
+    "long_name": "Multivariate Linear Regression",
+    "aliases": [
+      "multivariate linear regression",
+      "multiple variable linear regression",
+      "mvlr"
+    ]
+  },
+  "plsr": {
+    "class": "Method:Regression",
+    "long_name": "Partial Least Squares Regression",
+    "aliases": [
+      "pls regression"
+    ]
+  },
+  "prais-winsten": {
+    "class": "Method:Regression",
+    "long_name": "Prais–Winsten Estimator",
+    "aliases": [
+      "prais winsten",
+      "prais-winsten estimator",
+      "pw estimator",
+      "PW estimator"
+    ]
+  },
+  "quantile regression": {
+    "class": "Method:Regression",
+    "long_name": "Quantile Regression"
+  },
+  "robust regression": {
+    "class": "Method:Regression",
+    "long_name": "Robust Regression"
+  },
+  "sma_regression": {
+    "class": "Method:Regression",
+    "long_name": "Standard Major Axis Regression",
+    "aliases": [
+      "sma regression",
+      "standard major axis regression",
+      "reduced major axis regression",
+      "type ii regression",
+      "type II regression"
+    ]
+  },
+  "theil-sen": {
+    "class": "Method:Regression",
+    "long_name": "Theil–Sen Robust Estimator"
+  },
+  "tikhonov": {
+    "class": "Method:Regression",
+    "long_name": "Tikhonov Regularization",
+    "aliases": [
+      "ridge regression",
+      "l2 regularization"
+    ]
+  },
+  "total_least_squares": {
+    "class": "Method:Regression",
+    "long_name": "Total Least Squares",
+    "aliases": [
+      "TLS",
+      "errors-in-variables regression"
+    ]
+  },
+
+  "bottom_contribution_removal": {
+    "class": "Method:RemoteSensingPreprocessing",
+    "long_name": "Bottom Contribution Removal",
+    "aliases": [
+      "removal of bottom contribution",
+      "bottom contribution removal"
+    ]
+  },
+
+  "retracking": {
+    "class": "Method:Retracking",
+    "long_name": "Retracking",
+    "aliases": [
+      "retracking",
+      "retracker"
+    ]
+  },
+  "samosa2": {
+    "class": "Method:Retracking",
+    "long_name": "SAMOSA2 Retracking Algorithm",
+    "aliases": [
+      "SAMOSA2"
+    ]
+  },
+
+  "band ratio algorithm": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Band Ratio Algorithm"
+  },
+  "chromaticity analysis": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Forel-Ule Color Scale/Chromaticity Coordinates",
+    "aliases": [
+      "hue-saturation-intensity"
+    ]
+  },
+  "cie_fluorescence_algorithm": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "CIE-Fluorescence Algorithm"
+  },
+  "empirical algorithm": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Empirical Algorithm",
+    "aliases": [
+      "empirical algorithms",
+      "empirical retrieval algorithm"
+    ]
+  },
+  "endmember extraction": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Endmember Extraction",
+    "aliases": [
+      "endmember analysis"
+    ]
+  },
+  "GSM": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Garver-Siegel-Maritorena Algorithm",
+    "aliases": [
+      "GSM",
+      "GSM model",
+      "GSM algorithm"
+    ]
+  },
+  "isofit": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Iterative Surface-Atmosphere Fitting",
+    "aliases": [
+      "simultaneous fitting"
+    ]
+  },
+  "lookup table inversion": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Lookup Table Based Inversion",
+    "aliases": [
+      "lut inversion"
+    ]
+  },
+  "nonlinear spectral unmixing": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Nonlinear Spectral Unmixing"
+  },
+  "ocx algorithm": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "OCx Chlorophyll Algorithm"
+  },
+  "optimal estimation": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Optimal Estimation Method",
+    "aliases": [
+      "OEM",
+      "bayesian inversion"
+    ]
+  },
+  "quasi-analytical algorithm": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Quasi-Analytical Algorithm"
+  },
+  "radiative transfer inversion": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Radiative Transfer Model Inversion"
+  },
+  "semi-analytical model": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Semi-Analytical Inversion Model",
+    "aliases": [
+      "semi-analytical model",
+      "semi analytical model",
+      "semi-analytical algorithm",
+      "semi analytical algorithm",
+      "semi-analytical inversion",
+      "semi analytical inversion",
+      "semi-analytical retrieval",
+      "gsm model",
+      "GSM"
+    ]
+  },
+  "spectral index": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Spectral Index Computation",
+    "aliases": [
+      "spectral indices",
+      "band indices"
+    ]
+  },
+  "spectral matching": {
+    "class": "Method:RetrievalAlgorithm",
+    "long_name": "Spectral Matching Technique"
+  },
+
+  "satellite_derived_bathymetry": {
+    "class": "Method:SatelliteDerivedBathymetry",
+    "parent": "Method:RetrievalAlgorithm",
+    "long_name": "Satellite-Derived Bathymetry",
+    "aliases": [
+      "SDB",
+      "Satellite-derived bathymetry (SDB)",
+      "satellite-derived bathymetry",
+      "color-based SDB",
+      "wave-based SDB",
+      "bathymetry inversion"
+    ]
+  },
+
+  "sea_ice_detection": {
+    "class": "Method:SeaIceDetection",
+    "long_name": "Sea-Ice Detection",
+    "parent": "Method:Classification",
+    "aliases": [
+      "sea ice detection",
+      "sea-ice detection"
+    ]
+  },
+
+  "seasonal_prediction": {
+    "class": "Method:SeasonalPrediction",
+    "parent": "Method:TimeSeriesModel",
+    "long_name": "Seasonal Prediction",
+    "aliases": [
+      "early seasonal prediction"
+    ]
+  },
+
+  "sensitivity_analysis": {
+    "class": "Method:SensitivityAnalysis",
+    "parent": "Method:StatisticalInference",
+    "long_name": "Sensitivity Analysis"
+  },
+
+  "calibration": {
+    "class": "Method:SensorCalibration",
+    "long_name": "Sensor Calibration",
+    "aliases": [
+      "radiometric calibration",
+      "instrument calibration"
+    ],
+    "parent": "Method:Preprocessing"
+  },
+  "sensor intercalibration": {
+    "class": "Method:SensorCalibration",
+    "parent": "Method:Preprocessing",
+    "long_name": "Sensor Intercalibration",
+    "aliases": [
+      "intercalibration",
+      "cross-calibration"
+    ]
+  },
+
+  "single_channel_method": {
+    "class": "Method:SingleChannelMethod",
+    "long_name": "Single-Channel Method",
+    "parent": "Method:RetrievalAlgorithm",
+    "aliases": [
+      "single-channel method",
+      "single channel method",
+      "single-channel methods",
+      "single channel methods"
+    ]
+  },
+
+  "kernel_smoothing": {
+    "class": "Method:Smoothing",
+    "long_name": "Kernel Smoothing",
+    "aliases": [
+      "kernel smoother",
+      "kernel regression smoothing",
+      "nonparametric kernel smoothing"
+    ]
+  },
+  "loess": {
+    "class": "Method:Smoothing",
+    "long_name": "Locally Estimated Scatterplot Smoothing",
+    "aliases": [
+      "loess smoothing"
+    ]
+  },
+  "lowess": {
+    "class": "Method:Smoothing",
+    "long_name": "Locally Weighted Scatterplot Smoothing",
+    "aliases": [
+      "lowess smoothing"
+    ]
+  },
+  "moving average": {
+    "class": "Method:Smoothing",
+    "long_name": "Moving Average Filter",
+    "aliases": [
+      "running average"
+    ]
+  },
+  "moving_median_filter": {
+    "class": "Method:Smoothing",
+    "long_name": "Moving Median Filter",
+    "aliases": [
+      "running median",
+      "running median filter",
+      "moving median"
+    ]
+  },
+  "running_mean_filter": {
+    "class": "Method:Smoothing",
+    "long_name": "Running Mean Filter",
+    "aliases": [
+      "running mean filter",
+      "3-month running mean filter",
+      "three-month running mean filter"
+    ]
+  },
+  "savitzky-golay": {
+    "class": "Method:Smoothing",
+    "long_name": "Savitzky–Golay Polynomial Filter",
+    "aliases": [
+      "sg filter",
+      "Savitzky-Golay filter"
+    ]
+  },
+
+  "empirical variogram": {
+    "class": "Method:SpatialStatistics",
+    "long_name": "Empirical Variogram"
+  },
+  "gtwr": {
+    "class": "Method:SpatialStatistics",
+    "long_name": "Geographically and Temporally Weighted Regression"
+  },
+  "lisa": {
+    "class": "Method:SpatialStatistics",
+    "long_name": "Local Indicators of Spatial Association",
+    "aliases": [
+      "lisa statistic",
+      "local indicators of spatial association"
+    ]
+  },
+  "moran's i": {
+    "class": "Method:SpatialStatistics",
+    "long_name": "Moran’s I Spatial Autocorrelation",
+    "aliases": [
+      "morans i",
+      "moran i",
+      "moran's i test"
+    ]
+  },
+  "ripley's k": {
+    "class": "Method:SpatialStatistics",
+    "long_name": "Ripley’s K Function",
+    "aliases": [
+      "ripleys k",
+      "ripley k",
+      "ripley's k function"
+    ]
+  },
+  "semivariogram": {
+    "class": "Method:SpatialStatistics",
+    "long_name": "Semivariogram Analysis"
+  },
+  "spatial regression": {
+    "class": "Method:SpatialStatistics",
+    "long_name": "Spatial Regression Model"
+  },
+
+  "spatiotemporal_collocation": {
+    "class": "Method:SpatiotemporalCollocation",
+    "long_name": "Spatial and Temporal Collocation",
+    "aliases": [
+      "collocation",
+      "spatial and temporal collocation",
+      "space-time collocation",
+      "spatiotemporal collocation",
+      "match-up procedure",
+      "collocated satellite measurements",
+      "collocated measurements"
+    ]
+  },
+
+  "hovmoller_diagram": {
+    "class": "Method:SpatiotemporalVisualization",
+    "long_name": "Hovmöller Diagram",
+    "aliases": [
+      "hovmoller diagram",
+      "hovmöller diagram",
+      "hovmoller diagrams",
+      "hovmöller diagrams",
+      "space-time diagram",
+      "space-time diagrams"
+    ]
+  },
+
+  "band depth analysis": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Band Depth Feature Extraction"
+  },
+  "bispectrum": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Bispectral Phase Coupling Analysis",
+    "aliases": [
+      "higher-order spectra"
+    ]
+  },
+  "continuum removal": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Continuum Removal Technique"
+  },
+  "cross-spectrum": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Cross Spectral Analysis",
+    "aliases": [
+      "cross spectrum"
+    ]
+  },
+  "derivative_spectroscopy": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Derivative Spectroscopy",
+    "aliases": [
+      "derivative spectroscopy",
+      "spectral derivative",
+      "derivative spectrum",
+      "first derivative",
+      "second derivative"
+    ]
+  },
+  "ewtc": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Ensemble Wavelet Transform Coherence"
+  },
+  "granger causality": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Granger Causality Test"
+  },
+  "harmonic_analysis": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Harmonic Analysis",
+    "aliases": [
+      "harmonic analysis",
+      "annual harmonic analysis",
+      "annual cycle harmonic analysis"
+    ]
+  },
+  "harmonics": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Classical Harmonic Analysis"
+  },
+  "hilbert transform": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Hilbert Transform"
+  },
+  "hilbert-huang transform": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Hilbert–Huang Transform",
+    "aliases": [
+      "HHT"
+    ]
+  },
+  "hyperspectral analysis": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Hyperspectral Data Analysis"
+  },
+  "lomb-scargle": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Lomb–Scargle Periodogram",
+    "aliases": [
+      "lomb scargle",
+      "lomb-scargle periodogram"
+    ]
+  },
+  "multitaper method": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Multitaper Spectral Estimation"
+  },
+  "partial coherence": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Partial Coherence Analysis"
+  },
+  "PSD": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Power Spectral Density Estimation",
+    "aliases": [
+      "power spectral density",
+      "power spectrum"
+    ]
+  },
+  "s-transform": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Stockwell Transform"
+  },
+  "spectral derivative": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Spectral Derivative Analysis",
+    "aliases": [
+      "spectral derivatives",
+      "first derivative reflectance",
+      "second derivative spectroscopy"
+    ]
+  },
+  "spectral feature extraction": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Spectral Feature Extraction Methods"
+  },
+  "wavelet coherence": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Wavelet Coherence Analysis"
+  },
+  "wigner-ville": {
+    "class": "Method:SpectralAnalysis",
+    "long_name": "Wigner–Ville Distribution"
+  },
+
+  "spectral_band_shifting": {
+    "class": "Method:SpectralBandShifting",
+    "long_name": "Spectral Band-Shifting",
+    "parent": "Method:SpectralUnmixing",
+    "aliases": [
+      "spectral band shifting",
+      "spectral band-shifting",
+      "band shifting"
+    ]
+  },
+
+  "spectral_ratio_method": {
+    "class": "Method:SpectralRatioMethod",
+    "long_name": "Spectral Ratio Method",
+    "parent": "Method:EmissivityRetrieval",
+    "aliases": [
+      "spectral ratio method",
+      "spectral ratio methods"
+    ]
+  },
+
+  "spectral unmixing": {
+    "class": "Method:SpectralUnmixing",
+    "long_name": "Spectral Unmixing",
+    "aliases": [
+      "linear spectral unmixing",
+      "LSU"
+    ],
+    "parent": "Method:RetrievalAlgorithm"
+  },
+
+  "cubic_spline_trend": {
+    "class": "Method:SplineTrendModel",
+    "parent": "Method:TrendAnalysis",
+    "long_name": "Cubic Spline Trend Model",
+    "aliases": [
+      "cubic spline trend",
+      "cubic spline model",
+      "cubic smoothing spline"
+    ]
+  },
+  "linear_spline_trend": {
+    "class": "Method:SplineTrendModel",
+    "parent": "Method:TrendAnalysis",
+    "long_name": "Linear Spline Trend Model",
+    "aliases": [
+      "linear spline trend",
+      "piecewise linear spline",
+      "linear spline model"
+    ]
+  },
+  "spline_trend_model": {
+    "class": "Method:SplineTrendModel",
+    "long_name": "Spline Trend Model",
+    "aliases": [
+      "spline trend",
+      "spline trend model",
+      "trend spline",
+      "spline fit to trend"
+    ],
+    "parent": "Method:TrendAnalysis"
+  },
+
+  "split_window_technique": {
+    "class": "Method:SplitWindowTechnique",
+    "long_name": "Split-Window Technique",
+    "parent": "Method:RetrievalAlgorithm",
+    "aliases": [
+      "split-window technique",
+      "split window technique",
+      "split-window techniques",
+      "split window techniques",
+      "SWT",
+      "split-window algorithm",
+      "split window algorithm",
+      "split-window formulation",
+      "split-window formulations"
+    ]
+  },
+
+  "local_level_model": {
+    "class": "Method:StateSpaceModel",
+    "parent": "Method:TimeSeriesModel",
+    "long_name": "Local Level State-Space Model",
+    "aliases": [
+      "local level model",
+      "random walk plus noise",
+      "level model"
+    ]
+  },
+  "local_linear_trend_model": {
+    "class": "Method:StateSpaceModel",
+    "parent": "Method:TimeSeriesModel",
+    "long_name": "Local Linear Trend State-Space Model",
+    "aliases": [
+      "local linear trend",
+      "local linear trend model",
+      "stochastic trend model"
+    ]
+  },
+  "state space model": {
+    "class": "Method:StateSpaceModel",
+    "long_name": "State Space Modeling",
+    "aliases": [
+      "state-space model",
+      "state space models"
+    ],
+    "parent": "Method:TimeSeriesModel"
+  },
+
+  "anova": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Analysis of Variance",
+    "aliases": [
+      "ANOVA",
+      "analysis of variance"
+    ]
+  },
+  "bayesian-hierarchical": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Bayesian Hierarchical Modeling"
+  },
+  "bootstrap": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Bootstrap Resampling"
+  },
+  "budyko": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Budyko Hydrological Curve Analysis"
+  },
+  "convergent cross mapping": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Convergent Cross Mapping",
+    "aliases": [
+      "CCM"
+    ]
+  },
+  "copula": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Copula-based Dependency Modeling"
+  },
+  "correlation_analysis": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Correlation Analysis",
+    "aliases": [
+      "correlation",
+      "correlations"
+    ]
+  },
+  "cross-correlation": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Cross-Correlation Analysis",
+    "aliases": [
+      "cross correlation",
+      "lag correlation",
+      "cross covariance"
+    ]
+  },
+  "error propagation": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Analytical Error Propagation"
+  },
+  "finite-size lyapunov exponent": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Finite-Size Lyapunov Exponent",
+    "aliases": [
+      "FSLE",
+      "finite size Lyapunov exponent"
+    ]
+  },
+  "finite-time lyapunov exponent": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Finite-Time Lyapunov Exponent",
+    "aliases": [
+      "FTLE",
+      "finite time Lyapunov exponent"
+    ]
+  },
+  "gelfand-yaglom": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Gelfand–Yaglom Information Theorem"
+  },
+  "jackknife": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Jackknife Resampling",
+    "aliases": [
+      "jackknife method",
+      "jackknife procedure"
+    ]
+  },
+  "kendall_rank_correlation": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Kendall Rank Correlation",
+    "aliases": [
+      "Kendall’s rank correlation",
+      "Kendall tau correlation coefficient"
+    ]
+  },
+  "kernel_density_estimation": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Kernel Density Estimation"
+  },
+  "kolmogorov-complexity": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Kolmogorov Complexity Estimation"
+  },
+  "kolmogorov-smirnov": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Kolmogorov–Smirnov Test",
+    "aliases": [
+      "ks-test"
+    ]
+  },
+  "liang-kleeman": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Liang–Kleeman Information Flow Rate"
+  },
+  "long_memory": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Long-Memory / Long-Range Dependence Analysis",
+    "aliases": [
+      "long memory",
+      "long-memory dependence",
+      "long range dependence",
+      "long-range dependence",
+      "long-range persistence",
+      "persistent dependence"
+    ]
+  },
+  "lyapunov-exponent": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Lyapunov Exponent Estimation"
+  },
+  "maximum-entropy": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Maximum Entropy Principle",
+    "aliases": [
+      "maxent"
+    ]
+  },
+  "mcmc": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Markov Chain Monte Carlo",
+    "aliases": [
+      "markov chain monte carlo",
+      "mcmc sampling"
+    ]
+  },
+  "monte carlo simulation": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Monte Carlo Simulation",
+    "aliases": [
+      "monte carlo",
+      "mc simulation",
+      "Monte Carlo simulations"
+    ]
+  },
+  "monte_carlo_test": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Monte Carlo Significance Test",
+    "aliases": [
+      "Monte Carlo test",
+      "two-tail Monte Carlo test"
+    ]
+  },
+  "mutual information": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Mutual Information Estimation"
+  },
+  "pcmci": {
+    "class": "Method:StatisticalInference",
+    "long_name": "PCMCI Causal Discovery Algorithm",
+    "aliases": [
+      "pathway discovery"
+    ]
+  },
+  "pearson_correlation": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Pearson Correlation",
+    "aliases": [
+      "Pearson correlation",
+      "Pearson product-moment correlation"
+    ]
+  },
+  "permutation entropy": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Permutation Entropy Analysis"
+  },
+  "restricted_maximum_likelihood": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Restricted Maximum Likelihood",
+    "aliases": [
+      "reml",
+      "restricted maximum likelihood estimation"
+    ]
+  },
+  "RQA": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Recurrence Quantification Analysis"
+  },
+  "spearman_correlation": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Spearman Rank Correlation",
+    "aliases": [
+      "Spearman correlations (r)",
+      "Spearman correlation"
+    ]
+  },
+  "stochastic-resonance": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Stochastic Resonance Analysis"
+  },
+  "transfer entropy": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Transfer Entropy",
+    "aliases": [
+      "transfer-entropy",
+      "TE"
+    ],
+    "note": "Classified as StatisticalInference for unit-validation of bits/nats"
+  },
+  "uncertainty_propagation": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Uncertainty Propagation",
+    "aliases": [
+      "uncertainty propagation",
+      "propagated uncertainty",
+      "uncertainty budget"
+    ]
+  },
+  "vine copula": {
+    "class": "Method:StatisticalInference",
+    "long_name": "Vine Copula Construction"
+  },
+
+  "structural_time_series_model": {
+    "class": "Method:StructuralTimeSeriesModel",
+    "parent": "Method:StateSpaceModel",
+    "long_name": "Structural Time-Series Model",
+    "aliases": [
+      "structural time series",
+      "structural time-series model",
+      "unobserved components model",
+      "unobserved component model",
+      "unobserved components",
+      "UCM"
+    ]
+  },
+
+  "temperature_emissivity_separation": {
+    "class": "Method:TemperatureEmissivitySeparation",
+    "long_name": "Temperature Emissivity Separation Algorithm",
+    "parent": "Method:EmissivityRetrieval",
+    "aliases": [
+      "temperature emissivity separation",
+      "temperature-emissivity separation",
+      "TES",
+      "tes algorithm",
+      "TES algorithm"
+    ]
+  },
+
+  "thermal_infrared_spectral_index": {
+    "class": "Method:ThermalInfraredSpectralIndex",
+    "long_name": "Thermal Infrared Spectral Index",
+    "parent": "Method:EmissivityRetrieval",
+    "aliases": [
+      "thermal infrared spectral index",
+      "thermal infrared spectral indices",
+      "tisi",
+      "TISI"
+    ]
+  },
+
+  "theta_s_diagram": {
+    "class": "Method:ThetaSDiagram",
+    "long_name": "Temperature-Salinity Diagram Analysis",
+    "aliases": [
+      "θ–S diagram",
+      "T-S diagram",
+      "temperature-salinity diagram"
+    ]
+  },
+
+  "relative_threshold_method": {
+    "class": "Method:ThresholdDetection",
+    "parent": "Method:Classification",
+    "long_name": "Relative Threshold Method",
+    "aliases": [
+      "relative threshold approach",
+      "relative threshold",
+      "fixed relative threshold"
+    ]
+  },
+
+  "ar5_trend_model": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "Fifth-Order Autoregressive Noise Model",
+    "aliases": [
+      "ar5",
+      "AR5",
+      "ar5 model",
+      "fifth-order autoregressive",
+      "fifth-order autoregressive model"
+    ]
+  },
+  "arch": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "Autoregressive Conditional Heteroskedasticity",
+    "aliases": [
+      "arch model"
+    ]
+  },
+  "arfima": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "Autoregressive Fractionally Integrated Moving Average",
+    "aliases": [
+      "arfima model",
+      "fractional arima",
+      "fractionally integrated arima",
+      "long-memory arima"
+    ]
+  },
+  "arima": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "Autoregressive Integrated Moving Average",
+    "aliases": [
+      "arima model",
+      "arima models"
+    ]
+  },
+  "arma": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "Autoregressive Moving Average",
+    "aliases": [
+      "arma model"
+    ]
+  },
+  "fractional_gaussian_noise": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "Fractional Gaussian Noise Model",
+    "aliases": [
+      "FGN",
+      "fractional gaussian noise",
+      "long-memory noise"
+    ]
+  },
+  "garch": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "Generalized Autoregressive Conditional Heteroskedasticity",
+    "aliases": [
+      "garch model",
+      "conditional heteroskedasticity model"
+    ]
+  },
+  "generalized_gauss_markov": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "Generalized Gauss-Markov Noise Model",
+    "aliases": [
+      "generalized gauss markov",
+      "generalized gauss-markov",
+      "GGM",
+      "ggm model"
+    ]
+  },
+  "prophet": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "Additive Forecasting Model (Prophet)",
+    "aliases": [
+      "facebook prophet",
+      "prophet model"
+    ]
+  },
+  "random_walk_model": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "Random Walk Model",
+    "aliases": [
+      "random walk",
+      "unit-root process",
+      "integrated process"
+    ]
+  },
+  "sarima": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "Seasonal ARIMA",
+    "aliases": [
+      "seasonal arima",
+      "sarima model"
+    ]
+  },
+  "trend_plus_noise_model": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "Trend-Plus-Noise Model",
+    "aliases": [
+      "trend plus noise",
+      "trend plus noise model",
+      "signal plus noise model"
+    ]
+  },
+  "VAR": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "Vector Autoregression",
+    "aliases": [
+      "var model",
+      "vector autoregressive model"
+    ]
+  },
+  "white_noise_model": {
+    "class": "Method:TimeSeriesModel",
+    "long_name": "White Noise Model",
+    "aliases": [
+      "white noise",
+      "uncorrelated noise",
+      "iid noise"
+    ]
+  },
+
+  "persistent homology": {
+    "class": "Method:TopologicalDataAnalysis",
+    "long_name": "Persistent Homology"
+  },
+  "tda-mapper": {
+    "class": "Method:TopologicalDataAnalysis",
+    "long_name": "Mapper Algorithm"
+  },
+
+  "backward_trajectory_analysis": {
+    "class": "Method:TrajectoryAnalysis",
+    "long_name": "Backward Trajectory Analysis",
+    "aliases": [
+      "Backward trajectories",
+      "back trajectory analysis",
+      "back tracing algorithm"
+    ]
+  },
+
+  "area_trend_method": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Area-Trend Method",
+    "aliases": [
+      "area-trend analysis",
+      "area-trend method"
+    ]
+  },
+  "bayesian change point": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Bayesian Change-Point Detection"
+  },
+  "bayesian_trend_model": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Bayesian Trend Model",
+    "aliases": [
+      "bayesian trend analysis",
+      "bayesian trend estimation",
+      "bayesian linear trend"
+    ]
+  },
+  "bfast": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Breaks For Additive Season and Trend"
+  },
+  "buishand test": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Buishand Range Test"
+  },
+  "cusum": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Cumulative Sum Control Chart",
+    "aliases": [
+      "cumulative sum",
+      "cusum test"
+    ]
+  },
+  "endpoint_method": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Endpoint Method",
+    "aliases": [
+      "endpoint analysis"
+    ]
+  },
+  "ensemble_trend_modeling": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Ensemble Trend Modeling",
+    "aliases": [
+      "ensemble trend",
+      "multi-model trend",
+      "ensemble of trend models"
+    ]
+  },
+  "exponential_trend_model": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Exponential Trend Model",
+    "aliases": [
+      "exponential trend",
+      "exponential growth model",
+      "exponential fit"
+    ]
+  },
+  "gaussian_process_trend_model": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Gaussian Process Trend Model",
+    "aliases": [
+      "gaussian process trend",
+      "gp trend model",
+      "gaussian-process regression trend"
+    ]
+  },
+  "holmes_double_detrending": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Holmes Double-Detrending Method",
+    "aliases": [
+      "double detrending",
+      "holmes double detrending",
+      "holmes method"
+    ]
+  },
+  "linear_trend_model": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Linear Trend Model",
+    "aliases": [
+      "linear trend",
+      "linear trend model",
+      "ordinary linear trend",
+      "straight-line trend",
+      "linear trends",
+      "linear trend lines",
+      "linear trend estimates",
+      "linear slopes"
+    ]
+  },
+  "mann-kendall": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Mann–Kendall Trend Test",
+    "aliases": [
+      "mann kendall",
+      "mk test",
+      "mann-kendall test"
+    ]
+  },
+  "moving_window_trend": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Moving-Window Trend Estimation",
+    "aliases": [
+      "moving window trend",
+      "sliding window trend",
+      "running trend",
+      "running linear trend"
+    ]
+  },
+  "pettitt test": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Pettitt Change-Point Test"
+  },
+  "polynomial_trend_model": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Polynomial Trend Model",
+    "aliases": [
+      "polynomial trend",
+      "higher-order polynomial trend",
+      "polynomial regression trend"
+    ]
+  },
+  "quadratic_trend_model": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Quadratic Trend Model",
+    "aliases": [
+      "quadratic trend",
+      "parabolic trend",
+      "second-order trend",
+      "trend acceleration model"
+    ]
+  },
+  "seidel_lanzante_trend": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Seidel–Lanzante Trend Method",
+    "aliases": [
+      "seidel lanzante",
+      "seidel-lanzante",
+      "lanzante trend",
+      "robust trend method"
+    ]
+  },
+  "sen slope": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Sen’s Slope Estimator",
+    "aliases": [
+      "sens slope",
+      "theil-sen slope"
+    ]
+  },
+  "trend analysis": {
+    "class": "Method:TrendAnalysis",
+    "long_name": "Statistical Trend Analysis",
+    "aliases": [
+      "trend analyses",
+      "trend estimations"
+    ]
+  },
+
+  "uncertainty_analysis": {
+    "class": "Method:UncertaintyAnalysis",
+    "parent": "Method:StatisticalInference",
+    "long_name": "Uncertainty Analysis"
+  },
+
+  "augmented_dickey_fuller": {
+    "class": "Method:UnitRootTest",
+    "parent": "Method:ModelDiagnostics",
+    "long_name": "Augmented Dickey–Fuller Test",
+    "aliases": [
+      "adf test",
+      "dickey fuller",
+      "dickey-fuller test"
+    ]
+  },
+  "unit_root_test": {
+    "class": "Method:UnitRootTest",
+    "long_name": "Unit Root Test",
+    "aliases": [
+      "unit-root test",
+      "stationarity test"
+    ],
+    "parent": "Method:ModelDiagnostics"
+  },
+
+  "crossover_analysis": {
+    "class": "Method:Validation",
+    "long_name": "Altimetry Crossover Analysis",
+    "aliases": [
+      "crossover analysis",
+      "crossover differences",
+      "mean crossover differences"
+    ]
+  },
+  "crps": {
+    "class": "Method:Validation",
+    "long_name": "Continuous Ranked Probability Score",
+    "aliases": [
+      "continuous ranked probability score"
+    ]
+  },
+  "earth-mover-distance": {
+    "class": "Method:Validation",
+    "long_name": "Wasserstein Metric",
+    "aliases": [
+      "emd-metric",
+      "optimal transport"
+    ]
+  },
+  "FSS": {
+    "class": "Method:Validation",
+    "long_name": "Fractions Skill Score"
+  },
+  "hindcast_validation": {
+    "class": "Method:Validation",
+    "long_name": "Hindcast Validation",
+    "aliases": [
+      "hindcast",
+      "hindcasting",
+      "retrospective forecast validation"
+    ]
+  },
+  "ssim": {
+    "class": "Method:Validation",
+    "long_name": "Structural Similarity Index Measure",
+    "aliases": [
+      "structural similarity index"
+    ]
+  },
+  "tide_gauge_validation": {
+    "class": "Method:Validation",
+    "long_name": "Tide Gauge Validation",
+    "aliases": [
+      "tide gauge comparison",
+      "tide gauge validation",
+      "comparison with tide gauges",
+      "TG comparison"
+    ]
+  },
+  "triple-collocation": {
+    "class": "Method:Validation",
+    "long_name": "Triple Collocation Analysis",
+    "aliases": [
+      "triple collocation"
+    ]
+  },
+  "virtual_station_analysis": {
+    "class": "Method:Validation",
+    "long_name": "Virtual Station Analysis",
+    "aliases": [
+      "virtual station",
+      "virtual stations",
+      "altimetry virtual station"
+    ]
+  },
+
+  "validation_approach": {
+    "class": "Method:ValidationApproach",
+    "long_name": "Validation Methodology",
+    "aliases": [
+      "validation approach",
+      "validation methodology",
+      "validation framework",
+      "validation method",
+      "validation procedure"
+    ]
+  },
+
+  "1d-var": {
+    "class": "Method:VariationalAssimilation",
+    "parent": "Method:DataAssimilation",
+    "long_name": "One-Dimensional Variational Assimilation",
+    "aliases": [
+      "1dvar"
+    ]
+  },
+  "2d-var": {
+    "class": "Method:VariationalAssimilation",
+    "parent": "Method:DataAssimilation",
+    "long_name": "Two-Dimensional Variational Assimilation",
+    "aliases": [
+      "2dvar"
+    ]
+  },
+  "3d-var": {
+    "class": "Method:VariationalAssimilation",
+    "parent": "Method:DataAssimilation",
+    "long_name": "Three-Dimensional Variational Assimilation",
+    "aliases": [
+      "3dvar"
+    ]
+  },
+  "4d-en-var": {
+    "class": "Method:VariationalAssimilation",
+    "parent": "Method:DataAssimilation",
+    "long_name": "Hybrid Four-Dimensional Ensemble-Variational Assimilation",
+    "aliases": [
+      "4denvar"
+    ]
+  },
+  "4d-var": {
+    "class": "Method:VariationalAssimilation",
+    "parent": "Method:DataAssimilation",
+    "long_name": "Four-Dimensional Variational Assimilation",
+    "aliases": [
+      "4dvar"
+    ]
+  },
+  "variational assimilation": {
+    "class": "Method:VariationalAssimilation",
+    "long_name": "Variational Data Assimilation",
+    "parent": "Method:DataAssimilation"
+  },
+
+  "visual_inspection": {
+    "class": "Method:VisualInspection",
+    "long_name": "Visual Inspection",
+    "aliases": [
+      "visual inspections",
+      "visual inspection techniques"
+    ]
+  },
+
+  "altes wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Altes Wavelet"
+  },
+  "battle-lemarie wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Battle–Lemarié Wavelet"
+  },
+  "biorthogonal wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Biorthogonal Wavelet"
+  },
+  "bump wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Bump Wavelet"
+  },
+  "coiflet wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Coiflet Wavelet"
+  },
+  "complex morlet wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Complex Morlet Wavelet"
+  },
+  "daubechies wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Daubechies Wavelet",
+    "aliases": [
+      "db wavelet"
+    ]
+  },
+  "derivative of gaussian wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Derivative of Gaussian Wavelet",
+    "aliases": [
+      "dog wavelet"
+    ]
+  },
+  "discrete meyer wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Discrete Meyer Wavelet"
+  },
+  "dt-cwt": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Dual-Tree Complex Wavelet Transform",
+    "aliases": [
+      "dual tree complex wavelet"
+    ]
+  },
+  "fan wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Fan Directional Wavelet"
+  },
+  "fejer-korovkin wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Fejér–Korovkin Wavelet"
+  },
+  "gaussian wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Gaussian Wavelet"
+  },
+  "haar wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Haar Wavelet",
+    "aliases": [
+      "haar wavelets"
+    ]
+  },
+  "mexican hat wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Mexican Hat (Ricker) Wavelet",
+    "aliases": [
+      "ricker wavelet"
+    ]
+  },
+  "meyer wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Meyer Wavelet"
+  },
+  "morlet wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Morlet Mother Wavelet",
+    "aliases": [
+      "morlet",
+      "morlet wavelets"
+    ]
+  },
+  "paul wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Paul Wavelet"
+  },
+  "reverse biorthogonal wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Reverse Biorthogonal Wavelet"
+  },
+  "shannon wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Shannon Wavelet"
+  },
+  "symlet wavelet": {
+    "class": "Method:WaveletBasis",
+    "long_name": "Symlet Wavelet"
+  },
+
+  "cone of influence": {
+    "class": "Method:WaveletTransform",
+    "parent": "Method:SpectralAnalysis",
+    "aliases": [
+      "conf-of-influence",
+      "COI",
+      "CoI"
+    ]
+  },
+  "CWT": {
+    "class": "Method:WaveletTransform",
+    "parent": "Method:SpectralAnalysis",
+    "long_name": "Continuous Wavelet Transform"
+  },
+  "DWT": {
+    "class": "Method:WaveletTransform",
+    "parent": "Method:SpectralAnalysis",
+    "long_name": "Discrete Wavelet Transform"
+  },
+  "wavelet padding": {
+    "class": "Method:WaveletTransform",
+    "parent": "Method:SpectralAnalysis"
+  },
+  "wavelet scaling": {
+    "class": "Method:WaveletTransform",
+    "parent": "Method:SpectralAnalysis"
+  },
+  "wavelet transform": {
+    "class": "Method:WaveletTransform",
+    "long_name": "Wavelet Transform",
+    "aliases": [
+      "wavelet analysis",
+      "wavelet"
+    ],
+    "parent": "Method:SpectralAnalysis"
+  },
+
+  "weighted_least_squares_trend": {
+    "class": "Method:WeightedLeastSquares",
+    "parent": "Method:Regression",
+    "long_name": "Weighted Least-Squares Trend Estimation",
+    "aliases": [
+      "wls trend",
+      "weighted least squares trend"
+    ]
+  },
+  "WLS": {
+    "class": "Method:WeightedLeastSquares",
+    "long_name": "Weighted Least Squares",
+    "aliases": [
+      "wls regression"
+    ],
+    "parent": "Method:Regression"
+  }
+}

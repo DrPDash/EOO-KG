@@ -1,0 +1,3519 @@
+{
+  "four_a_op": {
+    "class": "System:4AOP",
+    "system_type": "radiative_transfer_model",
+    "long_name": "Automatized Atmospheric Absorption Atlas - Operational",
+    "aliases": [
+      "4a/op",
+      "4A/OP",
+      "4a rtm",
+      "4A RTM",
+      "4a model"
+    ]
+  },
+
+  "sixs": {
+    "class": "System:6S",
+    "system_type": "radiative_transfer_model",
+    "long_name": "Second Simulation of a Satellite Signal in the Solar Spectrum",
+    "aliases": [
+      "6s",
+      "6S",
+      "sixs",
+      "6s model"
+    ]
+  },
+
+  "antarctic oscillation": {
+    "class": "System:AAO",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "long_name": "Antarctic Oscillation",
+    "aliases": [
+      "AAO",
+      "southern annular mode",
+      "SAM",
+      "Southern Annular Mode (SAM)"
+    ]
+  },
+
+  "access-esm1-5": {
+    "class": "System:ACCESSESM15",
+    "system_type": "model_system",
+    "long_name": "Australian Community Climate and Earth System Simulator Earth System Model 1.5",
+    "aliases": [
+      "ACCESS-ESM1-5"
+    ]
+  },
+
+  "aeronet": {
+    "class": "System:AERONET",
+    "system_type": "observing_system",
+    "long_name": "Aerosol Robotic Network",
+    "aliases": [
+      "AERONET"
+    ]
+  },
+
+  "automatic identification system": {
+    "class": "System:AIS",
+    "system_type": "observing_system",
+    "long_name": "Automatic Identification System",
+    "aliases": [
+      "AIS",
+      "Automatic Identification System (AIS)"
+    ]
+  },
+
+  "alexi": {
+    "class": "System:ALEXI",
+    "system_type": "model_system",
+    "long_name": "Atmosphere-Land Exchange Inverse",
+    "aliases": [
+      "ALEXI",
+      "Atmosphere Land Exchange Inverse",
+      "Atmosphere-Land Exchange Inverse model"
+    ]
+  },
+
+  "alos": {
+    "class": "System:ALOS",
+    "system_type": "satellite_platform",
+    "long_name": "Advanced Land Observing Satellite",
+    "aliases": [
+      "alos",
+      "daichi"
+    ]
+  },
+
+  "alos_2": {
+    "class": "System:ALOS2",
+    "system_type": "satellite_platform",
+    "long_name": "Advanced Land Observing Satellite-2",
+    "aliases": [
+      "alos-2",
+      "alos 2",
+      "daichi-2"
+    ]
+  },
+
+  "amip": {
+    "class": "System:AMIP",
+    "system_type": "model_intercomparison",
+    "long_name": "Atmospheric Model Intercomparison Project",
+    "aliases": [
+      "Atmospheric Model Intercomparison Project (AMIP)"
+    ]
+  },
+
+  "atlantic multidecadal oscillation": {
+    "class": "System:AMO",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "long_name": "Atlantic Multidecadal Oscillation",
+    "aliases": [
+      "AMO"
+    ]
+  },
+
+  "amoc": {
+    "class": "System:AMOC",
+    "system_type": "physical_system",
+    "subtype": "overturning_circulation",
+    "long_name": "Atlantic Meridional Overturning Circulation",
+    "aliases": [
+      "atlantic meridional overturning circulation"
+    ]
+  },
+
+  "arctic oscillation": {
+    "class": "System:AO",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "long_name": "Arctic Oscillation",
+    "aliases": [
+      "AO"
+    ]
+  },
+
+  "arts": {
+    "class": "System:ARTS",
+    "system_type": "radiative_transfer_model",
+    "long_name": "Atmospheric Radiative Transfer Simulator",
+    "aliases": [
+      "ARTS"
+    ]
+  },
+
+  "agulhas current": {
+    "class": "System:AgulhasCurrent",
+    "system_type": "physical_system",
+    "subtype": "western_boundary_current",
+    "long_name": "Agulhas Current"
+  },
+
+  "alaska current": {
+    "class": "System:AlaskaCurrent",
+    "system_type": "physical_system",
+    "subtype": "ocean_current",
+    "long_name": "Alaska Current"
+  },
+
+  "aleutian low": {
+    "class": "System:AleutianLow",
+    "system_type": "physical_system",
+    "subtype": "atmospheric_pressure_system",
+    "long_name": "Aleutian Low"
+  },
+
+  "anadyr current": {
+    "class": "System:AnadyrCurrent",
+    "system_type": "physical_system",
+    "subtype": "ocean_current",
+    "long_name": "Anadyr Current"
+  },
+
+  "angola current": {
+    "class": "System:AngolaCurrent",
+    "system_type": "physical_system",
+    "subtype": "ocean_current",
+    "long_name": "Angola Current"
+  },
+
+  "aqua": {
+    "class": "System:Aqua",
+    "system_type": "satellite_platform",
+    "series": "EOS",
+    "long_name": "Aqua Satellite Platform",
+    "aliases": [
+      "aqua",
+      "eos aqua",
+      "Aqua satellite"
+    ]
+  },
+
+  "aquatic biota": {
+    "class": "System:AquaticBiota",
+    "system_type": "biological_community",
+    "long_name": "Aquatic Biota"
+  },
+
+  "argo": {
+    "class": "System:Argo",
+    "system_type": "observing_system",
+    "long_name": "International Argo Float Program",
+    "aliases": [
+      "argo",
+      "argo float",
+      "Argo program",
+      "Argo floats",
+      "Argo autonomous profiling float program"
+    ]
+  },
+
+  "atlantic_meridional_transect": {
+    "class": "System:AtlanticMeridionalTransect",
+    "system_type": "observing_program",
+    "long_name": "Atlantic Meridional Transect",
+    "aliases": [
+      "atlantic meridional transect",
+      "AMT"
+    ]
+  },
+
+  "autonomous_observing_system": {
+    "class": "System:AutonomousObservingSystem",
+    "system_type": "observing_system",
+    "long_name": "Autonomous Observation Systems",
+    "aliases": [
+      "autonomous platforms",
+      "autonomous platform",
+      "autonomous observation systems"
+    ]
+  },
+
+  "bgc_argo": {
+    "class": "System:BGC_Argo",
+    "system_type": "observing_system",
+    "subtype": "biogeochemical_extension",
+    "parent": "System:Argo",
+    "long_name": "Biogeochemical Argo Program",
+    "aliases": [
+      "bgc argo",
+      "bgc-argo",
+      "biogeochemical argo",
+      "bgo argo"
+    ]
+  },
+
+  "bodc": {
+    "class": "System:BODC",
+    "system_type": "data_repository",
+    "long_name": "British Oceanographic Data Centre",
+    "aliases": [
+      "BODC"
+    ]
+  },
+
+  "benguela current system": {
+    "class": "System:BenguelaCurrent",
+    "system_type": "physical_system",
+    "subtype": "eastern_boundary_current",
+    "long_name": "Benguela Current System",
+    "aliases": [
+      "Benguela Current",
+      "Benguela currents",
+      "Benguela System",
+      "Benguela Systems",
+      "Benguela upwelling system",
+      "Benguela Upwelling System (BUS)",
+      "BUS"
+    ]
+  },
+
+  "benguela nino": {
+    "class": "System:BenguelaNino",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "long_name": "Benguela Niño",
+    "aliases": [
+      "Benguela Nino"
+    ]
+  },
+
+  "bio-optical system": {
+    "class": "System:BioOpticalSystem",
+    "system_type": "physical_system",
+    "long_name": "Bio-optical Ocean System"
+  },
+
+  "BOM": {
+    "class": "System:BoM",
+    "system_type": "organization",
+    "long_name": "Australian Bureau of Meteorology",
+    "aliases": [
+      "australian bureau of meteorology",
+      "BoM"
+    ]
+  },
+
+  "brazil coastal current": {
+    "class": "System:BrazilCoastalCurrent",
+    "system_type": "physical_system",
+    "subtype": "ocean_current",
+    "long_name": "Brazil Coastal Current",
+    "aliases": [
+      "BCC"
+    ]
+  },
+
+  "brazil current": {
+    "class": "System:BrazilCurrent",
+    "system_type": "physical_system",
+    "subtype": "western_boundary_current",
+    "long_name": "Brazil Current",
+    "aliases": [
+      "BC"
+    ]
+  },
+
+  "buoy": {
+    "class": "System:Buoy",
+    "system_type": "in_situ_platform",
+    "long_name": "Buoy Platform",
+    "aliases": [
+      "buoy",
+      "buoys"
+    ]
+  },
+
+  "c3s": {
+    "class": "System:C3S",
+    "system_type": "data_service",
+    "long_name": "Copernicus Climate Change Service"
+  },
+
+  "cchdo": {
+    "class": "System:CCHDO",
+    "system_type": "data_repository",
+    "long_name": "CLIVAR and Carbon Hydrographic Data Office",
+    "aliases": [
+      "CCHDO"
+    ]
+  },
+
+  "ceda": {
+    "class": "System:CEDA",
+    "system_type": "data_service",
+    "long_name": "Centre for Environmental Data Analysis"
+  },
+
+  "ceos": {
+    "class": "System:CEOS",
+    "system_type": "institution",
+    "long_name": "Committee on Earth Observation Satellites"
+  },
+
+  "clouds and the earths radiant energy system": {
+    "class": "System:CERES",
+    "system_type": "observing_system",
+    "long_name": "Clouds and the Earth's Radiant Energy System",
+    "aliases": [
+      "CERES"
+    ]
+  },
+
+  "cesm1": {
+    "class": "System:CESM1",
+    "system_type": "model_system",
+    "long_name": "Community Earth System Model Version 1",
+    "aliases": [
+      "CESM1",
+      "CESM1.2"
+    ]
+  },
+
+  "cesm2": {
+    "class": "System:CESM2",
+    "system_type": "model_system",
+    "long_name": "Community Earth System Model Version 2",
+    "aliases": [
+      "Community Earth System Model, version 2"
+    ]
+  },
+
+  "cesm2-lens": {
+    "class": "System:CESM2LENS",
+    "system_type": "model_system",
+    "subtype": "large_ensemble",
+    "long_name": "CESM2 Large Ensemble",
+    "aliases": [
+      "CESM2-LENS",
+      "CESM2 Large Ensemble"
+    ]
+  },
+
+  "cfosat": {
+    "class": "System:CFOSAT",
+    "system_type": "satellite_platform",
+    "long_name": "China-France Oceanography Satellite",
+    "aliases": [
+      "cfosat"
+    ]
+  },
+
+  "cfsr": {
+    "class": "System:CFSR",
+    "system_type": "data_product",
+    "long_name": "Climate Forecast System Reanalysis",
+    "aliases": [
+      "CFSR",
+      "CFSR reanalysis",
+      "CFSR reanalysis data",
+      "CFSR data set"
+    ]
+  },
+
+  "cfsv2": {
+    "class": "System:CFSv2",
+    "system_type": "model_system",
+    "long_name": "Climate Forecast System Version 2",
+    "aliases": [
+      "CFSv2"
+    ]
+  },
+
+  "canadian ice service": {
+    "class": "System:CIS",
+    "system_type": "organization",
+    "long_name": "Canadian Ice Service",
+    "aliases": [
+      "CIS"
+    ]
+  },
+
+  "cmems": {
+    "class": "System:CMEMS",
+    "system_type": "data_service",
+    "long_name": "Copernicus Marine Environment Monitoring Service",
+    "aliases": [
+      "copernicus marine",
+      "Copernicus Marine Service"
+    ]
+  },
+
+  "cmip5": {
+    "class": "System:CMIP5",
+    "system_type": "model_intercomparison",
+    "long_name": "Coupled Model Intercomparison Project Phase 5",
+    "aliases": [
+      "CMIP5",
+      "CMIP Phase 5",
+      "Coupled Model Intercomparison Project Phase 5",
+      "CMIP5 model suite",
+      "IPCC-AR5 climate models"
+    ]
+  },
+
+  "cmip6": {
+    "class": "System:CMIP6",
+    "system_type": "model_intercomparison",
+    "long_name": "Coupled Model Intercomparison Project Phase 6",
+    "aliases": [
+      "CMIP6",
+      "CMIP Phase 6",
+      "Coupled Model Intercomparison Project Phase 6",
+      "CMIP6 models"
+    ]
+  },
+
+  "cnsa": {
+    "class": "System:CNSA",
+    "system_type": "organization",
+    "long_name": "China National Space Administration"
+  },
+
+  "cobe1": {
+    "class": "System:COBE1",
+    "system_type": "data_product",
+    "long_name": "COBE SST Version 1",
+    "aliases": [
+      "COBE1",
+      "COBE11 data set"
+    ]
+  },
+
+  "cobe2": {
+    "class": "System:COBE2",
+    "system_type": "data_product",
+    "long_name": "COBE SST Version 2",
+    "aliases": [
+      "COBE2",
+      "COBE2 data set"
+    ]
+  },
+
+  "cobe-sst3": {
+    "class": "System:COBE3",
+    "system_type": "data_product",
+    "long_name": "COBE SST Version 3",
+    "aliases": [
+      "COBE-SST3"
+    ]
+  },
+
+  "coastal ocean dynamics application radar": {
+    "class": "System:CODAR",
+    "system_type": "observing_system",
+    "long_name": "Coastal Ocean Dynamics Applications Radar",
+    "aliases": [
+      "CODAR",
+      "coastal ocean dynamics application radar",
+      "coastal ocean dynamics applications radar"
+    ]
+  },
+
+  "crrel": {
+    "class": "System:CRREL",
+    "system_type": "organization",
+    "long_name": "U.S. Army Cold Regions Research and Engineering Laboratory",
+    "aliases": [
+      "CRREL",
+      "U.S.Army Cold Regions Research Engineering Laboratory"
+    ]
+  },
+
+  "crtm": {
+    "class": "System:CRTM",
+    "system_type": "radiative_transfer_model",
+    "long_name": "Community Radiative Transfer Model",
+    "aliases": [
+      "crtm",
+      "CRTM",
+      "community radiative transfer model"
+    ]
+  },
+
+  "csiro": {
+    "class": "System:CSIRO",
+    "system_type": "organization",
+    "long_name": "Commonwealth Scientific and Industrial Research Organisation"
+  },
+
+  "california current system": {
+    "class": "System:CaliforniaCurrent",
+    "system_type": "physical_system",
+    "subtype": "eastern_boundary_current",
+    "long_name": "California Current System",
+    "aliases": [
+      "CCS",
+      "California Current",
+      "California currents",
+      "California System",
+      "California Upwelling System",
+      "California Upwelling System (CUS)",
+      "CUS"
+    ]
+  },
+
+  "canesm5": {
+    "class": "System:CanESM5",
+    "system_type": "model_system",
+    "long_name": "Canadian Earth System Model Version 5",
+    "aliases": [
+      "CanESM5"
+    ]
+  },
+
+  "canary current system": {
+    "class": "System:CanaryCurrent",
+    "system_type": "physical_system",
+    "subtype": "eastern_boundary_current",
+    "long_name": "Canary Current System",
+    "aliases": [
+      "Canary Current",
+      "Canary currents",
+      "Canary System",
+      "Canary/Iberian Current System",
+      "Iberian/Canary Current System"
+    ]
+  },
+
+  "central south equatorial current": {
+    "class": "System:CentralSouthEquatorialCurrent",
+    "system_type": "physical_system",
+    "subtype": "equatorial_current",
+    "parent": "System:SouthEquatorialCurrent",
+    "long_name": "Central Branch of the South Equatorial Current",
+    "aliases": [
+      "csec"
+    ]
+  },
+
+  "china coastal current": {
+    "class": "System:ChinaCoastalCurrent",
+    "system_type": "physical_system",
+    "subtype": "ocean_current",
+    "long_name": "China Coastal Current",
+    "aliases": [
+      "CCC"
+    ]
+  },
+
+  "coastwatch": {
+    "class": "System:CoastWatch",
+    "system_type": "data_service",
+    "parent": "System:NOAA",
+    "long_name": "NOAA CoastWatch / OceanWatch / PolarWatch"
+  },
+
+  "coastal water": {
+    "class": "System:CoastalWater",
+    "system_type": "physical_system",
+    "subtype": "water_mass",
+    "long_name": "Coastal Water"
+  },
+
+  "copernicus": {
+    "class": "System:Copernicus",
+    "system_type": "data_service",
+    "long_name": "Copernicus Programme",
+    "aliases": [
+      "copernicus earth observation"
+    ]
+  },
+
+  "coriolis": {
+    "class": "System:Coriolis",
+    "system_type": "satellite_platform",
+    "long_name": "Coriolis Satellite Platform",
+    "aliases": [
+      "Coriolis satellite"
+    ]
+  },
+
+  "climate system": {
+    "class": "System:CoupledEarthSystem",
+    "system_type": "physical_system",
+    "long_name": "Earth Climate System",
+    "aliases": [
+      "coupled ocean atmosphere system",
+      "ocean-atmosphere system"
+    ]
+  },
+
+  "cryosat_2": {
+    "class": "System:CryoSat2",
+    "system_type": "satellite_platform",
+    "long_name": "CryoSat-2 Satellite Platform",
+    "aliases": [
+      "cryosat-2",
+      "cryosat 2"
+    ]
+  },
+
+  "dcent-i sst": {
+    "class": "System:DCENTISST",
+    "system_type": "data_product",
+    "long_name": "DCENT-I Sea Surface Temperature",
+    "aliases": [
+      "DCENT-I SST"
+    ]
+  },
+
+  "dcent sst": {
+    "class": "System:DCENTSST",
+    "system_type": "data_product",
+    "long_name": "DCENT Sea Surface Temperature",
+    "aliases": [
+      "DCENT SST"
+    ]
+  },
+
+  "disort": {
+    "class": "System:DISORT",
+    "system_type": "radiative_transfer_model",
+    "long_name": "Discrete Ordinate Radiative Transfer",
+    "aliases": [
+      "DISORT"
+    ]
+  },
+
+  "divand": {
+    "class": "System:DIVAnd",
+    "system_type": "processing_system",
+    "long_name": "Data-Interpolating Variational Analysis",
+    "aliases": [
+      "DIVAnd"
+    ]
+  },
+
+  "dipole mode index": {
+    "class": "System:DMI",
+    "system_type": "data_product",
+    "subtype": "climate_index",
+    "long_name": "Dipole Mode Index",
+    "aliases": [
+      "DMI"
+    ]
+  },
+
+  "dmsp": {
+    "class": "System:DMSP",
+    "system_type": "satellite_platform",
+    "series": "DMSP",
+    "long_name": "Defense Meteorological Satellite Program",
+    "aliases": [
+      "dmsp",
+      "DMSP",
+      "defence meteorological satellite programme",
+      "defense meteorological satellite program"
+    ]
+  },
+
+  "duacs": {
+    "class": "System:DUACS",
+    "system_type": "data_product",
+    "long_name": "Data Unification and Altimeter Combination System",
+    "aliases": [
+      "aviso",
+      "aviso+"
+    ]
+  },
+
+  "data assimilation system": {
+    "class": "System:DataAssimilationSystem",
+    "system_type": "processing_system",
+    "long_name": "Ocean Data Assimilation System"
+  },
+
+  "davidson current": {
+    "class": "System:DavidsonCurrent",
+    "system_type": "physical_system",
+    "subtype": "ocean_current",
+    "long_name": "Davidson Current"
+  },
+
+  "drifter": {
+    "class": "System:Drifter",
+    "system_type": "in_situ_platform",
+    "long_name": "Drifter Platform",
+    "aliases": [
+      "drifter",
+      "drifters"
+    ]
+  },
+
+  "ecco": {
+    "class": "System:ECCO",
+    "system_type": "model_system",
+    "long_name": "Estimating the Circulation and Climate of the Ocean",
+    "aliases": [
+      "ECCO",
+      "Estimating the Circulation and Climate of the Ocean"
+    ]
+  },
+
+  "ec-earth-3": {
+    "class": "System:ECEarth3",
+    "system_type": "model_system",
+    "long_name": "EC-Earth Version 3",
+    "aliases": [
+      "EC-Earth-3"
+    ]
+  },
+
+  "ecmwf": {
+    "class": "System:ECMWF",
+    "system_type": "organization",
+    "long_name": "European Centre for Medium-Range Weather Forecasts",
+    "aliases": [
+      "european centre for medium range weather forecasts"
+    ]
+  },
+
+  "enso": {
+    "class": "System:ENSO",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "long_name": "El Niño–Southern Oscillation",
+    "aliases": [
+      "el niño southern oscillation",
+      "el nino southern oscillation",
+      "enso event",
+      "El Niño-Southern Oscillation (ENSO)",
+      "ENSO events"
+    ]
+  },
+
+  "eocis": {
+    "class": "System:EOCIS",
+    "system_type": "data_service",
+    "long_name": "Earth Observation Climate Information Service"
+  },
+
+  "era-40": {
+    "class": "System:ERA40",
+    "system_type": "data_product",
+    "long_name": "ECMWF 40-Year Reanalysis",
+    "aliases": [
+      "ERA-40",
+      "ERA40",
+      "ECMWF 40-year reanalysis"
+    ]
+  },
+
+  "era5": {
+    "class": "System:ERA5",
+    "system_type": "data_product",
+    "subtype": "reanalysis_product",
+    "long_name": "ECMWF Reanalysis v5",
+    "aliases": [
+      "era-5",
+      "ecmwf reanalysis",
+      "ERA5 reanalysis",
+      "ERA/ECMWF"
+    ]
+  },
+
+  "ers_1": {
+    "class": "System:ERS1",
+    "system_type": "satellite_platform",
+    "series": "ERS",
+    "long_name": "European Remote Sensing Satellite 1",
+    "aliases": [
+      "ers-1",
+      "ERS-1",
+      "ers 1",
+      "european remote sensing satellite 1"
+    ]
+  },
+
+  "ers_2": {
+    "class": "System:ERS2",
+    "system_type": "satellite_platform",
+    "series": "ERS",
+    "long_name": "European Remote Sensing Satellite 2",
+    "aliases": [
+      "ers-2",
+      "ERS-2",
+      "ers 2",
+      "european remote sensing satellite 2"
+    ]
+  },
+
+  "ersst": {
+    "class": "System:ERSST",
+    "system_type": "data_product",
+    "long_name": "Extended Reconstructed Sea Surface Temperature",
+    "aliases": [
+      "ERSST",
+      "Extended Reconstructed Sea Surface Temperature",
+      "Extended Reconstructed SST"
+    ]
+  },
+
+  "ersstv6": {
+    "class": "System:ERSSTv6",
+    "system_type": "data_product",
+    "long_name": "Extended Reconstructed Sea Surface Temperature Version 6",
+    "aliases": [
+      "ERSSTv6"
+    ]
+  },
+
+  "ESA": {
+    "class": "System:ESA",
+    "system_type": "organization",
+    "long_name": "European Space Agency"
+  },
+
+  "esrin": {
+    "class": "System:ESRIN",
+    "system_type": "organization",
+    "long_name": "European Space Research Institute",
+    "aliases": [
+      "ESRIN"
+    ]
+  },
+
+  "eumetsat": {
+    "class": "System:EUMETSAT",
+    "system_type": "organization",
+    "long_name": "European Organisation for the Exploitation of Meteorological Satellites"
+  },
+
+  "earth system": {
+    "class": "System:EarthSystem",
+    "system_type": "physical_system",
+    "long_name": "Earth System"
+  },
+
+  "earth system model": {
+    "class": "System:EarthSystemModel",
+    "system_type": "model_system",
+    "subtype": "coupled_climate_model",
+    "parent": "System:GCM",
+    "long_name": "Earth System Model",
+    "aliases": [
+      "ESM",
+      "coupled climate model",
+      "Earth System Models"
+    ]
+  },
+
+  "east australian current": {
+    "class": "System:EastAustralianCurrent",
+    "system_type": "physical_system",
+    "subtype": "western_boundary_current",
+    "long_name": "East Australian Current",
+    "aliases": [
+      "EAC",
+      "East Australia Current"
+    ]
+  },
+
+  "eastern boundary upwelling system": {
+    "class": "System:EasternBoundaryUpwellingSystem",
+    "system_type": "physical_system",
+    "subtype": "upwelling_system",
+    "long_name": "Eastern Boundary Upwelling System",
+    "aliases": [
+      "EBUS",
+      "Eastern Boundary Upwelling Systems"
+    ]
+  },
+
+  "el niño": {
+    "class": "System:ElNino",
+    "parent": "System:ENSO",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "aliases": [
+      "el nino",
+      "el niño event",
+      "el nino event"
+    ]
+  },
+
+  "enmap": {
+    "class": "System:EnMAP",
+    "system_type": "satellite_mission",
+    "long_name": "Environmental Mapping and Analysis Program",
+    "aliases": [
+      "EnMAP",
+      "Environmental Mapping and Analysis Program",
+      "EnMAP mission"
+    ]
+  },
+
+  "envisat": {
+    "class": "System:Envisat",
+    "system_type": "satellite_platform",
+    "long_name": "Environmental Satellite",
+    "aliases": [
+      "envisat"
+    ]
+  },
+
+  "equatorial counter current": {
+    "class": "System:EquatorialCounterCurrent",
+    "system_type": "physical_system",
+    "subtype": "equatorial_current",
+    "long_name": "Equatorial Counter Current",
+    "aliases": [
+      "ECC"
+    ]
+  },
+
+  "equatorial south equatorial current": {
+    "class": "System:EquatorialSouthEquatorialCurrent",
+    "system_type": "physical_system",
+    "subtype": "equatorial_current",
+    "parent": "System:SouthEquatorialCurrent",
+    "long_name": "Equatorial Branch of the South Equatorial Current",
+    "aliases": [
+      "esec"
+    ]
+  },
+
+  "equatorial undercurrent": {
+    "class": "System:EquatorialUndercurrent",
+    "system_type": "physical_system",
+    "subtype": "equatorial_undercurrent",
+    "long_name": "Equatorial Undercurrent",
+    "aliases": [
+      "EUC"
+    ]
+  },
+
+  "fascode": {
+    "class": "System:FASCODE",
+    "system_type": "radiative_transfer_model",
+    "long_name": "Fast Atmospheric Signature Code",
+    "aliases": [
+      "FASCODE"
+    ]
+  },
+
+  "foam": {
+    "class": "System:FOAM",
+    "system_type": "model_system",
+    "long_name": "Forecasting Ocean Assimilation Model"
+  },
+
+  "fvcom": {
+    "class": "System:FVCOM",
+    "system_type": "model_system",
+    "long_name": "Finite Volume Community Ocean Model",
+    "aliases": [
+      "FVCOM"
+    ]
+  },
+
+  "fy_3d": {
+    "class": "System:FY3D",
+    "system_type": "satellite_platform",
+    "series": "Fengyun-3",
+    "long_name": "FY-3D Satellite Platform",
+    "aliases": [
+      "fy-3d",
+      "fy 3d"
+    ]
+  },
+
+  "fy_3e": {
+    "class": "System:FY3E",
+    "system_type": "satellite_platform",
+    "series": "Fengyun-3",
+    "long_name": "FY-3E Satellite Platform",
+    "aliases": [
+      "fy-3e",
+      "fy 3e"
+    ]
+  },
+
+  "fy_4a": {
+    "class": "System:FY4A",
+    "system_type": "satellite_platform",
+    "series": "Fengyun-4",
+    "long_name": "FY-4A Satellite Platform",
+    "aliases": [
+      "fy-4a",
+      "fy 4a"
+    ]
+  },
+
+  "operational forecasting system": {
+    "class": "System:ForecastingSystem",
+    "system_type": "processing_system",
+    "long_name": "Operational Marine Forecasting System"
+  },
+
+  "GCM": {
+    "class": "System:GCM",
+    "system_type": "model_system",
+    "subtype": "atmosphere_ocean_model",
+    "long_name": "General Circulation Model",
+    "aliases": [
+      "general circulation model",
+      "AOGCM",
+      "AOGCMs",
+      "coupled atmosphere-ocean general circulation models (AOGCM)"
+    ]
+  },
+
+  "gcom_c": {
+    "class": "System:GCOMC",
+    "system_type": "satellite_platform",
+    "series": "GCOM-C",
+    "long_name": "GCOM-C Satellite Platform",
+    "aliases": [
+      "gcom-c",
+      "gcom c"
+    ]
+  },
+
+  "gcom_w1": {
+    "class": "System:GCOMW1",
+    "system_type": "satellite_platform",
+    "series": "GCOM-W",
+    "long_name": "GCOM-W1 Satellite Platform",
+    "aliases": [
+      "gcom-w1",
+      "gcom w1",
+      "shizuku"
+    ]
+  },
+
+  "gcos": {
+    "class": "System:GCOS",
+    "system_type": "observing_system",
+    "long_name": "Global Climate Observing System",
+    "aliases": [
+      "GCOS",
+      "Global Climate Observing System"
+    ]
+  },
+
+  "geoss": {
+    "class": "System:GEOSS",
+    "system_type": "observing_system",
+    "long_name": "Global Earth Observation System of Systems",
+    "aliases": [
+      "geo geoss"
+    ]
+  },
+
+  "gesla": {
+    "class": "System:GESLA",
+    "system_type": "data_repository",
+    "long_name": "Global Extreme Sea Level Analysis",
+    "aliases": [
+      "GESLA",
+      "Global Extreme Sea Level Analysis"
+    ]
+  },
+
+  "gfdl-cm2.1": {
+    "class": "System:GFDLCM21",
+    "system_type": "model_system",
+    "long_name": "GFDL Climate Model 2.1",
+    "aliases": [
+      "GFDL-CM2.1"
+    ]
+  },
+
+  "gfdl-esm2m": {
+    "class": "System:GFDLESM2M",
+    "system_type": "model_system",
+    "long_name": "GFDL-ESM2M",
+    "aliases": [
+      "GFDL ESM2M"
+    ]
+  },
+
+  "GFO": {
+    "class": "System:GFO",
+    "system_type": "satellite_platform",
+    "long_name": "Geosat Follow-On",
+    "aliases": [
+      "geosat follow-on"
+    ]
+  },
+
+  "ghrsst": {
+    "class": "System:GHRSST",
+    "system_type": "data_service",
+    "long_name": "Group for High Resolution Sea Surface Temperature"
+  },
+
+  "nasa giss": {
+    "class": "System:GISS",
+    "system_type": "organization",
+    "long_name": "NASA Goddard Institute for Space Studies",
+    "aliases": [
+      "NASA GISS",
+      "GISS",
+      "NASA Goddard Institute for Space Studies (GISS)"
+    ]
+  },
+
+  "great lakes environmental research laboratory": {
+    "class": "System:GLERL",
+    "system_type": "organization",
+    "long_name": "Great Lakes Environmental Research Laboratory",
+    "aliases": [
+      "GLERL",
+      "NOAA GLERL",
+      "NOAA Great Lakes Environmental Research Laboratory"
+    ]
+  },
+
+  "great lakes ice cover": {
+    "class": "System:GLIC",
+    "system_type": "data_product",
+    "long_name": "Great Lakes Ice Cover",
+    "aliases": [
+      "GLIC",
+      "Great Lakes ice cover data",
+      "Great Lakes ice cover dataset"
+    ]
+  },
+
+  "globcolour": {
+    "class": "System:GLOBCOLOUR",
+    "system_type": "data_service",
+    "long_name": "Global Ocean Colour Infrastructure"
+  },
+
+  "glodap": {
+    "class": "System:GLODAP",
+    "system_type": "data_product",
+    "long_name": "Global Ocean Data Analysis Project",
+    "aliases": [
+      "GLODAP",
+      "Global Ocean Data Analysis Project",
+      "GLODAPv2",
+      "GLODAP v2"
+    ]
+  },
+
+  "glorys": {
+    "class": "System:GLORYS",
+    "system_type": "model_system",
+    "long_name": "Global Ocean Physics Reanalysis"
+  },
+
+  "global sea level observing system": {
+    "class": "System:GLOSS",
+    "system_type": "observing_system",
+    "long_name": "Global Sea Level Observing System",
+    "aliases": [
+      "GLOSS"
+    ]
+  },
+
+  "glsea": {
+    "class": "System:GLSEA",
+    "system_type": "data_product",
+    "long_name": "Great Lakes Surface Environmental Analysis",
+    "aliases": [
+      "GLSEA",
+      "GLSEA data",
+      "GLSEA chart"
+    ]
+  },
+
+  "glsea2": {
+    "class": "System:GLSEA2",
+    "system_type": "data_product",
+    "long_name": "Great Lakes Surface Environmental Analysis",
+    "aliases": [
+      "GLSEA2",
+      "Great Lakes Surface Environmental Analysis",
+      "Great Lakes Surface Environmental Analysis 2"
+    ]
+  },
+
+  "global navigation satellite system": {
+    "class": "System:GNSS",
+    "system_type": "observing_system",
+    "long_name": "Global Navigation Satellite System",
+    "aliases": [
+      "GNSS",
+      "Global Navigation Satellite Systems (GNSS)"
+    ]
+  },
+
+  "goes-8": {
+    "class": "System:GOES8",
+    "system_type": "satellite_platform",
+    "series": "GOES",
+    "long_name": "GOES-8 Satellite Platform",
+    "aliases": [
+      "GOES 8",
+      "GOES-8"
+    ]
+  },
+
+  "goes-r": {
+    "class": "System:GOESR",
+    "system_type": "satellite_program",
+    "long_name": "Geostationary Operational Environmental Satellite-R Series",
+    "aliases": [
+      "GOES-R",
+      "GOES-R Series",
+      "GOES-R programme"
+    ]
+  },
+
+  "goos": {
+    "class": "System:GOOS",
+    "system_type": "observing_system",
+    "long_name": "Global Ocean Observing System",
+    "parent": "System:WMO",
+    "aliases": [
+      "global ocean observing system"
+    ]
+  },
+
+  "gosta": {
+    "class": "System:GOSTA",
+    "system_type": "data_product",
+    "long_name": "Global Ocean Surface Temperature Atlas",
+    "aliases": [
+      "GOSTA"
+    ]
+  },
+
+  "gsfc": {
+    "class": "System:GSFC",
+    "system_type": "organization",
+    "parent": "System:NASA",
+    "long_name": "Goddard Space Flight Center",
+    "aliases": [
+      "nasa gsfc"
+    ]
+  },
+
+  "global soil wetness project": {
+    "class": "System:GSWP",
+    "system_type": "model_intercomparison",
+    "long_name": "Global Soil Wetness Project",
+    "aliases": [
+      "GSWP",
+      "Global Soil Wetness Project (GSWP)"
+    ]
+  },
+
+  "global soil wetness project 2": {
+    "class": "System:GSWP2",
+    "system_type": "model_intercomparison",
+    "parent": "System:GSWP",
+    "long_name": "Global Soil Wetness Project Phase 2",
+    "aliases": [
+      "GSWP 2",
+      "GSWP2"
+    ]
+  },
+
+  "geoeye_1": {
+    "class": "System:GeoEye1",
+    "system_type": "satellite_platform",
+    "long_name": "GeoEye-1 Satellite Platform",
+    "aliases": [
+      "geoeye-1",
+      "geoeye 1"
+    ]
+  },
+
+  "giovanni": {
+    "class": "System:Giovanni",
+    "system_type": "data_service",
+    "long_name": "Goddard Interactive Online Visualization ANd aNalysis Infrastructure",
+    "parent": "System:GSFC"
+  },
+
+  "glosea5": {
+    "class": "System:GloSea5",
+    "system_type": "model_system",
+    "long_name": "GloSea5"
+  },
+
+  "global drifter program": {
+    "class": "System:GlobalDrifterProgram",
+    "system_type": "observing_program",
+    "long_name": "Global Drifter Program",
+    "aliases": [
+      "GDP"
+    ]
+  },
+
+  "global_observing_system": {
+    "class": "System:GlobalObservingSystem",
+    "system_type": "observing_system",
+    "long_name": "Global Observing System",
+    "aliases": [
+      "global observing system",
+      "GOS",
+      "wmo gos"
+    ]
+  },
+
+  "global soil moisture data bank": {
+    "class": "System:GlobalSoilMoistureDataBank",
+    "system_type": "data_repository",
+    "long_name": "Global Soil Moisture Data Bank"
+  },
+
+  "gulf stream": {
+    "class": "System:GulfStream",
+    "system_type": "physical_system",
+    "subtype": "western_boundary_current",
+    "long_name": "Gulf Stream"
+  },
+
+  "harmful algae event database": {
+    "class": "System:HAEDAT",
+    "system_type": "data_repository",
+    "long_name": "Harmful Algae Event Database",
+    "aliases": [
+      "HAEDAT",
+      "HAEDAT data",
+      "HAEDAT dataset",
+      "HAEDAT6"
+    ]
+  },
+
+  "hy_1c": {
+    "class": "System:HY1C",
+    "system_type": "satellite_platform",
+    "series": "HaiYang-1",
+    "long_name": "HY-1C Satellite Platform",
+    "aliases": [
+      "hy-1c",
+      "hy 1c"
+    ]
+  },
+
+  "hy_1d": {
+    "class": "System:HY1D",
+    "system_type": "satellite_platform",
+    "series": "HaiYang-1",
+    "long_name": "HY-1D Satellite Platform",
+    "aliases": [
+      "hy-1d",
+      "hy 1d"
+    ]
+  },
+
+  "hy_2": {
+    "class": "System:HY2",
+    "system_type": "satellite_platform",
+    "series": "HaiYang-2",
+    "long_name": "HY-2 Satellite Platform Series",
+    "aliases": [
+      "hy-2",
+      "haiyang-2"
+    ]
+  },
+
+  "hy_2b": {
+    "class": "System:HY2B",
+    "system_type": "satellite_platform",
+    "series": "HaiYang-2",
+    "long_name": "HY-2B Satellite Platform",
+    "aliases": [
+      "hy-2b",
+      "hy 2b"
+    ]
+  },
+
+  "hy_2c": {
+    "class": "System:HY2C",
+    "system_type": "satellite_platform",
+    "series": "HaiYang-2",
+    "long_name": "HY-2C Satellite Platform",
+    "aliases": [
+      "hy-2c",
+      "hy 2c"
+    ]
+  },
+
+  "hy_2d": {
+    "class": "System:HY2D",
+    "system_type": "satellite_platform",
+    "series": "HaiYang-2",
+    "long_name": "HY-2D Satellite Platform",
+    "aliases": [
+      "hy-2d",
+      "hy 2d"
+    ]
+  },
+
+  "hycom": {
+    "class": "System:HYCOM",
+    "system_type": "model_system",
+    "long_name": "Hybrid Coordinate Ocean Model"
+  },
+
+  "hydros": {
+    "class": "System:HYDROS",
+    "system_type": "satellite_mission",
+    "long_name": "Hydrosphere State Mission",
+    "aliases": [
+      "HYDROS"
+    ]
+  },
+
+  "hypermaq": {
+    "class": "System:HYPERMAQ",
+    "system_type": "dataset",
+    "long_name": "HYPERMAQ Dataset",
+    "aliases": [
+      "HYPERMAQ",
+      "HYPERMAQ dataset"
+    ]
+  },
+
+  "hadisst": {
+    "class": "System:HadISST",
+    "system_type": "data_product",
+    "long_name": "Hadley Centre Sea Ice and Sea Surface Temperature"
+  },
+
+  "hadisst1": {
+    "class": "System:HadISST1",
+    "system_type": "data_product",
+    "long_name": "HadISST Version 1",
+    "aliases": [
+      "HadISST1"
+    ]
+  },
+
+  "hadsst2": {
+    "class": "System:HadSST2",
+    "system_type": "data_product",
+    "long_name": "HadSST Version 2",
+    "aliases": [
+      "HadSST2"
+    ]
+  },
+
+  "hadsst3": {
+    "class": "System:HadSST3",
+    "system_type": "data_product",
+    "long_name": "HadSST Version 3",
+    "aliases": [
+      "HadSST3"
+    ]
+  },
+
+  "hadsst4": {
+    "class": "System:HadSST4",
+    "system_type": "data_product",
+    "long_name": "HadSST Version 4",
+    "aliases": [
+      "HadSST4",
+      "HadSST4.0",
+      "HadSST4.2"
+    ]
+  },
+
+  "hadley circulation": {
+    "class": "System:HadleyCirculation",
+    "system_type": "physical_system",
+    "subtype": "atmospheric_circulation",
+    "long_name": "Hadley Circulation",
+    "aliases": [
+      "Hadley Cell",
+      "Hadley Cells"
+    ]
+  },
+
+  "harmful algal taxa": {
+    "class": "System:HarmfulAlgalTaxa",
+    "system_type": "biological_taxa",
+    "long_name": "Harmful Algal Taxa",
+    "aliases": [
+      "harmful algal species"
+    ]
+  },
+
+  "humboldt current system": {
+    "class": "System:HumboldtCurrent",
+    "system_type": "physical_system",
+    "subtype": "eastern_boundary_current",
+    "long_name": "Humboldt Current System",
+    "aliases": [
+      "HCS",
+      "humboldt current",
+      "peruvian current",
+      "peruvian cold current",
+      "peru current"
+    ]
+  },
+
+  "hydrolight": {
+    "class": "System:Hydrolight",
+    "system_type": "radiative_transfer_model",
+    "long_name": "HydroLight Radiative Transfer Numerical Simulation Model",
+    "aliases": [
+      "hydrolight",
+      "Hydrolight",
+      "hydrolight software"
+    ]
+  },
+
+  "hyspiri": {
+    "class": "System:HyspIRI",
+    "system_type": "satellite_mission",
+    "long_name": "Hyperspectral Infrared Imager",
+    "aliases": [
+      "hyspiri",
+      "hyspiri mission"
+    ]
+  },
+
+  "icesat": {
+    "class": "System:ICESat",
+    "system_type": "satellite_platform",
+    "long_name": "ICESat Satellite Platform",
+    "aliases": [
+      "icesat"
+    ]
+  },
+
+  "icesat_2": {
+    "class": "System:ICESat2",
+    "system_type": "satellite_platform",
+    "long_name": "ICESat-2 Satellite Platform",
+    "aliases": [
+      "icesat-2",
+      "icesat 2"
+    ]
+  },
+
+  "ico ads": {
+    "class": "System:ICOADS",
+    "system_type": "data_repository",
+    "long_name": "International Comprehensive Ocean-Atmosphere Data Set",
+    "aliases": [
+      "ICOADS",
+      "iCOADS",
+      "International Comprehensive Ocean-Atmosphere Dataset (ICOADS)"
+    ]
+  },
+
+  "international gnss service": {
+    "class": "System:IGS",
+    "system_type": "observing_system",
+    "long_name": "International GNSS Service",
+    "aliases": [
+      "IGS",
+      "International GNSS Service (IGS) network"
+    ]
+  },
+
+  "ikonos": {
+    "class": "System:IKONOS",
+    "system_type": "satellite_platform",
+    "long_name": "IKONOS",
+    "aliases": [
+      "IKONOS",
+      "IKONOS satellite"
+    ]
+  },
+
+  "incois": {
+    "class": "System:INCOIS",
+    "system_type": "organization",
+    "long_name": "Indian National Centre for Ocean Information Services"
+  },
+
+  "ioccg": {
+    "class": "System:IOCCG",
+    "system_type": "organization",
+    "long_name": "International Ocean Colour Coordinating Group",
+    "aliases": [
+      "international ocean color coordinating group",
+      "international ocean colour coordinating group"
+    ]
+  },
+
+  "IOD": {
+    "class": "System:IOD",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "long_name": "Indian Ocean Dipole",
+    "aliases": [
+      "indian ocean dipole"
+    ]
+  },
+
+  "ipcc": {
+    "class": "System:IPCC",
+    "system_type": "institution",
+    "long_name": "Intergovernmental Panel on Climate Change"
+  },
+
+  "interdecadal pacific oscillation": {
+    "class": "System:IPO",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "long_name": "Interdecadal Pacific Oscillation",
+    "aliases": [
+      "IPO"
+    ]
+  },
+
+  "ipsl-cm6a-lr": {
+    "class": "System:IPSLCM6ALR",
+    "system_type": "model_system",
+    "long_name": "IPSL-CM6A-LR",
+    "aliases": [
+      "IPSL-CM6A-LR"
+    ]
+  },
+
+  "isro": {
+    "class": "System:ISRO",
+    "system_type": "organization",
+    "long_name": "Indian Space Research Organisation"
+  },
+
+  "itcz": {
+    "class": "System:ITCZ",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "long_name": "Intertropical Convergence Zone"
+  },
+
+  "in_situ_observing_system": {
+    "class": "System:InSituObservingSystem",
+    "system_type": "observing_system",
+    "long_name": "In Situ Ocean Observing System",
+    "aliases": [
+      "in situ observing system"
+    ]
+  },
+
+  "indian summer monsoon": {
+    "class": "System:IndianSummerMonsoon",
+    "system_type": "physical_system",
+    "subtype": "monsoon_system",
+    "parent": "System:MonsoonSystem",
+    "long_name": "Indian Summer Monsoon",
+    "aliases": [
+      "ISM",
+      "south asian summer monsoon"
+    ]
+  },
+
+  "indonesian throughflow": {
+    "class": "System:IndonesianThroughflow",
+    "system_type": "physical_system",
+    "subtype": "ocean_current",
+    "long_name": "Indonesian Throughflow",
+    "aliases": [
+      "ITF"
+    ]
+  },
+
+  "jaxa": {
+    "class": "System:JAXA",
+    "system_type": "organization",
+    "long_name": "Japan Aerospace Exploration Agency"
+  },
+
+  "JPL": {
+    "class": "System:JPL",
+    "system_type": "organization",
+    "parent": "System:NASA",
+    "long_name": "Jet Propulsion Laboratory",
+    "aliases": [
+      "nasa jpl"
+    ]
+  },
+
+  "jpss": {
+    "class": "System:JPSS",
+    "system_type": "satellite_program",
+    "long_name": "Joint Polar Satellite System",
+    "aliases": [
+      "joint polar satellite system"
+    ]
+  },
+
+  "jason_1": {
+    "class": "System:Jason1",
+    "system_type": "satellite_platform",
+    "series": "Jason",
+    "long_name": "Jason-1 Satellite Platform",
+    "aliases": [
+      "jason-1",
+      "jason 1"
+    ]
+  },
+
+  "jason_2": {
+    "class": "System:Jason2",
+    "system_type": "satellite_platform",
+    "series": "Jason",
+    "long_name": "Jason-2 Satellite Platform",
+    "aliases": [
+      "jason-2",
+      "jason 2"
+    ]
+  },
+
+  "jason_3": {
+    "class": "System:Jason3",
+    "system_type": "satellite_platform",
+    "series": "Jason",
+    "long_name": "Jason-3 Satellite Platform",
+    "aliases": [
+      "jason-3",
+      "jason 3"
+    ]
+  },
+
+  "kcarta": {
+    "class": "System:KCARTA",
+    "system_type": "radiative_transfer_model",
+    "long_name": "kCompressed Atmospheric Radiative Transfer Algorithm",
+    "aliases": [
+      "kCARTA"
+    ]
+  },
+
+  "kamchatka current": {
+    "class": "System:KamchatkaCurrent",
+    "system_type": "physical_system",
+    "subtype": "ocean_current",
+    "long_name": "Kamchatka Current",
+    "aliases": [
+      "east kamchatka current"
+    ]
+  },
+
+  "kuroshio current": {
+    "class": "System:KuroshioCurrent",
+    "system_type": "physical_system",
+    "subtype": "western_boundary_current",
+    "long_name": "Kuroshio Current",
+    "aliases": [
+      "kuroshio"
+    ]
+  },
+
+  "lblrtm": {
+    "class": "System:LBLRTM",
+    "system_type": "radiative_transfer_model",
+    "long_name": "Line-By-Line Radiative Transfer Model",
+    "aliases": [
+      "lblrtm",
+      "LBLRTM"
+    ]
+  },
+
+  "lowtran": {
+    "class": "System:LOWTRAN",
+    "system_type": "radiative_transfer_model",
+    "long_name": "LOW resolution atmospheric TRANsmission model",
+    "aliases": [
+      "lowtran",
+      "LOWTRAN"
+    ]
+  },
+
+  "la niña": {
+    "class": "System:LaNina",
+    "parent": "System:ENSO",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "aliases": [
+      "la nina",
+      "la niña event",
+      "la nina event"
+    ]
+  },
+
+  "labrador current": {
+    "class": "System:LabradorCurrent",
+    "system_type": "physical_system",
+    "subtype": "subpolar_current",
+    "long_name": "Labrador Current"
+  },
+
+  "lake superior fvcom model": {
+    "class": "System:LakeSuperiorFVCOM",
+    "system_type": "model_system",
+    "parent": "System:FVCOM",
+    "long_name": "Lake Superior FVCOM Model"
+  },
+
+  "landsat_5": {
+    "class": "System:Landsat5",
+    "system_type": "satellite_platform",
+    "series": "Landsat",
+    "long_name": "Landsat-5 Satellite Platform",
+    "aliases": [
+      "landsat-5",
+      "landsat 5",
+      "landsat tm platform"
+    ]
+  },
+
+  "landsat_7": {
+    "class": "System:Landsat7",
+    "system_type": "satellite_platform",
+    "series": "Landsat",
+    "long_name": "Landsat-7 Satellite Platform",
+    "aliases": [
+      "landsat-7",
+      "landsat 7"
+    ]
+  },
+
+  "landsat_8": {
+    "class": "System:Landsat8",
+    "system_type": "satellite_platform",
+    "series": "Landsat",
+    "long_name": "Landsat-8 Satellite Platform",
+    "aliases": [
+      "landsat-8",
+      "landsat 8"
+    ]
+  },
+
+  "landsat_9": {
+    "class": "System:Landsat9",
+    "system_type": "satellite_platform",
+    "series": "Landsat",
+    "long_name": "Landsat-9 Satellite Platform",
+    "aliases": [
+      "landsat-9",
+      "landsat 9"
+    ]
+  },
+
+  "leeuwin current system": {
+    "class": "System:LeeuwinCurrent",
+    "system_type": "physical_system",
+    "subtype": "eastern_boundary_current",
+    "long_name": "Leeuwin Current System"
+  },
+
+  "loop current": {
+    "class": "System:LoopCurrent",
+    "system_type": "physical_system",
+    "subtype": "ocean_current",
+    "long_name": "Loop Current"
+  },
+
+  "multivariate enso index": {
+    "class": "System:MEI",
+    "system_type": "data_product",
+    "subtype": "climate_index",
+    "long_name": "Multivariate ENSO Index",
+    "aliases": [
+      "MEI",
+      "multivariate el nino southern oscillation index"
+    ]
+  },
+
+  "MJO": {
+    "class": "System:MJO",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "long_name": "Madden-Julian Oscillation",
+    "aliases": [
+      "madden-julian oscillation",
+      "madden julian oscillation"
+    ]
+  },
+
+  "modtran": {
+    "class": "System:MODTRAN",
+    "system_type": "radiative_transfer_model",
+    "long_name": "MODerate resolution atmospheric TRANsmission model",
+    "aliases": [
+      "modtran",
+      "MODTRAN",
+      "modtran-3",
+      "MODTRAN-3",
+      "modtran4",
+      "MODTRAN4",
+      "modtran4.2",
+      "MODTRAN4.2"
+    ]
+  },
+
+  "modular ocean model": {
+    "class": "System:MOM",
+    "system_type": "model_system",
+    "long_name": "Modular Ocean Model",
+    "aliases": [
+      "MOM",
+      "Modular Ocean Model (MOM)"
+    ]
+  },
+
+  "momba": {
+    "class": "System:MOMBA",
+    "system_type": "model_system",
+    "long_name": "Baltic Sea Model MOMBA",
+    "aliases": [
+      "Baltic Sea Model (MOMBA)",
+      "ocean circulation model MOMBA",
+      "ocean general circulation model MOMBA"
+    ]
+  },
+
+  "mosaic expedition": {
+    "class": "System:MOSAiC",
+    "system_type": "observing_program",
+    "long_name": "Multidisciplinary drifting Observatory for the Study of Arctic Climate",
+    "aliases": [
+      "MOSAiC",
+      "MOSAiC Expedition",
+      "Multidisciplinary drifting Observatory for the Study of Arctic Climate (MOSAiC) Expedition"
+    ]
+  },
+
+  "msla": {
+    "class": "System:MSLA",
+    "system_type": "data_product",
+    "long_name": "Maps of Sea Level Anomaly"
+  },
+
+  "MUR": {
+    "class": "System:MUR",
+    "system_type": "data_product",
+    "long_name": "Multi-scale Ultra-high Resolution Sea Surface Temperature",
+    "aliases": [
+      "jpl mur",
+      "mur sst",
+      "MUR data set",
+      "MURSST product",
+      "Multi-scale Ultra-high Resolution (MUR) SST V4.1",
+      "Multi-Scale Ultra-High Resolution Sea Surface Temperature (MURSST) L4"
+    ]
+  },
+
+  "falkland current": {
+    "class": "System:MalvinasCurrent",
+    "system_type": "physical_system",
+    "subtype": "western_boundary_current",
+    "long_name": "Malvinas Current",
+    "aliases": [
+      "malvinas current",
+      "Falklands current"
+    ]
+  },
+
+  "metop": {
+    "class": "System:MetOp",
+    "system_type": "satellite_program",
+    "long_name": "Meteorological Operational Satellite Program",
+    "aliases": [
+      "Metop",
+      "MetOp",
+      "Metop satellites"
+    ]
+  },
+
+  "meteosat": {
+    "class": "System:Meteosat",
+    "system_type": "satellite_platform",
+    "series": "Meteosat",
+    "long_name": "Meteosat Geostationary Satellite Platform",
+    "aliases": [
+      "meteosat",
+      "Meteosat",
+      "meteosat satellite",
+      "meteosat platform"
+    ]
+  },
+
+  "meteosat_second_generation": {
+    "class": "System:MeteosatSecondGeneration",
+    "system_type": "satellite_platform",
+    "series": "Meteosat",
+    "long_name": "Meteosat Second Generation Satellite Platform",
+    "aliases": [
+      "meteosat second generation",
+      "MSG",
+      "msg satellite"
+    ]
+  },
+
+  "monsoon system": {
+    "class": "System:MonsoonSystem",
+    "system_type": "physical_system",
+    "subtype": "monsoon_system",
+    "long_name": "Global Monsoon System"
+  },
+
+  "mooring": {
+    "class": "System:Mooring",
+    "system_type": "in_situ_platform",
+    "long_name": "Mooring Platform",
+    "aliases": [
+      "mooring",
+      "moorings"
+    ]
+  },
+
+  "myrtknet": {
+    "class": "System:MyRTKNet",
+    "system_type": "observing_system",
+    "subtype": "gnss_network",
+    "long_name": "Malaysia Real-Time Kinematic GNSS Network",
+    "aliases": [
+      "MyRTKNet",
+      "MyRTKNet stations"
+    ]
+  },
+
+  "north atlantic oscillation": {
+    "class": "System:NAO",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "long_name": "North Atlantic Oscillation",
+    "aliases": [
+      "NAO"
+    ]
+  },
+
+  "narr": {
+    "class": "System:NARR",
+    "system_type": "data_product",
+    "long_name": "North American Regional Reanalysis",
+    "aliases": [
+      "NARR",
+      "North American Regional Reanalysis"
+    ]
+  },
+
+  "nasa": {
+    "class": "System:NASA",
+    "system_type": "organization",
+    "long_name": "National Aeronautics and Space Administration"
+  },
+
+  "nasa_c130": {
+    "class": "System:NASA_C130",
+    "system_type": "airborne_platform",
+    "long_name": "NASA C-130 Aircraft Platform",
+    "aliases": [
+      "nasa c-130",
+      "NASA C-130",
+      "c-130 aircraft",
+      "C-130 aircraft"
+    ]
+  },
+
+  "ncar": {
+    "class": "System:NCAR",
+    "system_type": "organization",
+    "long_name": "National Center for Atmospheric Research",
+    "aliases": [
+      "NCAR"
+    ]
+  },
+
+  "ncei": {
+    "class": "System:NCEI",
+    "system_type": "organization",
+    "parent": "System:NOAA",
+    "long_name": "National Centers for Environmental Information",
+    "aliases": [
+      "noaa ncei"
+    ]
+  },
+
+  "ncep": {
+    "class": "System:NCEP",
+    "system_type": "organization",
+    "long_name": "National Centers for Environmental Prediction"
+  },
+
+  "ncep_doe_reanalysis_2": {
+    "class": "System:NCEPDOEReanalysis2",
+    "system_type": "data_product",
+    "long_name": "NCEP-DOE Reanalysis 2",
+    "aliases": [
+      "NCEP-DOE Reanalysis 2",
+      "NCEP/DOE Reanalysis 2",
+      "NCEP DOE Reanalysis 2",
+      "NCEP-DOE R2",
+      "NCEP2",
+      "NCEP-DOE"
+    ]
+  },
+
+  "ncep_ncar_reanalysis": {
+    "class": "System:NCEPNCARReanalysis",
+    "system_type": "data_product",
+    "long_name": "NCEP-NCAR Reanalysis",
+    "aliases": [
+      "NCEP-NCAR Reanalysis",
+      "NCEP/NCAR Reanalysis",
+      "NCEP NCAR Reanalysis",
+      "NCEP/NCAR",
+      "NCEP/NCAR data",
+      "NCEP/NCAR Reanalysis 1 project"
+    ]
+  },
+
+  "ndbc": {
+    "class": "System:NDBC",
+    "system_type": "organization",
+    "parent": "System:NOAA",
+    "long_name": "National Data Buoy Center",
+    "aliases": [
+      "NDBC",
+      "NOAA-NDBC"
+    ]
+  },
+
+  "nesdis": {
+    "class": "System:NESDIS",
+    "system_type": "organization",
+    "parent": "System:NOAA",
+    "long_name": "National Environmental Satellite, Data, and Information Service",
+    "aliases": [
+      "NESDIS",
+      "NOAA NESDIS"
+    ]
+  },
+
+  "noaa": {
+    "class": "System:NOAA",
+    "system_type": "organization",
+    "long_name": "National Oceanic and Atmospheric Administration"
+  },
+
+  "noaa_14": {
+    "class": "System:NOAA14",
+    "system_type": "satellite_platform",
+    "series": "NOAA",
+    "long_name": "NOAA-14 Satellite Platform",
+    "aliases": [
+      "NOAA 14",
+      "NOAA-14"
+    ]
+  },
+
+  "noaa_15": {
+    "class": "System:NOAA15",
+    "system_type": "satellite_platform",
+    "series": "NOAA",
+    "long_name": "NOAA-15 Satellite Platform",
+    "aliases": [
+      "NOAA 15",
+      "NOAA-15"
+    ]
+  },
+
+  "noaa_20": {
+    "class": "System:NOAA20",
+    "system_type": "satellite_platform",
+    "series": "JPSS",
+    "long_name": "NOAA-20 Satellite Platform",
+    "aliases": [
+      "noaa-20",
+      "noaa 20",
+      "noaa20",
+      "n20",
+      "jpss-1"
+    ]
+  },
+
+  "noaa_21": {
+    "class": "System:NOAA21",
+    "system_type": "satellite_platform",
+    "series": "JPSS",
+    "long_name": "NOAA-21 Satellite Platform",
+    "aliases": [
+      "noaa-21",
+      "noaa 21",
+      "noaa21",
+      "jp1",
+      "jpss-2"
+    ]
+  },
+
+  "noaa coral reef watch": {
+    "class": "System:NOAACoralReefWatch",
+    "system_type": "data_service",
+    "long_name": "NOAA Coral Reef Watch",
+    "aliases": [
+      "NOAA Coral Reef Watch"
+    ]
+  },
+
+  "noaa_poes": {
+    "class": "System:NOAA_POES",
+    "system_type": "satellite_platform",
+    "series": "NOAA",
+    "long_name": "NOAA Polar-Orbiting Environmental Satellite Platform",
+    "aliases": [
+      "noaa polar orbiter",
+      "noaa polar orbiters",
+      "noaa polar-orbiters",
+      "noaa poes",
+      "NOAA POES"
+    ]
+  },
+
+  "nesdis star": {
+    "class": "System:NOAA_STAR",
+    "system_type": "organization",
+    "parent": "System:NOAA",
+    "long_name": "Center for Satellite Applications and Research",
+    "aliases": [
+      "noaa star",
+      "star"
+    ]
+  },
+
+  "nomad": {
+    "class": "System:NOMAD",
+    "system_type": "dataset",
+    "long_name": "NASA bio-Optical Marine Algorithm Dataset",
+    "aliases": [
+      "nomad",
+      "nasa bio-optical marine algorithm dataset"
+    ]
+  },
+
+  "npoess": {
+    "class": "System:NPOESS",
+    "system_type": "satellite_program",
+    "long_name": "National Polar-orbiting Operational Environmental Satellite System",
+    "aliases": [
+      "NPOESS"
+    ]
+  },
+
+  "NWS": {
+    "class": "System:NWS",
+    "system_type": "organization",
+    "long_name": "National Weather Service"
+  },
+
+  "north atlantic subtropical gyre": {
+    "class": "System:NorthAtlanticSubtropicalGyre",
+    "system_type": "physical_system",
+    "subtype": "gyre",
+    "long_name": "North Atlantic Subtropical Gyre",
+    "parent": "System:OceanGyre",
+    "aliases": [
+      "NAG",
+      "North Atlantic Subtropical Gyre"
+    ]
+  },
+
+  "north brazil current": {
+    "class": "System:NorthBrazilCurrent",
+    "system_type": "physical_system",
+    "subtype": "western_boundary_current",
+    "long_name": "North Brazil Current",
+    "aliases": [
+      "NBC"
+    ]
+  },
+
+  "north equatorial current": {
+    "class": "System:NorthEquatorialCurrent",
+    "system_type": "physical_system",
+    "subtype": "equatorial_current",
+    "long_name": "North Equatorial Current",
+    "aliases": [
+      "NEC"
+    ]
+  },
+
+  "north pacific subtropical gyre": {
+    "class": "System:NorthPacificSubtropicalGyre",
+    "system_type": "physical_system",
+    "subtype": "gyre",
+    "long_name": "North Pacific Subtropical Gyre",
+    "parent": "System:OceanGyre",
+    "aliases": [
+      "NPG",
+      "North Pacific Subtropical Gyre"
+    ]
+  },
+
+  "northern south equatorial current": {
+    "class": "System:NorthernSouthEquatorialCurrent",
+    "system_type": "physical_system",
+    "subtype": "equatorial_current",
+    "parent": "System:SouthEquatorialCurrent",
+    "long_name": "Northern Branch of the South Equatorial Current",
+    "aliases": [
+      "nsec"
+    ]
+  },
+
+  "oaflux": {
+    "class": "System:OAFlux",
+    "system_type": "data_product",
+    "long_name": "Objectively Analyzed Air-Sea Fluxes",
+    "aliases": [
+      "OAFlux"
+    ]
+  },
+
+  "ocean biodiversity information system": {
+    "class": "System:OBIS",
+    "system_type": "data_repository",
+    "long_name": "Ocean Biodiversity Information System",
+    "aliases": [
+      "OBIS",
+      "OBIS database"
+    ]
+  },
+
+  "ocean carbon and acidification data system": {
+    "class": "System:OCADS",
+    "system_type": "data_service",
+    "parent": "System:NCEI",
+    "long_name": "Ocean Carbon and Acidification Data System",
+    "aliases": [
+      "ocads"
+    ]
+  },
+
+  "oc-cci": {
+    "class": "System:OC_CCI",
+    "system_type": "data_service",
+    "long_name": "Ocean Colour Climate Change Initiative",
+    "aliases": [
+      "esa ocean colour cci",
+      "oc_cci"
+    ]
+  },
+
+  "ocean color pdr": {
+    "class": "System:OC_PDR",
+    "system_type": "data_service",
+    "long_name": "Ocean Color Processing and Distribution System"
+  },
+
+  "oisst": {
+    "class": "System:OISST",
+    "system_type": "data_product",
+    "long_name": "Optimum Interpolation Sea Surface Temperature",
+    "aliases": [
+      "reynolds sst",
+      "noaa oisst"
+    ]
+  },
+
+  "oisstv2": {
+    "class": "System:OISSTv2",
+    "system_type": "data_product",
+    "parent": "System:OISST",
+    "long_name": "Optimum Interpolation Sea Surface Temperature Version 2",
+    "aliases": [
+      "OISSTv2"
+    ]
+  },
+
+  "oisstv2.1": {
+    "class": "System:OISSTv21",
+    "system_type": "data_product",
+    "parent": "System:OISST",
+    "long_name": "Optimum Interpolation Sea Surface Temperature Version 2.1",
+    "aliases": [
+      "OISSTv2.1"
+    ]
+  },
+
+  "optran": {
+    "class": "System:OPTRAN",
+    "system_type": "radiative_transfer_model",
+    "long_name": "Optical Path Transmittance Radiative Transfer Model",
+    "aliases": [
+      "OPTRAN"
+    ]
+  },
+
+  "oras5": {
+    "class": "System:ORAS5",
+    "system_type": "model_system",
+    "long_name": "Ocean Reanalysis System 5",
+    "aliases": [
+      "ecmwf oras5"
+    ]
+  },
+
+  "oscar": {
+    "class": "System:OSCAR",
+    "system_type": "data_product",
+    "long_name": "Ocean Surface Current Analysis Real-time",
+    "aliases": [
+      "OSCAR"
+    ]
+  },
+
+  "osi-450": {
+    "class": "System:OSI450",
+    "system_type": "data_product",
+    "long_name": "OSI-450 Sea Ice Concentration Climate Data Record",
+    "aliases": [
+      "OSI-450",
+      "OSI-450 SIC fields",
+      "EUMETSAT OSISAF Global SIC CDR v2 product OSI-450"
+    ]
+  },
+
+  "osnap": {
+    "class": "System:OSNAP",
+    "system_type": "observing_program",
+    "long_name": "Overturning in the Subpolar North Atlantic Program",
+    "aliases": [
+      "OSNAP",
+      "OSNAP program"
+    ]
+  },
+
+  "ostia": {
+    "class": "System:OSTIA",
+    "system_type": "data_product",
+    "long_name": "Operational Sea Surface Temperature and Ice Analysis"
+  },
+
+  "subtropical gyre": {
+    "class": "System:OceanGyre",
+    "system_type": "physical_system",
+    "subtype": "gyre",
+    "long_name": "Subtropical Ocean Gyre"
+  },
+
+  "oceansites": {
+    "class": "System:OceanSITES",
+    "system_type": "observing_system",
+    "long_name": "Ocean Sustained Interdisciplinary Time-series Environment Observation System",
+    "aliases": [
+      "OceanSITES",
+      "Ocean Sustained Interdisciplinary Time-series Environment Observation System (OceanSITES)"
+    ]
+  },
+
+  "oceansat_2": {
+    "class": "System:Oceansat2",
+    "system_type": "satellite_platform",
+    "series": "Oceansat",
+    "long_name": "Oceansat-2 Satellite Platform",
+    "aliases": [
+      "oceansat-2",
+      "oceansat 2"
+    ]
+  },
+
+  "oceansat_3": {
+    "class": "System:Oceansat3",
+    "system_type": "satellite_platform",
+    "series": "Oceansat",
+    "long_name": "Oceansat-3 Satellite Platform",
+    "aliases": [
+      "oceansat-3",
+      "oceansat 3"
+    ]
+  },
+
+  "operation_icebridge": {
+    "class": "System:OperationIceBridge",
+    "system_type": "observing_program",
+    "long_name": "Operation IceBridge",
+    "aliases": [
+      "Operation IceBridge",
+      "IceBridge",
+      "NASA Operation IceBridge"
+    ]
+  },
+
+  "optical remote sensing system": {
+    "class": "System:OpticalRemoteSensing",
+    "system_type": "observing_system",
+    "long_name": "Optical Remote Sensing System"
+  },
+
+  "oyashio current": {
+    "class": "System:OyashioCurrent",
+    "system_type": "physical_system",
+    "subtype": "subpolar_current",
+    "long_name": "Oyashio Current"
+  },
+
+  "pace_mission": {
+    "class": "System:PACE",
+    "system_type": "satellite_mission",
+    "long_name": "Plankton, Aerosol, Cloud, ocean Ecosystem Mission",
+    "aliases": [
+      "pace mission",
+      "nasa pace mission",
+      "plankton aerosol cloud ocean ecosystem mission"
+    ]
+  },
+
+  "pangaea": {
+    "class": "System:PANGAEA",
+    "system_type": "data_repository",
+    "long_name": "PANGAEA Data Publisher for Earth and Environmental Science",
+    "aliases": [
+      "PANGAEA"
+    ]
+  },
+
+  "pcrtm": {
+    "class": "System:PCRTM",
+    "system_type": "radiative_transfer_model",
+    "long_name": "Principal Component Radiative Transfer Model",
+    "aliases": [
+      "PCRTM"
+    ]
+  },
+
+  "PDO": {
+    "class": "System:PDO",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "drives": [
+      "DecadalVariability"
+    ],
+    "long_name": "Pacific Decadal Oscillation",
+    "aliases": [
+      "pacific decadal oscillation",
+      "Pacific Decadal Oscillation (PDO)"
+    ]
+  },
+
+  "pfel": {
+    "class": "System:PFEL",
+    "system_type": "organization",
+    "long_name": "Pacific Fisheries Environmental Laboratory",
+    "aliases": [
+      "PFEL",
+      "Pacific Fisheries Environmental Laboratory"
+    ]
+  },
+
+  "piomas": {
+    "class": "System:PIOMAS",
+    "system_type": "model_system",
+    "long_name": "Pan-Arctic Ice Ocean Modeling and Assimilation System",
+    "aliases": [
+      "Pan-Arctic Ice Ocean Modeling and Assimilation System"
+    ]
+  },
+
+  "podaac": {
+    "class": "System:PODAAC",
+    "system_type": "data_service",
+    "long_name": "Physical Oceanography Distributed Active Archive Center",
+    "aliases": [
+      "po.daac"
+    ]
+  },
+
+  "prisma": {
+    "class": "System:PRISMA",
+    "system_type": "satellite_platform",
+    "long_name": "PRecursore IperSpettrale della Missione Applicativa",
+    "aliases": [
+      "PRISMA",
+      "PRISMA satellite",
+      "PRISMA mission"
+    ]
+  },
+
+  "psmsl": {
+    "class": "System:PSMSL",
+    "system_type": "data_service",
+    "long_name": "Permanent Service for Mean Sea Level",
+    "aliases": [
+      "psmsl",
+      "permanent service for mean sea level",
+      "PSMSL database"
+    ]
+  },
+
+  "parcels": {
+    "class": "System:Parcels",
+    "system_type": "processing_system",
+    "long_name": "Parcels Lagrangian Ocean Analysis Framework",
+    "aliases": [
+      "Parcels"
+    ]
+  },
+
+  "photosynthesizing flora and fauna": {
+    "class": "System:PhotosyntheticBiota",
+    "system_type": "biological_community",
+    "long_name": "Photosynthetic Flora and Fauna"
+  },
+
+  "phytoplankton community": {
+    "class": "System:PhytoplanktonCommunity",
+    "system_type": "biological_community",
+    "long_name": "Phytoplankton Community"
+  },
+
+  "pleiades": {
+    "class": "System:Pleiades",
+    "system_type": "satellite_platform",
+    "long_name": "Pléiades Satellite Platform",
+    "aliases": [
+      "pleiades",
+      "pléiades"
+    ]
+  },
+
+  "polar ocean": {
+    "class": "System:PolarOcean",
+    "system_type": "physical_system",
+    "long_name": "Polar Ocean"
+  },
+
+  "quickbird": {
+    "class": "System:QuickBird",
+    "system_type": "satellite_platform",
+    "long_name": "QuickBird",
+    "aliases": [
+      "QuickBird",
+      "QuickBird satellite"
+    ]
+  },
+
+  "quikscat": {
+    "class": "System:QuikSCAT",
+    "system_type": "satellite_platform",
+    "long_name": "QuikSCAT Satellite Platform",
+    "aliases": [
+      "quikscat"
+    ]
+  },
+
+  "radarsat_1": {
+    "class": "System:RADARSAT1",
+    "system_type": "satellite_platform",
+    "long_name": "RADARSAT-1 Satellite Platform",
+    "aliases": [
+      "RADARSAT-1",
+      "RADARSAT 1"
+    ]
+  },
+
+  "rads": {
+    "class": "System:RADS",
+    "system_type": "data_service",
+    "subtype": "satellite_altimetry_database",
+    "long_name": "Radar Altimeter Database System",
+    "aliases": [
+      "RADS",
+      "radar altimeter database system",
+      "Radar Altimetry Database",
+      "Radar Altimetry Database (RADS)",
+      "TU Delft/NOAA/EUMETSAT Radar Altimeter Database System"
+    ]
+  },
+
+  "rapid-mocha": {
+    "class": "System:RAPIDMOCHA",
+    "system_type": "observing_system",
+    "long_name": "Rapid Climate Change-Meridional Overturning Circulation and Heatflux Array",
+    "aliases": [
+      "RAPID project",
+      "RAPID programs",
+      "RAPID-MOCHA",
+      "RAPID-MOCHA Array"
+    ]
+  },
+
+  "risat_1": {
+    "class": "System:RISAT1",
+    "system_type": "satellite_platform",
+    "series": "RISAT",
+    "long_name": "RISAT-1 Satellite Platform",
+    "aliases": [
+      "risat-1",
+      "risat 1"
+    ]
+  },
+
+  "risat_1a": {
+    "class": "System:RISAT1A",
+    "system_type": "satellite_platform",
+    "series": "RISAT",
+    "long_name": "RISAT-1A Satellite Platform",
+    "aliases": [
+      "risat-1a",
+      "risat 1a"
+    ]
+  },
+
+  "remote sensing systems": {
+    "class": "System:RSS",
+    "system_type": "organization",
+    "long_name": "Remote Sensing Systems",
+    "aliases": [
+      "RSS",
+      "Remote Sensing Systems (RSS)"
+    ]
+  },
+
+  "rtofs": {
+    "class": "System:RTOFS",
+    "system_type": "model_system",
+    "long_name": "Real-Time Ocean Forecast System"
+  },
+
+  "rttov": {
+    "class": "System:RTTOV",
+    "system_type": "radiative_transfer_model",
+    "long_name": "Radiative Transfer for TOVS",
+    "aliases": [
+      "rttov",
+      "RTTOV",
+      "rttov model",
+      "radiative transfer for tovs"
+    ]
+  },
+
+  "radiative transfer system": {
+    "class": "System:RadiativeTransferSystem",
+    "system_type": "physical_system",
+    "long_name": "Radiative Transfer System"
+  },
+
+  "radiosonde": {
+    "class": "System:Radiosonde",
+    "system_type": "in_situ_platform",
+    "long_name": "Radiosonde Atmospheric Sounding Platform",
+    "aliases": [
+      "radiosonde",
+      "radiosondes",
+      "radiosonde data",
+      "atmospheric sounding"
+    ]
+  },
+
+  "reanalysis system": {
+    "class": "System:ReanalysisSystem",
+    "system_type": "processing_system",
+    "long_name": "Climate Reanalysis System"
+  },
+
+  "isro sac": {
+    "class": "System:SAC",
+    "system_type": "organization",
+    "parent": "System:ISRO",
+    "long_name": "Space Applications Centre",
+    "aliases": [
+      "isro sac",
+      "sac ahmedabad",
+      "india sac"
+    ]
+  },
+
+  "saral": {
+    "class": "System:SARAL",
+    "system_type": "satellite_platform",
+    "long_name": "SARAL Satellite Platform",
+    "aliases": [
+      "saral"
+    ]
+  },
+
+  "sarta": {
+    "class": "System:SARTA",
+    "system_type": "radiative_transfer_model",
+    "long_name": "Stand-alone AIRS Radiative Transfer Algorithm",
+    "aliases": [
+      "SARTA"
+    ]
+  },
+
+  "sbg_mission": {
+    "class": "System:SBG",
+    "system_type": "satellite_mission",
+    "long_name": "Surface Biology and Geology",
+    "aliases": [
+      "surface biology and geology",
+      "sbg mission",
+      "SBG"
+    ]
+  },
+
+  "scatsat_1": {
+    "class": "System:SCATSAT1",
+    "system_type": "satellite_platform",
+    "long_name": "SCATSAT-1 Satellite Platform",
+    "aliases": [
+      "scatsat-1",
+      "scatsat 1"
+    ]
+  },
+
+  "sicci-25km": {
+    "class": "System:SICCI25km",
+    "system_type": "data_product",
+    "long_name": "SICCI 25 km Sea Ice Concentration Product",
+    "aliases": [
+      "SICCI-25km",
+      "SICCI-25km product",
+      "SICCI-25"
+    ]
+  },
+
+  "sl-cci": {
+    "class": "System:SL_CCI",
+    "system_type": "data_product",
+    "subtype": "sea_level_climate_data_record",
+    "long_name": "ESA Sea Level Climate Change Initiative product",
+    "aliases": [
+      "sl_cci",
+      "SL_cci",
+      "SL CCI",
+      "sl cci",
+      "sea level cci",
+      "sea level climate change initiative",
+      "esa sea level cci"
+    ]
+  },
+
+  "sl-cci-env": {
+    "class": "System:SL_CCI_ENV",
+    "system_type": "data_product",
+    "subtype": "envisat_sea_level_product",
+    "parent": "System:SL_CCI",
+    "long_name": "Sea Level Climate Change Initiative Envisat product",
+    "aliases": [
+      "sl_cci_env",
+      "SL_cci Env",
+      "SL CCI Env",
+      "sl cci env",
+      "sl cci envisat"
+    ]
+  },
+
+  "soil moisture active passive": {
+    "class": "System:SMAP",
+    "system_type": "satellite_mission",
+    "long_name": "Soil Moisture Active Passive",
+    "aliases": [
+      "SMAP",
+      "Soil Moisture Active Passive mission",
+      "Soil Moisture Active Passive (SMAP) observatory",
+      "SMAP NASA mission",
+      "NASA Soil Moisture Active Passive (SMAP) observatory",
+      "Moisture Active Passive (SMAP) observatory"
+    ]
+  },
+
+  "smhi": {
+    "class": "System:SMHI",
+    "system_type": "organization",
+    "long_name": "Swedish Meteorological and Hydrological Institute",
+    "aliases": [
+      "SMHI",
+      "Swedish Meteorological and Hydrological Institute"
+    ]
+  },
+
+  "smos": {
+    "class": "System:SMOS",
+    "system_type": "satellite_mission",
+    "long_name": "Soil Moisture and Ocean Salinity",
+    "aliases": [
+      "SMOS",
+      "Soil Moisture and Ocean Salinity",
+      "SMOS mission",
+      "SMOS satellite"
+    ]
+  },
+
+  "socat": {
+    "class": "System:SOCAT",
+    "system_type": "data_product",
+    "long_name": "Surface Ocean CO2 Atlas",
+    "aliases": [
+      "SOCAT",
+      "Surface Ocean CO2 Atlas",
+      "Surface Ocean Carbon Dioxide Atlas",
+      "SOCATv6",
+      "SOCAT v6",
+      "SOCATv6 data product",
+      "Surface Ocean CO_2 Atlas (SOCATv6)"
+    ]
+  },
+
+  "soda": {
+    "class": "System:SODA",
+    "system_type": "model_system",
+    "long_name": "Simple Ocean Data Assimilation",
+    "aliases": [
+      "SODA",
+      "Simple Ocean Data Assimilation",
+      "SODA reanalysis",
+      "SODA reanalysis data",
+      "SODA products",
+      "SODA3.6.1.0 reanalysis"
+    ]
+  },
+
+  "ship of opportunity program": {
+    "class": "System:SOOP",
+    "system_type": "observing_program",
+    "long_name": "Ship of Opportunity Program",
+    "aliases": [
+      "SOOP",
+      "Ship of Opportunity Program (SOOP)"
+    ]
+  },
+
+  "sst-cci": {
+    "class": "System:SST_CCI",
+    "system_type": "data_service",
+    "long_name": "Sea Surface Temperature Climate Change Initiative",
+    "aliases": [
+      "sst_cci",
+      "SST_cci",
+      "SST CCI",
+      "sst cci",
+      "sea surface temperature cci",
+      "esa sea surface temperature cci",
+      "SST CCI version 2.1"
+    ]
+  },
+
+  "surface velocity program drifter": {
+    "class": "System:SVPDrifter",
+    "system_type": "in_situ_platform",
+    "subtype": "surface_velocity_program",
+    "parent": "System:Drifter",
+    "long_name": "Surface Velocity Program Drifter",
+    "aliases": [
+      "SVP drifter",
+      "surface velocity program drifter"
+    ]
+  },
+
+  "swot": {
+    "class": "System:SWOT",
+    "system_type": "satellite_mission",
+    "long_name": "Surface Water and Ocean Topography",
+    "aliases": [
+      "SWOT",
+      "SWOT mission",
+      "Surface Water and Ocean Topography"
+    ]
+  },
+
+  "saildrone": {
+    "class": "System:Saildrone",
+    "system_type": "in_situ_platform",
+    "long_name": "Saildrone",
+    "aliases": [
+      "Saildrone",
+      "saildrone",
+      "saildrones",
+      "Saildrone uncrewed surface vehicle"
+    ]
+  },
+
+  "satellite_altimetry_record": {
+    "class": "System:SatelliteAltimetryRecord",
+    "system_type": "data_product",
+    "long_name": "Satellite Altimetry Sea-Level Record",
+    "aliases": [
+      "satellite altimetry record",
+      "altimetry sea level record",
+      "satellite sea level record"
+    ]
+  },
+
+  "satellite_observing_system": {
+    "class": "System:SatelliteObservingSystem",
+    "system_type": "observing_system",
+    "long_name": "Satellite-based Earth Observing System",
+    "aliases": [
+      "satellite observing system",
+      "satellite-based earth observing system"
+    ]
+  },
+
+  "seabass": {
+    "class": "System:SeaBASS",
+    "system_type": "data_repository",
+    "long_name": "SeaWiFS Bio-optical Archive and Storage System",
+    "aliases": [
+      "seabass",
+      "seawifs bio-optical archive and storage system"
+    ]
+  },
+
+  "seadas": {
+    "class": "System:SeaDAS",
+    "system_type": "processing_system",
+    "long_name": "SeaWiFS Data Analysis System",
+    "aliases": [
+      "nasa seadas"
+    ]
+  },
+
+  "seasat": {
+    "class": "System:Seasat",
+    "system_type": "satellite_platform",
+    "long_name": "Seasat Satellite Platform",
+    "aliases": [
+      "Seasat"
+    ]
+  },
+
+  "sentinel_1": {
+    "class": "System:Sentinel1",
+    "system_type": "satellite_platform",
+    "series": "Sentinel-1",
+    "long_name": "Sentinel-1 Satellite Platform",
+    "aliases": [
+      "sentinel-1",
+      "sentinel 1"
+    ]
+  },
+
+  "sentinel_2": {
+    "class": "System:Sentinel2",
+    "system_type": "satellite_platform",
+    "series": "Sentinel-2",
+    "long_name": "Sentinel-2 Satellite Platform",
+    "aliases": [
+      "sentinel-2",
+      "sentinel 2"
+    ]
+  },
+
+  "sentinel_3": {
+    "class": "System:Sentinel3",
+    "system_type": "satellite_mission",
+    "long_name": "Sentinel-3",
+    "aliases": [
+      "Sentinel-3",
+      "Sentinel 3",
+      "Sentinel-3 mission",
+      "Sentinel-3A/B"
+    ]
+  },
+
+  "sentinel_3a": {
+    "class": "System:Sentinel3A",
+    "system_type": "satellite_platform",
+    "series": "Sentinel-3",
+    "long_name": "Sentinel-3A Satellite Platform",
+    "aliases": [
+      "sentinel-3a",
+      "sentinel 3a"
+    ]
+  },
+
+  "sentinel_3b": {
+    "class": "System:Sentinel3B",
+    "system_type": "satellite_platform",
+    "series": "Sentinel-3",
+    "long_name": "Sentinel-3B Satellite Platform",
+    "aliases": [
+      "sentinel-3b",
+      "sentinel 3b"
+    ]
+  },
+
+  "sentinel_6": {
+    "class": "System:Sentinel6",
+    "system_type": "satellite_platform",
+    "series": "Sentinel-6",
+    "long_name": "Sentinel-6 Satellite Platform",
+    "aliases": [
+      "sentinel-6",
+      "sentinel 6",
+      "sentinel-6 michael freilich"
+    ]
+  },
+
+  "ship": {
+    "class": "System:ShipbornePlatform",
+    "system_type": "in_situ_platform",
+    "long_name": "Shipborne Platform",
+    "aliases": [
+      "ship",
+      "shipborne",
+      "research vessel"
+    ]
+  },
+
+  "skysat": {
+    "class": "System:SkySat",
+    "system_type": "satellite_platform",
+    "long_name": "SkySat Satellite Platform",
+    "aliases": [
+      "skysat"
+    ]
+  },
+
+  "somali current system": {
+    "class": "System:SomaliCurrent",
+    "system_type": "physical_system",
+    "subtype": "western_boundary_current",
+    "long_name": "Somali Current System",
+    "aliases": [
+      "somali current"
+    ]
+  },
+
+  "south atlantic central water": {
+    "class": "System:SouthAtlanticCentralWater",
+    "system_type": "physical_system",
+    "subtype": "water_mass",
+    "long_name": "South Atlantic Central Water",
+    "aliases": [
+      "sacw"
+    ]
+  },
+
+  "south atlantic high": {
+    "class": "System:SouthAtlanticHigh",
+    "system_type": "physical_system",
+    "subtype": "atmospheric_pressure_system",
+    "long_name": "South Atlantic High",
+    "aliases": [
+      "South Atlantic Anticyclone",
+      "South Atlantic Anticyclonic pressure system",
+      "South Atlantic Anticyclonic (SAH) atmospheric pressure system",
+      "SAH"
+    ]
+  },
+
+  "south atlantic subtropical gyre": {
+    "class": "System:SouthAtlanticSubtropicalGyre",
+    "system_type": "physical_system",
+    "subtype": "gyre",
+    "parent": "System:OceanGyre",
+    "aliases": [
+      "s atlantic subtropical gyre",
+      "s. atlantic subtropical gyre"
+    ]
+  },
+
+  "south equatorial current": {
+    "class": "System:SouthEquatorialCurrent",
+    "system_type": "physical_system",
+    "subtype": "equatorial_current",
+    "aliases": [
+      "s equatorial current",
+      "s. equatorial current"
+    ]
+  },
+
+  "southern south equatorial current": {
+    "class": "System:SouthernSouthEquatorialCurrent",
+    "system_type": "physical_system",
+    "subtype": "equatorial_current",
+    "parent": "System:SouthEquatorialCurrent",
+    "long_name": "Southern Branch of the South Equatorial Current",
+    "aliases": [
+      "ssec",
+      "s south equatorial current",
+      "s. south equatorial current"
+    ]
+  },
+
+  "suomi_npp": {
+    "class": "System:SuomiNPP",
+    "system_type": "satellite_platform",
+    "series": "JPSS",
+    "long_name": "Suomi National Polar-orbiting Partnership Satellite Platform",
+    "aliases": [
+      "suomi-npp",
+      "suomi npp",
+      "snpp",
+      "s-npp",
+      "Suomi National Polar-orbiting Partnership"
+    ]
+  },
+
+  "tiros_n": {
+    "class": "System:TIROSN",
+    "system_type": "satellite_platform",
+    "series": "TIROS-N/NOAA",
+    "long_name": "TIROS-N Satellite Platform",
+    "aliases": [
+      "tiros-n",
+      "TIROS-N",
+      "tiros n"
+    ]
+  },
+
+  "trans-nino index": {
+    "class": "System:TNI",
+    "system_type": "data_product",
+    "long_name": "Trans-Niño Index",
+    "aliases": [
+      "TNI",
+      "Trans-Nino Index",
+      "trans-niño index"
+    ]
+  },
+
+  "topex_poseidon": {
+    "class": "System:TOPEXPoseidon",
+    "system_type": "satellite_platform",
+    "long_name": "TOPEX/Poseidon Mission",
+    "aliases": [
+      "topex poseidon",
+      "topex/poseidon",
+      "TOPEX",
+      "Topex and Poseidon"
+    ]
+  },
+
+  "tropical rainfall measuring mission": {
+    "class": "System:TRMM",
+    "system_type": "satellite_mission",
+    "long_name": "Tropical Rainfall Measuring Mission",
+    "aliases": [
+      "TRMM",
+      "NASA’s Tropical Rainfall Measuring Mission"
+    ]
+  },
+
+  "taiwan strait current": {
+    "class": "System:TaiwanStraitCurrent",
+    "system_type": "physical_system",
+    "subtype": "ocean_current",
+    "long_name": "Taiwan Strait Current",
+    "aliases": [
+      "TSC"
+    ]
+  },
+
+  "terra": {
+    "class": "System:Terra",
+    "system_type": "satellite_platform",
+    "series": "EOS",
+    "long_name": "Terra Satellite Platform",
+    "aliases": [
+      "terra",
+      "eos terra"
+    ]
+  },
+
+  "tide_gauge_network": {
+    "class": "System:TideGaugeNetwork",
+    "system_type": "observing_system",
+    "long_name": "Tide Gauge Observing Network",
+    "aliases": [
+      "tide gauge network",
+      "tide-gauge network",
+      "sea level gauge network"
+    ]
+  },
+
+  "tsushima warm current": {
+    "class": "System:TsushimaWarmCurrent",
+    "system_type": "physical_system",
+    "subtype": "ocean_current",
+    "long_name": "Tsushima Warm Current"
+  },
+
+  "20th century reanalysis": {
+    "class": "System:TwentiethCenturyReanalysis",
+    "system_type": "data_product",
+    "long_name": "20th Century Reanalysis",
+    "aliases": [
+      "20th Century Reanalysis version 2",
+      "20CR"
+    ]
+  },
+
+  "uhslc": {
+    "class": "System:UHSLC",
+    "system_type": "data_service",
+    "long_name": "University of Hawaii Sea Level Center",
+    "aliases": [
+      "UHSLC",
+      "University of Hawaii Sea Level Center"
+    ]
+  },
+
+  "ukmo": {
+    "class": "System:UKMO",
+    "system_type": "organization",
+    "long_name": "United Kingdom Met Office",
+    "aliases": [
+      "met office",
+      "uk met office"
+    ]
+  },
+
+  "u.s. national ice center": {
+    "class": "System:USNIC",
+    "system_type": "organization",
+    "long_name": "U.S. National Ice Center",
+    "aliases": [
+      "USNIC",
+      "United States National Ice Center"
+    ]
+  },
+
+  "un-swan": {
+    "class": "System:UnSWAN",
+    "system_type": "model_system",
+    "long_name": "Unstructured-grid SWAN",
+    "aliases": [
+      "un-SWAN",
+      "un-SWAN model",
+      "MR un-SWAN",
+      "MR un-SWAN model",
+      "HR un-SWAN"
+    ]
+  },
+
+  "glider": {
+    "class": "System:UnderwaterGlider",
+    "system_type": "in_situ_platform",
+    "long_name": "Underwater Glider Platform",
+    "aliases": [
+      "glider",
+      "underwater glider"
+    ]
+  },
+
+  "WMO": {
+    "class": "System:WMO",
+    "system_type": "institution",
+    "long_name": "World Meteorological Organization"
+  },
+
+  "world ocean atlas": {
+    "class": "System:WOA",
+    "system_type": "data_product",
+    "long_name": "World Ocean Atlas",
+    "aliases": [
+      "WOA",
+      "WOA09",
+      "World Ocean Atlas 2009"
+    ]
+  },
+
+  "world ocean circulation experiment": {
+    "class": "System:WOCE",
+    "system_type": "observing_program",
+    "long_name": "World Ocean Circulation Experiment",
+    "aliases": [
+      "WOCE",
+      "World Ocean Circulation Experiment (WOCE)"
+    ]
+  },
+
+  "world_ocean_database": {
+    "class": "System:WOD",
+    "system_type": "data_repository",
+    "long_name": "World Ocean Database",
+    "aliases": [
+      "World Ocean Database",
+      "WOD",
+      "WOD18",
+      "World Ocean Database 2018"
+    ]
+  },
+
+  "wrf": {
+    "class": "System:WRF",
+    "system_type": "model_system",
+    "long_name": "Weather Research and Forecasting Model",
+    "aliases": [
+      "WRF",
+      "WRF model",
+      "Weather Research and Forecasting Model"
+    ]
+  },
+
+  "west pacific pattern": {
+    "class": "System:WestPacificPattern",
+    "system_type": "physical_system",
+    "subtype": "climate_mode",
+    "long_name": "West Pacific Pattern",
+    "aliases": [
+      "WP pattern",
+      "West Pacific (WP)"
+    ]
+  },
+
+  "western boundary current": {
+    "class": "System:WesternBoundaryCurrent",
+    "system_type": "physical_system",
+    "subtype": "ocean_current",
+    "aliases": [
+      "western boundary currents",
+      "WBCs",
+      "WBC",
+      "western_boundary_current"
+    ]
+  },
+
+  "worldview_2": {
+    "class": "System:WorldView2",
+    "system_type": "satellite_platform",
+    "series": "WorldView",
+    "long_name": "WorldView-2 Satellite Platform",
+    "aliases": [
+      "worldview-2",
+      "worldview 2"
+    ]
+  },
+
+  "worldview_3": {
+    "class": "System:WorldView3",
+    "system_type": "satellite_platform",
+    "series": "WorldView",
+    "long_name": "WorldView-3 Satellite Platform",
+    "aliases": [
+      "worldview-3",
+      "worldview 3"
+    ]
+  },
+
+  "worldview_4": {
+    "class": "System:WorldView4",
+    "system_type": "satellite_platform",
+    "series": "WorldView",
+    "long_name": "WorldView-4 Satellite Platform",
+    "aliases": [
+      "worldview-4",
+      "worldview 4"
+    ]
+  },
+
+  "xtrack-ales": {
+    "class": "System:XTRACKALES",
+    "system_type": "data_product",
+    "long_name": "X-TRACK/ALES Coastal Altimetry Product",
+    "aliases": [
+      "XTRACK-ALES"
+    ]
+  },
+
+  "zeehan current": {
+    "class": "System:ZeehanCurrent",
+    "system_type": "physical_system",
+    "subtype": "ocean_current",
+    "long_name": "Zeehan Current"
+  }
+}

@@ -1,3 +1,5 @@
+[← Back to README](README.md)
+
 # EOO-KG — Architecture Overview
 
 ## EOO-KG
@@ -117,7 +119,7 @@ EOO-KG is designed so that resolved scientific concepts can participate in knowl
 
 Instead of treating terms found in scientific material as isolated strings, EOO-KG provides canonical entities and semantic organization that can be used to connect scientific statements through stable identities.
 
-This supports graph representations in which observations, parameters, methods, processes, regions, sensors, systems, and related concepts can be connected without losing their semantic type.
+This supports downstream graph representations in which observations, parameters, methods, processes, regions, sensors, systems, and related concepts can be connected without losing their semantic type. The ontology supplies governed identities and vocabulary structure; extraction, graph construction, and validation are performed by separate CADENCE systems that are not part of this public repository.
 
 The result is a stronger foundation for interoperable scientific knowledge representation, graph-based exploration, and downstream reasoning.
 
@@ -150,10 +152,17 @@ EOO-KG follows several core principles:
 
 EOO-KG is under active development.
 
-Public ontology resources will be released as explicit, versioned snapshots so that changes in vocabulary and semantic structure can be tracked over time.
+The manuscript-associated **v0 (September 2026)** snapshot is the candidate for the initial public release. **v1 — next version (near future)** is a planned successor, **subject to Manuscript Acceptance and Release Approval**; its ontology data are not included in the v0 release.
+
+Authorized public ontology resources will be released as explicit, versioned snapshots so that changes in vocabulary and semantic structure can be tracked over time.
 
 Each release can therefore serve as a reproducible reference point for scientific applications that depend on a particular state of the ontology.
 
 ## Provenance
 
 EOO-KG is a scientific ontology resource developed within the **CADENCE** research framework for Earth Observation knowledge representation and knowledge-graph applications.
+
+
+---
+
+[← Back to README](README.md)

@@ -1,0 +1,1704 @@
+{
+  "aatsr": {
+    "class": "Sensor:AATSR",
+    "sensor_type": "thermal_infrared_radiometer",
+    "platform": "Envisat",
+    "long_name": "Advanced Along-Track Scanning Radiometer",
+    "aliases": [
+      "advanced along-track scanning radiometer",
+      "aatsr"
+    ]
+  },
+
+  "ABI": {
+    "class": "Sensor:ABI",
+    "sensor_type": "imager",
+    "platform": "GOES-R",
+    "long_name": "Advanced Baseline Imager"
+  },
+
+  "adcp": {
+    "class": "Sensor:ADCP",
+    "sensor_type": "acoustic_current_profiler",
+    "long_name": "Acoustic Doppler Current Profiler",
+    "aliases": [
+      "ADCP",
+      "acoustic Doppler current profiler"
+    ]
+  },
+
+  "agri": {
+    "class": "Sensor:AGRI",
+    "sensor_type": "radiometer",
+    "platform": "FY-4A"
+  },
+
+  "AHI": {
+    "class": "Sensor:AHI",
+    "sensor_type": "imager",
+    "platform": "Himawari-8/9",
+    "long_name": "Advanced Himawari Imager"
+  },
+
+  "airs": {
+    "class": "Sensor:AIRS",
+    "sensor_type": "infrared_sounder",
+    "platform": "Aqua",
+    "long_name": "Atmospheric Infrared Sounder",
+    "aliases": [
+      "AIRS",
+      "Atmospheric Infrared Sounder",
+      "Atmospheric Infrared Sounder (AIRS)",
+      "Aqua AIRS"
+    ]
+  },
+
+  "amsr": {
+    "class": "Sensor:AMSR",
+    "sensor_type": "microwave_radiometer",
+    "platform": "ADEOS-II",
+    "long_name": "Advanced Microwave Scanning Radiometer",
+    "aliases": [
+      "Advanced Microwave Scanning Radiometer (AMSR)",
+      "advanced microwave scanning radiometer"
+    ]
+  },
+
+  "amsr2": {
+    "class": "Sensor:AMSR2",
+    "sensor_type": "microwave_radiometer",
+    "platform": "GCOM-W1",
+    "aliases": [
+      "amsr-2",
+      "amsr 2",
+      "gcom-w amsr2",
+      "shizuku amsr2",
+      "JAXA Advanced Microwave Scanning Radiometer 2 (AMSR2)"
+    ]
+  },
+
+  "amsr-e": {
+    "class": "Sensor:AMSRE",
+    "sensor_type": "microwave_radiometer",
+    "platform": "Aqua",
+    "long_name": "Advanced Microwave Scanning Radiometer for EOS",
+    "aliases": [
+      "advanced microwave scanning radiometer for eos",
+      "amsr e",
+      "amsr_e",
+      "NASA Advanced Microwave Scanning Radiometer-EOS (AMSR-E)"
+    ]
+  },
+
+  "asar": {
+    "class": "Sensor:ASAR",
+    "sensor_type": "radar",
+    "platform": "Envisat",
+    "long_name": "Advanced Synthetic Aperture Radar",
+    "aliases": [
+      "advanced synthetic aperture radar"
+    ]
+  },
+
+  "ascat": {
+    "class": "Sensor:ASCAT",
+    "sensor_type": "scatterometer",
+    "platform": "MetOp"
+  },
+
+  "aster": {
+    "class": "Sensor:ASTER",
+    "sensor_type": "multispectral_thermal_infrared_radiometer",
+    "platform": "Terra",
+    "long_name": "Advanced Spaceborne Thermal Emission and Reflection Radiometer",
+    "aliases": [
+      "aster",
+      "ASTER",
+      "terra-aster",
+      "Terra-ASTER",
+      "advanced spaceborne thermal emission and reflection radiometer",
+      "advanced spaceborne thermal emission reflectance radiometer"
+    ]
+  },
+
+  "atlas": {
+    "class": "Sensor:ATLAS",
+    "sensor_type": "lidar",
+    "platform": "ICESat-2"
+  },
+
+  "airborne_topographic_mapper": {
+    "class": "Sensor:ATM",
+    "sensor_type": "lidar",
+    "platform": "NASA P-3",
+    "long_name": "Airborne Topographic Mapper",
+    "aliases": [
+      "airborne topographic mapper",
+      "nasa airborne topographic mapper"
+    ]
+  },
+
+  "atsr": {
+    "class": "Sensor:ATSR",
+    "sensor_type": "thermal_infrared_radiometer",
+    "platform": "ERS",
+    "long_name": "Along Track Scanning Radiometer",
+    "aliases": [
+      "atsr",
+      "ATSR",
+      "along track scanning radiometer",
+      "along-track scanning radiometer",
+      "ers-atsr",
+      "ERS-ATSR"
+    ]
+  },
+
+  "atsr_1": {
+    "class": "Sensor:ATSR1",
+    "sensor_type": "thermal_infrared_radiometer",
+    "platform": "ERS-1",
+    "long_name": "Along Track Scanning Radiometer 1",
+    "aliases": [
+      "atsr-1",
+      "atsr1"
+    ]
+  },
+
+  "atsr_2": {
+    "class": "Sensor:ATSR2",
+    "sensor_type": "thermal_infrared_radiometer",
+    "platform": "ERS-2",
+    "long_name": "Along Track Scanning Radiometer 2",
+    "aliases": [
+      "atsr-2",
+      "atsr2"
+    ]
+  },
+
+  "avhrr": {
+    "class": "Sensor:AVHRR",
+    "sensor_type": "radiometer",
+    "platform": "NOAA/MetOp",
+    "long_name": "Advanced Very High Resolution Radiometer",
+    "aliases": [
+      "avhrr sensor",
+      "avhrr instrument",
+      "advanced very high resolution radiometer",
+      "noaa-avhrr",
+      "NOAA-AVHRR",
+      "Advanced Very High Resolution Radiometer (AVHRR)",
+      "AVHRR sensors",
+      "AVHRRs",
+      "Metop AVHRR"
+    ]
+  },
+
+  "avhrr_1": {
+    "class": "Sensor:AVHRR1",
+    "sensor_type": "radiometer",
+    "platform": "TIROS-N/NOAA",
+    "version": "1",
+    "channel_count": 4,
+    "long_name": "Advanced Very High Resolution Radiometer / 1",
+    "aliases": [
+      "avhrr/1",
+      "avhrr-1",
+      "avhrr1",
+      "4-channel avhrr"
+    ]
+  },
+
+  "avhrr_2": {
+    "class": "Sensor:AVHRR2",
+    "sensor_type": "radiometer",
+    "platform": "NOAA",
+    "version": "2",
+    "channel_count": 5,
+    "long_name": "Advanced Very High Resolution Radiometer / 2",
+    "aliases": [
+      "avhrr/2",
+      "avhrr-2",
+      "avhrr2",
+      "5-channel avhrr"
+    ]
+  },
+
+  "avhrr_3": {
+    "class": "Sensor:AVHRR3",
+    "sensor_type": "radiometer",
+    "platform": "NOAA/MetOp",
+    "version": "3",
+    "channel_count": 6,
+    "long_name": "Advanced Very High Resolution Radiometer / 3",
+    "notes": "Six channels total, with switchable channel 3A/3B.",
+    "aliases": [
+      "avhrr/3",
+      "avhrr-3",
+      "avhrr3",
+      "6-channel avhrr"
+    ]
+  },
+
+  "aviris": {
+    "class": "Sensor:AVIRIS",
+    "sensor_type": "imaging_spectrometer",
+    "platform": "NASA ER-2",
+    "long_name": "Airborne Visible/Infrared Imaging Spectrometer",
+    "aliases": [
+      "airborne visible/infrared imaging spectrometer",
+      "airborne visible infrared imaging spectrometer"
+    ]
+  },
+
+  "aviris_ng": {
+    "class": "Sensor:AVIRIS_NG",
+    "sensor_type": "imaging_spectrometer",
+    "platform": "NASA P-3/ER-2",
+    "aliases": [
+      "aviris-ng",
+      "aviris ng"
+    ]
+  },
+
+  "avnir_2": {
+    "class": "Sensor:AVNIR2",
+    "sensor_type": "multispectral_imager",
+    "platform": "ALOS",
+    "long_name": "Advanced Visible and Near Infrared Radiometer type 2",
+    "aliases": [
+      "AVNIR-2",
+      "AVNIR2",
+      "ALOS AVNIR-2"
+    ]
+  },
+
+  "airborne_expendable_bathythermograph": {
+    "class": "Sensor:AXBT",
+    "sensor_type": "in_situ_profiler",
+    "long_name": "Airborne Expendable Bathythermograph",
+    "aliases": [
+      "AXBT",
+      "Air drop XBTs"
+    ]
+  },
+
+  "airmisr": {
+    "class": "Sensor:AirMISR",
+    "sensor_type": "multi_angle_imager",
+    "long_name": "Airborne Multi-angle Imaging SpectroRadiometer",
+    "aliases": [
+      "AirMISR",
+      "MISR airborne simulator"
+    ]
+  },
+
+  "altika": {
+    "class": "Sensor:AltiKa",
+    "sensor_type": "radar_altimeter",
+    "platform": "SARAL",
+    "aliases": [
+      "saral altika",
+      "alti-ka"
+    ]
+  },
+
+  "anemometer": {
+    "class": "Sensor:Anemometer",
+    "sensor_type": "wind_sensor",
+    "long_name": "Anemometer",
+    "aliases": [
+      "anemometer",
+      "coastal anemometer",
+      "windmill anemometer",
+      "windmill anemometer (05106, RM Young, USA)"
+    ]
+  },
+
+  "autoanalyzer": {
+    "class": "Sensor:Autoanalyzer",
+    "sensor_type": "laboratory_analyzer",
+    "long_name": "Continuous Flow Autoanalyzer",
+    "aliases": [
+      "continuous flow autoanalyzer",
+      "continuous flow autoanalyzer (QuAAtro, Seal Analytical, Germany)",
+      "QuAAtro"
+    ]
+  },
+
+  "casis": {
+    "class": "Sensor:CASIS",
+    "sensor_type": "imaging_spectrometer",
+    "platform": "Aircraft"
+  },
+
+  "chris": {
+    "class": "Sensor:CHRIS",
+    "sensor_type": "imaging_spectrometer",
+    "platform": "PROBA-1"
+  },
+
+  "cimr": {
+    "class": "Sensor:CIMR",
+    "sensor_type": "microwave_radiometer",
+    "platform": "Copernicus",
+    "long_name": "Copernicus Imaging Microwave Radiometer",
+    "aliases": [
+      "Copernicus Imaging Microwave Radiometer (CIMR)"
+    ]
+  },
+
+  "cocts": {
+    "class": "Sensor:COCTS",
+    "sensor_type": "radiometer",
+    "platform": "HY-1C/D"
+  },
+
+  "CTD": {
+    "class": "Sensor:CTD",
+    "sensor_type": "in_situ_profiler",
+    "long_name": "Conductivity-Temperature-Depth Profiler",
+    "aliases": [
+      "CTD profiler",
+      "conductivity-temperature-depth profiler",
+      "conductivity temperature depth profiler",
+      "Conductivity-Temperature-Depth",
+      "CTDs",
+      "conductivity–temperature–depth (CTD) sensors",
+      "conductivity-temperature-depth instrument (CTD; SBE 911 plus)",
+      "Seabird Conductivity/Temperature/Depth",
+      "SBE/CTD",
+      "Saildrone SBE/CTD",
+      "CTD rosette sampler",
+      "bottle/CTD"
+    ]
+  },
+
+  "czcs": {
+    "class": "Sensor:CZCS",
+    "sensor_type": "radiometer",
+    "platform": "Nimbus-7",
+    "long_name": "Coastal Zone Color Scanner",
+    "aliases": [
+      "coastal zone color scanner"
+    ]
+  },
+
+  "c_sar": {
+    "class": "Sensor:C_SAR",
+    "sensor_type": "radar",
+    "platform": "Sentinel-1",
+    "long_name": "C-band Synthetic Aperture Radar",
+    "aliases": [
+      "c-sar",
+      "c band sar",
+      "c-band sar",
+      "sentinel-1 sar"
+    ]
+  },
+
+  "cavity_ring_down_spectrometer": {
+    "class": "Sensor:CavityRingDownSpectrometer",
+    "sensor_type": "spectrometer",
+    "long_name": "Cavity Ring-Down Spectrometer",
+    "aliases": [
+      "cavity ring-down spectrometer",
+      "cavity ring down spectrometer",
+      "CRDS",
+      "Model G2308"
+    ]
+  },
+
+  "clark_cell": {
+    "class": "Sensor:ClarkCell",
+    "sensor_type": "electrochemical_oxygen_sensor",
+    "long_name": "Clark-Type Polarographic Oxygen Electrode",
+    "aliases": [
+      "Clark cell",
+      "Clark cell (polarographic)"
+    ]
+  },
+
+  "digital_bathythermograph": {
+    "class": "Sensor:DBT",
+    "sensor_type": "in_situ_profiler",
+    "long_name": "Digital Bathythermograph",
+    "aliases": [
+      "DBT",
+      "digital BT"
+    ]
+  },
+
+  "desis": {
+    "class": "Sensor:DESIS",
+    "sensor_type": "imaging_spectrometer",
+    "platform": "ISS"
+  },
+
+  "DMS": {
+    "class": "Sensor:DMS",
+    "sensor_type": "optical",
+    "platform": "NASA P-3"
+  },
+
+  "emit": {
+    "class": "Sensor:EMIT",
+    "sensor_type": "imaging_spectrometer",
+    "platform": "ISS",
+    "long_name": "Earth Surface Mineral Dust Source Investigation",
+    "aliases": [
+      "earth surface mineral dust source investigation",
+      "emit mission",
+      "nasa emit",
+      "emit instrument",
+      "emit imaging spectrometer"
+    ]
+  },
+
+  "ers_altimeter": {
+    "class": "Sensor:ERSAltimeter",
+    "sensor_type": "radar_altimeter",
+    "platform": "ERS",
+    "long_name": "ERS Radar Altimeter",
+    "aliases": [
+      "ers altimeter",
+      "ers-1 altimeter",
+      "ers-2 altimeter",
+      "ers radar altimeter"
+    ]
+  },
+
+  "echo_sounder": {
+    "class": "Sensor:EchoSounder",
+    "sensor_type": "acoustic_sounder",
+    "long_name": "Echo Sounder",
+    "aliases": [
+      "echo-sounder",
+      "echo-sounders",
+      "echo sounder",
+      "echo sounders"
+    ]
+  },
+
+  "elemental_analyzer": {
+    "class": "Sensor:ElementalAnalyzer",
+    "sensor_type": "laboratory_analyzer",
+    "long_name": "Elemental Analyzer",
+    "aliases": [
+      "elemental analyzer"
+    ]
+  },
+
+  "enmap_hsi": {
+    "class": "Sensor:EnMAPHSI",
+    "sensor_type": "imaging_spectrometer",
+    "platform": "EnMAP",
+    "long_name": "EnMAP Hyperspectral Imager",
+    "aliases": [
+      "EnMAP HSI",
+      "Hyperspectral Imager on EnMAP"
+    ]
+  },
+
+  "fluorometer": {
+    "class": "Sensor:Fluorometer",
+    "sensor_type": "fluorometer",
+    "long_name": "Fluorometer",
+    "aliases": [
+      "fluorometer",
+      "Turner Designs fluorometer",
+      "Trilogy Fluorometer",
+      "Turner Designs fluorometer (Trilogy Fluorometer, Turner Designs, USA)"
+    ]
+  },
+
+  "gfo_altimeter": {
+    "class": "Sensor:GFOAltimeter",
+    "sensor_type": "radar_altimeter",
+    "platform": "GFO",
+    "long_name": "Geosat Follow-On Radar Altimeter",
+    "aliases": [
+      "gfo altimeter",
+      "gfo radar altimeter"
+    ]
+  },
+
+  "glas": {
+    "class": "Sensor:GLAS",
+    "sensor_type": "lidar",
+    "platform": "ICESat"
+  },
+
+  "glimr": {
+    "class": "Sensor:GLIMR",
+    "sensor_type": "imaging_radiometer",
+    "platform": "Geostationary",
+    "long_name": "Geostationary Littoral Imaging and Monitoring Radiometer",
+    "aliases": [
+      "geostationary littoral imaging and monitoring radiometer",
+      "glimr mission",
+      "glimr"
+    ]
+  },
+
+  "gnss_receiver": {
+    "class": "Sensor:GNSSReceiver",
+    "sensor_type": "gnss_receiver",
+    "long_name": "GNSS Receiver",
+    "aliases": [
+      "GNSS receiver",
+      "GNSS receivers",
+      "GPS receiver",
+      "GPS receivers",
+      "ground based GNSS receivers",
+      "geodetic GNSS antennas/receivers",
+      "POD GNSS receivers"
+    ]
+  },
+
+  "goci": {
+    "class": "Sensor:GOCI",
+    "sensor_type": "optical",
+    "platform": "COMS",
+    "long_name": "Geostationary Ocean Color Imager",
+    "aliases": [
+      "geostationary ocean color imager",
+      "Geostationary Ocean Color Imager (GOCI)",
+      "GOCI-I"
+    ]
+  },
+
+  "harp2": {
+    "class": "Sensor:HARP2",
+    "sensor_type": "polarimeter",
+    "platform": "PACE"
+  },
+
+  "hico": {
+    "class": "Sensor:HICO",
+    "sensor_type": "imaging_spectrometer",
+    "platform": "ISS",
+    "long_name": "Hyperspectral Imager for the Coastal Ocean",
+    "aliases": [
+      "hyperspectral imager for the coastal ocean"
+    ]
+  },
+
+  "hirs": {
+    "class": "Sensor:HIRS",
+    "sensor_type": "infrared_sounder",
+    "platform": "NOAA",
+    "long_name": "High Resolution Infrared Radiation Sounder",
+    "aliases": [
+      "hirs",
+      "HIRS",
+      "high resolution infrared radiation sounder"
+    ]
+  },
+
+  "high_frequency_radar": {
+    "class": "Sensor:HighFrequencyRadar",
+    "sensor_type": "coastal_radar",
+    "long_name": "High-Frequency Radar",
+    "aliases": [
+      "high-frequency radar",
+      "high frequency radar",
+      "HF radar",
+      "High Frequency Radars",
+      "HFR",
+      "SOCIB HF radar facility"
+    ]
+  },
+
+  "high_spectral_resolution_sensor": {
+    "class": "Sensor:HighSpectralResolution",
+    "sensor_type": "optical",
+    "aliases": [
+      "high spectral resolution sensor"
+    ]
+  },
+
+  "hypersas": {
+    "class": "Sensor:HyperSAS",
+    "sensor_type": "hyperspectral_radiometer",
+    "platform": "shipborne",
+    "long_name": "Hyperspectral Surface Acquisition System",
+    "aliases": [
+      "hypersas",
+      "HyperSAS",
+      "satlantic hypersas",
+      "sea-bird hypersas",
+      "satlantic/sea-bird hypersas",
+      "hyperspectral surface acquisition system"
+    ]
+  },
+
+  "hyperion": {
+    "class": "Sensor:Hyperion",
+    "sensor_type": "imaging_spectrometer",
+    "platform": "EO-1"
+  },
+
+  "hyperspectral_sensor": {
+    "class": "Sensor:Hyperspectral",
+    "sensor_type": "optical",
+    "aliases": [
+      "hyperspectral sensor"
+    ]
+  },
+
+  "hyspiri_tir": {
+    "class": "Sensor:HyspIRITIR",
+    "sensor_type": "multispectral_infrared_imager",
+    "platform": "HyspIRI",
+    "aliases": [
+      "HyspIRI thermal infrared instrument",
+      "HyspIRI TIR"
+    ]
+  },
+
+  "hyspiri_vswir": {
+    "class": "Sensor:HyspIRIVSWIR",
+    "sensor_type": "hyperspectral_imager",
+    "platform": "HyspIRI",
+    "aliases": [
+      "HyspIRI hyperspectral instrument",
+      "HyspIRI VSWIR"
+    ]
+  },
+
+  "ikonos_imager": {
+    "class": "Sensor:IKONOSImager",
+    "sensor_type": "optical",
+    "platform": "IKONOS",
+    "long_name": "IKONOS Imaging System",
+    "aliases": [
+      "IKONOS imager",
+      "IKONOS sensor",
+      "IKONOS imaging system"
+    ]
+  },
+
+  "imaging_spectrometer": {
+    "class": "Sensor:ImagingSpectrometer",
+    "sensor_type": "optical",
+    "aliases": [
+      "imaging spectrometer"
+    ]
+  },
+
+  "infrared_sensor": {
+    "class": "Sensor:InfraredSensor",
+    "sensor_type": "infrared_sensor",
+    "long_name": "Infrared Sensor",
+    "aliases": [
+      "infrared sensor",
+      "infrared sensors",
+      "IR sensor",
+      "IR sensors"
+    ]
+  },
+
+  "kt19": {
+    "class": "Sensor:KT19",
+    "sensor_type": "infrared_radiometer",
+    "long_name": "Heitronics KT-19 Infrared Radiation Pyrometer",
+    "aliases": [
+      "KT-19",
+      "Heitronics KT-19 IR Radiation Pyrometer"
+    ]
+  },
+
+  "lvis": {
+    "class": "Sensor:LVIS",
+    "sensor_type": "lidar",
+    "long_name": "Laser Vegetation Imaging Sensor",
+    "aliases": [
+      "LVIS",
+      "laser vegetation imaging sensor"
+    ]
+  },
+
+  "landsat_etm_plus": {
+    "class": "Sensor:LandsatETMPlus",
+    "sensor_type": "multispectral_thermal_infrared_radiometer",
+    "platform": "Landsat",
+    "long_name": "Landsat Enhanced Thematic Mapper Plus",
+    "aliases": [
+      "landsat etm+",
+      "Landsat ETM+",
+      "etm+",
+      "ETM+",
+      "enhanced thematic mapper plus",
+      "enhanced thematic mapper"
+    ]
+  },
+
+  "landsat_msi": {
+    "class": "Sensor:LandsatMultispectralImager",
+    "sensor_type": "multispectral_imager",
+    "platform": "Landsat-series",
+    "long_name": "Landsat Multispectral Imager",
+    "aliases": [
+      "landsat imager",
+      "landsat multispectral imager"
+    ]
+  },
+
+  "landsat_tm": {
+    "class": "Sensor:LandsatTM",
+    "sensor_type": "multispectral_thermal_infrared_radiometer",
+    "platform": "Landsat",
+    "long_name": "Landsat Thematic Mapper",
+    "aliases": [
+      "landsat tm",
+      "Landsat TM",
+      "thematic mapper",
+      "tm sensor",
+      "TM sensor",
+      "landsat-tm",
+      "Landsat-TM"
+    ]
+  },
+
+  "lidar": {
+    "class": "Sensor:Lidar",
+    "sensor_type": "lidar",
+    "long_name": "Light Detection and Ranging Sensor",
+    "aliases": [
+      "LiDAR",
+      "lidars",
+      "lidar sensor",
+      "lidar sensors"
+    ]
+  },
+
+  "luminescent_optical_sensor": {
+    "class": "Sensor:LuminescentOpticalSensor",
+    "sensor_type": "optical_oxygen_sensor",
+    "long_name": "Luminescent Optical Sensor",
+    "aliases": [
+      "luminescent optical sensor"
+    ]
+  },
+
+  "mechanical_bathythermograph": {
+    "class": "Sensor:MBT",
+    "sensor_type": "in_situ_profiler",
+    "long_name": "Mechanical Bathythermograph",
+    "aliases": [
+      "MBT",
+      "MBTs",
+      "mechanical bathythermograph",
+      "mechanical bathythermographs (MBT)"
+    ]
+  },
+
+  "meris": {
+    "class": "Sensor:MERIS",
+    "sensor_type": "imager",
+    "platform": "Envisat",
+    "long_name": "Medium Resolution Imaging Spectrometer",
+    "aliases": [
+      "medium resolution imaging spectrometer",
+      "MEdium Resolution Imaging Spectrometer (MERIS)",
+      "ENVISAT-MERIS"
+    ]
+  },
+
+  "mersi2": {
+    "class": "Sensor:MERSI2",
+    "sensor_type": "radiometer",
+    "platform": "FY-3D"
+  },
+
+  "mersi_ll": {
+    "class": "Sensor:MERSI_LL",
+    "sensor_type": "radiometer",
+    "platform": "FY-3E",
+    "aliases": [
+      "mersi ll"
+    ]
+  },
+
+  "mipas": {
+    "class": "Sensor:MIPAS",
+    "sensor_type": "fourier_transform_limb_spectrometer",
+    "platform": "Envisat",
+    "long_name": "Michelson Interferometer for Passive Atmospheric Sounding",
+    "aliases": [
+      "mipas",
+      "MIPAS",
+      "mipas-envisat"
+    ]
+  },
+
+  "miras": {
+    "class": "Sensor:MIRAS",
+    "sensor_type": "microwave_radiometer",
+    "platform": "SMOS",
+    "long_name": "Microwave Imaging Radiometer using Aperture Synthesis",
+    "aliases": [
+      "MIRAS",
+      "SMOS MIRAS",
+      "SMOS radiometer",
+      "SMOS sensor"
+    ]
+  },
+
+  "misr": {
+    "class": "Sensor:MISR",
+    "sensor_type": "multi_angle_imager",
+    "platform": "Terra",
+    "long_name": "Multi-angle Imaging SpectroRadiometer",
+    "aliases": [
+      "MISR",
+      "Terra-MISR"
+    ]
+  },
+
+  "modis": {
+    "class": "Sensor:MODIS",
+    "sensor_type": "radiometer",
+    "platform": "Multiple",
+    "long_name": "Moderate Resolution Imaging Spectroradiometer",
+    "aliases": [
+      "modis instrument",
+      "moderate resolution imaging spectroradiometer",
+      "Moderate Resolution Imaging Spectroradiometer (MODIS)",
+      "Moderate Resolution Imaging Spectroradiometers (MODIS)"
+    ]
+  },
+
+  "modis_aqua": {
+    "class": "Sensor:MODIS_Aqua",
+    "sensor_type": "radiometer",
+    "platform": "Aqua",
+    "long_name": "MODIS on Aqua",
+    "aliases": [
+      "modis-aqua",
+      "MODIS-Aqua",
+      "modis aqua",
+      "aqua modis",
+      "aqua-modis",
+      "Aqua-MODIS"
+    ]
+  },
+
+  "modis_terra": {
+    "class": "Sensor:MODIS_Terra",
+    "sensor_type": "radiometer",
+    "platform": "Terra",
+    "long_name": "MODIS on Terra",
+    "aliases": [
+      "modis-terra",
+      "modis terra",
+      "terra modis",
+      "terra-modis",
+      "Terra-MODIS"
+    ]
+  },
+
+  "MSI": {
+    "class": "Sensor:MSI",
+    "sensor_type": "radiometer",
+    "platform": "Sentinel-2",
+    "long_name": "MultiSpectral Instrument",
+    "aliases": [
+      "multispectral instrument",
+      "MSI/Sentinel-2",
+      "Sentinel-2/MSI",
+      "Sentinel-2 sensor"
+    ]
+  },
+
+  "mviri": {
+    "class": "Sensor:MVIRI",
+    "sensor_type": "visible_infrared_radiometer",
+    "platform": "Meteosat",
+    "long_name": "Meteosat Visible and Infrared Imager",
+    "aliases": [
+      "mviri",
+      "MVIRI",
+      "meteosat visible and infrared imager",
+      "visible and infrared imager",
+      "meteosat-mviri",
+      "Meteosat-MVIRI"
+    ]
+  },
+
+  "microwave_radiometer": {
+    "class": "Sensor:MicrowaveRadiometer",
+    "sensor_type": "microwave_radiometer",
+    "long_name": "Microwave Radiometer",
+    "aliases": [
+      "microwave radiometer",
+      "microwave radiometers"
+    ]
+  },
+
+  "microwave_sensor": {
+    "class": "Sensor:MicrowaveSensor",
+    "sensor_type": "microwave_sensor",
+    "long_name": "Microwave Sensor",
+    "aliases": [
+      "microwave sensor",
+      "microwave sensors",
+      "Microwave (MW) sensors"
+    ]
+  },
+
+  "multispectral_sensor": {
+    "class": "Sensor:MultispectralSensor",
+    "sensor_type": "optical",
+    "aliases": [
+      "multispectral sensor",
+      "multispectral sensors"
+    ]
+  },
+
+  "nephelometer": {
+    "class": "Sensor:Nephelometer",
+    "sensor_type": "nephelometer",
+    "long_name": "Nephelometer",
+    "aliases": [
+      "nephelometer",
+      "nephelometers",
+      "in situ nephelometers"
+    ]
+  },
+
+  "niskin_bottle": {
+    "class": "Sensor:NiskinBottle",
+    "sensor_type": "water_sampler",
+    "long_name": "Niskin Bottle",
+    "aliases": [
+      "Niskin bottle",
+      "Niskin bottles"
+    ]
+  },
+
+  "OCI": {
+    "class": "Sensor:OCI",
+    "sensor_type": "radiometer",
+    "platform": "PACE",
+    "long_name": "Ocean Color Instrument",
+    "aliases": [
+      "pace oci",
+      "ocean color instrument"
+    ]
+  },
+
+  "ocm2": {
+    "class": "Sensor:OCM2",
+    "sensor_type": "optical",
+    "platform": "Oceansat-2",
+    "aliases": [
+      "oceansat-2 ocm"
+    ]
+  },
+
+  "ocm3": {
+    "class": "Sensor:OCM3",
+    "sensor_type": "optical",
+    "platform": "Oceansat-3",
+    "aliases": [
+      "oceansat-3 oci"
+    ]
+  },
+
+  "olci": {
+    "class": "Sensor:OLCI",
+    "sensor_type": "radiometer",
+    "platform": "Sentinel-3",
+    "long_name": "Ocean and Land Colour Instrument",
+    "aliases": [
+      "ocean and land colour instrument",
+      "ocean and land color instrument",
+      "Ocean and Land Color Instrument (OLCI)"
+    ]
+  },
+
+  "OLI": {
+    "class": "Sensor:OLI",
+    "sensor_type": "multispectral_imager",
+    "platform": "Landsat-8/9",
+    "long_name": "Operational Land Imager",
+    "aliases": [
+      "operational land imager",
+      "landsat oli",
+      "landsat-8 oli",
+      "landsat-9 oli",
+      "OLI/Landsat 8"
+    ]
+  },
+
+  "oli_tirs": {
+    "class": "Sensor:OLI_TIRS",
+    "sensor_type": "multispectral_thermal_infrared_radiometer",
+    "platform": "Landsat-8/9",
+    "aliases": [
+      "oli/tirs",
+      "oli tirs"
+    ]
+  },
+
+  "OMI": {
+    "class": "Sensor:OMI",
+    "sensor_type": "spectrometer",
+    "platform": "Aura",
+    "long_name": "Ozone Monitoring Instrument",
+    "aliases": [
+      "ozone monitoring instrument"
+    ]
+  },
+
+  "ocean_color_sensor": {
+    "class": "Sensor:OceanColorSensor",
+    "sensor_type": "ocean_color_radiometer",
+    "long_name": "Ocean Color Sensor",
+    "aliases": [
+      "ocean color sensor",
+      "ocean-color sensors",
+      "ocean color radiometry sensors",
+      "satellite ocean color radiometric sensors"
+    ]
+  },
+
+  "optical_sensor": {
+    "class": "Sensor:OpticalSensor",
+    "sensor_type": "optical",
+    "long_name": "Optical Sensor",
+    "aliases": [
+      "optical sensor",
+      "optical sensors",
+      "satellite optical sensors"
+    ]
+  },
+
+  "palsar": {
+    "class": "Sensor:PALSAR",
+    "sensor_type": "radar",
+    "platform": "ALOS",
+    "aliases": [
+      "alos palsar"
+    ]
+  },
+
+  "palsar2": {
+    "class": "Sensor:PALSAR2",
+    "sensor_type": "radar",
+    "platform": "ALOS-2",
+    "aliases": [
+      "alos-2 palsar-2"
+    ]
+  },
+
+  "pixl": {
+    "class": "Sensor:PIXL",
+    "sensor_type": "spectrometer",
+    "platform": "Mars2020"
+  },
+
+  "prism_alos": {
+    "class": "Sensor:PRISM",
+    "sensor_type": "panchromatic_imager",
+    "platform": "ALOS",
+    "long_name": "Panchromatic Remote-sensing Instrument for Stereo Mapping",
+    "aliases": [
+      "PRISM",
+      "ALOS PRISM"
+    ]
+  },
+
+  "prisma_hyperspectral_imager": {
+    "class": "Sensor:PRISMAHyperspectralImager",
+    "sensor_type": "imaging_spectrometer",
+    "platform": "PRISMA",
+    "long_name": "PRISMA Hyperspectral Imager",
+    "aliases": [
+      "PRISMA hyperspectral imager",
+      "PRISMA imaging spectrometer",
+      "PRISMA sensor"
+    ]
+  },
+
+  "polarimetric and interferometric sar": {
+    "class": "Sensor:PiSAR",
+    "sensor_type": "radar",
+    "long_name": "Polarimetric and Interferometric SAR",
+    "aliases": [
+      "Pi-SAR",
+      "PiSAR",
+      "Polarimetric and Interferometric SAR"
+    ]
+  },
+
+  "poseidon": {
+    "class": "Sensor:Poseidon",
+    "sensor_type": "radar_altimeter",
+    "platform": "Jason series",
+    "long_name": "Poseidon Radar Altimeter"
+  },
+
+  "poseidon_2": {
+    "class": "Sensor:Poseidon2",
+    "sensor_type": "radar_altimeter",
+    "platform": "Jason-1",
+    "version": "2",
+    "long_name": "Poseidon-2 Radar Altimeter",
+    "aliases": [
+      "poseidon-2",
+      "poseidon 2",
+      "jason-1 poseidon"
+    ]
+  },
+
+  "poseidon_3": {
+    "class": "Sensor:Poseidon3",
+    "sensor_type": "radar_altimeter",
+    "platform": "Jason-2/Jason-3",
+    "version": "3",
+    "long_name": "Poseidon-3 Radar Altimeter",
+    "aliases": [
+      "poseidon-3",
+      "poseidon 3",
+      "jason-2 poseidon",
+      "jason-3 poseidon"
+    ]
+  },
+
+  "poseidon_4": {
+    "class": "Sensor:Poseidon4",
+    "sensor_type": "radar_altimeter",
+    "platform": "Sentinel-6",
+    "version": "4",
+    "long_name": "Poseidon-4 Radar Altimeter",
+    "aliases": [
+      "poseidon-4",
+      "poseidon 4",
+      "sentinel-6 poseidon"
+    ]
+  },
+
+  "quickbird_imager": {
+    "class": "Sensor:QuickBirdImager",
+    "sensor_type": "optical",
+    "platform": "QuickBird",
+    "long_name": "QuickBird Imaging System",
+    "aliases": [
+      "QuickBird imager",
+      "QuickBird sensor",
+      "QuickBird imaging system"
+    ]
+  },
+
+  "RA": {
+    "class": "Sensor:RA",
+    "sensor_type": "radar_altimeter",
+    "platform": "HY-2",
+    "long_name": "Radar Altimeter"
+  },
+
+  "RA2": {
+    "class": "Sensor:RA2",
+    "sensor_type": "radar_altimeter",
+    "platform": "Envisat",
+    "long_name": "Radar Altimeter 2",
+    "aliases": [
+      "ra-2",
+      "ra 2",
+      "envisat ra-2",
+      "envisat radar altimeter"
+    ]
+  },
+
+  "radar_altimeter": {
+    "class": "Sensor:RadarAltimeter",
+    "sensor_type": "radar_altimeter",
+    "platform": "Multiple",
+    "long_name": "Radar Altimeter",
+    "aliases": [
+      "radar altimeter",
+      "satellite radar altimeter",
+      "altimeter",
+      "satellite altimeter",
+      "altimeters",
+      "satellite altimeters",
+      "radar altimeters",
+      "Radio altimeter",
+      "traditional altimeters",
+      "nadir altimeter",
+      "nadir altimeters"
+    ]
+  },
+
+  "radiometer": {
+    "class": "Sensor:Radiometer",
+    "sensor_type": "radiometer",
+    "long_name": "Radiometer",
+    "aliases": [
+      "radiometer",
+      "radiometers"
+    ]
+  },
+
+  "rain_gauge": {
+    "class": "Sensor:RainGauge",
+    "sensor_type": "precipitation_gauge",
+    "long_name": "Rain Gauge",
+    "aliases": [
+      "rain gauge",
+      "rain gauges",
+      "rain gauge network"
+    ]
+  },
+
+  "reversing_thermometer": {
+    "class": "Sensor:ReversingThermometer",
+    "sensor_type": "in_situ_thermometer",
+    "long_name": "Reversing Thermometer",
+    "aliases": [
+      "reversing thermometer",
+      "Reversing thermometers"
+    ]
+  },
+
+  "SAR": {
+    "class": "Sensor:SAR",
+    "sensor_type": "radar",
+    "platform": "Multiple",
+    "long_name": "Synthetic Aperture Radar",
+    "aliases": [
+      "synthetic aperture radar",
+      "Synthetic Aperture Radar (SAR)",
+      "SAR sensors",
+      "SAR instruments",
+      "satellite-borne SAR",
+      "C-band SAR sensors"
+    ]
+  },
+
+  "scat": {
+    "class": "Sensor:SCAT",
+    "sensor_type": "scatterometer",
+    "platform": "CFOSAT"
+  },
+
+  "sciamachy": {
+    "class": "Sensor:SCIAMACHY",
+    "sensor_type": "hyperspectral_imaging_spectrometer",
+    "platform": "Envisat",
+    "long_name": "Scanning Imaging Absorption Spectrometer for Atmospheric Cartography",
+    "aliases": [
+      "sciamachy",
+      "SCIAMACHY",
+      "scia",
+      "SCIA"
+    ]
+  },
+
+  "seviri": {
+    "class": "Sensor:SEVIRI",
+    "sensor_type": "radiometer",
+    "platform": "Meteosat",
+    "long_name": "Spinning Enhanced Visible and Infrared Imager",
+    "aliases": [
+      "seviri",
+      "SEVIRI",
+      "spinning enhanced visible and infrared imager",
+      "meteosat second generation seviri"
+    ]
+  },
+
+  "sgli": {
+    "class": "Sensor:SGLI",
+    "sensor_type": "optical",
+    "platform": "GCOM-C",
+    "long_name": "Second-generation Global Imager",
+    "aliases": [
+      "gcom-c sgli",
+      "Second-generation GLobal Imager (SGLI)"
+    ]
+  },
+
+  "siral": {
+    "class": "Sensor:SIRAL",
+    "sensor_type": "radar_altimeter",
+    "platform": "CryoSat-2"
+  },
+
+  "slstr": {
+    "class": "Sensor:SLSTR",
+    "sensor_type": "radiometer",
+    "platform": "Sentinel-3",
+    "long_name": "Sea and Land Surface Temperature Radiometer",
+    "aliases": [
+      "SLSTR A/B"
+    ]
+  },
+
+  "slstr_a": {
+    "class": "Sensor:SLSTR_A",
+    "sensor_type": "radiometer",
+    "platform": "Sentinel-3A",
+    "long_name": "Sea and Land Surface Temperature Radiometer on Sentinel-3A",
+    "aliases": [
+      "slstr-a",
+      "sentinel-3a slstr"
+    ]
+  },
+
+  "slstr_b": {
+    "class": "Sensor:SLSTR_B",
+    "sensor_type": "radiometer",
+    "platform": "Sentinel-3B",
+    "long_name": "Sea and Land Surface Temperature Radiometer on Sentinel-3B",
+    "aliases": [
+      "slstr-b",
+      "sentinel-3b slstr"
+    ]
+  },
+
+  "slstr_c": {
+    "class": "Sensor:SLSTR_C",
+    "sensor_type": "radiometer",
+    "platform": "Sentinel-3C",
+    "long_name": "Sea and Land Surface Temperature Radiometer on Sentinel-3C",
+    "aliases": [
+      "slstr-c",
+      "sentinel-3c slstr"
+    ]
+  },
+
+  "smap_radiometer": {
+    "class": "Sensor:SMAPRadiometer",
+    "sensor_type": "microwave_radiometer",
+    "platform": "SMAP",
+    "long_name": "SMAP Radiometer",
+    "aliases": [
+      "SMAP sensor",
+      "SMAP radiometer",
+      "SMAP microwave radiometer"
+    ]
+  },
+
+  "smmr": {
+    "class": "Sensor:SMMR",
+    "sensor_type": "passive_microwave_radiometer",
+    "platform": "Nimbus-7",
+    "long_name": "Scanning Multichannel Microwave Radiometer",
+    "aliases": [
+      "SMMR",
+      "scanning multichannel microwave radiometer"
+    ]
+  },
+
+  "spexone": {
+    "class": "Sensor:SPEXone",
+    "sensor_type": "polarimeter",
+    "platform": "PACE"
+  },
+
+  "spot-5": {
+    "class": "Sensor:SPOT5",
+    "sensor_type": "optical",
+    "platform": "SPOT",
+    "long_name": "SPOT-5",
+    "aliases": [
+      "spot 5",
+      "spot5"
+    ]
+  },
+
+  "ssmi": {
+    "class": "Sensor:SSMI",
+    "sensor_type": "passive_microwave_radiometer",
+    "platform": "DMSP",
+    "long_name": "Special Sensor Microwave Imager",
+    "aliases": [
+      "ssm/i",
+      "SSM/I",
+      "ssmi",
+      "SSMI",
+      "special sensor microwave imager",
+      "special sensor microwave/imager",
+      "dmsp-ssm/i",
+      "DMSP-SSM/I"
+    ]
+  },
+
+  "ssmis": {
+    "class": "Sensor:SSMIS",
+    "sensor_type": "passive_microwave_radiometer",
+    "long_name": "Special Sensor Microwave Imager/Sounder",
+    "aliases": [
+      "SSMIS",
+      "Special Sensor Microwave Imager/Sounder",
+      "special sensor microwave imager sounder"
+    ]
+  },
+
+  "swim": {
+    "class": "Sensor:SWIM",
+    "sensor_type": "radar",
+    "platform": "CFOSAT"
+  },
+
+  "salinometer": {
+    "class": "Sensor:Salinometer",
+    "sensor_type": "salinometer",
+    "long_name": "Salinometer",
+    "aliases": [
+      "salinometer",
+      "laboratory salinometer",
+      "laboratory salinometer (Model 8400B)",
+      "Autosal"
+    ]
+  },
+
+  "scatterometer": {
+    "class": "Sensor:Scatterometer",
+    "sensor_type": "scatterometer",
+    "long_name": "Scatterometer",
+    "aliases": [
+      "scatterometer",
+      "scatterometers",
+      "radar scatterometer",
+      "satellite radar scatterometers"
+    ]
+  },
+
+  "seawifs": {
+    "class": "Sensor:SeaWiFS",
+    "sensor_type": "optical",
+    "platform": "OrbView-2",
+    "long_name": "Sea-viewing Wide Field-of-view Sensor",
+    "aliases": [
+      "seawifs sensor",
+      "sea-viewing wide field-of-view sensor",
+      "sea viewing wide field of view sensor",
+      "Sea-viewing Wide Field-of-view Sensor (SeaWiFS)"
+    ]
+  },
+
+  "seawinds": {
+    "class": "Sensor:SeaWinds",
+    "sensor_type": "scatterometer",
+    "platform": "QuikSCAT",
+    "aliases": [
+      "quikscat seawinds"
+    ]
+  },
+
+  "secchi_disk": {
+    "class": "Sensor:SecchiDisk",
+    "sensor_type": "optical_water_clarity_instrument",
+    "long_name": "Secchi Disk",
+    "aliases": [
+      "Secchi Disk",
+      "secchi disk"
+    ]
+  },
+
+  "sonar": {
+    "class": "Sensor:Sonar",
+    "sensor_type": "acoustic_sensor",
+    "long_name": "Sonar",
+    "aliases": [
+      "sonar",
+      "upward looking sonar",
+      "upward looking sonars"
+    ]
+  },
+
+  "spectroradiometer": {
+    "class": "Sensor:Spectroradiometer",
+    "sensor_type": "spectroradiometer",
+    "long_name": "Spectroradiometer",
+    "aliases": [
+      "spectroradiometer",
+      "spectroradiometers"
+    ]
+  },
+
+  "tims": {
+    "class": "Sensor:TIMS",
+    "sensor_type": "airborne_thermal_infrared_scanner",
+    "platform": "NASA C-130",
+    "long_name": "Thermal Infrared Multispectral Scanner",
+    "aliases": [
+      "tims",
+      "TIMS",
+      "thermal infrared multispectral scanner",
+      "airborne thermal infrared multispectral scanner"
+    ]
+  },
+
+  "TMI": {
+    "class": "Sensor:TMI",
+    "sensor_type": "microwave_radiometer",
+    "platform": "TRMM"
+  },
+
+  "topex_altimeter": {
+    "class": "Sensor:TOPEXAltimeter",
+    "sensor_type": "radar_altimeter",
+    "platform": "TOPEX/Poseidon",
+    "long_name": "TOPEX Radar Altimeter",
+    "aliases": [
+      "topex altimeter",
+      "topex radar altimeter"
+    ]
+  },
+
+  "tovs": {
+    "class": "Sensor:TOVS",
+    "sensor_type": "atmospheric_sounder",
+    "platform": "NOAA",
+    "long_name": "TIROS Operational Vertical Sounder",
+    "aliases": [
+      "tovs",
+      "TOVS",
+      "tiros operational vertical sounder",
+      "vertical sounder",
+      "vertical sounders"
+    ]
+  },
+
+  "tropomi": {
+    "class": "Sensor:TROPOMI",
+    "sensor_type": "imaging_spectrometer",
+    "platform": "Sentinel-5P",
+    "long_name": "Tropospheric Monitoring Instrument",
+    "aliases": [
+      "TROPOMI",
+      "Sentinel-5P Tropomi",
+      "Sentinel-5P TROPOMI"
+    ]
+  },
+
+  "tide_gauge": {
+    "class": "Sensor:TideGauge",
+    "sensor_type": "sea_level_gauge",
+    "long_name": "Tide Gauge",
+    "aliases": [
+      "tide gauge",
+      "tide gauges",
+      "sea level gauge",
+      "sea-level gauge",
+      "tidal gauges",
+      "NOAA tide gauge",
+      "Malaysian tide gauge"
+    ]
+  },
+
+  "uavsar": {
+    "class": "Sensor:UAVSAR",
+    "sensor_type": "radar",
+    "platform": "NASA Gulfstream III"
+  },
+
+  "VAS": {
+    "class": "Sensor:VAS",
+    "sensor_type": "atmospheric_sounder",
+    "platform": "GOES",
+    "long_name": "VISSR Atmospheric Sounder",
+    "aliases": [
+      "vissr atmospheric sounder"
+    ]
+  },
+
+  "viirs": {
+    "class": "Sensor:VIIRS",
+    "sensor_type": "radiometer",
+    "platform": "Multiple",
+    "long_name": "Visible Infrared Imaging Radiometer Suite",
+    "aliases": [
+      "visible infrared imaging radiometer suite",
+      "Visible Infrared Imager Radiometer Suite (VIIRS)",
+      "Visible Infrared Imaging Radiometer Suite (VIIRS)"
+    ]
+  },
+
+  "viirs_noaa20": {
+    "class": "Sensor:VIIRS_NOAA20",
+    "sensor_type": "radiometer",
+    "platform": "NOAA-20",
+    "long_name": "VIIRS on NOAA-20",
+    "aliases": [
+      "viirs n20",
+      "viirs noaa20",
+      "viirs noaa-20",
+      "noaa-20 viirs"
+    ]
+  },
+
+  "viirs_noaa21": {
+    "class": "Sensor:VIIRS_NOAA21",
+    "sensor_type": "radiometer",
+    "platform": "NOAA-21",
+    "long_name": "VIIRS on NOAA-21",
+    "aliases": [
+      "viirs jp1",
+      "viirs noaa21",
+      "viirs noaa-21",
+      "noaa-21 viirs"
+    ]
+  },
+
+  "viirs_snpp": {
+    "class": "Sensor:VIIRS_SNPP",
+    "sensor_type": "radiometer",
+    "platform": "Suomi-NPP",
+    "long_name": "VIIRS on Suomi-NPP",
+    "aliases": [
+      "viirs snpp",
+      "viirs s-npp",
+      "viirs suomi-npp",
+      "snpp viirs"
+    ]
+  },
+
+  "windsat": {
+    "class": "Sensor:WindSat",
+    "sensor_type": "microwave_radiometer",
+    "platform": "Coriolis",
+    "aliases": [
+      "microwave WindSat radiometer"
+    ]
+  },
+
+  "XBT": {
+    "class": "Sensor:XBT",
+    "sensor_type": "in_situ_profiler",
+    "long_name": "Expendable Bathythermograph",
+    "aliases": [
+      "expendable bathythermograph",
+      "XBTs",
+      "deep XBTs",
+      "Shallow XBTs"
+    ]
+  },
+
+  "xctd": {
+    "class": "Sensor:XCTD",
+    "sensor_type": "in_situ_profiler",
+    "long_name": "Expendable Conductivity-Temperature-Depth Profiler",
+    "aliases": [
+      "XCTD",
+      "expendable CTD",
+      "expendable conductivity-temperature-depth profiler"
+    ]
+  },
+
+  "ph_electrode": {
+    "class": "Sensor:pHElectrode",
+    "sensor_type": "electrochemical_sensor",
+    "long_name": "pH Glass Electrode",
+    "aliases": [
+      "pH glass electrode",
+      "glass electrode",
+      "glass electrodes"
+    ]
+  }
+}

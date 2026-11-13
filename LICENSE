@@ -1,22 +1,43 @@
-# EOO-KG — License and Attribution Scope
+# EOO-KG — License and Attribution
 
-## Ontology datasets (upon authorized release)
+## Ontology datasets — CC BY 4.0
 
-Ontology datasets explicitly designated as released under this license are made available under the **Creative Commons Attribution 4.0 International Public License (CC BY 4.0)**.
+The CADENCE-EOO v0 (September 2026) ontology datasets distributed in `ontology/v0/` are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
-Authoritative legal text: https://creativecommons.org/licenses/by/4.0/legalcode
-Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+- [License text](https://creativecommons.org/licenses/by/4.0/legalcode)
+- [License summary](https://creativecommons.org/licenses/by/4.0/)
 
-Under CC BY 4.0, users must give appropriate credit, provide a link to the license, indicate whether changes were made, and must not imply endorsement. Attribution must be reasonable for the medium and use.
+Under CC BY 4.0, users must give appropriate credit, provide a link to the license, indicate whether changes were made, and must not imply endorsement by the authors. Attribution may be provided in any reasonable manner consistent with the medium and use.
 
-**Requested attribution:** CADENCE-EOO / EOO-KG; P. Dash and P. M. DiGiacomo; the exact released dataset version; and https://github.com/DrPDash/EOO-KG.
+**Dataset attribution:** CADENCE-EOO v0 (September 2026); Prasanjit Dash and Paul M. DiGiacomo; [EOO-KG](https://github.com/DrPDash/EOO-KG); CC BY 4.0. Identify the version used and indicate modifications, if any.
 
-**Scholarly citation request (not an additional CC BY legal condition):** When publishing research that uses the ontology, please cite the associated CADENCE-EOO scientific paper when available, as well as the exact dataset version. Until a formal paper citation is available, cite the repository and version.
+## Python Explorer — BSD 3-Clause License
 
-## Software and other materials
+Copyright (c) 2026, Prasanjit Dash and Paul M. DiGiacomo
+All rights reserved.
 
-**No software license is granted by this file.** The Python ontology Explorer and other source code require a separate, expressly approved software license before public distribution. The CC BY 4.0 designation above does not extend to private CADENCE implementations, internal processing code, unreleased datasets, or other unpublished materials.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
-## Pre-release status
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
-This file documents the **intended license for future authorized dataset releases**. It does not itself authorize publication of local `ontology/v0/`, `ontology/v1/`, or subsequent snapshots. Rights ownership, coauthor and institutional permissions, and the final scope of release must be verified before distribution.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+## Scholarly citation
+
+Scientific publications using CADENCE-EOO are expected to cite the corresponding ontology dataset version and the associated scientific paper when published:
+
+Dash, P., and DiGiacomo, P. M., *CADENCE-EOO: A Corpus-Guided Earth Observation Ontology*, manuscript in preparation for *Earth Science Informatics*.
+
+Until the paper is published, cite the dataset version and repository. Citation of the paper is a scholarly expectation, **not an additional legal condition** of the CC BY 4.0 license.
+
+### Reuse and Citation
+
+CADENCE-EOO is made available to support scientific research, reproducibility, and further development.
+
+Reuse, adaptation, and redistribution are permitted under the applicable licenses, with attribution to Prasanjit Dash and Paul M. DiGiacomo.
+
+Scientific publications using CADENCE-EOO must cite the ontology dataset, its specific version, and the associated CADENCE-EOO research paper when available. This scholarly citation requirement is a project policy and does not impose an additional legal condition on the CC BY 4.0 license.

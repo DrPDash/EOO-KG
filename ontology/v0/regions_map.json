@@ -1,0 +1,4023 @@
+{
+  "abrolhos archipelago": {
+    "class": "Region:AbrolhosArchipelago",
+    "parent": "Region:SouthAtlantic",
+    "type": "archipelago",
+    "aliases": [
+      "abrolhos"
+    ]
+  },
+
+  "adriatic sea": {
+    "class": "Region:AdriaticSea",
+    "parent": "Region:MediterraneanSea",
+    "type": "regional_sea"
+  },
+
+  "aegean sea": {
+    "class": "Region:AegeanSea",
+    "parent": "Region:MediterraneanSea",
+    "type": "regional_sea"
+  },
+
+  "africa": {
+    "class": "Region:Africa",
+    "type": "continent"
+  },
+
+  "african great lakes": {
+    "class": "Region:AfricanGreatLakes",
+    "parent": "Region:Africa",
+    "type": "lake_system",
+    "long_name": "African Great Lakes"
+  },
+
+  "agulhas bank": {
+    "class": "Region:AgulhasBank",
+    "parent": "Region:IndianOcean",
+    "type": "shelf",
+    "long_name": "Agulhas Bank"
+  },
+
+  "agulhas basin": {
+    "class": "Region:AgulhasBasin",
+    "parent": "Region:IndianOcean",
+    "type": "ocean_basin"
+  },
+
+  "agulhas retroflection": {
+    "class": "Region:AgulhasRetroflection",
+    "parent": "Region:IndianOcean",
+    "type": "ocean_region"
+  },
+
+  "alaska": {
+    "class": "Region:Alaska",
+    "type": "state"
+  },
+
+  "alboran sea": {
+    "class": "Region:AlboranSea",
+    "parent": "Region:MediterraneanSea",
+    "type": "regional_sea"
+  },
+
+  "aleutian trench": {
+    "class": "Region:AleutianTrench",
+    "parent": "Region:NorthPacific",
+    "type": "trench"
+  },
+
+  "aleutian islands": {
+    "class": "Region:Aleutians",
+    "parent": "Region:NorthPacific",
+    "type": "archipelago"
+  },
+
+  "alexander archipelago": {
+    "class": "Region:AlexanderArchipelago",
+    "parent": "Region:GoA",
+    "type": "archipelago"
+  },
+
+  "amazon river plume": {
+    "class": "Region:AmazonPlume",
+    "parent": "Region:AtlanticOcean",
+    "type": "river_plume",
+    "aliases": [
+      "Amazon river plumes"
+    ]
+  },
+
+  "amazon river": {
+    "class": "Region:AmazonRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "amazonia": {
+    "class": "Region:Amazonia",
+    "parent": "Region:SouthAmerica",
+    "type": "terrestrial_region",
+    "long_name": "Amazonia"
+  },
+
+  "amu darya river": {
+    "class": "Region:AmuDaryaRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "aliases": [
+      "Amu Darya"
+    ]
+  },
+
+  "amundsen sea": {
+    "class": "Region:AmundsenSea",
+    "parent": "Region:SouthernOcean",
+    "type": "regional_sea"
+  },
+
+  "amundsen sea shelf": {
+    "class": "Region:AmundsenShelf",
+    "parent": "Region:AmundsenSea",
+    "type": "shelf"
+  },
+
+  "amur river plume": {
+    "class": "Region:AmurPlume",
+    "parent": "Region:SeaOfOkhotsk",
+    "type": "river_plume"
+  },
+
+  "amur river": {
+    "class": "Region:AmurRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "andaman sea": {
+    "class": "Region:AndamanSea",
+    "parent": "Region:IndianOcean",
+    "type": "regional_sea"
+  },
+
+  "andes": {
+    "class": "Region:Andes",
+    "parent": "Region:SouthAmerica",
+    "type": "mountain_range"
+  },
+
+  "angola-benguela front": {
+    "class": "Region:AngolaBenguelaFront",
+    "parent": "Region:SouthAtlantic",
+    "type": "ocean_front",
+    "long_name": "Angola-Benguela Front",
+    "aliases": [
+      "Angola Benguela Front",
+      "Angola front"
+    ]
+  },
+
+  "antarctic peninsula": {
+    "class": "Region:AntarcticPeninsula",
+    "type": "peninsula",
+    "long_name": "Antarctic Peninsula"
+  },
+
+  "antarctic polar front": {
+    "class": "Region:AntarcticPolarFront",
+    "parent": "Region:SouthernOcean",
+    "type": "ocean_front"
+  },
+
+  "antarctica": {
+    "class": "Region:Antarctica",
+    "type": "continent",
+    "long_name": "Antarctica"
+  },
+
+  "apostle basin": {
+    "class": "Region:ApostleBasin",
+    "parent": "Region:LakeSuperior",
+    "type": "basin"
+  },
+
+  "arabian sea": {
+    "class": "Region:ArabianSea",
+    "parent": "Region:IndianOcean",
+    "type": "regional_sea"
+  },
+
+  "arafura sea": {
+    "class": "Region:ArafuraSea",
+    "parent": "Region:IndonesianSeas",
+    "type": "regional_sea"
+  },
+
+  "aral sea": {
+    "class": "Region:AralSea",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "inland_sea"
+  },
+
+  "archipelago sea": {
+    "class": "Region:ArchipelagoSea",
+    "parent": "Region:BalticSea",
+    "type": "regional_sea"
+  },
+
+  "arctic": {
+    "class": "Region:Arctic",
+    "type": "polar_region"
+  },
+
+  "arctic ocean": {
+    "class": "Region:ArcticOcean",
+    "parent": "Region:GlobalOcean",
+    "type": "ocean",
+    "aliases": [
+      "Arctic Ocean basin"
+    ]
+  },
+
+  "argentina": {
+    "class": "Region:Argentina",
+    "type": "country"
+  },
+
+  "argentine basin": {
+    "class": "Region:ArgentineBasin",
+    "parent": "Region:SouthAtlantic",
+    "type": "ocean_basin"
+  },
+
+  "arkona basin": {
+    "class": "Region:ArkonaBasin",
+    "parent": "Region:BalticSea",
+    "type": "ocean_basin",
+    "canonical": "Arkona Basin"
+  },
+
+  "asia": {
+    "class": "Region:Asia",
+    "type": "continent",
+    "long_name": "Asia"
+  },
+
+  "atlantic ocean": {
+    "class": "Region:AtlanticOcean",
+    "parent": "Region:GlobalOcean",
+    "type": "ocean",
+    "aliases": [
+      "Atlantic oceans",
+      "Atlantic",
+      "Atlantic basin",
+      "Atlantic Ocean basin"
+    ]
+  },
+
+  "atlantic tropical gyre": {
+    "class": "Region:AtlanticTropicalGyre",
+    "parent": "Region:GlobalGyres",
+    "type": "gyre",
+    "long_name": "Atlantic Tropical Gyre"
+  },
+
+  "atlas mountains": {
+    "class": "Region:AtlasMountains",
+    "parent": "Region:Africa",
+    "type": "mountain_region",
+    "long_name": "Atlas Mountains"
+  },
+
+  "australia": {
+    "class": "Region:Australia",
+    "type": "country"
+  },
+
+  "brazil-malvinas confluence": {
+    "class": "Region:BMConfluence",
+    "parent": "Region:SouthAtlantic",
+    "type": "confluence_zone"
+  },
+
+  "baffin bay": {
+    "class": "Region:BaffinBay",
+    "parent": "Region:NorthAtlantic",
+    "type": "regional_sea"
+  },
+
+  "bahamas": {
+    "class": "Region:Bahamas",
+    "type": "country"
+  },
+
+  "bahrain": {
+    "class": "Region:Bahrain",
+    "type": "country"
+  },
+
+  "balearic sea": {
+    "class": "Region:BalearicSea",
+    "parent": "Region:MediterraneanSea",
+    "type": "regional_sea"
+  },
+
+  "bali sea": {
+    "class": "Region:BaliSea",
+    "parent": "Region:IndonesianSeas",
+    "type": "regional_sea"
+  },
+
+  "baltic proper": {
+    "class": "Region:BalticProper",
+    "parent": "Region:BalticSea",
+    "type": "ocean_basin",
+    "long_name": "Baltic Proper"
+  },
+
+  "baltic sea": {
+    "class": "Region:BalticSea",
+    "parent": "Region:NorthAtlantic",
+    "type": "marginal_sea"
+  },
+
+  "banda sea": {
+    "class": "Region:BandaSea",
+    "parent": "Region:IndonesianSeas",
+    "type": "regional_sea"
+  },
+
+  "bare soil surface": {
+    "class": "Region:BareSoilSurface",
+    "parent": "Region:GlobalLandSurface",
+    "type": "land_cover_region",
+    "aliases": [
+      "bare soil",
+      "bare soils",
+      "bare soil area",
+      "bare soil surfaces"
+    ]
+  },
+
+  "barents sea": {
+    "class": "Region:BarentsSea",
+    "parent": "Region:ArcticOcean",
+    "type": "regional_sea"
+  },
+
+  "barents sea opening": {
+    "class": "Region:BarentsSeaOpening",
+    "parent": "Region:BarentsSea",
+    "type": "ocean_gateway",
+    "long_name": "Barents Sea Opening",
+    "aliases": [
+      "BSO"
+    ]
+  },
+
+  "barents sea shelf": {
+    "class": "Region:BarentsShelf",
+    "parent": "Region:BarentsSea",
+    "type": "shelf"
+  },
+
+  "barrow strait": {
+    "class": "Region:BarrowStrait",
+    "parent": "Region:ArcticOcean",
+    "type": "strait",
+    "long_name": "Barrow Strait"
+  },
+
+  "bass strait": {
+    "class": "Region:BassStrait",
+    "parent": "Region:IndianOcean",
+    "type": "strait"
+  },
+
+  "bay of bengal": {
+    "class": "Region:BayOfBengal",
+    "parent": "Region:IndianOcean",
+    "type": "regional_sea",
+    "aliases": [
+      "BoB",
+      "BOB"
+    ]
+  },
+
+  "bay of biscay": {
+    "class": "Region:BayOfBiscay",
+    "parent": "Region:NorthAtlantic",
+    "type": "regional_sea"
+  },
+
+  "bay of plenty": {
+    "class": "Region:BayOfPlenty",
+    "parent": "Region:NewZealand",
+    "type": "bay"
+  },
+
+  "beaufort gyre": {
+    "class": "Region:BeaufortGyre",
+    "parent": "Region:ArcticOcean",
+    "type": "gyre",
+    "long_name": "Beaufort Gyre"
+  },
+
+  "beaufort sea": {
+    "class": "Region:BeaufortSea",
+    "parent": "Region:ArcticOcean",
+    "type": "regional_sea",
+    "aliases": [
+      "beaufort"
+    ]
+  },
+
+  "beaufort sea slope": {
+    "class": "Region:BeaufortSeaSlope",
+    "parent": "Region:BeaufortSea",
+    "type": "continental_slope",
+    "long_name": "Beaufort Sea Slope"
+  },
+
+  "belgium": {
+    "class": "Region:Belgium",
+    "type": "country"
+  },
+
+  "bellingshausen sea": {
+    "class": "Region:BellingshausenSea",
+    "parent": "Region:SouthernOcean",
+    "type": "regional_sea"
+  },
+
+  "benguela extension": {
+    "class": "Region:BenguelaExtension",
+    "parent": "Region:SouthAtlantic",
+    "type": "current_extension"
+  },
+
+  "bering sea": {
+    "class": "Region:BeringSea",
+    "parent": "Region:NorthPacific",
+    "type": "regional_sea"
+  },
+
+  "bering strait": {
+    "class": "Region:BeringStrait",
+    "parent": "Region:ArcticOcean",
+    "type": "strait",
+    "aliases": [
+      "Bering Straits"
+    ]
+  },
+
+  "biebrza wetlands": {
+    "class": "Region:BiebrzaWetlands",
+    "parent": "Region:Poland",
+    "type": "wetland"
+  },
+
+  "bight of benin": {
+    "class": "Region:BightOfBenin",
+    "parent": "Region:GulfOfGuinea",
+    "type": "regional_sea"
+  },
+
+  "bight of biafra": {
+    "class": "Region:BightOfBiafra",
+    "parent": "Region:GulfOfGuinea",
+    "type": "regional_sea"
+  },
+
+  "bismarck sea": {
+    "class": "Region:BismarckSea",
+    "parent": "Region:SouthPacific",
+    "type": "regional_sea"
+  },
+
+  "black sea": {
+    "class": "Region:BlackSea",
+    "parent": "Region:MediterraneanSea",
+    "type": "marginal_sea"
+  },
+
+  "bohai sea": {
+    "class": "Region:BohaiSea",
+    "parent": "Region:YellowSea",
+    "type": "marginal_sea"
+  },
+
+  "bohai strait": {
+    "class": "Region:BohaiStrait",
+    "parent": "Region:YellowSea",
+    "type": "strait"
+  },
+
+  "bosporus strait": {
+    "class": "Region:Bosporus",
+    "parent": "Region:SeaOfMarmara",
+    "type": "strait"
+  },
+
+  "bothnian bay": {
+    "class": "Region:BothnianBay",
+    "parent": "Region:BalticSea",
+    "type": "regional_sea"
+  },
+
+  "brahmaputra river": {
+    "class": "Region:BrahmaputraRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "brazil": {
+    "class": "Region:Brazil",
+    "type": "country"
+  },
+
+  "bristol bay": {
+    "class": "Region:BristolBay",
+    "parent": "Region:BeringSea",
+    "type": "marginal_sea"
+  },
+
+  "burdwood bank": {
+    "class": "Region:BurdwoodBank",
+    "parent": "Region:SouthAtlantic",
+    "type": "shelf"
+  },
+
+  "canadian arctic archipelago": {
+    "class": "Region:CAA",
+    "parent": "Region:ArcticOcean",
+    "type": "archipelago"
+  },
+
+  "cabo calcanhar": {
+    "class": "Region:CaboCalcanhar",
+    "parent": "Region:SouthAtlantic",
+    "type": "coastal_region"
+  },
+
+  "cabo de santa marta": {
+    "class": "Region:CaboDeSantaMarta",
+    "parent": "Region:SouthAtlantic",
+    "type": "coastal_region"
+  },
+
+  "cabo frio": {
+    "class": "Region:CaboFrio",
+    "parent": "Region:SouthAtlantic",
+    "type": "coastal_region"
+  },
+
+  "california upwelling region": {
+    "class": "Region:CaliforniaUpwelling",
+    "parent": "Region:NorthPacific",
+    "type": "upwelling_region"
+  },
+
+  "canada_basin": {
+    "class": "Region:CanadaBasin",
+    "parent": "Region:ArcticOcean",
+    "type": "ocean_basin",
+    "long_name": "Canada Basin",
+    "aliases": [
+      "Canada Basin",
+      "Canadian Basin"
+    ]
+  },
+
+  "canary islands": {
+    "class": "Region:CanaryIslands",
+    "parent": "Region:NorthAtlantic",
+    "type": "archipelago",
+    "long_name": "Canary Islands"
+  },
+
+  "canary upwelling region": {
+    "class": "Region:CanaryUpwelling",
+    "parent": "Region:NorthAtlantic",
+    "type": "upwelling_region"
+  },
+
+  "cape basin": {
+    "class": "Region:CapeBasin",
+    "parent": "Region:SouthAtlantic",
+    "type": "ocean_basin"
+  },
+
+  "cape blanc": {
+    "class": "Region:CapeBlanc",
+    "parent": "Region:NorthAtlantic",
+    "type": "coastal_region"
+  },
+
+  "cape farewell": {
+    "class": "Region:CapeFarewell",
+    "parent": "Region:NorthAtlantic",
+    "type": "coastal_region"
+  },
+
+  "cape ghir": {
+    "class": "Region:CapeGhir",
+    "parent": "Region:NorthAtlantic",
+    "type": "coastal_region"
+  },
+
+  "cape hatteras": {
+    "class": "Region:CapeHatteras",
+    "parent": "Region:NorthAtlantic",
+    "type": "coastal_region",
+    "long_name": "Cape Hatteras"
+  },
+
+  "cape juby": {
+    "class": "Region:CapeJuby",
+    "parent": "Region:NorthAtlantic",
+    "type": "coastal_region"
+  },
+
+  "cape verde islands": {
+    "class": "Region:CapeVerdeIslands",
+    "parent": "Region:NorthAtlantic",
+    "type": "archipelago"
+  },
+
+  "cariaco basin": {
+    "class": "Region:CariacoBasin",
+    "parent": "Region:CaribbeanSea",
+    "type": "ocean_basin",
+    "long_name": "Cariaco Basin"
+  },
+
+  "caribbean sea": {
+    "class": "Region:CaribbeanSea",
+    "parent": "Region:NorthAtlantic",
+    "type": "marginal_sea",
+    "aliases": [
+      "Caribbean"
+    ]
+  },
+
+  "case 1 waters": {
+    "class": "Region:Case1Waters",
+    "parent": "Region:GlobalOcean",
+    "type": "optical_regime",
+    "aliases": [
+      "case 1 water",
+      "case-1 waters"
+    ]
+  },
+
+  "case 2 waters": {
+    "class": "Region:Case2Waters",
+    "parent": "Region:CoastalZone",
+    "type": "optical_regime",
+    "aliases": [
+      "case 2 water",
+      "case-2 waters"
+    ]
+  },
+
+  "caspian sea": {
+    "class": "Region:CaspianSea",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "inland_sea"
+  },
+
+  "celebes sea": {
+    "class": "Region:CelebesSea",
+    "parent": "Region:IndonesianSeas",
+    "type": "regional_sea"
+  },
+
+  "celtic sea": {
+    "class": "Region:CelticSea",
+    "parent": "Region:NorthAtlantic",
+    "type": "regional_sea"
+  },
+
+  "central africa": {
+    "class": "Region:CentralAfrica",
+    "parent": "Region:Africa",
+    "type": "region"
+  },
+
+  "central indian ocean": {
+    "class": "Region:CentralIndian",
+    "parent": "Region:IndianOcean",
+    "type": "ocean_basin"
+  },
+
+  "central mediterranean": {
+    "class": "Region:CentralMed",
+    "parent": "Region:MediterraneanSea",
+    "type": "ocean_basin"
+  },
+
+  "central pacific": {
+    "class": "Region:CentralPacific",
+    "parent": "Region:PacificOcean",
+    "type": "region"
+  },
+
+  "ceram sea": {
+    "class": "Region:CeramSea",
+    "parent": "Region:IndonesianSeas",
+    "type": "regional_sea"
+  },
+
+  "chandeleur sound": {
+    "class": "Region:ChandeleurSound",
+    "parent": "Region:GoMex",
+    "type": "coastal_feature"
+  },
+
+  "chascomus lake": {
+    "class": "Region:ChascomusLake",
+    "parent": "Region:SouthAmerica",
+    "type": "lake",
+    "aliases": [
+      "Chascomús Lake",
+      "Chascomús",
+      "Chascomus"
+    ]
+  },
+
+  "chesapeake bay": {
+    "class": "Region:ChesapeakeBay",
+    "parent": "Region:MAB",
+    "type": "estuary",
+    "aliases": [
+      "mainstem bay",
+      "mainstem chesapeake bay"
+    ]
+  },
+
+  "chesapeake bay mouth": {
+    "class": "Region:ChesapeakeBayMouth",
+    "parent": "Region:LowerChesapeakeBay",
+    "type": "estuary_zone",
+    "aliases": [
+      "bay mouth"
+    ]
+  },
+
+  "chile upwelling region": {
+    "class": "Region:ChileUpwelling",
+    "parent": "Region:SouthPacific",
+    "type": "upwelling_region"
+  },
+
+  "chilika lake": {
+    "class": "Region:ChilikaLake",
+    "parent": "Region:BayOfBengal",
+    "type": "coastal_lagoon"
+  },
+
+  "china": {
+    "class": "Region:China",
+    "type": "country"
+  },
+
+  "chippewa basin": {
+    "class": "Region:ChippewaBasin",
+    "parent": "Region:LakeSuperior",
+    "type": "basin"
+  },
+
+  "choptank river": {
+    "class": "Region:ChoptankRiver",
+    "parent": "Region:MiddleChesapeakeBay",
+    "type": "river_estuary"
+  },
+
+  "chukchi borderland": {
+    "class": "Region:ChukchiBorderland",
+    "parent": "Region:ArcticOcean",
+    "type": "ocean_region",
+    "long_name": "Chukchi Borderland"
+  },
+
+  "chukchi sea": {
+    "class": "Region:ChukchiSea",
+    "parent": "Region:ArcticOcean",
+    "type": "regional_sea",
+    "aliases": [
+      "chukchi"
+    ]
+  },
+
+  "chukchi shelf": {
+    "class": "Region:ChukchiShelf",
+    "parent": "Region:ChukchiSea",
+    "type": "shelf",
+    "aliases": [
+      "Chukchi Sea continental shelf",
+      "Chukchi Sea shelf region"
+    ]
+  },
+
+  "chukchi shelfbreak": {
+    "class": "Region:ChukchiShelfBreak",
+    "parent": "Region:ChukchiShelf",
+    "type": "shelf_break",
+    "long_name": "Chukchi Shelf Break",
+    "aliases": [
+      "Chukchi shelfbreak"
+    ]
+  },
+
+  "clear ocean waters": {
+    "class": "Region:ClearOceanWaters",
+    "parent": "Region:GlobalOcean",
+    "type": "optical_regime"
+  },
+
+  "coastal areas": {
+    "class": "Region:CoastalAreas",
+    "type": "coastal_zone"
+  },
+
+  "coastal lagoons": {
+    "class": "Region:CoastalLagoon",
+    "type": "coastal_lagoon"
+  },
+
+  "coastal plume": {
+    "class": "Region:CoastalPlume",
+    "parent": "Region:CoastalZone",
+    "type": "hydrological_feature",
+    "aliases": [
+      "coastal plume"
+    ]
+  },
+
+  "coastal zone": {
+    "class": "Region:CoastalZone",
+    "type": "coastal_zone",
+    "aliases": [
+      "coastal zones"
+    ]
+  },
+
+  "columbia river plume": {
+    "class": "Region:ColumbiaPlume",
+    "parent": "Region:NorthPacific",
+    "type": "river_plume"
+  },
+
+  "columbia river estuary": {
+    "class": "Region:ColumbiaRiverEstuary",
+    "parent": "Region:NorthPacific",
+    "type": "estuary"
+  },
+
+  "congo basin": {
+    "class": "Region:CongoBasin",
+    "parent": "Region:Africa",
+    "type": "river_basin",
+    "long_name": "Congo Basin"
+  },
+
+  "congo river": {
+    "class": "Region:CongoRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "cook strait": {
+    "class": "Region:CookStrait",
+    "parent": "Region:SouthPacific",
+    "type": "strait"
+  },
+
+  "coral reef": {
+    "class": "Region:CoralReef",
+    "parent": "Region:ShallowWater",
+    "type": "benthic_regime",
+    "aliases": [
+      "coral reefs"
+    ]
+  },
+
+  "coral sea": {
+    "class": "Region:CoralSea",
+    "parent": "Region:SouthPacific",
+    "type": "regional_sea"
+  },
+
+  "danish estuaries": {
+    "class": "Region:DanishEstuaries",
+    "parent": "Region:NorthSea",
+    "type": "estuary_system"
+  },
+
+  "danish straits": {
+    "class": "Region:DanishStraits",
+    "parent": "Region:BalticSea",
+    "type": "strait_system",
+    "canonical": "Danish Straits"
+  },
+
+  "dardanelles strait": {
+    "class": "Region:Dardanelles",
+    "parent": "Region:SeaOfMarmara",
+    "type": "strait"
+  },
+
+  "davis sea": {
+    "class": "Region:DavisSea",
+    "parent": "Region:SouthernOcean",
+    "type": "regional_sea"
+  },
+
+  "denmark": {
+    "class": "Region:Denmark",
+    "type": "country"
+  },
+
+  "denmark strait": {
+    "class": "Region:DenmarkStrait",
+    "parent": "Region:NorthAtlantic",
+    "type": "strait",
+    "long_name": "Denmark Strait"
+  },
+
+  "dogger bank": {
+    "class": "Region:DoggerBank",
+    "parent": "Region:NorthSea",
+    "type": "shelf"
+  },
+
+  "drake passage": {
+    "class": "Region:DrakePassage",
+    "parent": "Region:SouthernOcean",
+    "type": "strait"
+  },
+
+  "duluth basin": {
+    "class": "Region:DuluthBasin",
+    "parent": "Region:LakeSuperior",
+    "type": "basin"
+  },
+
+  "dutch coast": {
+    "class": "Region:DutchCoast",
+    "parent": "Region:NorthSea",
+    "type": "coastal_region"
+  },
+
+  "east siberian shelf": {
+    "class": "Region:ESShelf",
+    "parent": "Region:EastSiberianSea",
+    "type": "shelf",
+    "aliases": [
+      "siberian shelf",
+      "siberian shelves"
+    ]
+  },
+
+  "eastern tropical pacific": {
+    "class": "Region:ETP",
+    "parent": "Region:PacificOcean",
+    "type": "ocean_region"
+  },
+
+  "east africa": {
+    "class": "Region:EastAfrica",
+    "parent": "Region:Africa",
+    "type": "region",
+    "aliases": [
+      "eastern africa"
+    ]
+  },
+
+  "east antarctica": {
+    "class": "Region:EastAntarctica",
+    "parent": "Region:Antarctica",
+    "type": "region"
+  },
+
+  "east arkona": {
+    "class": "Region:EastArkona",
+    "parent": "Region:ArkonaBasin",
+    "type": "subbasin",
+    "canonical": "East Arkona"
+  },
+
+  "east china sea": {
+    "class": "Region:EastChinaSea",
+    "parent": "Region:PacificOcean",
+    "type": "regional_sea",
+    "aliases": [
+      "ECS"
+    ]
+  },
+
+  "east china sea shelf": {
+    "class": "Region:EastChinaSeaShelf",
+    "parent": "Region:EastChinaSea",
+    "type": "shelf",
+    "aliases": [
+      "ECS shelf"
+    ]
+  },
+
+  "east siberian sea": {
+    "class": "Region:EastSiberianSea",
+    "parent": "Region:ArcticOcean",
+    "type": "regional_sea"
+  },
+
+  "eastern arctic ocean": {
+    "class": "Region:EasternArcticOcean",
+    "parent": "Region:ArcticOcean",
+    "type": "ocean_subregion",
+    "aliases": [
+      "EAO"
+    ]
+  },
+
+  "eastern equatorial pacific": {
+    "class": "Region:EasternEquatorialPacific",
+    "parent": "Region:EquatorialPacific",
+    "type": "region"
+  },
+
+  "eastern indian ocean": {
+    "class": "Region:EasternIndian",
+    "parent": "Region:IndianOcean",
+    "type": "ocean_basin"
+  },
+
+  "eastern mediterranean": {
+    "class": "Region:EasternMed",
+    "parent": "Region:MediterraneanSea",
+    "type": "ocean_basin",
+    "aliases": [
+      "Eastern Mediterranean Sea"
+    ]
+  },
+
+  "eden": {
+    "class": "Region:Eden",
+    "parent": "Region:SoutheastAustralia",
+    "type": "coastal_region"
+  },
+
+  "el rincón": {
+    "class": "Region:ElRincon",
+    "parent": "Region:PatagonianShelf",
+    "type": "coastal_region",
+    "aliases": [
+      "el rincon"
+    ]
+  },
+
+  "elbe estuary": {
+    "class": "Region:ElbeEstuary",
+    "parent": "Region:ElbeRiver",
+    "type": "estuary"
+  },
+
+  "elbe river": {
+    "class": "Region:ElbeRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "aliases": [
+      "Elbe",
+      "Labe"
+    ]
+  },
+
+  "elizabeth river": {
+    "class": "Region:ElizabethRiver",
+    "parent": "Region:LowerChesapeakeBay",
+    "type": "river_estuary"
+  },
+
+  "ems estuary": {
+    "class": "Region:EmsEstuary",
+    "parent": "Region:EmsRiver",
+    "type": "estuary"
+  },
+
+  "ems river": {
+    "class": "Region:EmsRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "aliases": [
+      "Ems"
+    ]
+  },
+
+  "english channel": {
+    "class": "Region:EnglishChannel",
+    "parent": "Region:NorthAtlantic",
+    "type": "strait"
+  },
+
+  "equatorial region": {
+    "class": "Region:Equatorial",
+    "parent": "Region:GlobalOcean",
+    "type": "climate_zone",
+    "aliases": [
+      "equatorial",
+      "equatorial regions"
+    ]
+  },
+
+  "equatorial atlantic": {
+    "class": "Region:EquatorialAtlantic",
+    "parent": "Region:AtlanticOcean",
+    "type": "ocean_basin"
+  },
+
+  "equatorial indian ocean": {
+    "class": "Region:EquatorialIndianOcean",
+    "parent": "Region:IndianOcean",
+    "type": "ocean_region",
+    "long_name": "Equatorial Indian Ocean"
+  },
+
+  "equatorial ocean": {
+    "class": "Region:EquatorialOcean",
+    "parent": "Region:GlobalOcean",
+    "type": "ocean_zone"
+  },
+
+  "equatorial_pacific": {
+    "class": "Region:EquatorialPacific",
+    "parent": "Region:PacificOcean",
+    "long_name": "Equatorial Pacific",
+    "type": "ocean_region",
+    "aliases": [
+      "equatorial Pacific",
+      "equatorial Pacific Ocean"
+    ]
+  },
+
+  "essequibo river": {
+    "class": "Region:EssequiboRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "estuary": {
+    "class": "Region:Estuary",
+    "parent": "Region:CoastalZone",
+    "type": "coastal_zone",
+    "aliases": [
+      "estuaries"
+    ]
+  },
+
+  "eurasian basin": {
+    "class": "Region:EurasianBasin",
+    "parent": "Region:ArcticOcean",
+    "type": "ocean_basin",
+    "long_name": "Eurasian Basin"
+  },
+
+  "europe": {
+    "class": "Region:Europe",
+    "type": "continent"
+  },
+
+  "european land surface": {
+    "class": "Region:EuropeanLandSurface",
+    "parent": "Region:GlobalLandSurface",
+    "type": "continental_land_region",
+    "aliases": [
+      "large area in europe",
+      "european land areas",
+      "european surface"
+    ]
+  },
+
+  "eutrophic waters": {
+    "class": "Region:EutrophicWaters",
+    "parent": "Region:GlobalOcean",
+    "type": "biogeochemical_region"
+  },
+
+  "flemish cap": {
+    "class": "Region:FlemishCap",
+    "parent": "Region:NorthwestAtlantic",
+    "type": "shelf"
+  },
+
+  "flores sea": {
+    "class": "Region:FloresSea",
+    "parent": "Region:IndonesianSeas",
+    "type": "regional_sea"
+  },
+
+  "florida": {
+    "class": "Region:Florida",
+    "type": "state"
+  },
+
+  "florida keys": {
+    "class": "Region:FloridaKeys",
+    "parent": "Region:Florida",
+    "type": "island_chain"
+  },
+
+  "straits_of_florida": {
+    "class": "Region:FloridaStraits",
+    "parent": "Region:NorthAtlantic",
+    "long_name": "Florida Straits",
+    "type": "strait",
+    "aliases": [
+      "Florida Straits",
+      "Straits of Florida",
+      "Florida Strait"
+    ]
+  },
+
+  "fram strait": {
+    "class": "Region:FramStrait",
+    "parent": "Region:ArcticOcean",
+    "type": "strait"
+  },
+
+  "france": {
+    "class": "Region:France",
+    "type": "country"
+  },
+
+  "funka bay": {
+    "class": "Region:FunkaBay",
+    "parent": "Region:Hokkaido",
+    "type": "bay"
+  },
+
+  "great australian bight": {
+    "class": "Region:GAB",
+    "parent": "Region:IndianOcean",
+    "type": "regional_sea"
+  },
+
+  "ganges-brahmaputra-meghna delta": {
+    "class": "Region:GBMDelta",
+    "parent": "Region:BayOfBengal",
+    "type": "delta_system"
+  },
+
+  "ganges river": {
+    "class": "Region:GangesRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "ganges river basin": {
+    "class": "Region:GangesRiverBasin",
+    "parent": "Region:GangesRiver",
+    "type": "river_basin"
+  },
+
+  "garonne river": {
+    "class": "Region:GaronneRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "aliases": [
+      "garonne"
+    ]
+  },
+
+  "german bight": {
+    "class": "Region:GermanBight",
+    "parent": "Region:NorthSea",
+    "type": "coastal_region"
+  },
+
+  "germany": {
+    "class": "Region:Germany",
+    "type": "country"
+  },
+
+  "strait of gibraltar": {
+    "class": "Region:Gibraltar",
+    "parent": "Region:NorthAtlantic",
+    "type": "strait"
+  },
+
+  "gironde estuary": {
+    "class": "Region:GirondeEstuary",
+    "parent": "Region:France",
+    "type": "estuary",
+    "aliases": [
+      "Gironde",
+      "Gironde-Pauillac",
+      "Gironde-Le Verdon"
+    ]
+  },
+
+  "global gyres": {
+    "class": "Region:GlobalGyres",
+    "parent": "Region:GlobalOcean",
+    "type": "ocean_system"
+  },
+
+  "global inland waters": {
+    "class": "Region:GlobalInlandWaters",
+    "type": "hydrological_system"
+  },
+
+  "global land surface": {
+    "class": "Region:GlobalLandSurface",
+    "type": "terrestrial_system",
+    "aliases": [
+      "land surface",
+      "land surfaces",
+      "terrestrial surface",
+      "earth's surface",
+      "earth surface"
+    ]
+  },
+
+  "global ocean": {
+    "class": "Region:GlobalOcean",
+    "type": "ocean",
+    "aliases": [
+      "global oceans",
+      "world ocean",
+      "world's ocean",
+      "world's oceans",
+      "world’s ocean",
+      "world’s oceans"
+    ]
+  },
+
+  "global rivers": {
+    "class": "Region:GlobalRivers",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "river_system"
+  },
+
+  "gulf of alaska": {
+    "class": "Region:GoA",
+    "parent": "Region:NorthPacific",
+    "type": "regional_sea"
+  },
+
+  "gulf of california": {
+    "class": "Region:GoC",
+    "parent": "Region:NorthPacific",
+    "type": "marginal_sea",
+    "aliases": [
+      "sea of cortez"
+    ]
+  },
+
+  "gulf of mexico": {
+    "class": "Region:GoMex",
+    "parent": "Region:NorthAtlantic",
+    "type": "marginal_sea",
+    "aliases": [
+      "GoM",
+      "GOM",
+      "gomex",
+      "gulf of america",
+      "GOM basin"
+    ]
+  },
+
+  "godavari river": {
+    "class": "Region:GodavariRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "grand banks": {
+    "class": "Region:GrandBanks",
+    "parent": "Region:NorthAtlantic",
+    "type": "shelf"
+  },
+
+  "grand traverse bay": {
+    "class": "Region:GrandTraverseBay",
+    "parent": "Region:LakeMichigan",
+    "type": "bay"
+  },
+
+  "great_barrier_reef": {
+    "class": "Region:GreatBarrierReef",
+    "parent": "Region:CoralSea",
+    "type": "coastal_region",
+    "aliases": [
+      "Great Barrier Reef",
+      "GBR"
+    ]
+  },
+
+  "great bay new jersey": {
+    "class": "Region:GreatBayNewJersey",
+    "type": "bay",
+    "long_name": "Great Bay, New Jersey",
+    "aliases": [
+      "Great Bay",
+      "Great Bay (New Jersey)"
+    ]
+  },
+
+  "great lakes": {
+    "class": "Region:GreatLakes",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "lake_system",
+    "long_name": "Great Lakes",
+    "aliases": [
+      "Laurentian Great Lakes"
+    ]
+  },
+
+  "greater_cape_floristic_region": {
+    "class": "Region:GreaterCapeFloristicRegion",
+    "parent": "Region:SouthAfrica",
+    "type": "terrestrial_region",
+    "aliases": [
+      "greater cape floristic region",
+      "gcfr",
+      "cape floristic region"
+    ]
+  },
+
+  "green bay": {
+    "class": "Region:GreenBay",
+    "parent": "Region:GreatLakes",
+    "type": "bay"
+  },
+
+  "greenland": {
+    "class": "Region:Greenland",
+    "type": "island"
+  },
+
+  "greenland ice sheet": {
+    "class": "Region:GreenlandIceSheet",
+    "parent": "Region:GlobalLandSurface",
+    "type": "ice_sheet",
+    "long_name": "Greenland Ice Sheet"
+  },
+
+  "greenland sea": {
+    "class": "Region:GreenlandSea",
+    "parent": "Region:NorthAtlantic",
+    "type": "regional_sea"
+  },
+
+  "guinea basin": {
+    "class": "Region:GuineaBasin",
+    "parent": "Region:SouthAtlantic",
+    "type": "ocean_basin"
+  },
+
+  "gulf of aden": {
+    "class": "Region:GulfOfAden",
+    "parent": "Region:IndianOcean",
+    "type": "regional_sea"
+  },
+
+  "gulf of cadiz": {
+    "class": "Region:GulfOfCadiz",
+    "parent": "Region:NorthAtlantic",
+    "type": "gulf",
+    "long_name": "Gulf of Cadiz"
+  },
+
+  "gulf of finland": {
+    "class": "Region:GulfOfFinland",
+    "parent": "Region:BalticSea",
+    "type": "regional_sea"
+  },
+
+  "gulf of guinea": {
+    "class": "Region:GulfOfGuinea",
+    "parent": "Region:SouthAtlantic",
+    "type": "marginal_sea"
+  },
+
+  "gulf of lion": {
+    "class": "Region:GulfOfLion",
+    "parent": "Region:WesternMed",
+    "type": "regional_sea"
+  },
+
+  "gulf of maine": {
+    "class": "Region:GulfOfMaine",
+    "parent": "Region:NorthAtlantic",
+    "type": "shelf",
+    "aliases": [
+      "Gulf of Maine",
+      "gomaine"
+    ]
+  },
+
+  "gulf of st lawrence": {
+    "class": "Region:GulfOfStLawrence",
+    "parent": "Region:NorthAtlantic",
+    "type": "gulf",
+    "long_name": "Gulf of St. Lawrence",
+    "aliases": [
+      "Gulf of St Lawrence",
+      "Gulf of St Laurence"
+    ]
+  },
+
+  "gulf of tehuantepec": {
+    "class": "Region:GulfOfTehuantepec",
+    "parent": "Region:ETP",
+    "type": "marginal_sea"
+  },
+
+  "gulf of trieste": {
+    "class": "Region:GulfOfTrieste",
+    "parent": "Region:AdriaticSea",
+    "type": "gulf",
+    "long_name": "Gulf of Trieste"
+  },
+
+  "hapex-sahel": {
+    "class": "Region:HAPEXSahel",
+    "parent": "Region:Sahel",
+    "type": "field_campaign_region",
+    "aliases": [
+      "HAPEX-Sahel",
+      "HAPEX Sahel",
+      "hapex sahel"
+    ]
+  },
+
+  "halmahera sea": {
+    "class": "Region:HalmaheraSea",
+    "parent": "Region:IndonesianSeas",
+    "type": "regional_sea"
+  },
+
+  "hawaiian islands": {
+    "class": "Region:HawaiianIslands",
+    "parent": "Region:NorthPacific",
+    "type": "archipelago",
+    "long_name": "Hawaiian Islands"
+  },
+
+  "helgoland roads": {
+    "class": "Region:HelgolandRoads",
+    "parent": "Region:NorthSea",
+    "type": "coastal_site"
+  },
+
+  "high latitudes": {
+    "class": "Region:HighLatitudes",
+    "parent": "Region:GlobalOcean",
+    "type": "climate_zone",
+    "aliases": [
+      "high latitude",
+      "high-latitudes",
+      "higher latitudes"
+    ]
+  },
+
+  "hillsborough bay": {
+    "class": "Region:HillsboroughBay",
+    "parent": "Region:TampaBay",
+    "type": "bay_section"
+  },
+
+  "himalaya": {
+    "class": "Region:Himalaya",
+    "type": "mountain_range",
+    "aliases": [
+      "Himalayas"
+    ]
+  },
+
+  "hokkaido": {
+    "class": "Region:Hokkaido",
+    "type": "island_region"
+  },
+
+  "horn of africa": {
+    "class": "Region:HornOfAfrica",
+    "parent": "Region:Africa",
+    "type": "region"
+  },
+
+  "hudson bay": {
+    "class": "Region:HudsonBay",
+    "parent": "Region:ArcticOcean",
+    "type": "marginal_sea"
+  },
+
+  "humboldt extension": {
+    "class": "Region:HumboldtExtension",
+    "parent": "Region:SouthPacific",
+    "type": "current_extension"
+  },
+
+  "hypereutrophic": {
+    "class": "Region:Hypereutrophic",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "biogeochemical_region"
+  },
+
+  "iceland-faroe ridge": {
+    "class": "Region:IFRidge",
+    "parent": "Region:NorthAtlantic",
+    "type": "ridge"
+  },
+
+  "indian ocean gyre": {
+    "class": "Region:IOGyre",
+    "parent": "Region:GlobalGyres",
+    "type": "gyre"
+  },
+
+  "iberian peninsula": {
+    "class": "Region:IberianPeninsula",
+    "parent": "Region:Europe",
+    "type": "peninsula",
+    "long_name": "Iberian Peninsula"
+  },
+
+  "ibiza island": {
+    "class": "Region:IbizaIsland",
+    "parent": "Region:Europe",
+    "type": "island",
+    "long_name": "Ibiza Island",
+    "aliases": [
+      "Ibiza"
+    ]
+  },
+
+  "iceland": {
+    "class": "Region:Iceland",
+    "type": "country"
+  },
+
+  "illinois": {
+    "class": "Region:Illinois",
+    "type": "state"
+  },
+
+  "india": {
+    "class": "Region:India",
+    "type": "country"
+  },
+
+  "indian ocean": {
+    "class": "Region:IndianOcean",
+    "parent": "Region:GlobalOcean",
+    "type": "ocean",
+    "aliases": [
+      "Indian Oceans"
+    ]
+  },
+
+  "indian river lagoon": {
+    "class": "Region:IndianRiverLagoon",
+    "type": "lagoon",
+    "long_name": "Indian River Lagoon"
+  },
+
+  "indo_pacific": {
+    "class": "Region:IndoPacific",
+    "parent": "Region:GlobalOcean",
+    "long_name": "Indo-Pacific",
+    "type": "ocean_region",
+    "aliases": [
+      "Indo-Pacific",
+      "Indo Pacific",
+      "Indo-Pacific region"
+    ]
+  },
+
+  "indonesian seas": {
+    "class": "Region:IndonesianSeas",
+    "parent": "Region:PacificOcean",
+    "type": "regional_sea"
+  },
+
+  "indus river": {
+    "class": "Region:IndusRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "inflow shelves": {
+    "class": "Region:InflowShelves",
+    "parent": "Region:ArcticOcean",
+    "type": "ecoregion",
+    "aliases": [
+      "inflow shelf"
+    ]
+  },
+
+  "inland water": {
+    "class": "Region:InlandWaters",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "hydrological_system",
+    "aliases": [
+      "inland waters"
+    ]
+  },
+
+  "interior shelves": {
+    "class": "Region:InteriorShelves",
+    "parent": "Region:ArcticOcean",
+    "type": "ecoregion",
+    "aliases": [
+      "interior shelf"
+    ]
+  },
+
+  "ionian sea": {
+    "class": "Region:IonianSea",
+    "parent": "Region:MediterraneanSea",
+    "type": "regional_sea"
+  },
+
+  "iowa": {
+    "class": "Region:Iowa",
+    "type": "state"
+  },
+
+  "irish sea": {
+    "class": "Region:IrishSea",
+    "parent": "Region:NorthAtlantic",
+    "type": "regional_sea"
+  },
+
+  "irminger sea": {
+    "class": "Region:IrmingerSea",
+    "parent": "Region:NorthAtlantic",
+    "type": "regional_sea"
+  },
+
+  "isle royale": {
+    "class": "Region:IsleRoyale",
+    "parent": "Region:LakeSuperior",
+    "type": "island"
+  },
+
+  "james river": {
+    "class": "Region:JamesRiver",
+    "parent": "Region:LowerChesapeakeBay",
+    "type": "river_estuary",
+    "aliases": [
+      "james"
+    ]
+  },
+
+  "japan": {
+    "class": "Region:Japan",
+    "type": "country"
+  },
+
+  "java sea": {
+    "class": "Region:JavaSea",
+    "parent": "Region:IndonesianSeas",
+    "type": "regional_sea"
+  },
+
+  "jericoacoara": {
+    "class": "Region:Jericoacoara",
+    "parent": "Region:SouthAtlantic",
+    "type": "coastal_region"
+  },
+
+  "jinhae bay": {
+    "class": "Region:JinhaeBay",
+    "type": "bay",
+    "long_name": "Jinhae Bay"
+  },
+
+  "kuroshio-oyashio confluence": {
+    "class": "Region:KOConfluence",
+    "parent": "Region:NorthPacific",
+    "type": "confluence_zone"
+  },
+
+  "kamchatka peninsula": {
+    "class": "Region:Kamchatka",
+    "parent": "Region:NorthPacific",
+    "type": "coastal_region"
+  },
+
+  "kara sea": {
+    "class": "Region:KaraSea",
+    "parent": "Region:ArcticOcean",
+    "type": "regional_sea",
+    "aliases": [
+      "kara"
+    ]
+  },
+
+  "karaginsky gulf": {
+    "class": "Region:KaraginskyGulf",
+    "parent": "Region:NorthPacific",
+    "type": "regional_sea"
+  },
+
+  "kattegat": {
+    "class": "Region:Kattegat",
+    "parent": "Region:NorthSea",
+    "type": "strait",
+    "canonical": "Kattegat"
+  },
+
+  "kaveri river": {
+    "class": "Region:KaveriRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "kerch strait": {
+    "class": "Region:KerchStrait",
+    "parent": "Region:BlackSea",
+    "type": "strait"
+  },
+
+  "kerguelen plateau": {
+    "class": "Region:Kerguelen",
+    "parent": "Region:SouthernOcean",
+    "type": "plateau"
+  },
+
+  "keweenaw basin": {
+    "class": "Region:KeweenawBasin",
+    "parent": "Region:LakeSuperior",
+    "type": "basin"
+  },
+
+  "keweenaw peninsula": {
+    "class": "Region:KeweenawPeninsula",
+    "parent": "Region:LakeSuperior",
+    "type": "peninsula"
+  },
+
+  "kodiak island": {
+    "class": "Region:Kodiak",
+    "parent": "Region:GoA",
+    "type": "island"
+  },
+
+  "kongsfjorden": {
+    "class": "Region:Kongsfjorden",
+    "parent": "Region:SvalbardFjords",
+    "type": "fjord"
+  },
+
+  "korea strait": {
+    "class": "Region:KoreaStrait",
+    "type": "strait",
+    "long_name": "Korea Strait",
+    "aliases": [
+      "Korea/Tsushima Strait"
+    ]
+  },
+
+  "korean peninsula": {
+    "class": "Region:KoreanPeninsula",
+    "type": "peninsula",
+    "long_name": "Korean Peninsula"
+  },
+
+  "krishna river": {
+    "class": "Region:KrishnaRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "kuril basin": {
+    "class": "Region:KurilBasin",
+    "parent": "Region:SeaOfOkhotsk",
+    "type": "ocean_basin"
+  },
+
+  "kuril islands": {
+    "class": "Region:KurilIslands",
+    "parent": "Region:NorthPacific",
+    "type": "island_chain"
+  },
+
+  "kuroshio extension": {
+    "class": "Region:KuroshioExtension",
+    "parent": "Region:NorthPacific",
+    "type": "current_extension"
+  },
+
+  "la plata plume": {
+    "class": "Region:LaPlataPlume",
+    "parent": "Region:SouthAtlantic",
+    "type": "river_plume"
+  },
+
+  "labrador sea": {
+    "class": "Region:LabradorSea",
+    "parent": "Region:NorthAtlantic",
+    "type": "regional_sea"
+  },
+
+  "laccadive sea": {
+    "class": "Region:LaccadiveSea",
+    "parent": "Region:IndianOcean",
+    "type": "regional_sea",
+    "aliases": [
+      "laccadive",
+      "lakshadweep",
+      "lakshadweep sea"
+    ]
+  },
+
+  "lake alexandrina": {
+    "class": "Region:LakeAlexandrina",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "lake",
+    "long_name": "Lake Alexandrina"
+  },
+
+  "lake chad": {
+    "class": "Region:LakeChad",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "lake"
+  },
+
+  "lake erie": {
+    "class": "Region:LakeErie",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "inland_sea"
+  },
+
+  "lake huron": {
+    "class": "Region:LakeHuron",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "inland_sea"
+  },
+
+  "lake itasca": {
+    "class": "Region:LakeItasca",
+    "parent": "Region:MinnesotaLakes",
+    "type": "lake"
+  },
+
+  "lake michigan": {
+    "class": "Region:LakeMichigan",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "inland_sea"
+  },
+
+  "lake ontario": {
+    "class": "Region:LakeOntario",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "inland_sea"
+  },
+
+  "lake saroma": {
+    "class": "Region:LakeSaroma",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "lake"
+  },
+
+  "lake superior": {
+    "class": "Region:LakeSuperior",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "inland_sea"
+  },
+
+  "lakes and reservoirs": {
+    "class": "Region:LakeSystem",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "lake_system"
+  },
+
+  "lake taihu": {
+    "class": "Region:LakeTaihu",
+    "type": "lake",
+    "long_name": "Lake Taihu"
+  },
+
+  "lake tana": {
+    "class": "Region:LakeTana",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "lake",
+    "long_name": "Lake Tana"
+  },
+
+  "lake victoria": {
+    "class": "Region:LakeVictoria",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "lake"
+  },
+
+  "laptev sea": {
+    "class": "Region:LaptevSea",
+    "parent": "Region:ArcticOcean",
+    "type": "regional_sea",
+    "aliases": [
+      "laptev"
+    ]
+  },
+
+  "laptev sea shelf": {
+    "class": "Region:LaptevShelf",
+    "parent": "Region:LaptevSea",
+    "type": "shelf"
+  },
+
+  "latin america": {
+    "class": "Region:LatinAmerica",
+    "type": "region"
+  },
+
+  "laurentian channel": {
+    "class": "Region:LaurentianChannel",
+    "type": "ocean_channel",
+    "long_name": "Laurentian Channel"
+  },
+
+  "lazarev sea": {
+    "class": "Region:LazarevSea",
+    "parent": "Region:SouthernOcean",
+    "type": "regional_sea"
+  },
+
+  "lena river": {
+    "class": "Region:LenaRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "levantine basin": {
+    "class": "Region:LevantineBasin",
+    "parent": "Region:MediterraneanSea",
+    "type": "ocean_basin"
+  },
+
+  "libyan sea": {
+    "class": "Region:LibyanSea",
+    "parent": "Region:MediterraneanSea",
+    "type": "regional_sea"
+  },
+
+  "ligurian sea": {
+    "class": "Region:LigurianSea",
+    "parent": "Region:MediterraneanSea",
+    "type": "regional_sea"
+  },
+
+  "lincoln sea": {
+    "class": "Region:LincolnSea",
+    "parent": "Region:ArcticOcean",
+    "type": "regional_sea"
+  },
+
+  "little traverse bay": {
+    "class": "Region:LittleTraverseBay",
+    "parent": "Region:LakeMichigan",
+    "type": "bay"
+  },
+
+  "loire approaches": {
+    "class": "Region:LoireApproaches",
+    "parent": "Region:BayOfBiscay",
+    "type": "coastal_region",
+    "aliases": [
+      "loire river approaches"
+    ]
+  },
+
+  "lombok strait": {
+    "class": "Region:LombokStrait",
+    "parent": "Region:IndonesianSeas",
+    "type": "strait"
+  },
+
+  "low latitudes": {
+    "class": "Region:LowLatitudes",
+    "parent": "Region:GlobalOcean",
+    "type": "climate_zone",
+    "aliases": [
+      "low latitude",
+      "lower latitudes"
+    ]
+  },
+
+  "lower chesapeake bay": {
+    "class": "Region:LowerChesapeakeBay",
+    "parent": "Region:ChesapeakeBay",
+    "type": "estuary_zone",
+    "aliases": [
+      "lower bay"
+    ]
+  },
+
+  "lower mekong basin": {
+    "class": "Region:LowerMekongBasin",
+    "parent": "Region:SoutheastAsia",
+    "type": "river_basin"
+  },
+
+  "lower tampa bay": {
+    "class": "Region:LowerTampaBay",
+    "parent": "Region:TampaBay",
+    "type": "bay_section"
+  },
+
+  "luderitz upwelling cell": {
+    "class": "Region:LuderitzUpwelling",
+    "parent": "Region:SouthAtlantic",
+    "type": "upwelling_region"
+  },
+
+  "lunenburg bay": {
+    "class": "Region:LunenburgBay",
+    "type": "bay",
+    "long_name": "Lunenburg Bay"
+  },
+
+  "luzon strait": {
+    "class": "Region:LuzonStrait",
+    "parent": "Region:NorthPacific",
+    "type": "strait"
+  },
+
+  "mid-atlantic bight": {
+    "class": "Region:MAB",
+    "parent": "Region:NorthAtlantic",
+    "type": "shelf",
+    "aliases": [
+      "MAB",
+      "midatlantic bight"
+    ]
+  },
+
+  "mid-atlantic ridge": {
+    "class": "Region:MAR",
+    "parent": "Region:AtlanticOcean",
+    "type": "ridge"
+  },
+
+  "mackenzie estuary": {
+    "class": "Region:MackenzieEstuary",
+    "parent": "Region:ArcticOcean",
+    "type": "estuary",
+    "long_name": "Mackenzie Estuary"
+  },
+
+  "mackenzie river": {
+    "class": "Region:MackenzieRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "long_name": "Mackenzie River"
+  },
+
+  "mahanadi river": {
+    "class": "Region:MahanadiRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "makassar strait": {
+    "class": "Region:MakassarStrait",
+    "parent": "Region:IndonesianSeas",
+    "type": "strait"
+  },
+
+  "strait of malacca": {
+    "class": "Region:MalaccaStrait",
+    "parent": "Region:IndonesianSeas",
+    "type": "strait"
+  },
+
+  "malaysian peninsula": {
+    "class": "Region:MalaysianPeninsula",
+    "parent": "Region:SoutheastAsia",
+    "type": "peninsula",
+    "long_name": "Malaysian Peninsula",
+    "aliases": [
+      "Malay Peninsula"
+    ]
+  },
+
+  "malvinas islands": {
+    "class": "Region:MalvinasIslands",
+    "parent": "Region:SouthAtlantic",
+    "type": "archipelago",
+    "aliases": [
+      "falkland islands"
+    ]
+  },
+
+  "manhattan island": {
+    "class": "Region:ManhattanIsland",
+    "parent": "Region:NorthAmerica",
+    "type": "island",
+    "long_name": "Manhattan Island"
+  },
+
+  "marajó island": {
+    "class": "Region:MarajoIsland",
+    "parent": "Region:SouthAtlantic",
+    "type": "island",
+    "aliases": [
+      "marajo island"
+    ]
+  },
+
+  "marginal ice zone": {
+    "class": "Region:MarginalIceZone",
+    "parent": "Region:GlobalOcean",
+    "type": "sea_ice_region",
+    "long_name": "Marginal Ice Zone",
+    "aliases": [
+      "MIZ"
+    ]
+  },
+
+  "maria island": {
+    "class": "Region:MariaIsland",
+    "parent": "Region:Tasmania",
+    "type": "island"
+  },
+
+  "mariana trench": {
+    "class": "Region:MarianaTrench",
+    "parent": "Region:NorthPacific",
+    "type": "trench"
+  },
+
+  "mascarene plateau": {
+    "class": "Region:Mascarene",
+    "parent": "Region:IndianOcean",
+    "type": "plateau"
+  },
+
+  "maumee river watershed": {
+    "class": "Region:MaumeeRiverWatershed",
+    "type": "river_basin",
+    "long_name": "Maumee River Watershed"
+  },
+
+  "mauritania upwelling region": {
+    "class": "Region:MauritaniaUpwelling",
+    "parent": "Region:NorthAtlantic",
+    "type": "upwelling_region"
+  },
+
+  "mediterranean sea": {
+    "class": "Region:MediterraneanSea",
+    "parent": "Region:NorthAtlantic",
+    "type": "marginal_sea",
+    "aliases": [
+      "Mediterranean"
+    ]
+  },
+
+  "meghna river": {
+    "class": "Region:MeghnaRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "mekong_delta": {
+    "class": "Region:MekongDelta",
+    "parent": "Region:LowerMekongBasin",
+    "long_name": "Mekong Delta",
+    "type": "delta_system",
+    "aliases": [
+      "Mekong Delta",
+      "Mekong River Delta"
+    ]
+  },
+
+  "mekong river": {
+    "class": "Region:MekongRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "mesotrophic waters": {
+    "class": "Region:MesotrophicWaters",
+    "parent": "Region:GlobalOcean",
+    "type": "biogeochemical_region"
+  },
+
+  "meuse river": {
+    "class": "Region:MeuseRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "aliases": [
+      "Meuse"
+    ]
+  },
+
+  "michigan": {
+    "class": "Region:Michigan",
+    "type": "state"
+  },
+
+  "mid-latitudes": {
+    "class": "Region:MidLatitudes",
+    "parent": "Region:GlobalOcean",
+    "type": "climate_zone",
+    "aliases": [
+      "midlatitude",
+      "midlatitudes"
+    ]
+  },
+
+  "middle chesapeake bay": {
+    "class": "Region:MiddleChesapeakeBay",
+    "parent": "Region:ChesapeakeBay",
+    "type": "estuary_zone",
+    "aliases": [
+      "middle bay"
+    ]
+  },
+
+  "middle tampa bay": {
+    "class": "Region:MiddleTampaBay",
+    "parent": "Region:TampaBay",
+    "type": "bay_section"
+  },
+
+  "minnesota lakes": {
+    "class": "Region:MinnesotaLakes",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "lake_system"
+  },
+
+  "mirim lagoon": {
+    "class": "Region:MirimLagoon",
+    "parent": "Region:PatosLagoon",
+    "type": "coastal_lagoon"
+  },
+
+  "mississippi estuary": {
+    "class": "Region:MississippiEstuary",
+    "parent": "Region:GoMex",
+    "type": "estuary",
+    "long_name": "Mississippi Estuary"
+  },
+
+  "mississippi river plume": {
+    "class": "Region:MississippiPlume",
+    "parent": "Region:GoMex",
+    "type": "river_plume"
+  },
+
+  "mississippi river": {
+    "class": "Region:MississippiRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "mississippi river delta": {
+    "class": "Region:MississippiRiverDelta",
+    "parent": "Region:GoMex",
+    "type": "delta_system",
+    "long_name": "Mississippi River Delta",
+    "aliases": [
+      "Mississippi Delta",
+      "MR Delta"
+    ]
+  },
+
+  "mississippi sound": {
+    "class": "Region:MississippiSound",
+    "parent": "Region:GoMex",
+    "type": "coastal_region",
+    "long_name": "Mississippi Sound"
+  },
+
+  "mongolia": {
+    "class": "Region:Mongolia",
+    "type": "country"
+  },
+
+  "mont st. michel bay": {
+    "class": "Region:MontStMichelBay",
+    "parent": "Region:France",
+    "type": "bay"
+  },
+
+  "monterey bay": {
+    "class": "Region:MontereyBay",
+    "type": "bay",
+    "long_name": "Monterey Bay"
+  },
+
+  "mozambique channel": {
+    "class": "Region:MozambiqueChannel",
+    "parent": "Region:IndianOcean",
+    "type": "strait"
+  },
+
+  "north atlantic gyre": {
+    "class": "Region:NAGyre",
+    "parent": "Region:GlobalGyres",
+    "type": "gyre"
+  },
+
+  "north pacific gyre": {
+    "class": "Region:NPGyre",
+    "parent": "Region:GlobalGyres",
+    "type": "gyre"
+  },
+
+  "nakdong river": {
+    "class": "Region:NakdongRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "namib-kalahari desert": {
+    "class": "Region:NamibKalahariDesert",
+    "parent": "Region:Africa",
+    "type": "desert_region",
+    "long_name": "Namib-Kalahari Desert",
+    "aliases": [
+      "Namib–Kalahari deserts"
+    ]
+  },
+
+  "namibia upwelling region": {
+    "class": "Region:NamibiaUpwelling",
+    "parent": "Region:SouthAtlantic",
+    "type": "upwelling_region"
+  },
+
+  "nares strait": {
+    "class": "Region:NaresStrait",
+    "parent": "Region:ArcticOcean",
+    "type": "strait"
+  },
+
+  "nazca ridge": {
+    "class": "Region:NazcaRidge",
+    "parent": "Region:SouthPacific",
+    "type": "ridge",
+    "long_name": "Nazca Ridge"
+  },
+
+  "netherlands": {
+    "class": "Region:Netherlands",
+    "type": "country"
+  },
+
+  "new zealand": {
+    "class": "Region:NewZealand",
+    "type": "country"
+  },
+
+  "niagara river": {
+    "class": "Region:NiagaraRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "niger river": {
+    "class": "Region:NigerRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "long_name": "Niger River"
+  },
+
+  "nile delta": {
+    "class": "Region:NileDelta",
+    "type": "delta_system",
+    "long_name": "Nile Delta"
+  },
+
+  "nile river": {
+    "class": "Region:NileRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "long_name": "Nile River"
+  },
+
+  "nile river basin": {
+    "class": "Region:NileRiverBasin",
+    "parent": "Region:Africa",
+    "type": "river_basin",
+    "long_name": "Nile River Basin",
+    "aliases": [
+      "Nile Basin"
+    ]
+  },
+
+  "nino 3.4 region": {
+    "class": "Region:Nino34Region",
+    "parent": "Region:EquatorialPacific",
+    "type": "climate_index_region",
+    "long_name": "Niño 3.4 Region",
+    "aliases": [
+      "NINO 3.4 region"
+    ]
+  },
+
+  "norpatagonian gulfs": {
+    "class": "Region:NorpatagonianGulfs",
+    "parent": "Region:PatagonianShelf",
+    "type": "regional_sea"
+  },
+
+  "north adriatic": {
+    "class": "Region:NorthAdriatic",
+    "parent": "Region:AdriaticSea",
+    "type": "regional_sea"
+  },
+
+  "north africa": {
+    "class": "Region:NorthAfrica",
+    "parent": "Region:Africa",
+    "type": "region",
+    "long_name": "North Africa",
+    "aliases": [
+      "northern Africa"
+    ]
+  },
+
+  "north america": {
+    "class": "Region:NorthAmerica",
+    "type": "continent",
+    "long_name": "North America"
+  },
+
+  "north aral sea": {
+    "class": "Region:NorthAralSea",
+    "parent": "Region:AralSea",
+    "type": "inland_sea"
+  },
+
+  "north atlantic": {
+    "class": "Region:NorthAtlantic",
+    "parent": "Region:AtlanticOcean",
+    "type": "ocean_basin",
+    "aliases": [
+      "North Atlantic Ocean",
+      "northern Atlantic Ocean",
+      "north Atlantic basin"
+    ]
+  },
+
+  "north atlantic subpolar gyre": {
+    "class": "Region:NorthAtlanticSubpolarGyre",
+    "parent": "Region:GlobalGyres",
+    "type": "gyre",
+    "long_name": "North Atlantic Subpolar Gyre",
+    "aliases": [
+      "sub-polar gyre",
+      "subpolar gyre",
+      "sub-Greenland gyre",
+      "sub-polar gyre south of Greenland"
+    ]
+  },
+
+  "north indian ocean": {
+    "class": "Region:NorthIndianOcean",
+    "parent": "Region:IndianOcean",
+    "type": "region"
+  },
+
+  "north manitou island": {
+    "class": "Region:NorthManitouIsland",
+    "parent": "Region:LakeMichigan",
+    "type": "island"
+  },
+
+  "north pacific": {
+    "class": "Region:NorthPacific",
+    "parent": "Region:PacificOcean",
+    "type": "ocean_basin",
+    "aliases": [
+      "North Pacific basin",
+      "North Pacific Ocean basin"
+    ]
+  },
+
+  "north sea": {
+    "class": "Region:NorthSea",
+    "parent": "Region:NorthAtlantic",
+    "type": "regional_sea"
+  },
+
+  "north-west borneo trough": {
+    "class": "Region:NorthWestBorneoTrough",
+    "parent": "Region:SouthChinaSea",
+    "type": "trough",
+    "long_name": "North-West Borneo Trough",
+    "aliases": [
+      "Northwest Borneo Trough"
+    ]
+  },
+
+  "northeast atlantic": {
+    "class": "Region:NortheastAtlantic",
+    "parent": "Region:NorthAtlantic",
+    "type": "region"
+  },
+
+  "northeast_pacific": {
+    "class": "Region:NortheastPacific",
+    "parent": "Region:NorthPacific",
+    "long_name": "Northeast Pacific",
+    "type": "ocean_region",
+    "aliases": [
+      "northeast Pacific",
+      "northeastern Pacific",
+      "northeast Pacific Ocean",
+      "northeastern Pacific Ocean"
+    ]
+  },
+
+  "northeast u.s. continental shelf": {
+    "class": "Region:NortheastUSContinentalShelf",
+    "parent": "Region:NorthAtlantic",
+    "type": "shelf",
+    "long_name": "Northeast U.S. Continental Shelf",
+    "aliases": [
+      "Northeast US continental Shelf"
+    ]
+  },
+
+  "northern hemisphere": {
+    "class": "Region:NorthernHemisphere",
+    "parent": "Region:GlobalOcean",
+    "type": "hemisphere"
+  },
+
+  "northwest atlantic": {
+    "class": "Region:NorthwestAtlantic",
+    "parent": "Region:NorthAtlantic",
+    "type": "ocean_region"
+  },
+
+  "northwest providence channels": {
+    "class": "Region:NorthwestProvidenceChannels",
+    "parent": "Region:NorthAtlantic",
+    "type": "ocean_channel",
+    "long_name": "Northwest Providence Channels"
+  },
+
+  "norton sound": {
+    "class": "Region:NortonSound",
+    "parent": "Region:BeringSea",
+    "type": "marginal_sea"
+  },
+
+  "norwegian sea": {
+    "class": "Region:NorwegianSea",
+    "parent": "Region:NorthAtlantic",
+    "type": "regional_sea"
+  },
+
+  "novaya zemlya": {
+    "class": "Region:NovayaZemlya",
+    "parent": "Region:BarentsSea",
+    "type": "archipelago"
+  },
+
+  "oxygen minimum zone": {
+    "class": "Region:OMZ",
+    "type": "biogeochemical_region"
+  },
+
+  "ob river": {
+    "class": "Region:ObRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "ob river basin": {
+    "class": "Region:ObRiverBasin",
+    "parent": "Region:ObRiver",
+    "type": "river_basin"
+  },
+
+  "oiapoque river": {
+    "class": "Region:OiapoqueRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "old tampa bay": {
+    "class": "Region:OldTampaBay",
+    "parent": "Region:TampaBay",
+    "type": "bay_section"
+  },
+
+  "oligotrophic waters": {
+    "class": "Region:OligotrophicWaters",
+    "parent": "Region:GlobalOcean",
+    "type": "biogeochemical_region"
+  },
+
+  "oman upwelling region": {
+    "class": "Region:OmanUpwelling",
+    "parent": "Region:ArabianSea",
+    "type": "upwelling_region"
+  },
+
+  "ombai strait": {
+    "class": "Region:OmbaiStrait",
+    "parent": "Region:IndonesianSeas",
+    "type": "strait"
+  },
+
+  "open ocean": {
+    "class": "Region:OpenOcean",
+    "type": "oceanic_region",
+    "aliases": [
+      "open oceans"
+    ]
+  },
+
+  "optically complex waters": {
+    "class": "Region:OpticallyComplexWaters",
+    "parent": "Region:CoastalZone",
+    "type": "optical_regime"
+  },
+
+  "orinoco river": {
+    "class": "Region:OrinocoRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "outflow shelves": {
+    "class": "Region:OutflowShelves",
+    "parent": "Region:ArcticOcean",
+    "type": "ecoregion",
+    "aliases": [
+      "outflow shelf"
+    ]
+  },
+
+  "oyashio extension": {
+    "class": "Region:OyashioExtension",
+    "parent": "Region:NorthPacific",
+    "type": "current_extension"
+  },
+
+  "pacific ocean": {
+    "class": "Region:PacificOcean",
+    "parent": "Region:GlobalOcean",
+    "type": "ocean",
+    "aliases": [
+      "Pacific",
+      "Pacific basin",
+      "Pacific Ocean basin"
+    ]
+  },
+
+  "panama basin": {
+    "class": "Region:PanamaBasin",
+    "parent": "Region:PacificOcean",
+    "type": "ocean_basin"
+  },
+
+  "patagonian cold estuarine zone": {
+    "class": "Region:PatagonianColdEstuarineZone",
+    "parent": "Region:PatagonianShelf",
+    "type": "estuary_zone"
+  },
+
+  "patagonian shelf": {
+    "class": "Region:PatagonianShelf",
+    "parent": "Region:SouthAtlantic",
+    "type": "shelf"
+  },
+
+  "patos lagoon": {
+    "class": "Region:PatosLagoon",
+    "parent": "Region:SouthAtlantic",
+    "type": "coastal_lagoon"
+  },
+
+  "patuxent river": {
+    "class": "Region:PatuxentRiver",
+    "parent": "Region:MiddleChesapeakeBay",
+    "type": "river_estuary"
+  },
+
+  "pearl river": {
+    "class": "Region:PearlRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "pearl river delta": {
+    "class": "Region:PearlRiverDelta",
+    "parent": "Region:SouthChinaSea",
+    "type": "delta_system"
+  },
+
+  "peninsula valdez": {
+    "class": "Region:PeninsulaValdez",
+    "parent": "Region:PatagonianShelf",
+    "type": "coastal_region",
+    "aliases": [
+      "península valdés",
+      "peninsula valdes"
+    ]
+  },
+
+  "persian gulf": {
+    "class": "Region:PersianGulf",
+    "parent": "Region:IndianOcean",
+    "type": "marginal_sea"
+  },
+
+  "peru-chile shelf": {
+    "class": "Region:PeruChileShelf",
+    "parent": "Region:SouthPacific",
+    "type": "shelf"
+  },
+
+  "peru upwelling region": {
+    "class": "Region:PeruUpwelling",
+    "parent": "Region:SouthPacific",
+    "type": "upwelling_region"
+  },
+
+  "philippine sea": {
+    "class": "Region:PhilippineSea",
+    "parent": "Region:NorthPacific",
+    "type": "regional_sea"
+  },
+
+  "philippine trench": {
+    "class": "Region:PhilippineTrench",
+    "parent": "Region:NorthPacific",
+    "type": "trench"
+  },
+
+  "phuket island": {
+    "class": "Region:PhuketIsland",
+    "type": "island",
+    "long_name": "Phuket Island",
+    "aliases": [
+      "Island of Phuket"
+    ]
+  },
+
+  "po river delta": {
+    "class": "Region:PoRiverDelta",
+    "parent": "Region:AdriaticSea",
+    "type": "delta_system",
+    "long_name": "Po River Delta",
+    "aliases": [
+      "Po Delta"
+    ]
+  },
+
+  "point conception": {
+    "class": "Region:PointConception",
+    "parent": "Region:NorthPacific",
+    "type": "coastal_region"
+  },
+
+  "poland": {
+    "class": "Region:Poland",
+    "type": "country"
+  },
+
+  "polar regions": {
+    "class": "Region:Polar",
+    "parent": "Region:GlobalOcean",
+    "type": "climate_zone",
+    "aliases": [
+      "polar region"
+    ]
+  },
+
+  "polar oceans": {
+    "class": "Region:PolarOcean",
+    "parent": "Region:GlobalOcean",
+    "type": "ocean_zone"
+  },
+
+  "port hacking": {
+    "class": "Region:PortHacking",
+    "parent": "Region:SoutheastAustralia",
+    "type": "coastal_region"
+  },
+
+  "potomac river": {
+    "class": "Region:PotomacRiver",
+    "parent": "Region:MiddleChesapeakeBay",
+    "type": "river_estuary",
+    "aliases": [
+      "potomac"
+    ]
+  },
+
+  "potomac river mouth": {
+    "class": "Region:PotomacRiverMouth",
+    "parent": "Region:MiddleChesapeakeBay",
+    "type": "river_mouth",
+    "long_name": "Potomac River Mouth"
+  },
+
+  "poyang lake": {
+    "class": "Region:PoyangLake",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "lake"
+  },
+
+  "prince edward island": {
+    "class": "Region:PrinceEdwardIsland",
+    "type": "island",
+    "long_name": "Prince Edward Island"
+  },
+
+  "prydz bay": {
+    "class": "Region:PrydzBay",
+    "parent": "Region:SouthernOcean",
+    "type": "regional_sea"
+  },
+
+  "rappahannock river": {
+    "class": "Region:RappahannockRiver",
+    "parent": "Region:MiddleChesapeakeBay",
+    "type": "river_estuary",
+    "aliases": [
+      "rappahannock"
+    ]
+  },
+
+  "red sea": {
+    "class": "Region:RedSea",
+    "parent": "Region:IndianOcean",
+    "type": "marginal_sea"
+  },
+
+  "rhine river": {
+    "class": "Region:RhineRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "aliases": [
+      "Rhine"
+    ]
+  },
+
+  "rhode river": {
+    "class": "Region:RhodeRiver",
+    "parent": "Region:MiddleChesapeakeBay",
+    "type": "river_estuary"
+  },
+
+  "rhône plume": {
+    "class": "Region:RhonePlume",
+    "parent": "Region:GulfOfLion",
+    "type": "river_plume",
+    "aliases": [
+      "rhone plume",
+      "rhône river plume",
+      "rhone river plume"
+    ]
+  },
+
+  "riau-natuna islands": {
+    "class": "Region:RiauNatunaIslands",
+    "parent": "Region:IndonesianSeas",
+    "type": "archipelago",
+    "long_name": "Riau-Natuna Islands",
+    "aliases": [
+      "Riau/Natuna Islands"
+    ]
+  },
+
+  "rio de la plata": {
+    "class": "Region:RioDeLaPlata",
+    "parent": "Region:SouthAtlantic",
+    "type": "estuary"
+  },
+
+  "rio doce": {
+    "class": "Region:RioDoce",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "rio grande channel": {
+    "class": "Region:RioGrandeChannel",
+    "parent": "Region:PatosLagoon",
+    "type": "strait"
+  },
+
+  "river-influenced waters": {
+    "class": "Region:RiverInfluencedWaters",
+    "parent": "Region:CoastalZone",
+    "type": "biogeochemical_region"
+  },
+
+  "river plume": {
+    "class": "Region:RiverPlume",
+    "parent": "Region:CoastalZone",
+    "type": "hydrological_feature",
+    "aliases": [
+      "river plume",
+      "riverine plume"
+    ]
+  },
+
+  "rocky mountains": {
+    "class": "Region:RockyMountains",
+    "parent": "Region:NorthAmerica",
+    "type": "mountain_range"
+  },
+
+  "ross sea": {
+    "class": "Region:RossSea",
+    "parent": "Region:SouthernOcean",
+    "type": "regional_sea"
+  },
+
+  "ross sea shelf": {
+    "class": "Region:RossShelf",
+    "parent": "Region:RossSea",
+    "type": "shelf"
+  },
+
+  "royale basin": {
+    "class": "Region:RoyaleBasin",
+    "parent": "Region:LakeSuperior",
+    "type": "basin"
+  },
+
+  "russia": {
+    "class": "Region:Russia",
+    "type": "country"
+  },
+
+  "south atlantic gyre": {
+    "class": "Region:SAGyre",
+    "parent": "Region:GlobalGyres",
+    "type": "gyre"
+  },
+
+  "southern california bight": {
+    "class": "Region:SCB",
+    "parent": "Region:NorthPacific",
+    "type": "regional_sea"
+  },
+
+  "south pacific gyre": {
+    "class": "Region:SPGyre",
+    "parent": "Region:GlobalGyres",
+    "type": "gyre"
+  },
+
+  "sahara desert": {
+    "class": "Region:SaharaDesert",
+    "parent": "Region:Africa",
+    "type": "desert",
+    "long_name": "Sahara Desert"
+  },
+
+  "sahel": {
+    "class": "Region:Sahel",
+    "parent": "Region:GlobalLandSurface",
+    "type": "semi_arid_region"
+  },
+
+  "sakhalin island": {
+    "class": "Region:Sakhalin",
+    "parent": "Region:SeaOfOkhotsk",
+    "type": "land_boundary"
+  },
+
+  "salton sea": {
+    "class": "Region:SaltonSea",
+    "type": "lake",
+    "long_name": "Salton Sea"
+  },
+
+  "san francisco bay": {
+    "class": "Region:SanFranciscoBay",
+    "parent": "Region:NorthPacific",
+    "type": "estuary"
+  },
+
+  "sandy beach": {
+    "class": "Region:SandyBeach",
+    "type": "coastal_feature",
+    "aliases": [
+      "sandy beaches"
+    ]
+  },
+
+  "sannikov strait": {
+    "class": "Region:SannikovStrait",
+    "parent": "Region:ArcticOcean",
+    "type": "strait"
+  },
+
+  "santa ynez valley": {
+    "class": "Region:SantaYnezValley",
+    "parent": "Region:NorthPacific",
+    "type": "terrestrial_region"
+  },
+
+  "são francisco river": {
+    "class": "Region:SaoFranciscoRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "aliases": [
+      "sao francisco river"
+    ]
+  },
+
+  "sargasso sea": {
+    "class": "Region:SargassoSea",
+    "parent": "Region:NorthAtlantic",
+    "type": "regional_sea"
+  },
+
+  "savu sea": {
+    "class": "Region:SavuSea",
+    "parent": "Region:IndonesianSeas",
+    "type": "regional_sea"
+  },
+
+  "scotia sea": {
+    "class": "Region:ScotiaSea",
+    "parent": "Region:SouthernOcean",
+    "type": "regional_sea"
+  },
+
+  "scotian shelf": {
+    "class": "Region:ScotianShelf",
+    "parent": "Region:NorthAtlantic",
+    "type": "shelf"
+  },
+
+  "sea of åland": {
+    "class": "Region:SeaOfAland",
+    "parent": "Region:BalticSea",
+    "type": "regional_sea",
+    "aliases": [
+      "sea of aland"
+    ]
+  },
+
+  "sea of azov": {
+    "class": "Region:SeaOfAzov",
+    "parent": "Region:BlackSea",
+    "type": "regional_sea"
+  },
+
+  "sea of crete": {
+    "class": "Region:SeaOfCrete",
+    "parent": "Region:EasternMed",
+    "type": "regional_sea"
+  },
+
+  "sea of japan": {
+    "class": "Region:SeaOfJapan",
+    "parent": "Region:NorthPacific",
+    "type": "regional_sea",
+    "aliases": [
+      "east sea",
+      "Japan Sea",
+      "East/Japan Sea"
+    ]
+  },
+
+  "sea of marmara": {
+    "class": "Region:SeaOfMarmara",
+    "parent": "Region:MediterraneanSea",
+    "type": "regional_sea"
+  },
+
+  "sea of okhotsk": {
+    "class": "Region:SeaOfOkhotsk",
+    "parent": "Region:NorthPacific",
+    "type": "regional_sea",
+    "aliases": [
+      "Okhotsk Sea"
+    ]
+  },
+
+  "seagrass bed": {
+    "class": "Region:SeagrassBed",
+    "parent": "Region:ShallowWater",
+    "type": "benthic_regime",
+    "aliases": [
+      "seagrass",
+      "seagrass beds"
+    ]
+  },
+
+  "seomjin river": {
+    "class": "Region:SeomjinRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "seto inland sea": {
+    "class": "Region:SetoInlandSea",
+    "type": "regional_sea",
+    "long_name": "Seto Inland Sea"
+  },
+
+  "severnaya zemlya": {
+    "class": "Region:SevernayaZemlya",
+    "parent": "Region:ArcticOcean",
+    "type": "archipelago"
+  },
+
+  "shallow water environment": {
+    "class": "Region:ShallowWater",
+    "parent": "Region:CoastalZone",
+    "type": "optical_regime"
+  },
+
+  "shatsky rise": {
+    "class": "Region:ShatskyRise",
+    "parent": "Region:NorthPacific",
+    "type": "plateau"
+  },
+
+  "shelekhov bay": {
+    "class": "Region:ShelekhovBay",
+    "parent": "Region:SeaOfOkhotsk",
+    "type": "regional_sea"
+  },
+
+  "skagerrak": {
+    "class": "Region:Skagerrak",
+    "parent": "Region:NorthSea",
+    "type": "strait",
+    "canonical": "Skagerrak"
+  },
+
+  "solomon sea": {
+    "class": "Region:SolomonSea",
+    "parent": "Region:SouthPacific",
+    "type": "regional_sea"
+  },
+
+  "somali upwelling region": {
+    "class": "Region:SomaliUpwelling",
+    "parent": "Region:ArabianSea",
+    "type": "upwelling_region"
+  },
+
+  "south africa": {
+    "class": "Region:SouthAfrica",
+    "parent": "Region:Africa",
+    "type": "country"
+  },
+
+  "south america": {
+    "class": "Region:SouthAmerica",
+    "type": "continent",
+    "long_name": "South America"
+  },
+
+  "south aral sea": {
+    "class": "Region:SouthAralSea",
+    "parent": "Region:AralSea",
+    "type": "inland_sea"
+  },
+
+  "south atlantic": {
+    "class": "Region:SouthAtlantic",
+    "parent": "Region:AtlanticOcean",
+    "type": "ocean_basin",
+    "aliases": [
+      "South Atlantic Ocean",
+      "southern Atlantic Ocean",
+      "South Atlantic sea",
+      "southern Atlantic"
+    ]
+  },
+
+  "south brazil bight": {
+    "class": "Region:SouthBrazilBight",
+    "parent": "Region:SouthAtlantic",
+    "type": "regional_sea",
+    "aliases": [
+      "SBB"
+    ]
+  },
+
+  "south brittany": {
+    "class": "Region:SouthBrittany",
+    "parent": "Region:BayOfBiscay",
+    "type": "coastal_region",
+    "aliases": [
+      "southern brittany"
+    ]
+  },
+
+  "south china sea": {
+    "class": "Region:SouthChinaSea",
+    "parent": "Region:PacificOcean",
+    "type": "regional_sea",
+    "aliases": [
+      "SCS"
+    ]
+  },
+
+  "south chippewa basin": {
+    "class": "Region:SouthChippewaBasin",
+    "parent": "Region:ChippewaBasin",
+    "type": "basin"
+  },
+
+  "south georgia and south sandwich islands": {
+    "class": "Region:SouthGeorgiaSouthSandwichIslands",
+    "parent": "Region:SouthAtlantic",
+    "type": "archipelago",
+    "long_name": "South Georgia and the South Sandwich Islands"
+  },
+
+  "south honshu ridge": {
+    "class": "Region:SouthHonshuRidge",
+    "parent": "Region:NorthPacific",
+    "type": "ridge"
+  },
+
+  "south indian ocean": {
+    "class": "Region:SouthIndianOcean",
+    "parent": "Region:IndianOcean",
+    "type": "region"
+  },
+
+  "south pacific": {
+    "class": "Region:SouthPacific",
+    "parent": "Region:PacificOcean",
+    "type": "ocean_basin"
+  },
+
+  "southeast asia": {
+    "class": "Region:SoutheastAsia",
+    "type": "region"
+  },
+
+  "southeast australia": {
+    "class": "Region:SoutheastAustralia",
+    "parent": "Region:Australia",
+    "type": "coastal_region",
+    "aliases": [
+      "southeastern australia",
+      "southeast coast of australia"
+    ]
+  },
+
+  "southeastern north sea": {
+    "class": "Region:SoutheasternNorthSea",
+    "parent": "Region:NorthSea",
+    "type": "region"
+  },
+
+  "southern africa": {
+    "class": "Region:SouthernAfrica",
+    "parent": "Region:Africa",
+    "type": "region",
+    "long_name": "Southern Africa",
+    "aliases": [
+      "Southwest Africa",
+      "southwestern Africa"
+    ]
+  },
+
+  "southern california": {
+    "class": "Region:SouthernCalifornia",
+    "parent": "Region:NorthAmerica",
+    "type": "region"
+  },
+
+  "southern china": {
+    "class": "Region:SouthernChina",
+    "type": "region"
+  },
+
+  "southern east china sea": {
+    "class": "Region:SouthernEastChinaSea",
+    "parent": "Region:EastChinaSea",
+    "type": "region",
+    "aliases": [
+      "southern ECS"
+    ]
+  },
+
+  "southern hemisphere": {
+    "class": "Region:SouthernHemisphere",
+    "parent": "Region:GlobalOcean",
+    "type": "hemisphere"
+  },
+
+  "southern north sea": {
+    "class": "Region:SouthernNorthSea",
+    "parent": "Region:NorthSea",
+    "type": "region"
+  },
+
+  "southern ocean": {
+    "class": "Region:SouthernOcean",
+    "parent": "Region:GlobalOcean",
+    "type": "ocean",
+    "aliases": [
+      "Southern Oceans"
+    ]
+  },
+
+  "southern tasman sea": {
+    "class": "Region:SouthernTasmanSea",
+    "parent": "Region:TasmanSea",
+    "type": "ocean_subregion"
+  },
+
+  "southwest indian ridge": {
+    "class": "Region:SouthwestIndianRidge",
+    "parent": "Region:IndianOcean",
+    "type": "ridge",
+    "long_name": "Southwest Indian Ridge"
+  },
+
+  "spuikom lagoon": {
+    "class": "Region:SpuikomLagoon",
+    "parent": "Region:Europe",
+    "type": "coastal_lagoon",
+    "aliases": [
+      "Spuikom",
+      "Spuikom lake"
+    ]
+  },
+
+  "st. helens": {
+    "class": "Region:StHelens",
+    "parent": "Region:Tasmania",
+    "type": "coastal_region",
+    "aliases": [
+      "st helens"
+    ]
+  },
+
+  "st. lawrence island": {
+    "class": "Region:StLawrenceIsland",
+    "parent": "Region:BeringSea",
+    "type": "island"
+  },
+
+  "st lucie estuary": {
+    "class": "Region:StLucieEstuary",
+    "type": "estuary",
+    "long_name": "St. Lucie Estuary"
+  },
+
+  "storm bay": {
+    "class": "Region:StormBay",
+    "parent": "Region:Tasmania",
+    "type": "bay"
+  },
+
+  "strait of hormuz": {
+    "class": "Region:StraitOfHormuz",
+    "parent": "Region:ArabianSea",
+    "type": "strait"
+  },
+
+  "strait of sicily": {
+    "class": "Region:StraitOfSicily",
+    "parent": "Region:CentralMed",
+    "type": "strait"
+  },
+
+  "subtropics": {
+    "class": "Region:SubTropics",
+    "parent": "Region:GlobalOcean",
+    "type": "climate_zone",
+    "aliases": [
+      "sub-tropics",
+      "subtropical"
+    ]
+  },
+
+  "subpolar north atlantic": {
+    "class": "Region:SubpolarNorthAtlantic",
+    "parent": "Region:NorthAtlantic",
+    "type": "ocean_region",
+    "long_name": "Subpolar North Atlantic"
+  },
+
+  "subtropical front": {
+    "class": "Region:SubtropicalFront",
+    "parent": "Region:GlobalOcean",
+    "type": "ocean_front"
+  },
+
+  "subtropical shelf front": {
+    "class": "Region:SubtropicalShelfFront",
+    "parent": "Region:SouthAtlantic",
+    "type": "ocean_front"
+  },
+
+  "sulawesi islands": {
+    "class": "Region:SulawesiIslands",
+    "parent": "Region:IndonesianSeas",
+    "type": "island_region",
+    "long_name": "Sulawesi Islands"
+  },
+
+  "sulu arc": {
+    "class": "Region:SuluArc",
+    "parent": "Region:SuluSea",
+    "type": "island_arc",
+    "long_name": "Sulu Arc"
+  },
+
+  "sulu ridge": {
+    "class": "Region:SuluRidge",
+    "parent": "Region:SuluSea",
+    "type": "ridge",
+    "long_name": "Sulu Ridge"
+  },
+
+  "sulu sea": {
+    "class": "Region:SuluSea",
+    "parent": "Region:IndonesianSeas",
+    "type": "regional_sea"
+  },
+
+  "sumatra trench": {
+    "class": "Region:SumatraTrench",
+    "parent": "Region:IndianOcean",
+    "type": "trench",
+    "long_name": "Sumatra Trench"
+  },
+
+  "sundaland": {
+    "class": "Region:Sundaland",
+    "parent": "Region:SoutheastAsia",
+    "type": "tectonic_region",
+    "long_name": "Sundaland"
+  },
+
+  "susquehanna river": {
+    "class": "Region:SusquehannaRiver",
+    "parent": "Region:UpperChesapeakeBay",
+    "type": "river_input",
+    "aliases": [
+      "susquehanna"
+    ]
+  },
+
+  "svalbard fjords": {
+    "class": "Region:SvalbardFjords",
+    "parent": "Region:ArcticOcean",
+    "type": "fjord_system"
+  },
+
+  "syr darya river": {
+    "class": "Region:SyrDaryaRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "aliases": [
+      "Syr Darya"
+    ]
+  },
+
+  "taiwan": {
+    "class": "Region:Taiwan",
+    "type": "region"
+  },
+
+  "taiwan strait": {
+    "class": "Region:TaiwanStrait",
+    "parent": "Region:PacificOcean",
+    "type": "strait"
+  },
+
+  "tampa bay": {
+    "class": "Region:TampaBay",
+    "parent": "Region:GoMex",
+    "type": "estuary"
+  },
+
+  "tasman front": {
+    "class": "Region:TasmanFront",
+    "parent": "Region:SouthPacific",
+    "type": "ocean_front"
+  },
+
+  "tasman plateau": {
+    "class": "Region:TasmanPlateau",
+    "parent": "Region:SouthPacific",
+    "type": "plateau"
+  },
+
+  "tasman sea": {
+    "class": "Region:TasmanSea",
+    "parent": "Region:SouthPacific",
+    "type": "regional_sea"
+  },
+
+  "tasmania": {
+    "class": "Region:Tasmania",
+    "parent": "Region:Australia",
+    "type": "island_region"
+  },
+
+  "tatar strait": {
+    "class": "Region:TatarStrait",
+    "parent": "Region:SeaOfJapan",
+    "type": "strait"
+  },
+
+  "terpeniya bay": {
+    "class": "Region:TerpeniyaBay",
+    "parent": "Region:SeaOfOkhotsk",
+    "type": "regional_sea"
+  },
+
+  "thracian sea": {
+    "class": "Region:ThracianSea",
+    "parent": "Region:AegeanSea",
+    "type": "regional_sea"
+  },
+
+  "thunder bay": {
+    "class": "Region:ThunderBay",
+    "parent": "Region:LakeSuperior",
+    "type": "bay"
+  },
+
+  "timor sea": {
+    "class": "Region:TimorSea",
+    "parent": "Region:IndonesianSeas",
+    "type": "regional_sea"
+  },
+
+  "tokyo bay": {
+    "class": "Region:TokyoBay",
+    "type": "bay",
+    "long_name": "Tokyo Bay"
+  },
+
+  "tone river": {
+    "class": "Region:ToneRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "long_name": "Tone River"
+  },
+
+  "tonle sap": {
+    "class": "Region:TonleSap",
+    "parent": "Region:GlobalInlandWaters",
+    "type": "lake",
+    "aliases": [
+      "tonle sap lake"
+    ]
+  },
+
+  "tributary rivers": {
+    "class": "Region:TributaryRivers",
+    "parent": "Region:GlobalRivers",
+    "type": "river_system"
+  },
+
+  "tropical atlantic": {
+    "class": "Region:TropicalAtlantic",
+    "parent": "Region:AtlanticOcean",
+    "type": "ocean_region",
+    "long_name": "Tropical Atlantic",
+    "aliases": [
+      "Tropical Atlantic Ocean"
+    ]
+  },
+
+  "tropical indian ocean": {
+    "class": "Region:TropicalIndianOcean",
+    "parent": "Region:IndianOcean",
+    "type": "region"
+  },
+
+  "tropical northern atlantic": {
+    "class": "Region:TropicalNorthernAtlantic",
+    "parent": "Region:NorthAtlantic",
+    "type": "ocean_region",
+    "aliases": [
+      "tropical north atlantic"
+    ]
+  },
+
+  "tropical_pacific": {
+    "class": "Region:TropicalPacific",
+    "parent": "Region:PacificOcean",
+    "long_name": "Tropical Pacific",
+    "type": "ocean_region",
+    "aliases": [
+      "tropical Pacific",
+      "tropical Pacific Ocean"
+    ]
+  },
+
+  "tropics": {
+    "class": "Region:Tropics",
+    "parent": "Region:GlobalOcean",
+    "type": "climate_zone",
+    "aliases": [
+      "tropical"
+    ]
+  },
+
+  "turbid coastal waters": {
+    "class": "Region:TurbidCoastalWaters",
+    "parent": "Region:CoastalZone",
+    "type": "optical_regime"
+  },
+
+  "tyrrhenian sea": {
+    "class": "Region:TyrrhenianSea",
+    "parent": "Region:MediterraneanSea",
+    "type": "regional_sea"
+  },
+
+  "united states": {
+    "class": "Region:UnitedStates",
+    "type": "country",
+    "aliases": [
+      "USA"
+    ]
+  },
+
+  "upper chesapeake bay": {
+    "class": "Region:UpperChesapeakeBay",
+    "parent": "Region:ChesapeakeBay",
+    "type": "estuary_zone",
+    "aliases": [
+      "upper bay"
+    ]
+  },
+
+  "upwelling region": {
+    "class": "Region:UpwellingRegion",
+    "type": "coastal_zone",
+    "aliases": [
+      "upwelling regions"
+    ]
+  },
+
+  "urban surface": {
+    "class": "Region:UrbanSurface",
+    "parent": "Region:GlobalLandSurface",
+    "type": "land_cover_region",
+    "aliases": [
+      "urban area",
+      "urban areas",
+      "built-up surface",
+      "built up surface"
+    ]
+  },
+
+  "uruguay": {
+    "class": "Region:Uruguay",
+    "type": "country"
+  },
+
+  "uzbekistan": {
+    "class": "Region:Uzbekistan",
+    "type": "country"
+  },
+
+  "vegetated land surface": {
+    "class": "Region:VegetatedLandSurface",
+    "parent": "Region:GlobalLandSurface",
+    "type": "land_cover_region",
+    "aliases": [
+      "vegetated surface",
+      "vegetated surfaces",
+      "vegetated area",
+      "vegetated areas"
+    ]
+  },
+
+  "venezuela": {
+    "class": "Region:Venezuela",
+    "type": "country"
+  },
+
+  "venice lagoon": {
+    "class": "Region:VeniceLagoon",
+    "type": "lagoon",
+    "long_name": "Venice Lagoon"
+  },
+
+  "vilkitsky strait": {
+    "class": "Region:VilkitskyStrait",
+    "parent": "Region:ArcticOcean",
+    "type": "strait"
+  },
+
+  "western pacific warm pool": {
+    "class": "Region:WPWP",
+    "parent": "Region:PacificOcean",
+    "type": "ocean_region"
+  },
+
+  "wadden sea": {
+    "class": "Region:WaddenSea",
+    "type": "regional_sea",
+    "long_name": "Wadden Sea"
+  },
+
+  "weddell sea": {
+    "class": "Region:WeddellSea",
+    "parent": "Region:SouthernOcean",
+    "type": "regional_sea"
+  },
+
+  "weser estuary": {
+    "class": "Region:WeserEstuary",
+    "parent": "Region:WeserRiver",
+    "type": "estuary"
+  },
+
+  "weser river": {
+    "class": "Region:WeserRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "aliases": [
+      "weser"
+    ]
+  },
+
+  "west africa": {
+    "class": "Region:WestAfrica",
+    "parent": "Region:Africa",
+    "type": "region",
+    "aliases": [
+      "western africa"
+    ]
+  },
+
+  "west antarctic peninsula": {
+    "class": "Region:WestAntarcticPeninsula",
+    "parent": "Region:SouthernOcean",
+    "type": "coastal_region",
+    "long_name": "West Antarctic Peninsula",
+    "aliases": [
+      "WAP"
+    ]
+  },
+
+  "west antarctica": {
+    "class": "Region:WestAntarctica",
+    "parent": "Region:Antarctica",
+    "type": "polar_region",
+    "long_name": "West Antarctica"
+  },
+
+  "west arkona": {
+    "class": "Region:WestArkona",
+    "parent": "Region:ArkonaBasin",
+    "type": "subbasin",
+    "canonical": "West Arkona"
+  },
+
+  "west florida shelf": {
+    "class": "Region:WestFloridaShelf",
+    "parent": "Region:GoMex",
+    "type": "continental_shelf"
+  },
+
+  "western arctic ocean": {
+    "class": "Region:WesternArcticOcean",
+    "parent": "Region:ArcticOcean",
+    "type": "ocean_subregion",
+    "aliases": [
+      "WAO"
+    ]
+  },
+
+  "western english channel": {
+    "class": "Region:WesternEnglishChannel",
+    "parent": "Region:EnglishChannel",
+    "type": "ocean_subregion",
+    "aliases": [
+      "west english channel"
+    ]
+  },
+
+  "western indian ocean": {
+    "class": "Region:WesternIndian",
+    "parent": "Region:IndianOcean",
+    "type": "ocean_basin"
+  },
+
+  "western mediterranean": {
+    "class": "Region:WesternMed",
+    "parent": "Region:MediterraneanSea",
+    "type": "ocean_basin"
+  },
+
+  "western tasman sea": {
+    "class": "Region:WesternTasmanSea",
+    "parent": "Region:TasmanSea",
+    "type": "ocean_subregion"
+  },
+
+  "western tropical pacific": {
+    "class": "Region:WesternTropicalPacific",
+    "parent": "Region:TropicalPacific",
+    "type": "region"
+  },
+
+  "white sea": {
+    "class": "Region:WhiteSea",
+    "parent": "Region:ArcticOcean",
+    "type": "marginal_sea"
+  },
+
+  "wisconsin": {
+    "class": "Region:Wisconsin",
+    "type": "state"
+  },
+
+  "yangtze estuary": {
+    "class": "Region:YangtzeEstuary",
+    "parent": "Region:YangtzeRiver",
+    "type": "estuary",
+    "long_name": "Yangtze Estuary",
+    "aliases": [
+      "Yangtze River estuary"
+    ]
+  },
+
+  "yangtze river": {
+    "class": "Region:YangtzeRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "yangtze river delta": {
+    "class": "Region:YangtzeRiverDelta",
+    "parent": "Region:YangtzeRiver",
+    "type": "delta_system",
+    "long_name": "Yangtze River Delta",
+    "aliases": [
+      "Yangtze Delta"
+    ]
+  },
+
+  "yellow river": {
+    "class": "Region:YellowRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "yellow sea": {
+    "class": "Region:YellowSea",
+    "parent": "Region:NorthPacific",
+    "type": "regional_sea"
+  },
+
+  "yenisei river": {
+    "class": "Region:YeniseiRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river"
+  },
+
+  "york river": {
+    "class": "Region:YorkRiver",
+    "parent": "Region:MiddleChesapeakeBay",
+    "type": "river_estuary"
+  },
+
+  "yucatan basin": {
+    "class": "Region:YucatanBasin",
+    "parent": "Region:CaribbeanSea",
+    "type": "ocean_basin",
+    "long_name": "Yucatan Basin"
+  },
+
+  "yucatan channel": {
+    "class": "Region:YucatanChannel",
+    "parent": "Region:GoMex",
+    "type": "strait",
+    "aliases": [
+      "Yucatan Channel",
+      "Yucatán Channel"
+    ]
+  },
+
+  "yucatan peninsula": {
+    "class": "Region:YucatanPeninsula",
+    "parent": "Region:NorthAmerica",
+    "type": "peninsula"
+  },
+
+  "yukon delta": {
+    "class": "Region:YukonDelta",
+    "type": "delta_system",
+    "long_name": "Yukon Delta",
+    "aliases": [
+      "Yukon Delta region"
+    ]
+  },
+
+  "yukon river": {
+    "class": "Region:YukonRiver",
+    "parent": "Region:GlobalRivers",
+    "type": "river",
+    "long_name": "Yukon River"
+  },
+
+  "zhujiangkou estuary": {
+    "class": "Region:ZhujiangkouEstuary",
+    "parent": "Region:SouthernChina",
+    "type": "estuary"
+  }
+}

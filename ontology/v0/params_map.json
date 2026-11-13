@@ -1,0 +1,4324 @@
+{
+  "halosteric_component": {
+    "class": "Derived:HalostericComponent",
+    "allowed_units": [
+      "m",
+      "cm",
+      "mm"
+    ],
+    "unit_dimension": "length",
+    "native": false,
+    "derived_from": [
+      "Parameter:SSS"
+    ],
+    "aliases": [
+      "halosteric component",
+      "halosteric annual cycle"
+    ]
+  },
+
+  "red_blue_ratio": {
+    "class": "Derived:RedBlueRatio",
+    "inherits_unit": true,
+    "unit_dimension": "reflectance_ratio",
+    "native": false,
+    "derived_from": [
+      "Parameter:Rrs"
+    ],
+    "aliases": [
+      "red-to-blue",
+      "red-to-blue reflectance ratios",
+      "red-to-blue band ratios"
+    ]
+  },
+
+  "red_green_ratio": {
+    "class": "Derived:RedGreenRatio",
+    "inherits_unit": true,
+    "unit_dimension": "reflectance_ratio",
+    "native": false,
+    "derived_from": [
+      "Parameter:Rrs"
+    ],
+    "aliases": [
+      "red-to-green",
+      "red-to-green reflectance ratios",
+      "red-to-green band ratios"
+    ]
+  },
+
+  "rrs_blue_green_ratio": {
+    "class": "Derived:RrsBlueGreenRatio",
+    "inherits_unit": true,
+    "unit_dimension": "reflectance_ratio",
+    "native": false,
+    "derived_from": [
+      "Parameter:Rrs"
+    ],
+    "aliases": [
+      "blue-green reflectance ratio",
+      "blue-to-green ratio",
+      "green-to-blue ratio",
+      "green-to-blue ratios",
+      "green-to-blue band ratio",
+      "green-to-blue band ratios",
+      "green-to-blue reflectance ratio"
+    ]
+  },
+
+  "rrs_slope": {
+    "class": "Derived:RrsSlope",
+    "inherits_unit": true,
+    "unit_dimension": "spectral_slope",
+    "native": false,
+    "derived_from": [
+      "Parameter:Rrs"
+    ],
+    "aliases": [
+      "spectral slope of reflectance"
+    ]
+  },
+
+  "sea_air_temperature_difference": {
+    "class": "Derived:SeaAirTemperatureDifference",
+    "allowed_units": [
+      "K",
+      "degC"
+    ],
+    "unit_dimension": "temperature_difference",
+    "native": false,
+    "aliases": [
+      "sea-air temperature difference",
+      "sea air temperature difference",
+      "surface-air temperature difference",
+      "skin-air temperature difference"
+    ]
+  },
+
+  "spectral_peak": {
+    "class": "Derived:SpectralPeak",
+    "inherits_unit": true,
+    "unit_dimension": "spectral_feature",
+    "native": false,
+    "aliases": [
+      "reflectance peak",
+      "absorption peak"
+    ]
+  },
+
+  "thermosteric_component": {
+    "class": "Derived:ThermostericComponent",
+    "allowed_units": [
+      "m",
+      "cm",
+      "mm"
+    ],
+    "unit_dimension": "length",
+    "native": false,
+    "derived_from": [
+      "Parameter:SST"
+    ],
+    "aliases": [
+      "thermosteric component",
+      "thermosteric annual cycle"
+    ]
+  },
+
+  "angstrom_exponent": {
+    "class": "Parameter:AE",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "optical_slope",
+    "native": true,
+    "aliases": [
+      "angstrom exponent",
+      "ångström exponent",
+      "aerosol angstrom exponent",
+      "aerosol alpha exponent",
+      "aerosol alpha"
+    ]
+  },
+
+  "aod": {
+    "class": "Parameter:AOD",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "optical_thickness",
+    "aliases": [
+      "AOD",
+      "aerosol optical depth",
+      "aerosol optical thickness",
+      "aerosol optical thicknesses",
+      "aot",
+      "AOT",
+      "tau_a",
+      "τ_a",
+      "τa"
+    ]
+  },
+
+  "absolute_salinity": {
+    "class": "Parameter:AbsoluteSalinity",
+    "unit_dimension": "salinity",
+    "native": true,
+    "aliases": [
+      "absolute salinity"
+    ]
+  },
+
+  "absolute_vorticity": {
+    "class": "Parameter:AbsoluteVorticity",
+    "allowed_units": [
+      "s-1"
+    ],
+    "unit_dimension": "frequency",
+    "native": false,
+    "aliases": [
+      "absolute vorticity",
+      "absolute vorticity intensity"
+    ]
+  },
+
+  "absorption_coefficient": {
+    "class": "Parameter:AbsorptionCoefficient",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "a(λ)",
+      "absorption coefficient",
+      "total absorption coefficient",
+      "total absorption coefficient of bulk water"
+    ]
+  },
+
+  "air_density": {
+    "class": "Parameter:AirDensity",
+    "allowed_units": [
+      "kg m-3"
+    ],
+    "unit_dimension": "mass_density",
+    "native": true,
+    "aliases": [
+      "air density",
+      "atmospheric air density"
+    ]
+  },
+
+  "albedo": {
+    "class": "Parameter:Albedo",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "reflectance_fraction",
+    "native": true,
+    "aliases": [
+      "albedo"
+    ]
+  },
+
+  "alongshore_wind_stress": {
+    "class": "Parameter:AlongshoreWindStress",
+    "allowed_units": [
+      "N m-2",
+      "Pa"
+    ],
+    "unit_dimension": "stress",
+    "native": false,
+    "derived_from": [
+      "Parameter:WindStress"
+    ],
+    "aliases": [
+      "alongshore wind stress",
+      "alongshore wind stresses"
+    ]
+  },
+
+  "aloxanthin": {
+    "class": "Parameter:Aloxanthin",
+    "parent": "Parameter:PhytoplanktonPigments",
+    "allowed_units": [
+      "mg m-3",
+      "mg/m3",
+      "ug L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "alloxanthin"
+    ]
+  },
+
+  "ammonium": {
+    "class": "Parameter:Ammonium",
+    "parent": "Parameter:NutrientConcentration",
+    "allowed_units": [
+      "umol kg-1",
+      "umol L-1",
+      "mmol m-3",
+      "mg m-3"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "ammonium",
+      "NH4+",
+      "NH₄⁺",
+      "[NH4+]",
+      "ammonium [NH₄⁺]"
+    ]
+  },
+
+  "annual_cycle_amplitude": {
+    "class": "Parameter:AnnualCycleAmplitude",
+    "allowed_units": [
+      "m",
+      "cm",
+      "mm"
+    ],
+    "unit_dimension": "length",
+    "native": false,
+    "aliases": [
+      "annual cycle amplitude",
+      "amplitude of the annual cycle",
+      "annual component amplitude",
+      "annual amplitude",
+      "sea level annual cycle amplitude",
+      "amplitude of the sea level annual cycle",
+      "steric annual cycle amplitude",
+      "annual-cycle amplitude",
+      "amplitude of annual cycle",
+      "annual harmonic amplitude"
+    ]
+  },
+
+  "annual_cycle_phase": {
+    "class": "Parameter:AnnualCyclePhase",
+    "allowed_units": [
+      "days",
+      "month",
+      "degree"
+    ],
+    "unit_dimension": "phase",
+    "native": false,
+    "aliases": [
+      "annual cycle phase",
+      "phase of the annual cycle",
+      "timing of annual cycle maximum",
+      "month of annual cycle maximum",
+      "annual maximum timing"
+    ]
+  },
+
+  "avw": {
+    "class": "Parameter:ApparentVisibleWavelength",
+    "allowed_units": [
+      "nm"
+    ],
+    "unit_dimension": "length",
+    "native": false,
+    "derived_from": [
+      "Parameter:RrsSpectral"
+    ],
+    "aliases": [
+      "apparent visible wavelength",
+      "weighted harmonic mean wavelength",
+      "AVW",
+      "apparent visible wavelength index"
+    ]
+  },
+
+  "particulate_matter": {
+    "class": "Parameter:AtmosphericParticulateMatter",
+    "allowed_units": [
+      "ug m-3",
+      "µg m-3"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "particulate matter",
+      "pm10",
+      "pm2.5"
+    ]
+  },
+
+  "atmospheric_temperature": {
+    "class": "Parameter:AtmosphericTemperature",
+    "allowed_units": [
+      "K",
+      "degC"
+    ],
+    "unit_dimension": "temperature",
+    "native": true,
+    "aliases": [
+      "atmospheric temperature",
+      "atmospheric temperatures",
+      "atmospherictemperature",
+      "T_A",
+      "T_{A}",
+      "air temperature",
+      "air temperatures",
+      "surface air temperature"
+    ]
+  },
+
+  "atmospheric_transmittance": {
+    "class": "Parameter:AtmosphericTransmittance",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "transmittance",
+    "native": true,
+    "aliases": [
+      "atmospheric transmittance",
+      "atmospheric transmissivity",
+      "spectral atmospheric transmittance",
+      "spectral atmospheric transmissivity",
+      "atmospheric transmission",
+      "upward transmittance"
+    ]
+  },
+
+  "autocorrelation_coefficient": {
+    "class": "Parameter:AutocorrelationCoefficient",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "correlation",
+    "native": false,
+    "aliases": [
+      "autocorrelation coefficient",
+      "serial correlation coefficient",
+      "lag-1 autocorrelation",
+      "ar1 coefficient",
+      "ar(1) coefficient"
+    ]
+  },
+
+  "brdf": {
+    "class": "Parameter:BRDF",
+    "allowed_units": [
+      "sr-1"
+    ],
+    "unit_dimension": "reflectance",
+    "native": false,
+    "aliases": [
+      "bidirectional reflectance distribution function"
+    ]
+  },
+
+  "backscattering_coefficient": {
+    "class": "Parameter:BackscatteringCoefficient",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "backscattering coefficient"
+    ]
+  },
+
+  "beam_attenuation_coefficient": {
+    "class": "Parameter:BeamAttenuationCoefficient",
+    "native": true,
+    "unit_dimension": "inverse_length",
+    "allowed_units": [
+      "m^-1"
+    ],
+    "aliases": [
+      "beam attenuation coefficient",
+      "beam attenuation",
+      "beam attenuation coeff"
+    ]
+  },
+
+  "benthic_reflectance": {
+    "class": "Parameter:BenthicReflectance",
+    "allowed_units": [
+      "sr-1"
+    ],
+    "unit_dimension": "reflectance",
+    "native": false,
+    "derived_from": [
+      "Parameter:Rrs"
+    ],
+    "aliases": [
+      "bottom reflectance",
+      "rho_b"
+    ]
+  },
+
+  "biodiversity": {
+    "class": "Parameter:Biodiversity",
+    "allowed_units": [
+      "unitless",
+      "index"
+    ],
+    "unit_dimension": "ecological_index",
+    "native": false,
+    "aliases": [
+      "biodiversity",
+      "diversity"
+    ]
+  },
+
+  "biomass": {
+    "class": "Parameter:Biomass",
+    "allowed_units": [
+      "kg C",
+      "g C m-2"
+    ],
+    "unit_dimension": "mass_density",
+    "native": true,
+    "aliases": []
+  },
+
+  "brightness_temperature": {
+    "class": "Parameter:BrightnessTemperature",
+    "allowed_units": [
+      "K",
+      "degC"
+    ],
+    "unit_dimension": "temperature",
+    "native": true,
+    "aliases": [
+      "brightness temperature",
+      "brightness temperatures",
+      "brightnesstemperature",
+      "channel brightness temperature",
+      "channel bt",
+      "channel BT",
+      "thermal brightness temperature",
+      "thermal bt",
+      "thermal BT",
+      "T_B",
+      "T_{B}"
+    ]
+  },
+
+  "butanoyloxyfucoxanthin": {
+    "class": "Parameter:Butanoyloxyfucoxanthin",
+    "parent": "Parameter:PhytoplanktonPigments",
+    "allowed_units": [
+      "mg m-3",
+      "mg/m3",
+      "ug L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "19'-butanoyloxyfucoxanthin",
+      "19′-butanoyloxyfucoxanthin",
+      "19-butanoyloxyfucoxanthin"
+    ]
+  },
+
+  "cdom_absorption_coefficient": {
+    "class": "Parameter:CDOMAbsorptionCoefficient",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "CDOM absorption coefficient",
+      "colored dissolved organic matter absorption coefficient",
+      "ag",
+      "a_g",
+      "ag(443)",
+      "a_g(443)"
+    ]
+  },
+
+  "s_g": {
+    "class": "Parameter:CDOMSpectralSlope",
+    "allowed_units": [
+      "nm-1"
+    ],
+    "unit_dimension": "spectral_slope",
+    "native": false,
+    "aliases": [
+      "s_g",
+      "sg",
+      "S_g",
+      "CDOM slope",
+      "CDOM spectral slope",
+      "gelbstoff spectral slope"
+    ]
+  },
+
+  "carbon_dioxide": {
+    "class": "Parameter:CarbonDioxide",
+    "long_name": "Carbon Dioxide",
+    "allowed_units": [
+      "ppm",
+      "umol mol-1",
+      "mg m-3"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "carbon dioxide",
+      "CO2",
+      "CO_2",
+      "CO_{2}",
+      "CO₂"
+    ]
+  },
+
+  "carbon_emissions": {
+    "class": "Parameter:CarbonEmissions",
+    "allowed_units": [
+      "Gt CO2 yr-1",
+      "Pg C yr-1"
+    ],
+    "unit_dimension": "emission_rate",
+    "native": false,
+    "aliases": [
+      "CO₂ emissions",
+      "CO2 emissions",
+      "carbon emissions"
+    ]
+  },
+
+  "carbon_monoxide": {
+    "class": "Parameter:CarbonMonoxide",
+    "allowed_units": [
+      "ppb"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "carbon monoxide",
+      "CO"
+    ]
+  },
+
+  "carrying_capacity": {
+    "class": "Parameter:CarryingCapacity",
+    "allowed_units": [
+      "unitless",
+      "count"
+    ],
+    "unit_dimension": "capacity",
+    "native": false,
+    "aliases": [
+      "carrying capacity"
+    ]
+  },
+
+  "changepoint_time": {
+    "class": "Parameter:ChangepointTime",
+    "allowed_units": [
+      "year",
+      "date",
+      "month"
+    ],
+    "unit_dimension": "time",
+    "native": false,
+    "aliases": [
+      "change-point time",
+      "changepoint time",
+      "breakpoint time",
+      "time of structural break",
+      "break year"
+    ]
+  },
+
+  "chlorophyll": {
+    "class": "Parameter:ChlorophyllA",
+    "parent": "Parameter:PhytoplanktonPigments",
+    "allowed_units": [
+      "mg m-3",
+      "mg/m3",
+      "ug L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "chl",
+      "CHL",
+      "Chl",
+      "chl-a",
+      "chl a",
+      "chlorophyll a",
+      "chlorophyll-a",
+      "chlorophyll",
+      "chlorophylla",
+      "chlorophyll-α",
+      "chlorophyll concentration",
+      "chlorophyll-a concentration",
+      "chl concentration",
+      "chl-a concentration",
+      "Chl-a concentrations"
+    ]
+  },
+
+  "chlorophyll_b": {
+    "class": "Parameter:ChlorophyllB",
+    "parent": "Parameter:PhytoplanktonPigments",
+    "allowed_units": [
+      "mg m-3",
+      "mg/m3",
+      "ug L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "chl-b",
+      "chl b",
+      "chlorophyll b",
+      "chlorophyll-b"
+    ]
+  },
+
+  "chlorophyll_c3": {
+    "class": "Parameter:ChlorophyllC3",
+    "parent": "Parameter:PhytoplanktonPigments",
+    "allowed_units": [
+      "mg m-3",
+      "mg/m3",
+      "ug L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "chl-c3",
+      "chl c3",
+      "chlorophyll c3",
+      "chlorophyll-c3"
+    ]
+  },
+
+  "cloud_cover": {
+    "class": "Parameter:CloudCover",
+    "long_name": "Cloud Cover",
+    "allowed_units": [
+      "unitless",
+      "%"
+    ],
+    "unit_dimension": "fraction",
+    "aliases": [
+      "cloud cover",
+      "cloud fraction",
+      "cloudiness"
+    ]
+  },
+
+  "cloud_liquid_water": {
+    "class": "Parameter:CloudLiquidWater",
+    "unit_dimension": "column_amount",
+    "native": true,
+    "aliases": [
+      "cloud liquid water"
+    ]
+  },
+
+  "cloud radiative forcing": {
+    "class": "Parameter:CloudRadiativeForcing",
+    "parent": "Parameter:HeatFlux",
+    "unit_dimension": "energy_flux",
+    "allowed_units": [
+      "W m^-2"
+    ],
+    "aliases": [
+      "CRF"
+    ]
+  },
+
+  "cloud top height": {
+    "class": "Parameter:CloudTopHeight",
+    "unit_dimension": "length",
+    "allowed_units": [
+      "m",
+      "km"
+    ],
+    "aliases": [
+      "CTH"
+    ]
+  },
+
+  "coefficient_of_variation": {
+    "class": "Parameter:CoefficientOfVariation",
+    "allowed_units": [
+      "unitless",
+      "dimensionless",
+      "%"
+    ],
+    "unit_dimension": "dimensionless",
+    "native": false,
+    "aliases": [
+      "coefficient of variation"
+    ]
+  },
+
+  "column_water_vapor": {
+    "class": "Parameter:ColumnWaterVapor",
+    "allowed_units": [
+      "g cm-2",
+      "cm",
+      "mm"
+    ],
+    "unit_dimension": "mass_density",
+    "native": true,
+    "aliases": [
+      "column water vapor",
+      "column integrated water vapor",
+      "precipitable water",
+      "pwv",
+      "total precipitable water",
+      "water vapour",
+      "water vapor",
+      "atmospheric water vapour",
+      "atmospheric water vapor",
+      "atmospheric water vapour content",
+      "atmospheric water vapor content",
+      "water vapour content",
+      "water vapor content"
+    ]
+  },
+
+  "conductivity": {
+    "class": "Parameter:Conductivity",
+    "allowed_units": [
+      "S m-1",
+      "mS cm-1"
+    ],
+    "unit_dimension": "conductivity",
+    "native": true,
+    "aliases": [
+      "conductivity",
+      "electrical conductivity"
+    ]
+  },
+
+  "conservative_temperature": {
+    "class": "Parameter:ConservativeTemperature",
+    "allowed_units": [
+      "degC",
+      "K"
+    ],
+    "unit_dimension": "temperature",
+    "native": true,
+    "aliases": [
+      "conservative temperature"
+    ]
+  },
+
+  "coriolis_parameter": {
+    "class": "Parameter:CoriolisParameter",
+    "allowed_units": [
+      "s-1"
+    ],
+    "unit_dimension": "frequency",
+    "native": false,
+    "aliases": [
+      "Coriolis parameter"
+    ]
+  },
+
+  "correlation_coefficient": {
+    "class": "Parameter:CorrelationCoefficient",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "correlation",
+    "native": false,
+    "aliases": [
+      "correlation coefficient",
+      "correlation coefficients",
+      "correlation coefficient (r)"
+    ]
+  },
+
+  "covariance": {
+    "class": "Parameter:Covariance",
+    "inherits_unit": true,
+    "unit_dimension": "statistical_covariance",
+    "native": false,
+    "aliases": [
+      "covariance"
+    ]
+  },
+
+  "current_velocity": {
+    "class": "Parameter:CurrentVelocity",
+    "allowed_units": [
+      "m s-1",
+      "cm s-1"
+    ],
+    "unit_dimension": "velocity",
+    "native": true,
+    "aliases": [
+      "current velocity",
+      "surface current velocity",
+      "surface velocity"
+    ]
+  },
+
+  "doc_specific_cdom_absorption": {
+    "class": "Parameter:DOCSpecificCDOMAbsorption",
+    "allowed_units": [
+      "m2 mg-1"
+    ],
+    "unit_dimension": "specific_absorption",
+    "native": false,
+    "aliases": [
+      "a_g*",
+      "ag*",
+      "DOC-specific CDOM absorption",
+      "DOC-specific absorption coefficient of CDOM"
+    ]
+  },
+
+  "degrees_of_freedom": {
+    "class": "Parameter:DegreesOfFreedom",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "count",
+    "native": false,
+    "aliases": [
+      "degrees of freedom",
+      "effective degrees of freedom",
+      "dof"
+    ]
+  },
+
+  "bathymetry": {
+    "class": "Parameter:Depth",
+    "allowed_units": [
+      "m"
+    ],
+    "unit_dimension": "length",
+    "native": true,
+    "aliases": [
+      "bathymetry",
+      "water depth",
+      "bottom depth",
+      "bathymetric depth",
+      "sampling depth",
+      "observation depth",
+      "profile depth",
+      "shallow water",
+      "shallow waters",
+      "deep water",
+      "deep waters",
+      "trench",
+      "ocean trench",
+      "isobath",
+      "bathymetric slope",
+      "bathymetry slope"
+    ]
+  },
+
+  "ad": {
+    "class": "Parameter:DetritalAbsorption",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "a_d",
+      "ad",
+      "a_d(λ)",
+      "a_d(443)",
+      "detrital absorption",
+      "detritus absorption",
+      "nonliving particle absorption"
+    ]
+  },
+
+  "detrital_backscattering": {
+    "class": "Parameter:DetritalBackscattering",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": false,
+    "aliases": [
+      "b_bd",
+      "bbd",
+      "detrital backscattering",
+      "backscattering coefficient of organic detritus and heterotrophic microorganisms"
+    ]
+  },
+
+  "adg": {
+    "class": "Parameter:DetritalGelbstoffAbsorption",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "adg(λ)",
+      "a_dg",
+      "a_dg(λ)",
+      "adg(443)",
+      "a_dg(443)",
+      "gelbstoff absorption",
+      "CDOM + detritus absorption",
+      "CDOM+detritus absorption",
+      "combined CDOM and detrital absorption"
+    ]
+  },
+
+  "s_dg": {
+    "class": "Parameter:DetritalGelbstoffSpectralSlope",
+    "allowed_units": [
+      "nm-1"
+    ],
+    "unit_dimension": "spectral_slope",
+    "native": false,
+    "aliases": [
+      "s_dg",
+      "sdg",
+      "S_dg",
+      "CDOM+detritus slope",
+      "CDOM and detritus spectral slope",
+      "detrital gelbstoff slope"
+    ]
+  },
+
+  "s_d": {
+    "class": "Parameter:DetritalSpectralSlope",
+    "allowed_units": [
+      "nm-1"
+    ],
+    "unit_dimension": "spectral_slope",
+    "native": false,
+    "aliases": [
+      "s_d",
+      "S_d",
+      "detrital slope",
+      "detritus spectral slope",
+      "detrital spectral slope"
+    ]
+  },
+
+  "dielectric_constant": {
+    "class": "Parameter:DielectricConstant",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "dimensionless",
+    "native": true,
+    "aliases": [
+      "dielectric constant",
+      "relative permittivity"
+    ]
+  },
+
+  "kd490": {
+    "class": "Parameter:DiffuseAttenuation",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "diffuse attenuation coefficient",
+      "diffuse attenuation",
+      "light attenuation coefficient",
+      "kd",
+      "k_d",
+      "K_d",
+      "kd(490)",
+      "K_d(490)",
+      "kd490",
+      "Kd490",
+      "Kd",
+      "k490",
+      "K490"
+    ]
+  },
+
+  "directional hemispherical reflectance": {
+    "class": "Parameter:DirectionalHemisphericalReflectance",
+    "parent": "Parameter:Reflectance",
+    "unit_dimension": "dimensionless",
+    "allowed_units": [
+      "unitless"
+    ],
+    "aliases": [
+      "DHR",
+      "black-sky albedo"
+    ]
+  },
+
+  "dissolved_inorganic_carbon": {
+    "class": "Parameter:DissolvedInorganicCarbon",
+    "allowed_units": [
+      "umol kg-1",
+      "mmol m-3"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "dissolved inorganic carbon",
+      "DIC"
+    ]
+  },
+
+  "dissolved_inorganic_nitrogen": {
+    "class": "Parameter:DissolvedInorganicNitrogen",
+    "parent": "Parameter:NutrientConcentration",
+    "allowed_units": [
+      "umol kg-1",
+      "umol L-1",
+      "mmol m-3",
+      "mg m-3"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "dissolved inorganic nitrogen",
+      "DIN"
+    ]
+  },
+
+  "dissolved_organic_carbon": {
+    "class": "Parameter:DissolvedOrganicCarbon",
+    "allowed_units": [
+      "mg L-1",
+      "umol L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "DOC",
+      "dissolved organic carbon"
+    ]
+  },
+
+  "divinyl_chlorophyll_a": {
+    "class": "Parameter:DivinylChlorophyllA",
+    "parent": "Parameter:PhytoplanktonPigments",
+    "allowed_units": [
+      "mg m-3",
+      "mg/m3",
+      "ug L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "divinyl chlorophyll a",
+      "divinyl chlorophyll-a",
+      "divinyl chl a"
+    ]
+  },
+
+  "dominant_wavelength": {
+    "class": "Parameter:DominantWavelength",
+    "allowed_units": [
+      "nm"
+    ],
+    "unit_dimension": "length",
+    "native": false,
+    "aliases": [
+      "dominant wavelength"
+    ]
+  },
+
+  "downwelling_radiance": {
+    "class": "Parameter:DownwellingRadiance",
+    "allowed_units": [
+      "W m-2 sr-1 um-1",
+      "mW cm-2 sr-1 um-1"
+    ],
+    "unit_dimension": "radiance",
+    "native": true,
+    "aliases": [
+      "downwelling radiance",
+      "atmospheric downwelling radiance",
+      "downward atmospheric radiance"
+    ]
+  },
+
+  "evapotranspiration": {
+    "class": "Parameter:Evapotranspiration",
+    "allowed_units": [
+      "mm day-1",
+      "mm yr-1"
+    ],
+    "unit_dimension": "water_flux",
+    "native": true,
+    "aliases": [
+      "evapotranspiration"
+    ]
+  },
+
+  "extinction_coefficient": {
+    "class": "Parameter:ExtinctionCoefficient",
+    "unit_dimension": "inverse_length",
+    "native": true,
+    "aliases": [
+      "extinction coefficient",
+      "extinction coefficients"
+    ]
+  },
+
+  "fpar": {
+    "class": "Parameter:FPAR",
+    "allowed_units": [
+      "unitless",
+      "dimensionless",
+      "%"
+    ],
+    "unit_dimension": "fraction",
+    "native": true,
+    "aliases": [
+      "FPAR",
+      "fraction of absorbed photosynthetically active radiation"
+    ]
+  },
+
+  "z90": {
+    "class": "Parameter:FirstOpticalDepth",
+    "allowed_units": [
+      "m"
+    ],
+    "unit_dimension": "length",
+    "native": false,
+    "derived_from": [
+      "Parameter:DiffuseAttenuation"
+    ],
+    "aliases": [
+      "z90",
+      "first optical depth",
+      "satellite optical depth",
+      "90 percent light attenuation depth"
+    ]
+  },
+
+  "fishing_mortality": {
+    "class": "Parameter:FishingMortality",
+    "allowed_units": [
+      "yr-1",
+      "year-1",
+      "a-1"
+    ],
+    "unit_dimension": "inverse_time",
+    "native": false,
+    "aliases": [
+      "fishing mortality",
+      "fishing mortality rate"
+    ]
+  },
+
+  "fishing_pressure": {
+    "class": "Parameter:FishingPressure",
+    "allowed_units": [
+      "unitless",
+      "index"
+    ],
+    "unit_dimension": "pressure_index",
+    "native": false,
+    "aliases": [
+      "fishing pressure"
+    ]
+  },
+
+  "fluorescence_line_height": {
+    "class": "Parameter:FluorescenceLineHeight",
+    "allowed_units": [
+      "sr-1"
+    ],
+    "unit_dimension": "reflectance",
+    "native": false,
+    "aliases": [
+      "flh",
+      "FLH",
+      "fluorescence line height"
+    ]
+  },
+
+  "forel_ule_colour": {
+    "class": "Parameter:ForelUleColour",
+    "native": true,
+    "unit_dimension": "dimensionless",
+    "allowed_units": [
+      "index"
+    ],
+    "aliases": [
+      "forel ule colour",
+      "forel-ule colour",
+      "forel ule color",
+      "forel-ule color",
+      "forel ule index",
+      "fui",
+      "FUI"
+    ]
+  },
+
+  "formaldehyde": {
+    "class": "Parameter:Formaldehyde",
+    "allowed_units": [
+      "mol cm-2",
+      "molecules cm-2"
+    ],
+    "unit_dimension": "column_density",
+    "native": true,
+    "aliases": [
+      "formaldehyde",
+      "hcho"
+    ]
+  },
+
+  "fractional_differencing_parameter": {
+    "class": "Parameter:FractionalDifferencingParameter",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "memory_parameter",
+    "native": false,
+    "aliases": [
+      "fractional differencing parameter",
+      "fractional integration parameter",
+      "arfima d parameter",
+      "memory parameter d"
+    ]
+  },
+
+  "fucoxanthin": {
+    "class": "Parameter:Fucoxanthin",
+    "parent": "Parameter:PhytoplanktonPigments",
+    "allowed_units": [
+      "mg m-3",
+      "mg/m3",
+      "ug L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": []
+  },
+
+  "geostrophic_velocity": {
+    "class": "Parameter:GeostrophicVelocity",
+    "allowed_units": [
+      "m s-1",
+      "cm s-1"
+    ],
+    "unit_dimension": "velocity",
+    "native": false,
+    "aliases": [
+      "geostrophic velocity",
+      "geostrophic velocities"
+    ]
+  },
+
+  "global_mean_sea_level": {
+    "class": "Parameter:GlobalMeanSeaLevel",
+    "allowed_units": [
+      "m",
+      "cm",
+      "mm"
+    ],
+    "unit_dimension": "length",
+    "native": false,
+    "derived_from": [
+      "Parameter:MeanSeaLevel"
+    ],
+    "aliases": [
+      "global mean sea level",
+      "gmsl",
+      "global sea level",
+      "global-mean sea level"
+    ]
+  },
+
+  "greenhouse_gas_concentration": {
+    "class": "Parameter:GreenhouseGasConcentration",
+    "allowed_units": [
+      "ppm",
+      "ppb"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "greenhouse gas concentration",
+      "greenhouse gas concentrations"
+    ]
+  },
+
+  "grid_spacing": {
+    "class": "Parameter:GridSpacing",
+    "allowed_units": [
+      "m",
+      "km",
+      "degree"
+    ],
+    "unit_dimension": "length_or_angle",
+    "native": true,
+    "aliases": [
+      "grid spacing",
+      "model grid spacing"
+    ]
+  },
+
+  "heat_capacity": {
+    "class": "Parameter:HeatCapacity",
+    "allowed_units": [
+      "J kg-1 K-1"
+    ],
+    "unit_dimension": "specific_heat_capacity",
+    "native": true,
+    "aliases": [
+      "heat capacity",
+      "specific heat capacity"
+    ]
+  },
+
+  "heat_flux": {
+    "class": "Parameter:HeatFlux",
+    "allowed_units": [
+      "W m-2"
+    ],
+    "unit_dimension": "energy_flux",
+    "native": false,
+    "aliases": [
+      "surface heat flux",
+      "heat flux"
+    ]
+  },
+
+  "hexanoyloxyfucoxanthin": {
+    "class": "Parameter:Hexanoyloxyfucoxanthin",
+    "parent": "Parameter:PhytoplanktonPigments",
+    "allowed_units": [
+      "mg m-3",
+      "mg/m3",
+      "ug L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "19'-hexanoyloxyfucoxanthin",
+      "19′-hexanoyloxyfucoxanthin",
+      "19-hexanoyloxyfucoxanthin"
+    ]
+  },
+
+  "hurst_exponent": {
+    "class": "Parameter:HurstExponent",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "memory_exponent",
+    "native": false,
+    "aliases": [
+      "hurst exponent",
+      "hurst coefficient",
+      "long-memory parameter"
+    ]
+  },
+
+  "ice_surface_temperature": {
+    "class": "Parameter:IceSurfaceTemperature",
+    "allowed_units": [
+      "K",
+      "degC"
+    ],
+    "unit_dimension": "temperature",
+    "native": true,
+    "aliases": [
+      "ice surface temperature",
+      "sea ice surface temperature"
+    ]
+  },
+
+  "impervious_surface": {
+    "class": "Parameter:ImperviousSurface",
+    "allowed_units": [
+      "percent"
+    ],
+    "unit_dimension": "index",
+    "native": false,
+    "derived_from": [
+      "Parameter:LandCover"
+    ],
+    "aliases": []
+  },
+
+  "incidence_angle": {
+    "class": "Parameter:IncidenceAngle",
+    "allowed_units": [
+      "degree",
+      "rad"
+    ],
+    "unit_dimension": "angle",
+    "native": true,
+    "aliases": [
+      "incidence angle",
+      "incidence angles",
+      "incident angle"
+    ]
+  },
+
+  "raman_scattering": {
+    "class": "Parameter:InelasticScattering",
+    "allowed_units": [
+      "m-1 sr-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "raman emission"
+    ]
+  },
+
+  "information_criterion_value": {
+    "class": "Parameter:InformationCriterionValue",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "model_selection_score",
+    "native": false,
+    "aliases": [
+      "information criterion value",
+      "aic value",
+      "bic value",
+      "model selection score",
+      "criterion value"
+    ]
+  },
+
+  "insolation": {
+    "class": "Parameter:Insolation",
+    "long_name": "Solar Insolation",
+    "allowed_units": [
+      "W m-2"
+    ],
+    "unit_dimension": "irradiance",
+    "aliases": [
+      "insolation",
+      "solar insolation",
+      "incoming solar radiation"
+    ]
+  },
+
+  "irradiance": {
+    "class": "Parameter:Irradiance",
+    "long_name": "Irradiance",
+    "allowed_units": [
+      "W m-2",
+      "mW m-2",
+      "kW m-2",
+      "W cm-2",
+      "mW cm-2",
+      "W mm-2",
+      "mW mm-2"
+    ],
+    "unit_dimension": "irradiance",
+    "native": true,
+    "aliases": [
+      "radiant irradiance"
+    ]
+  },
+
+  "kinetic_energy": {
+    "class": "Parameter:KineticEnergy",
+    "allowed_units": [
+      "J",
+      "J kg-1",
+      "m2 s-2"
+    ],
+    "unit_dimension": "energy",
+    "native": false,
+    "aliases": [
+      "kinetic energy"
+    ]
+  },
+
+  "lst": {
+    "class": "Parameter:LST",
+    "allowed_units": [
+      "degC",
+      "K"
+    ],
+    "unit_dimension": "temperature",
+    "native": true,
+    "aliases": [
+      "land surface temperature",
+      "land-surface temperature",
+      "landsurface temperature",
+      "landsurfacetemperature",
+      "land surface temp",
+      "skin land surface temperature"
+    ]
+  },
+
+  "land_cover": {
+    "class": "Parameter:LandCover",
+    "allowed_units": [
+      "class"
+    ],
+    "unit_dimension": "categorical",
+    "native": true,
+    "aliases": []
+  },
+
+  "latitude": {
+    "class": "Parameter:Latitude",
+    "allowed_units": [
+      "degree_north",
+      "degree"
+    ],
+    "unit_dimension": "angle",
+    "native": true,
+    "aliases": [
+      "latitude",
+      "lat",
+      "Lat"
+    ]
+  },
+
+  "leaf_area_index": {
+    "class": "Parameter:LeafAreaIndex",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "index",
+    "native": true,
+    "aliases": [
+      "leaf area index",
+      "LAI"
+    ]
+  },
+
+  "longitude": {
+    "class": "Parameter:Longitude",
+    "allowed_units": [
+      "degree_east",
+      "degree"
+    ],
+    "unit_dimension": "angle",
+    "native": true,
+    "aliases": [
+      "longitude",
+      "lon",
+      "Lon"
+    ]
+  },
+
+  "mmd": {
+    "class": "Parameter:MMD",
+    "allowed_units": [
+      "unitless"
+    ],
+    "unit_dimension": "emissivity_contrast",
+    "native": false,
+    "aliases": [
+      "maximum-minimum difference",
+      "max-min difference"
+    ]
+  },
+
+  "mass_specific_particulate_absorption": {
+    "class": "Parameter:MassSpecificParticulateAbsorption",
+    "allowed_units": [
+      "m2 g-1"
+    ],
+    "unit_dimension": "specific_absorption",
+    "native": false,
+    "aliases": [
+      "a_p*",
+      "ap*",
+      "mass-specific particulate absorption",
+      "mass-specific absorption coefficient of suspended particles"
+    ]
+  },
+
+  "mean_dynamic_topography": {
+    "class": "Parameter:MeanDynamicTopography",
+    "allowed_units": [
+      "m",
+      "cm"
+    ],
+    "unit_dimension": "length",
+    "native": false,
+    "aliases": [
+      "Mean Dynamic Topography",
+      "MDT"
+    ]
+  },
+
+  "mean_sea_level": {
+    "class": "Parameter:MeanSeaLevel",
+    "allowed_units": [
+      "m",
+      "cm",
+      "mm"
+    ],
+    "unit_dimension": "length",
+    "native": true,
+    "aliases": [
+      "mean sea level",
+      "msl",
+      "mean sl",
+      "sea-level height",
+      "sea level height"
+    ]
+  },
+
+  "meltwater concentration": {
+    "class": "Parameter:MeltwaterConcentration",
+    "allowed_units": [
+      "unitless",
+      "%"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "meltwater concentrations"
+    ]
+  },
+
+  "v10": {
+    "class": "Parameter:MeridionalWind",
+    "allowed_units": [
+      "m s-1",
+      "cm s-1"
+    ],
+    "unit_dimension": "velocity",
+    "native": true,
+    "aliases": [
+      "v-wind",
+      "meridional wind speed",
+      "meridional wind",
+      "meridionalwind",
+      "northward wind",
+      "v wind",
+      "v10"
+    ]
+  },
+
+  "tau_y": {
+    "class": "Parameter:MeridionalWindStress",
+    "allowed_units": [
+      "N m-2",
+      "Pa"
+    ],
+    "unit_dimension": "stress",
+    "native": false,
+    "derived_from": [
+      "Parameter:MeridionalWind"
+    ],
+    "aliases": [
+      "meridional wind stress",
+      "northward wind stress",
+      "tau y",
+      "tau_y",
+      "τy"
+    ]
+  },
+
+  "mineral_backscattering": {
+    "class": "Parameter:MineralBackscattering",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": false,
+    "aliases": [
+      "b_bm",
+      "bbm",
+      "mineral backscattering",
+      "backscattering coefficient of mineral particles"
+    ]
+  },
+
+  "mixed_layer_depth": {
+    "class": "Parameter:MixedLayerDepth",
+    "parent": "Parameter:Depth",
+    "allowed_units": [
+      "m",
+      "km"
+    ],
+    "unit_dimension": "length",
+    "native": true,
+    "aliases": [
+      "mixed layer depth",
+      "mixed-layer depth",
+      "mld",
+      "MLD"
+    ]
+  },
+
+  "model_likelihood": {
+    "class": "Parameter:ModelLikelihood",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "likelihood",
+    "native": false,
+    "aliases": [
+      "model likelihood",
+      "likelihood",
+      "log likelihood",
+      "log-likelihood"
+    ]
+  },
+
+  "model_observation_bias": {
+    "class": "Parameter:ModelObservationBias",
+    "unit_dimension": "temperature_difference",
+    "allowed_units": [
+      "K",
+      "degC"
+    ],
+    "native": false,
+    "long_name": "Model-Minus-Observation Bias",
+    "aliases": [
+      "model-observation bias",
+      "model-observation biases",
+      "model minus observation bias",
+      "model minus observation biases",
+      "m-o bias",
+      "m-o biases",
+      "model-observation difference",
+      "model-observation differences",
+      "model-observation residual",
+      "model-observation residuals"
+    ]
+  },
+
+  "ndvi": {
+    "class": "Parameter:NDVI",
+    "allowed_units": [
+      "unitless"
+    ],
+    "unit_dimension": "index",
+    "native": false,
+    "derived_from": [
+      "Parameter:TOA_Reflectance"
+    ],
+    "aliases": [
+      "vegetation index",
+      "normalized difference vegetation index"
+    ]
+  },
+
+  "tropospheric_nitrogen_dioxide": {
+    "class": "Parameter:NO2",
+    "allowed_units": [
+      "mol cm-2",
+      "molecules cm-2"
+    ],
+    "unit_dimension": "column_density",
+    "native": true,
+    "aliases": [
+      "tropospheric nitrogen dioxide",
+      "nitrogen dioxide",
+      "no2"
+    ]
+  },
+
+  "net_longwave_radiation_flux": {
+    "class": "Parameter:NetLongwaveRadiationFlux",
+    "allowed_units": [
+      "W m-2"
+    ],
+    "unit_dimension": "radiative_flux",
+    "native": false,
+    "aliases": [
+      "net longwave radiation flux"
+    ]
+  },
+
+  "nitrate": {
+    "class": "Parameter:Nitrate",
+    "parent": "Parameter:NutrientConcentration",
+    "allowed_units": [
+      "umol kg-1",
+      "umol L-1",
+      "mmol m-3",
+      "mg m-3"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "nitrate",
+      "NO3",
+      "NO₃"
+    ]
+  },
+
+  "nitrite": {
+    "class": "Parameter:Nitrite",
+    "parent": "Parameter:NutrientConcentration",
+    "allowed_units": [
+      "umol kg-1",
+      "umol L-1",
+      "mmol m-3",
+      "mg m-3"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "nitrite",
+      "nitrite concentration",
+      "NO2-"
+    ]
+  },
+
+  "nitrous_oxide": {
+    "class": "Parameter:NitrousOxide",
+    "allowed_units": [
+      "ppb"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "nitrous oxide",
+      "N2O",
+      "N_2O",
+      "N_{2}O",
+      "N₂O"
+    ]
+  },
+
+  "noise_variance": {
+    "class": "Parameter:NoiseVariance",
+    "allowed_units": [
+      "unitless",
+      "m2",
+      "mm2"
+    ],
+    "unit_dimension": "variance",
+    "native": false,
+    "aliases": [
+      "noise variance",
+      "error variance",
+      "residual variance",
+      "innovation variance"
+    ]
+  },
+
+  "normalized difference angular index": {
+    "class": "Parameter:NormalizedDifferenceAngularIndex",
+    "parent": "Parameter:NormalizedDifferenceIndex",
+    "unit_dimension": "dimensionless",
+    "allowed_units": [
+      "index"
+    ],
+    "aliases": [
+      "NDAI"
+    ]
+  },
+
+  "normalized_difference_index": {
+    "class": "Parameter:NormalizedDifferenceIndex",
+    "allowed_units": [
+      "unitless"
+    ],
+    "unit_dimension": "index",
+    "native": false,
+    "derived_from": [
+      "Parameter:Reflectance"
+    ],
+    "aliases": [
+      "ndi",
+      "normalized difference index"
+    ]
+  },
+
+  "nflh": {
+    "class": "Parameter:NormalizedFluorescenceLineHeight",
+    "allowed_units": [
+      "mW cm-2 um-1 sr-1"
+    ],
+    "unit_dimension": "radiance",
+    "native": false,
+    "derived_from": [
+      "Parameter:Rrs"
+    ],
+    "aliases": [
+      "normalized fluorescence line height",
+      "nflh"
+    ]
+  },
+
+  "normalized_water_leaving_radiance": {
+    "class": "Parameter:NormalizedWaterLeavingRadiance",
+    "allowed_units": [
+      "W m-2 sr-1 um-1",
+      "mW cm-2 sr-1 um-1"
+    ],
+    "unit_dimension": "radiance",
+    "native": false,
+    "aliases": [
+      "nLw",
+      "normalized water-leaving radiance",
+      "normalized water leaving radiance"
+    ]
+  },
+
+  "nutrient_concentration": {
+    "class": "Parameter:NutrientConcentration",
+    "long_name": "Nutrient Concentration",
+    "allowed_units": [
+      "umol kg-1",
+      "umol L-1",
+      "mmol m-3",
+      "mg m-3"
+    ],
+    "unit_dimension": "concentration",
+    "aliases": [
+      "nutrient concentration",
+      "nutrient concentrations",
+      "nutrients",
+      "nutrient"
+    ]
+  },
+
+  "observation_density": {
+    "class": "Parameter:ObservationDensity",
+    "allowed_units": [
+      "km^-2 yr^-1"
+    ],
+    "unit_dimension": "sampling_density",
+    "native": false,
+    "aliases": [
+      "observation density",
+      "sst observation density",
+      "number of observations per unit area"
+    ]
+  },
+
+  "ohc_column": {
+    "class": "Parameter:OceanHeatContent_Column",
+    "allowed_units": [
+      "J m-2"
+    ],
+    "unit_dimension": "energy_density",
+    "native": false,
+    "derived_from": [
+      "Parameter:SST"
+    ],
+    "aliases": [
+      "column heat content",
+      "heat content"
+    ]
+  },
+
+  "ohc_total": {
+    "class": "Parameter:OceanHeatContent_Volume",
+    "allowed_units": [
+      "ZJ",
+      "J"
+    ],
+    "unit_dimension": "energy",
+    "native": false,
+    "derived_from": [
+      "Parameter:SST",
+      "Parameter:SSS"
+    ],
+    "aliases": [
+      "ohc",
+      "ocean heat content"
+    ]
+  },
+
+  "oceanic mass": {
+    "class": "Parameter:OceanicMass",
+    "allowed_units": [
+      "kg",
+      "Gt"
+    ],
+    "unit_dimension": "mass",
+    "lineage": "derived",
+    "aliases": [
+      "barystatic mass",
+      "ocean mass addition"
+    ]
+  },
+
+  "okubo_weiss_parameter": {
+    "class": "Parameter:OkuboWeissParameter",
+    "allowed_units": [
+      "s-2"
+    ],
+    "unit_dimension": "frequency_squared",
+    "native": false,
+    "aliases": [
+      "Okubo-Weiss parameter",
+      "Okubo–Weiss parameter",
+      "Okubo Weiss parameter",
+      "Okubo-Weiss",
+      "Okubo–Weiss"
+    ]
+  },
+
+  "optical_depth": {
+    "class": "Parameter:OpticalDepth",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "optical_thickness",
+    "native": true,
+    "aliases": [
+      "optical depth",
+      "optical depths",
+      "optical thickness"
+    ]
+  },
+
+  "optical_water_type": {
+    "class": "Parameter:OpticalWaterType",
+    "allowed_units": [
+      "class"
+    ],
+    "unit_dimension": "categorical",
+    "native": false,
+    "aliases": [
+      "owt"
+    ]
+  },
+
+  "organic_matter": {
+    "class": "Parameter:OrganicMatter",
+    "allowed_units": [
+      "mg L-1",
+      "mg m-3",
+      "g m-2"
+    ],
+    "unit_dimension": "concentration_or_mass_density",
+    "native": true,
+    "aliases": [
+      "organic matter"
+    ]
+  },
+
+  "dissolved oxygen": {
+    "class": "Parameter:OxygenConcentration",
+    "allowed_units": [
+      "mg m-3",
+      "mg L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "dissolved oxygen",
+      "dissolved oxygen concentration",
+      "dissolved oxygen concentrations",
+      "oxygen concentration",
+      "oxygen concentrations",
+      "DO concentration",
+      "DO concentrations",
+      "DO amount",
+      "DO amounts"
+    ]
+  },
+
+  "p_value": {
+    "class": "Parameter:PValue",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "probability",
+    "native": false,
+    "aliases": [
+      "p-value",
+      "p value"
+    ]
+  },
+
+  "pco2": {
+    "class": "Parameter:PartialPressureCO2",
+    "long_name": "Partial Pressure of Carbon Dioxide",
+    "allowed_units": [
+      "uatm",
+      "Pa",
+      "hPa",
+      "atm"
+    ],
+    "unit_dimension": "pressure",
+    "aliases": [
+      "pCO2",
+      "pCO₂",
+      "pco2",
+      "surface water pCO2",
+      "surface water pco2",
+      "partial pressure of carbon dioxide",
+      "partial pressure of CO2",
+      "surface ocean pCO2",
+      "aqueous CO₂"
+    ]
+  },
+
+  "bbp": {
+    "class": "Parameter:ParticleBackscattering",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "bbp(λ)",
+      "b_bp",
+      "b_bp(λ)",
+      "bbp(443)",
+      "b_bp(443)",
+      "particulate backscattering",
+      "particle backscattering",
+      "particle backscattering coefficient",
+      "backscattering by particles"
+    ]
+  },
+
+  "s_bbp": {
+    "class": "Parameter:ParticleBackscatteringSlope",
+    "allowed_units": [
+      "unitless"
+    ],
+    "unit_dimension": "spectral_slope",
+    "native": false,
+    "aliases": [
+      "s_bbp",
+      "sbbp",
+      "S_bbp",
+      "bbp slope",
+      "particle backscattering slope",
+      "backscattering spectral slope",
+      "particulate backscattering slope"
+    ]
+  },
+
+  "particulate_absorption": {
+    "class": "Parameter:ParticulateAbsorption",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "a_p",
+      "ap",
+      "a_p(λ)",
+      "particulate absorption",
+      "absorption coefficient of suspended particles"
+    ]
+  },
+
+  "particulate_scattering": {
+    "class": "Parameter:ParticulateScattering",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "b_p",
+      "bp",
+      "b_p(λ)",
+      "particulate scattering",
+      "total scattering coefficient of suspended particles"
+    ]
+  },
+
+  "peridinin": {
+    "class": "Parameter:Peridinin",
+    "parent": "Parameter:PhytoplanktonPigments",
+    "allowed_units": [
+      "mg m-3",
+      "mg/m3",
+      "ug L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": []
+  },
+
+  "phosphate": {
+    "class": "Parameter:Phosphate",
+    "long_name": "Phosphate Concentration",
+    "allowed_units": [
+      "umol kg-1",
+      "umol L-1",
+      "mmol m-3",
+      "mg m-3"
+    ],
+    "unit_dimension": "concentration",
+    "aliases": [
+      "phosphate",
+      "phosphate concentration",
+      "dissolved inorganic phosphate",
+      "PO4",
+      "PO₄",
+      "phosphate [PO₄³⁻]",
+      "PO_4^{3-}"
+    ]
+  },
+
+  "photosynthetically active radiation": {
+    "class": "Parameter:PhotosyntheticallyActiveRadiation",
+    "long_name": "Photosynthetically Active Radiation",
+    "allowed_units": [
+      "einstein m-2 day-1",
+      "mol m-2 day-1"
+    ],
+    "unit_dimension": "irradiance",
+    "native": true,
+    "aliases": [
+      "PAR",
+      "photosynthetically available radiation",
+      "par0-",
+      "par0",
+      "par_d0+",
+      "par_d0"
+    ]
+  },
+
+  "phycocyanin": {
+    "class": "Parameter:Phycocyanin",
+    "parent": "Parameter:PhytoplanktonPigments",
+    "allowed_units": [
+      "mg m-3"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": []
+  },
+
+  "phycoerythrin": {
+    "class": "Parameter:Phycoerythrin",
+    "parent": "Parameter:PhytoplanktonPigments",
+    "allowed_units": [
+      "mg m-3"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": []
+  },
+
+  "phytoplankton_absorption_coefficient": {
+    "class": "Parameter:PhytoplanktonAbsorptionCoefficient",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "aph(λ)",
+      "aph",
+      "a_ph",
+      "a_ph(λ)",
+      "aph(443)",
+      "a_ph(443)",
+      "phytoplankton absorption coefficient",
+      "absorption coefficient of phytoplankton",
+      "absorption coefficients of phytoplankton"
+    ]
+  },
+
+  "phytoplankton_abundance": {
+    "class": "Parameter:PhytoplanktonAbundance",
+    "allowed_units": [
+      "cells L-1",
+      "cells mL-1"
+    ],
+    "unit_dimension": "abundance",
+    "native": true,
+    "aliases": [
+      "phytoplankton abundance"
+    ]
+  },
+
+  "phytoplankton composition": {
+    "class": "Parameter:PhytoplanktonComposition",
+    "allowed_units": [],
+    "unit_dimension": "dimensionless",
+    "native": true,
+    "aliases": [
+      "phytoplankton composition",
+      "phytoplanktoncomposition",
+      "phytoplankton community composition",
+      "phytoplankton community structure"
+    ]
+  },
+
+  "phytoplankton pigments": {
+    "class": "Parameter:PhytoplanktonPigments",
+    "allowed_units": [
+      "mg m-3",
+      "mg/m3",
+      "ug L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "phytoplankton pigments",
+      "phytoplanktonpigments"
+    ]
+  },
+
+  "chlorophyll_c": {
+    "class": "Parameter:PigmentConcentration",
+    "allowed_units": [
+      "mg m-3",
+      "ug L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "chl-c",
+      "chlorophyll c1+c2"
+    ]
+  },
+
+  "pigment_fluorescence_signal": {
+    "class": "Parameter:PigmentFluorescenceSignal",
+    "unit_dimension": "radiometric_response",
+    "native": true,
+    "aliases": [
+      "pigment fluorescence signal",
+      "fluorescence signal",
+      "pigment fluorescence intensity",
+      "fluorescence intensity"
+    ]
+  },
+
+  "polarization parameters": {
+    "class": "Parameter:Polarization",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "dimensionless",
+    "native": true
+  },
+
+  "potential_temperature": {
+    "class": "Parameter:PotentialTemperature",
+    "long_name": "Potential Temperature",
+    "allowed_units": [
+      "degC",
+      "K"
+    ],
+    "unit_dimension": "temperature",
+    "aliases": [
+      "potential temperature",
+      "potential temp"
+    ]
+  },
+
+  "power_law_exponent": {
+    "class": "Parameter:PowerLawExponent",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "spectral_exponent",
+    "native": false,
+    "aliases": [
+      "power-law exponent",
+      "spectral exponent",
+      "noise exponent",
+      "power law exponent"
+    ]
+  },
+
+  "precipitation": {
+    "class": "Parameter:Precipitation",
+    "allowed_units": [
+      "mm day-1",
+      "mm h-1",
+      "m yr-1"
+    ],
+    "unit_dimension": "precip_rate",
+    "native": true,
+    "aliases": [
+      "pr",
+      "rainfall",
+      "snowfall",
+      "precip"
+    ]
+  },
+
+  "primary_productivity": {
+    "class": "Parameter:PrimaryProductivity",
+    "allowed_units": [
+      "mg C m-2 day-1",
+      "g C m-2 yr-1"
+    ],
+    "unit_dimension": "production_rate",
+    "native": true,
+    "aliases": [
+      "primary productivity",
+      "biological productivity",
+      "productivity"
+    ]
+  },
+
+  "pure_water_absorption": {
+    "class": "Parameter:PureWaterAbsorption",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "a_w",
+      "aw",
+      "pure-water absorption",
+      "pure water absorption",
+      "absorption coefficient of pure water"
+    ]
+  },
+
+  "pure_water_scattering": {
+    "class": "Parameter:PureWaterScattering",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "b_w",
+      "bw",
+      "pure-water scattering",
+      "pure water scattering",
+      "total scattering coefficient of pure water"
+    ]
+  },
+
+  "quadratic_coefficient": {
+    "class": "Parameter:QuadraticCoefficient",
+    "allowed_units": [
+      "mm yr-2",
+      "unitless"
+    ],
+    "unit_dimension": "second_order_coefficient",
+    "native": false,
+    "aliases": [
+      "quadratic coefficient",
+      "second-order coefficient",
+      "coefficient of the quadratic term",
+      "quadratic term"
+    ]
+  },
+
+  "quality_level": {
+    "class": "Parameter:QualityLevel",
+    "allowed_units": [
+      "count",
+      "unitless"
+    ],
+    "unit_dimension": "quality_flag",
+    "native": true,
+    "aliases": [
+      "quality level",
+      "ql",
+      "quality flag",
+      "quality flags",
+      "ghrsst quality level"
+    ]
+  },
+
+  "rmse": {
+    "class": "Parameter:RMSE",
+    "inherits_unit": true,
+    "unit_dimension": "error_metric",
+    "native": false,
+    "aliases": [
+      "RMSE",
+      "root mean squared error",
+      "root-mean-square error"
+    ]
+  },
+
+  "record_length": {
+    "class": "Parameter:RecordLength",
+    "allowed_units": [
+      "yr",
+      "years",
+      "months",
+      "days"
+    ],
+    "unit_dimension": "time_duration",
+    "native": false,
+    "aliases": [
+      "record length",
+      "time-series length",
+      "length of record",
+      "data record length"
+    ]
+  },
+
+  "reflectance": {
+    "class": "Parameter:Reflectance",
+    "allowed_units": [
+      "unitless",
+      "dimensionless",
+      "sr-1"
+    ],
+    "unit_dimension": "reflectance",
+    "native": false,
+    "aliases": [
+      "reflectances",
+      "spectral reflectance",
+      "reflected light",
+      "blue to green light",
+      "reflectivity",
+      "hemispherical reflectivity"
+    ]
+  },
+
+  "relative_azimuth_angle": {
+    "class": "Parameter:RelativeAzimuthAngle",
+    "allowed_units": [
+      "degree",
+      "rad"
+    ],
+    "unit_dimension": "angle",
+    "native": true,
+    "aliases": [
+      "relative azimuth angle",
+      "relative azimuth angles"
+    ]
+  },
+
+  "rh": {
+    "class": "Parameter:RelativeHumidity",
+    "allowed_units": [
+      "%"
+    ],
+    "unit_dimension": "dimensionless",
+    "native": false,
+    "aliases": [
+      "relative humidity",
+      "rh",
+      "humidity"
+    ]
+  },
+
+  "relative_sea_level": {
+    "class": "Parameter:RelativeSeaLevel",
+    "allowed_units": [
+      "m",
+      "cm",
+      "mm"
+    ],
+    "unit_dimension": "length",
+    "native": true,
+    "aliases": [
+      "relative sea level",
+      "rsl",
+      "relative sea-level",
+      "tide-gauge sea level",
+      "Relative Sea-Level Rise"
+    ]
+  },
+
+  "relative_spectral_response": {
+    "class": "Parameter:RelativeSpectralResponse",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "spectral_response",
+    "native": true,
+    "aliases": [
+      "relative spectral response",
+      "relative spectral responses",
+      "spectral response function",
+      "spectral response functions",
+      "rsr",
+      "rsrs"
+    ]
+  },
+
+  "residual_series": {
+    "class": "Parameter:ResidualSeries",
+    "allowed_units": [
+      "m",
+      "cm",
+      "mm",
+      "unitless"
+    ],
+    "unit_dimension": "residual",
+    "native": false,
+    "aliases": [
+      "residual series",
+      "model residuals",
+      "fit residuals",
+      "residual time series"
+    ]
+  },
+
+  "river_discharge": {
+    "class": "Parameter:RiverDischarge",
+    "allowed_units": [
+      "m3 s-1"
+    ],
+    "unit_dimension": "discharge",
+    "native": true,
+    "aliases": [
+      "river discharge",
+      "river discharges",
+      "streamflow",
+      "river flow",
+      "riverine discharge"
+    ]
+  },
+
+  "rossby_number": {
+    "class": "Parameter:RossbyNumber",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "dimensionless",
+    "native": false,
+    "aliases": [
+      "Rossby number"
+    ]
+  },
+
+  "rrs": {
+    "class": "Parameter:Rrs",
+    "parent": "Parameter:Reflectance",
+    "allowed_units": [
+      "sr-1"
+    ],
+    "unit_dimension": "reflectance",
+    "native": true,
+    "aliases": [
+      "remote sensing reflectance",
+      "remote-sensing reflectance",
+      "rrs",
+      "Rrs",
+      "RRS",
+      "r_rs",
+      "R_RS",
+      "spectral rrs",
+      "R_rs"
+    ]
+  },
+
+  "rrs_spectral": {
+    "class": "Parameter:RrsSpectral",
+    "parent": "Parameter:Rrs",
+    "allowed_units": [
+      "sr-1"
+    ],
+    "unit_dimension": "reflectance",
+    "native": true,
+    "aliases": [
+      "rrs(λ)",
+      "Rrs(λ)",
+      "r_rs(λ)",
+      "R_RS(λ)",
+      "rrs_lambda",
+      "rrs_spectral",
+      "spectral remote sensing reflectance"
+    ]
+  },
+
+  "rrs_443": {
+    "class": "Parameter:Rrs_443",
+    "allowed_units": [
+      "sr-1"
+    ],
+    "unit_dimension": "reflectance",
+    "native": true,
+    "aliases": [
+      "rrs at 443 nm",
+      "blue reflectance",
+      "rrs(443)",
+      "rrs_443",
+      "Rrs(443)",
+      "R_rs(443)",
+      "r_rs(443)",
+      "Rrs_443",
+      "Rrs 443",
+      "rrs 443"
+    ]
+  },
+
+  "rrs_490": {
+    "class": "Parameter:Rrs_490",
+    "allowed_units": [
+      "sr-1"
+    ],
+    "unit_dimension": "reflectance",
+    "native": true,
+    "aliases": [
+      "rrs at 490 nm",
+      "blue-green reflectance",
+      "rrs(490)",
+      "rrs_490",
+      "Rrs(490)",
+      "R_rs(490)",
+      "r_rs(490)",
+      "Rrs_490",
+      "Rrs 490",
+      "rrs 490"
+    ]
+  },
+
+  "rrs_555": {
+    "class": "Parameter:Rrs_555",
+    "allowed_units": [
+      "sr-1"
+    ],
+    "unit_dimension": "reflectance",
+    "native": true,
+    "aliases": [
+      "rrs at 555 nm",
+      "green reflectance",
+      "rrs_555",
+      "rrs(555)",
+      "rrs 555",
+      "Rrs_555",
+      "Rrs(555)",
+      "Rrs 555",
+      "R_rs(555)",
+      "r_rs(555)"
+    ]
+  },
+
+  "rrs_667": {
+    "class": "Parameter:Rrs_667",
+    "allowed_units": [
+      "sr-1"
+    ],
+    "unit_dimension": "reflectance",
+    "native": true,
+    "aliases": [
+      "rrs at 667 nm",
+      "rrs(667)",
+      "667 nm reflectance",
+      "rrs_667"
+    ]
+  },
+
+  "rrs_670": {
+    "class": "Parameter:Rrs_670",
+    "allowed_units": [
+      "sr-1"
+    ],
+    "unit_dimension": "reflectance",
+    "native": true,
+    "aliases": [
+      "rrs at 670 nm",
+      "rrs(670)",
+      "670 nm reflectance",
+      "rrs_670"
+    ]
+  },
+
+  "rrs_nir": {
+    "class": "Parameter:Rrs_NIR",
+    "allowed_units": [
+      "sr-1"
+    ],
+    "unit_dimension": "reflectance",
+    "native": true,
+    "aliases": [
+      "nir reflectance",
+      "near-infrared reflectance",
+      "rrs at 748 nm",
+      "rrs at 865 nm",
+      "rrs_nir"
+    ]
+  },
+
+  "sla": {
+    "class": "Parameter:SLA",
+    "allowed_units": [
+      "cm",
+      "mm",
+      "m"
+    ],
+    "unit_dimension": "length",
+    "native": false,
+    "derived_from": [
+      "Parameter:SSH"
+    ],
+    "aliases": [
+      "sea level anomaly",
+      "sea-level anomaly"
+    ]
+  },
+
+  "sulfur_dioxide": {
+    "class": "Parameter:SO2",
+    "allowed_units": [
+      "DU",
+      "mol cm-2"
+    ],
+    "unit_dimension": "column_density",
+    "native": true,
+    "aliases": [
+      "sulfur dioxide",
+      "sulphur dioxide",
+      "so2"
+    ]
+  },
+
+  "SSH": {
+    "class": "Parameter:SSH",
+    "allowed_units": [
+      "m",
+      "cm",
+      "mm"
+    ],
+    "unit_dimension": "length",
+    "native": true,
+    "aliases": [
+      "ssh",
+      "sea surface height",
+      "sea-surface height"
+    ]
+  },
+
+  "ssha": {
+    "class": "Parameter:SSHA",
+    "allowed_units": [
+      "m",
+      "cm",
+      "mm"
+    ],
+    "unit_dimension": "length",
+    "native": false,
+    "derived_from": [
+      "Parameter:SSH"
+    ],
+    "aliases": [
+      "sea surface height anomaly",
+      "sea-level height anomaly",
+      "sea level height anomaly"
+    ]
+  },
+
+  "SSS": {
+    "class": "Parameter:SSS",
+    "allowed_units": [
+      "psu",
+      "PSS-78"
+    ],
+    "unit_dimension": "salinity",
+    "native": true,
+    "aliases": [
+      "sss",
+      "salinity",
+      "sea surface salinity"
+    ]
+  },
+
+  "sst": {
+    "class": "Parameter:SST",
+    "allowed_units": [
+      "degC",
+      "K"
+    ],
+    "unit_dimension": "temperature",
+    "native": true,
+    "aliases": [
+      "sea surface temperature",
+      "sea-surface temperature",
+      "ocean surface temperature",
+      "water surface temperature",
+      "SST",
+      "sea surface temperatures",
+      "SSTs",
+      "mean SST"
+    ]
+  },
+
+  "sst_anomaly": {
+    "class": "Parameter:SSTAnomaly",
+    "allowed_units": [
+      "degC",
+      "K"
+    ],
+    "unit_dimension": "temperature_difference",
+    "native": false,
+    "derived_from": [
+      "Parameter:SST"
+    ],
+    "aliases": [
+      "SST anomaly",
+      "SST anomalies",
+      "sea surface temperature anomaly",
+      "sea surface temperature anomalies"
+    ]
+  },
+
+  "sst_depth": {
+    "class": "Parameter:SSTDepth",
+    "allowed_units": [
+      "degC",
+      "K"
+    ],
+    "unit_dimension": "temperature",
+    "native": true,
+    "parent": "Parameter:SST",
+    "aliases": [
+      "depth sst",
+      "depth sea surface temperature",
+      "20 cm sst",
+      "20-cm sst",
+      "foundation sst"
+    ]
+  },
+
+  "sst_gradient": {
+    "class": "Parameter:SSTGradient",
+    "allowed_units": [
+      "K km-1",
+      "degC km-1"
+    ],
+    "unit_dimension": "temperature_gradient",
+    "native": false,
+    "aliases": [
+      "SST gradient",
+      "SST gradients",
+      "sea surface temperature gradient"
+    ]
+  },
+
+  "sst_skin": {
+    "class": "Parameter:SSTSkin",
+    "allowed_units": [
+      "degC",
+      "K"
+    ],
+    "unit_dimension": "temperature",
+    "native": true,
+    "parent": "Parameter:SST",
+    "aliases": [
+      "skin temperature",
+      "skin sea surface temperature",
+      "sst skin",
+      "skin sst",
+      "skin sst temperature"
+    ]
+  },
+
+  "sst_subskin": {
+    "class": "Parameter:SSTSubskin",
+    "allowed_units": [
+      "degC",
+      "K"
+    ],
+    "unit_dimension": "temperature",
+    "native": true,
+    "parent": "Parameter:SST",
+    "aliases": [
+      "subskin sst",
+      "sub-skin sst",
+      "subskin sea surface temperature"
+    ]
+  },
+
+  "sst_uncertainty": {
+    "class": "Parameter:SSTUncertainty",
+    "allowed_units": [
+      "K",
+      "kelvin"
+    ],
+    "unit_dimension": "temperature_uncertainty",
+    "native": false,
+    "derived_from": [
+      "Parameter:SSTSkin",
+      "Parameter:SSTDepth"
+    ],
+    "aliases": [
+      "sst uncertainty",
+      "sea surface temperature uncertainty"
+    ]
+  },
+
+  "sampling_interval": {
+    "class": "Parameter:SamplingInterval",
+    "allowed_units": [
+      "days",
+      "month",
+      "yr",
+      "years"
+    ],
+    "unit_dimension": "time_interval",
+    "native": false,
+    "aliases": [
+      "sampling interval",
+      "temporal sampling interval",
+      "time step",
+      "observation interval"
+    ]
+  },
+
+  "scattering_phase_function": {
+    "class": "Parameter:ScatteringPhaseFunction",
+    "allowed_units": [
+      "sr-1"
+    ],
+    "unit_dimension": "angular_scattering",
+    "native": false,
+    "aliases": [
+      "SPF",
+      "scattering phase function"
+    ]
+  },
+
+  "sea_ice_concentration": {
+    "class": "Parameter:SeaIceConcentration",
+    "long_name": "Sea Ice Concentration",
+    "allowed_units": [
+      "unitless",
+      "%"
+    ],
+    "unit_dimension": "fraction",
+    "aliases": [
+      "sea ice concentration",
+      "sea-ice concentration",
+      "SIC",
+      "sea ice coverage",
+      "sea ice cover"
+    ]
+  },
+
+  "sea_ice_extent": {
+    "class": "Parameter:SeaIceExtent",
+    "long_name": "Sea Ice Extent",
+    "allowed_units": [
+      "km2",
+      "million km2",
+      "m2"
+    ],
+    "unit_dimension": "area",
+    "aliases": [
+      "sea ice extent",
+      "sea-ice extent",
+      "Arctic Sea Ice Extent"
+    ]
+  },
+
+  "sea_ice_thickness": {
+    "class": "Parameter:SeaIceThickness",
+    "allowed_units": [
+      "m",
+      "cm"
+    ],
+    "unit_dimension": "length",
+    "native": true,
+    "aliases": [
+      "sea ice thickness",
+      "ice thickness"
+    ]
+  },
+
+  "sea_level_acceleration": {
+    "class": "Parameter:SeaLevelAcceleration",
+    "allowed_units": [
+      "mm yr-2",
+      "mm/yr2",
+      "mm yr-1 yr-1"
+    ],
+    "unit_dimension": "acceleration",
+    "native": false,
+    "derived_from": [
+      "Parameter:MeanSeaLevel"
+    ],
+    "aliases": [
+      "sea level acceleration",
+      "sea-level acceleration",
+      "acceleration in sea level",
+      "accelerating sea level rise"
+    ]
+  },
+
+  "sea_level_change_magnitude": {
+    "class": "Parameter:SeaLevelChangeMagnitude",
+    "allowed_units": [
+      "m",
+      "cm",
+      "mm"
+    ],
+    "unit_dimension": "length",
+    "native": false,
+    "aliases": [
+      "sea level change magnitude",
+      "magnitude of sea level change",
+      "sea level displacement",
+      "sea-level displacement"
+    ]
+  },
+
+  "sea_level_pressure": {
+    "class": "Parameter:SeaLevelPressure",
+    "long_name": "Sea Level Pressure",
+    "allowed_units": [
+      "Pa",
+      "hPa",
+      "mb"
+    ],
+    "unit_dimension": "pressure",
+    "aliases": [
+      "sea level pressure",
+      "mean sea level pressure",
+      "SLP",
+      "MSLP"
+    ]
+  },
+
+  "sea_level_trend": {
+    "class": "Parameter:SeaLevelTrend",
+    "allowed_units": [
+      "mm yr-1",
+      "mm/yr",
+      "cm decade-1",
+      "m yr-1"
+    ],
+    "unit_dimension": "rate",
+    "native": false,
+    "derived_from": [
+      "Parameter:MeanSeaLevel"
+    ],
+    "aliases": [
+      "sea level trend",
+      "sea-level trend",
+      "linear sea level trend",
+      "rate of sea level rise",
+      "sea-level rise rate",
+      "sea-level trends"
+    ]
+  },
+
+  "sea_surface_emissivity": {
+    "class": "Parameter:SeaSurfaceEmissivity",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "emissivity",
+    "native": true,
+    "aliases": [
+      "sea surface emissivity",
+      "sse",
+      "SSE",
+      "ocean emissivity",
+      "water emissivity",
+      "flat surface emissivity"
+    ]
+  },
+
+  "seagrass area": {
+    "class": "Parameter:SeagrassArea",
+    "allowed_units": [
+      "km2",
+      "m2"
+    ],
+    "unit_dimension": "area",
+    "native": false,
+    "aliases": [
+      "seagrass coverage",
+      "seagrass extent"
+    ]
+  },
+
+  "seawater_density": {
+    "class": "Parameter:SeawaterDensity",
+    "allowed_units": [
+      "kg m-3"
+    ],
+    "unit_dimension": "density",
+    "native": true,
+    "aliases": [
+      "seawater density",
+      "sea water density"
+    ]
+  },
+
+  "secchi_depth": {
+    "class": "Parameter:SecchiDepth",
+    "allowed_units": [
+      "m",
+      "cm"
+    ],
+    "unit_dimension": "length",
+    "native": true,
+    "aliases": [
+      "secchi disk depth"
+    ]
+  },
+
+  "sediment_flux": {
+    "class": "Parameter:SedimentFlux",
+    "allowed_units": [
+      "kg s-1",
+      "t yr-1",
+      "g s-1"
+    ],
+    "unit_dimension": "mass_flux",
+    "native": false,
+    "derived_from": [
+      "Parameter:TSM",
+      "Parameter:RiverDischarge"
+    ],
+    "aliases": [
+      "sediment flux",
+      "sediment load rate",
+      "sediment transport rate",
+      "annual sediment load"
+    ]
+  },
+
+  "sediment_mass": {
+    "class": "Parameter:SedimentMass",
+    "allowed_units": [
+      "kg",
+      "mg",
+      "g",
+      "ton",
+      "t"
+    ],
+    "unit_dimension": "mass",
+    "native": true,
+    "aliases": [
+      "sediment mass",
+      "sediment load",
+      "sediment amount",
+      "total sediment",
+      "total sediment load",
+      "mass of sediment"
+    ]
+  },
+
+  "sensible_heat_flux": {
+    "class": "Parameter:SensibleHeatFlux",
+    "allowed_units": [
+      "W m-2"
+    ],
+    "unit_dimension": "energy_flux",
+    "native": false,
+    "aliases": [
+      "sensible heat flux"
+    ]
+  },
+
+  "shortwave_radiation": {
+    "class": "Parameter:ShortwaveRadiation",
+    "allowed_units": [
+      "W m-2"
+    ],
+    "unit_dimension": "radiative_flux",
+    "native": true,
+    "aliases": [
+      "shortwave radiation",
+      "solar radiation"
+    ]
+  },
+
+  "signal_to_noise_ratio": {
+    "class": "Parameter:SignalToNoiseRatio",
+    "allowed_units": [
+      "unitless",
+      "dimensionless",
+      "dB"
+    ],
+    "unit_dimension": "ratio",
+    "native": false,
+    "aliases": [
+      "SNR",
+      "signal-to-noise ratio",
+      "signal to noise ratio"
+    ]
+  },
+
+  "silicate": {
+    "class": "Parameter:Silicate",
+    "parent": "Parameter:NutrientConcentration",
+    "allowed_units": [
+      "umol kg-1",
+      "umol L-1",
+      "mmol m-3",
+      "mg m-3"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "silicate",
+      "silicate concentration"
+    ]
+  },
+
+  "single_scattering_albedo": {
+    "class": "Parameter:SingleScatteringAlbedo",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "ratio",
+    "native": false,
+    "aliases": [
+      "omega_0",
+      "omega0",
+      "ω_0",
+      "ω0",
+      "single-scattering albedo",
+      "single scattering albedo"
+    ]
+  },
+
+  "snow_depth": {
+    "class": "Parameter:SnowDepth",
+    "allowed_units": [
+      "m",
+      "cm",
+      "mm"
+    ],
+    "unit_dimension": "length",
+    "native": true,
+    "aliases": [
+      "snow depth"
+    ]
+  },
+
+  "soil_moisture": {
+    "class": "Parameter:SoilMoisture",
+    "allowed_units": [
+      "unitless",
+      "%"
+    ],
+    "unit_dimension": "fraction",
+    "native": true,
+    "aliases": [
+      "soil moisture",
+      "soil moisture content"
+    ]
+  },
+
+  "solar_azimuth_angle": {
+    "class": "Parameter:SolarAzimuthAngle",
+    "allowed_units": [
+      "degree",
+      "rad"
+    ],
+    "unit_dimension": "angle",
+    "native": true,
+    "aliases": [
+      "solar azimuth angle",
+      "solar azimuth angles"
+    ]
+  },
+
+  "solar_zenith_angle": {
+    "class": "Parameter:SolarZenithAngle",
+    "allowed_units": [
+      "degree"
+    ],
+    "unit_dimension": "angle",
+    "native": true,
+    "aliases": [
+      "solar zenith angle",
+      "SZA"
+    ]
+  },
+
+  "spatial_resolution": {
+    "class": "Parameter:SpatialResolution",
+    "allowed_units": [
+      "m",
+      "km",
+      "degree"
+    ],
+    "unit_dimension": "length_or_angle",
+    "native": false,
+    "aliases": [
+      "spatial resolution",
+      "horizontal resolution"
+    ]
+  },
+
+  "specific_humidity": {
+    "class": "Parameter:SpecificHumidity",
+    "unit_dimension": "mixing_ratio",
+    "native": true,
+    "aliases": [
+      "specific humidity"
+    ]
+  },
+
+  "aph_star": {
+    "class": "Parameter:SpecificPhytoplanktonAbsorption",
+    "allowed_units": [
+      "m2 mg-1"
+    ],
+    "unit_dimension": "specific_absorption",
+    "native": false,
+    "aliases": [
+      "a_ph*",
+      "aph*",
+      "a_ph_star",
+      "aph_star",
+      "a_ph*(λ)",
+      "chlorophyll-specific absorption",
+      "specific phytoplankton absorption",
+      "chlorophyll normalized absorption"
+    ]
+  },
+
+  "far red wavelengths": {
+    "class": "Parameter:SpectralBandFarRed",
+    "allowed_units": [
+      "nm"
+    ],
+    "unit_dimension": "wavelength",
+    "native": true
+  },
+
+  "spectral_resolution": {
+    "class": "Parameter:SpectralResolution",
+    "unit_dimension": "spectral_resolution",
+    "native": true,
+    "aliases": [
+      "spectral resolution"
+    ]
+  },
+
+  "spectral shape": {
+    "class": "Parameter:SpectralShape",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "dimensionless",
+    "native": true
+  },
+
+  "standard_deviation": {
+    "class": "Parameter:StandardDeviation",
+    "inherits_unit": true,
+    "unit_dimension": "statistical_dispersion",
+    "native": false,
+    "aliases": [
+      "standard deviation",
+      "standard deviations",
+      "std"
+    ]
+  },
+
+  "steric_ssh": {
+    "class": "Parameter:StericSSH",
+    "allowed_units": [
+      "mm",
+      "cm"
+    ],
+    "unit_dimension": "length",
+    "native": false,
+    "derived_from": [
+      "Parameter:SST",
+      "Parameter:SSS"
+    ],
+    "aliases": [
+      "steric sea level",
+      "steric sea level rise",
+      "steric height",
+      "steric sea level variation",
+      "steric sea level variations"
+    ]
+  },
+
+  "surface_emissivity": {
+    "class": "Parameter:SurfaceEmissivity",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "emissivity",
+    "native": true,
+    "aliases": [
+      "surface emissivity",
+      "land surface emissivity",
+      "lse",
+      "LSE",
+      "spectral emissivity",
+      "spectral emissivities",
+      "angular emissivity",
+      "emissivity"
+    ]
+  },
+
+  "surface_pressure": {
+    "class": "Parameter:SurfacePressure",
+    "allowed_units": [
+      "Pa",
+      "hPa",
+      "mb"
+    ],
+    "unit_dimension": "pressure",
+    "native": true,
+    "aliases": [
+      "surface pressure",
+      "surface atmospheric pressure"
+    ]
+  },
+
+  "surface_roughness": {
+    "class": "Parameter:SurfaceRoughness",
+    "allowed_units": [
+      "m",
+      "mm"
+    ],
+    "unit_dimension": "length",
+    "native": true,
+    "aliases": [
+      "surface roughness",
+      "surface roughness height"
+    ]
+  },
+
+  "suspended_minerals": {
+    "class": "Parameter:SuspendedMinerals",
+    "allowed_units": [
+      "mg L-1",
+      "mg/L"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "suspended minerals"
+    ]
+  },
+
+  "swirling_strength": {
+    "class": "Parameter:SwirlingStrength",
+    "allowed_units": [
+      "s-1"
+    ],
+    "unit_dimension": "frequency",
+    "native": false,
+    "aliases": [
+      "swirling strength",
+      "swirling strength intensity"
+    ]
+  },
+
+  "toa_brightness_temperature": {
+    "class": "Parameter:TOABrightnessTemperature",
+    "allowed_units": [
+      "K",
+      "degC"
+    ],
+    "unit_dimension": "temperature",
+    "native": true,
+    "aliases": [
+      "toa brightness temperature",
+      "toa brightness temperatures",
+      "top-of-atmosphere brightness temperature",
+      "top-of-atmosphere brightness temperatures",
+      "toabrightnesstemperature",
+      "toa brightnesstemperature",
+      "top of atmosphere brightness temperature",
+      "toa bt",
+      "toa BT",
+      "toa bts",
+      "toa BTS",
+      "top of atmosphere bt",
+      "top of atmosphere BT"
+    ]
+  },
+
+  "toa_radiance": {
+    "class": "Parameter:TOARadiance",
+    "allowed_units": [
+      "W m-2 sr-1 um-1",
+      "mW cm-2 sr-1 um-1"
+    ],
+    "unit_dimension": "radiance",
+    "native": true,
+    "aliases": [
+      "toa radiance",
+      "toa radiances",
+      "top-of-atmosphere radiance",
+      "top-of-atmosphere radiances",
+      "toa spectral radiance",
+      "toa spectral radiances",
+      "LTOA",
+      "L_TOA"
+    ]
+  },
+
+  "toa_reflectance": {
+    "class": "Parameter:TOA_Reflectance",
+    "allowed_units": [
+      "dimensionless",
+      "unitless"
+    ],
+    "unit_dimension": "reflectance",
+    "native": true,
+    "aliases": [
+      "top-of-atmosphere reflectance",
+      "toa reflectance",
+      "rho_t"
+    ]
+  },
+
+  "tsm": {
+    "class": "Parameter:TSM",
+    "allowed_units": [
+      "g m-3",
+      "mg L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "total suspended matter",
+      "suspended particulate matter",
+      "spm",
+      "tss",
+      "total suspended solids",
+      "suspended sediment",
+      "suspended sediments",
+      "suspended sediment concentration",
+      "ssc"
+    ]
+  },
+
+  "temporal_resolution": {
+    "class": "Parameter:TemporalResolution",
+    "unit_dimension": "time_interval",
+    "native": true,
+    "aliases": [
+      "temporal resolution"
+    ]
+  },
+
+  "thermal_inertia": {
+    "class": "Parameter:ThermalInertia",
+    "unit_dimension": "thermal_inertia",
+    "native": true,
+    "aliases": [
+      "thermal inertia"
+    ]
+  },
+
+  "thermal_radiance": {
+    "class": "Parameter:ThermalRadiance",
+    "allowed_units": [
+      "W m-2 sr-1 um-1",
+      "mW cm-2 sr-1 um-1"
+    ],
+    "unit_dimension": "radiance",
+    "native": true,
+    "aliases": [
+      "thermal radiance",
+      "spectral radiance",
+      "blackbody radiance",
+      "planck radiance",
+      "earth-emitted radiance",
+      "surface-emitted radiance",
+      "surface-leaving radiance",
+      "at-sensor radiance",
+      "b_lambda"
+    ]
+  },
+
+  "total_alkalinity": {
+    "class": "Parameter:TotalAlkalinity",
+    "allowed_units": [
+      "umol kg-1",
+      "meq L-1"
+    ],
+    "unit_dimension": "alkalinity",
+    "native": true,
+    "aliases": [
+      "total alkalinity"
+    ]
+  },
+
+  "total_backscattering": {
+    "class": "Parameter:TotalBackscattering",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": false,
+    "aliases": [
+      "bb",
+      "bb(λ)",
+      "b_b",
+      "b_b(λ)",
+      "b_b(443)",
+      "total backscattering",
+      "total backscatter",
+      "total backscattering coefficient"
+    ]
+  },
+
+  "atnw": {
+    "class": "Parameter:TotalNonWaterAbsorption",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": false,
+    "aliases": [
+      "a_tnw",
+      "atnw",
+      "a_tnw(λ)",
+      "a_tnw(443)",
+      "total nonwater absorption",
+      "total non-water absorption",
+      "nonwater absorption",
+      "non-water absorption"
+    ]
+  },
+
+  "total_phosphorus": {
+    "class": "Parameter:TotalPhosphorus",
+    "parent": "Parameter:NutrientConcentration",
+    "allowed_units": [
+      "mg L-1",
+      "mg m-3",
+      "umol L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "total phosphorus"
+    ]
+  },
+
+  "total_scattering": {
+    "class": "Parameter:TotalScattering",
+    "allowed_units": [
+      "m-1"
+    ],
+    "unit_dimension": "optical_inverse_length",
+    "native": true,
+    "aliases": [
+      "b(λ)",
+      "total scattering",
+      "total scattering coefficient",
+      "total scattering coefficient of bulk water"
+    ]
+  },
+
+  "total_water_level": {
+    "class": "Parameter:TotalWaterLevel",
+    "allowed_units": [
+      "m",
+      "cm"
+    ],
+    "unit_dimension": "length",
+    "native": false,
+    "aliases": [
+      "Total Water Level",
+      "total water level",
+      "extreme water levels"
+    ]
+  },
+
+  "toxicity": {
+    "class": "Parameter:Toxicity",
+    "allowed_units": [
+      "unitless",
+      "index"
+    ],
+    "unit_dimension": "toxicity_index",
+    "native": false,
+    "aliases": [
+      "toxicity"
+    ]
+  },
+
+  "toxin_concentration": {
+    "class": "Parameter:ToxinConcentration",
+    "allowed_units": [
+      "ug L-1",
+      "mg L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "toxins",
+      "toxin concentration"
+    ]
+  },
+
+  "trend_slope": {
+    "class": "Parameter:TrendSlope",
+    "allowed_units": [
+      "mm yr-1",
+      "cm decade-1",
+      "m yr-1",
+      "unitless"
+    ],
+    "unit_dimension": "rate_or_slope",
+    "native": false,
+    "aliases": [
+      "trend slope",
+      "linear slope",
+      "slope estimate",
+      "estimated slope"
+    ]
+  },
+
+  "trend_uncertainty": {
+    "class": "Parameter:TrendUncertainty",
+    "allowed_units": [
+      "mm yr-1",
+      "cm decade-1",
+      "unitless"
+    ],
+    "unit_dimension": "uncertainty",
+    "native": false,
+    "aliases": [
+      "trend uncertainty",
+      "trend uncertainties",
+      "uncertainty of trend",
+      "uncertainties of trend",
+      "uncertainty in trend",
+      "uncertainty in the trend",
+      "trend estimate uncertainty",
+      "trend estimation uncertainty"
+    ]
+  },
+
+  "tropospheric_ozone_column": {
+    "class": "Parameter:TroposphericOzoneColumn",
+    "allowed_units": [
+      "DU"
+    ],
+    "unit_dimension": "column_amount",
+    "native": true,
+    "aliases": [
+      "tropospheric ozone column",
+      "tropospheric ozone column amount"
+    ]
+  },
+
+  "tropospheric_ozone_mixing_ratio": {
+    "class": "Parameter:TroposphericOzoneMixingRatio",
+    "allowed_units": [
+      "ppb"
+    ],
+    "unit_dimension": "mixing_ratio",
+    "native": true,
+    "aliases": [
+      "tropospheric ozone mixing ratio",
+      "ozone mixing ratio"
+    ]
+  },
+
+  "turbidity": {
+    "class": "Parameter:Turbidity",
+    "allowed_units": [
+      "NTU",
+      "FNU",
+      "mg L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": [
+      "turbid",
+      "turbid waters",
+      "water turbidity"
+    ]
+  },
+
+  "upwelling_radiance": {
+    "class": "Parameter:UpwellingRadiance",
+    "allowed_units": [
+      "W m-2 sr-1 um-1",
+      "mW cm-2 sr-1 um-1"
+    ],
+    "unit_dimension": "radiance",
+    "native": true,
+    "aliases": [
+      "upwelling radiance",
+      "atmospheric upwelling radiance",
+      "upward atmospheric radiance",
+      "path radiance",
+      "atmospheric path radiance",
+      "L_u",
+      "L_u(λ)"
+    ]
+  },
+
+  "variance": {
+    "class": "Parameter:Variance",
+    "unit_dimension": "statistical_variance",
+    "native": false,
+    "aliases": [
+      "variance",
+      "variances"
+    ]
+  },
+
+  "vegetation_cover_fraction": {
+    "class": "Parameter:VegetationCoverFraction",
+    "allowed_units": [
+      "unitless",
+      "%"
+    ],
+    "unit_dimension": "fraction",
+    "native": false,
+    "aliases": [
+      "vegetation cover fraction",
+      "vegetation fraction",
+      "fractional vegetation cover"
+    ]
+  },
+
+  "view_zenith_angle": {
+    "class": "Parameter:ViewZenithAngle",
+    "allowed_units": [
+      "deg",
+      "degrees"
+    ],
+    "unit_dimension": "angle",
+    "native": true,
+    "aliases": [
+      "view zenith angle",
+      "view angle",
+      "satellite zenith angle",
+      "sensor zenith angle"
+    ]
+  },
+
+  "volume_transport": {
+    "class": "Parameter:VolumeTransport",
+    "allowed_units": [
+      "Sv",
+      "m3 s-1"
+    ],
+    "unit_dimension": "volume_transport",
+    "native": false,
+    "aliases": [
+      "volume transport"
+    ]
+  },
+
+  "water_clarity": {
+    "class": "Parameter:WaterClarity",
+    "allowed_units": [
+      "m",
+      "m-1",
+      "unitless"
+    ],
+    "unit_dimension": "optical",
+    "native": false,
+    "derived_from": [
+      "Parameter:Rrs",
+      "Parameter:SecchiDepth"
+    ],
+    "aliases": [
+      "water clarity",
+      "clarity of water",
+      "clarity of the water"
+    ]
+  },
+
+  "water_leaving_radiance": {
+    "class": "Parameter:WaterLeavingRadiance",
+    "allowed_units": [
+      "W m-2 sr-1 um-1",
+      "mW cm-2 sr-1 um-1"
+    ],
+    "unit_dimension": "radiance",
+    "native": true,
+    "aliases": [
+      "L_w",
+      "L_w(λ)",
+      "water-leaving radiance",
+      "water leaving radiance"
+    ]
+  },
+
+  "water_leaving_reflectance": {
+    "class": "Parameter:WaterLeavingReflectance",
+    "parent": "Parameter:Reflectance",
+    "allowed_units": [
+      "sr-1"
+    ],
+    "unit_dimension": "reflectance",
+    "native": true,
+    "aliases": [
+      "water leaving reflectance",
+      "water-leaving reflectance",
+      "water leaving spectral reflectance",
+      "rho_w",
+      "ρw"
+    ]
+  },
+
+  "water physical properties": {
+    "class": "Parameter:WaterPhysicalProperties",
+    "unit_dimension": "mixed",
+    "native": true
+  },
+
+  "water_temperature": {
+    "class": "Parameter:WaterTemperature",
+    "allowed_units": [
+      "K",
+      "degC"
+    ],
+    "unit_dimension": "temperature",
+    "native": true,
+    "aliases": [
+      "water temperature",
+      "water temperatures",
+      "ocean temperature"
+    ]
+  },
+
+  "wave_height": {
+    "class": "Parameter:WaveHeight",
+    "allowed_units": [
+      "m"
+    ],
+    "unit_dimension": "length",
+    "native": true,
+    "aliases": [
+      "wave height",
+      "significant wave height"
+    ]
+  },
+
+  "wave_period": {
+    "class": "Parameter:WavePeriod",
+    "allowed_units": [
+      "s"
+    ],
+    "unit_dimension": "time",
+    "native": true,
+    "aliases": [
+      "wave period"
+    ]
+  },
+
+  "wavelength": {
+    "class": "Parameter:Wavelength",
+    "allowed_units": [
+      "nm",
+      "um"
+    ],
+    "unit_dimension": "length",
+    "native": true,
+    "aliases": [
+      "wavelength",
+      "light wavelength"
+    ]
+  },
+
+  "wind_direction": {
+    "class": "Parameter:WindDirection",
+    "allowed_units": [
+      "degree"
+    ],
+    "unit_dimension": "angle",
+    "native": true,
+    "aliases": [
+      "wind direction"
+    ]
+  },
+
+  "wind_drag_coefficient": {
+    "class": "Parameter:WindDragCoefficient",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "dimensionless",
+    "native": false,
+    "aliases": [
+      "wind drag coefficient"
+    ]
+  },
+
+  "wind_speed": {
+    "class": "Parameter:WindSpeed",
+    "allowed_units": [
+      "m s-1",
+      "cm s-1",
+      "knots",
+      "kt"
+    ],
+    "unit_dimension": "velocity",
+    "native": true,
+    "aliases": [
+      "wind speed",
+      "sea surface winds",
+      "sea winds",
+      "near-surface wind",
+      "near-surface winds",
+      "surface wind",
+      "surface winds",
+      "ocean surface wind",
+      "ocean surface winds",
+      "10 m wind",
+      "10-m wind",
+      "10 m winds",
+      "10-m winds",
+      "neutral wind",
+      "neutral winds",
+      "climatological wind speed",
+      "wind",
+      "windspeed",
+      "wind-speed",
+      "surface wind speed",
+      "10 m wind speed",
+      "10-m wind speed",
+      "winds",
+      "wind speeds",
+      "wind magnitude"
+    ]
+  },
+
+  "wind_stress": {
+    "class": "Parameter:WindStress",
+    "allowed_units": [
+      "N m-2",
+      "Pa"
+    ],
+    "unit_dimension": "stress",
+    "native": false,
+    "derived_from": [
+      "Parameter:WindSpeed"
+    ],
+    "aliases": [
+      "surface wind stress",
+      "wind stress"
+    ]
+  },
+
+  "wind_stress_curl": {
+    "class": "Parameter:WindStressCurl",
+    "inherits_unit": true,
+    "unit_dimension": "derived",
+    "native": false,
+    "derived_from": [
+      "Parameter:WindStress"
+    ],
+    "aliases": [
+      "wind stress curl",
+      "curl of wind stress",
+      "curl of surface wind stress"
+    ]
+  },
+
+  "wind_stress_divergence": {
+    "class": "Parameter:WindStressDivergence",
+    "inherits_unit": true,
+    "unit_dimension": "derived",
+    "native": false,
+    "derived_from": [
+      "Parameter:WindStress"
+    ],
+    "aliases": [
+      "wind stress divergence",
+      "divergence of wind stress",
+      "divergence of surface wind stress"
+    ]
+  },
+
+  "zeaxanthin": {
+    "class": "Parameter:Zeaxanthin",
+    "parent": "Parameter:PhytoplanktonPigments",
+    "allowed_units": [
+      "mg m-3",
+      "mg/m3",
+      "ug L-1"
+    ],
+    "unit_dimension": "concentration",
+    "native": true,
+    "aliases": []
+  },
+
+  "u10": {
+    "class": "Parameter:ZonalWind",
+    "allowed_units": [
+      "m s-1",
+      "cm s-1"
+    ],
+    "unit_dimension": "velocity",
+    "native": true,
+    "aliases": [
+      "u-wind",
+      "zonal wind speed",
+      "zonal wind",
+      "zonalwind",
+      "eastward wind",
+      "u wind",
+      "u10"
+    ]
+  },
+
+  "tau_x": {
+    "class": "Parameter:ZonalWindStress",
+    "allowed_units": [
+      "N m-2",
+      "Pa"
+    ],
+    "unit_dimension": "stress",
+    "native": false,
+    "derived_from": [
+      "Parameter:ZonalWind"
+    ],
+    "aliases": [
+      "zonal wind stress",
+      "eastward wind stress",
+      "tau x",
+      "tau_x",
+      "τx"
+    ]
+  },
+
+  "ph": {
+    "class": "Parameter:pH",
+    "allowed_units": [
+      "unitless",
+      "dimensionless"
+    ],
+    "unit_dimension": "acidity",
+    "native": true,
+    "aliases": [
+      "pH",
+      "ocean pH",
+      "surface ocean pH",
+      "oceanic pH",
+      "Global Surface Ocean pH"
+    ]
+  },
+
+  "thermal_stress_product": {
+    "class": "Derived:ThermalStressProduct",
+    "long_name": "Thermal Stress Product",
+    "native": false,
+    "aliases": [
+      "thermal-stress products",
+      "bleaching alert areas",
+      "coral bleaching hot spots",
+      "coral reef bleaching"
+    ]
+  }
+}

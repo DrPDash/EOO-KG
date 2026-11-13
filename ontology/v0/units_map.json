@@ -1,0 +1,1307 @@
+{
+  "yr-1": {
+    "time_unit": "yr-1"
+  },
+  "per year": {
+    "time_unit": "yr-1"
+  },
+  "decade-1": {
+    "time_unit": "decade-1"
+  },
+  "per decade": {
+    "time_unit": "decade-1"
+  },
+  "degc": {
+    "unit": "degC"
+  },
+  "celsius": {
+    "unit": "degC"
+  },
+  "mg m-3": {
+    "unit": "mg m-3"
+  },
+  "mg/m3": {
+    "unit": "mg m-3"
+  },
+  "ug l-1": {
+    "unit": "ug L-1"
+  },
+  "psu": {
+    "unit": "psu"
+  },
+  "pss-78": {
+    "unit": "psu"
+  },
+  "ratio": {
+    "unit": "ratio"
+  },
+  "unitless": {
+    "unit": "unitless"
+  },
+  "m-1": {
+    "unit": "m-1"
+  },
+  "per meter": {
+    "unit": "m-1"
+  },
+  "ntu": {
+    "unit": "NTU"
+  },
+  "fnu": {
+    "unit": "FNU"
+  },
+  "mmol m-2 d-1": {
+    "unit": "mmol m-2 d-1"
+  },
+  "mol c": {
+    "unit": "mol C"
+  },
+  "percent": {
+    "unit": "%"
+  },
+  "%": {
+    "unit": "%"
+  },
+  "meters": {
+    "unit": "m"
+  },
+  "depth m": {
+    "unit": "m"
+  },
+  "sr-1": {
+    "unit": "sr-1"
+  },
+  "per steradian": {
+    "unit": "sr-1"
+  },
+  "w m-2 sr-1 nm-1": {
+    "unit": "W m-2 sr-1 nm-1"
+  },
+  "mw cm-2 sr-1 um-1": {
+    "unit": "mW cm-2 sr-1 um-1"
+  },
+  "nm": {
+    "unit": "nm"
+  },
+  "micrometer": {
+    "unit": "um"
+  },
+  "µm": {
+    "unit": "um"
+  },
+  "μm": {
+    "unit": "um"
+  },
+  "um": {
+    "unit": "um"
+  },
+  "micron": {
+    "unit": "um"
+  },
+  "microns": {
+    "unit": "um"
+  },
+  "micrometre": {
+    "unit": "um"
+  },
+  "micrometres": {
+    "unit": "um"
+  },
+  "micrometers": {
+    "unit": "um"
+  },
+  "m s-1": {
+    "unit": "m s-1"
+  },
+  "cm s-1": {
+    "unit": "cm s-1"
+  },
+  "knots": {
+    "unit": "knots"
+  },
+  "knot": {
+    "unit": "knots"
+  },
+  "kt": {
+    "unit": "knots"
+  },
+  "kts": {
+    "unit": "knots"
+  },
+  "kg m-3": {
+    "unit": "kg m-3"
+  },
+  "g m-3": {
+    "unit": "g m-3"
+  },
+  "w m-2": {
+    "unit": "W m-2"
+  },
+  "j m-2": {
+    "unit": "J m-2"
+  },
+  "mm day-1": {
+    "unit": "mm day-1"
+  },
+  "r2": {
+    "unit": "R2"
+  },
+  "r^2": {
+    "unit": "R2"
+  },
+  "percent per year": {
+    "unit": "% yr-1"
+  },
+  "% yr-1": {
+    "unit": "% yr-1"
+  },
+  "1 sigma": {
+    "unit": "1σ"
+  },
+  "2 sigma": {
+    "unit": "2σ"
+  },
+  "nm-1": {
+    "unit": "nm-1"
+  },
+  "per nm": {
+    "unit": "nm-1"
+  },
+  "m-1 sr-1": {
+    "unit": "m-1 sr-1"
+  },
+  "per meter per steradian": {
+    "unit": "m-1 sr-1"
+  },
+  "einstein m-2 day-1": {
+    "unit": "einstein m-2 day-1"
+  },
+  "mol m-2 day-1": {
+    "unit": "mol m-2 day-1"
+  },
+  "kg m-2": {
+    "unit": "kg m-2"
+  },
+  "g m-2": {
+    "unit": "g m-2"
+  },
+  "m3 s-1": {
+    "unit": "m3 s-1"
+  },
+  "per second discharge": {
+    "unit": "m3 s-1"
+  },
+  "sv": {
+    "unit": "Sv"
+  },
+  "sverdrup": {
+    "unit": "Sv"
+  },
+  "sverdrups": {
+    "unit": "Sv"
+  },
+  "m sv": {
+    "unit": "mSv"
+  },
+  "msv": {
+    "unit": "mSv"
+  },
+  "millisverdrup": {
+    "unit": "mSv"
+  },
+  "millisverdrups": {
+    "unit": "mSv"
+  },
+  "k": {
+    "unit": "K"
+  },
+  "kelvin": {
+    "unit": "K"
+  },
+  "degrees kelvin": {
+    "unit": "K"
+  },
+  "kelvins": {
+    "unit": "K"
+  },
+  "centikelvins": {
+    "unit": "cK"
+  },
+  "deg k": {
+    "unit": "K"
+  },
+
+  "centimetre": {
+    "unit": "cm"
+  },
+  "kilometres": {
+    "unit": "km"
+  },
+
+  "cm/s": {
+    "unit": "cm s-1"
+  },
+  "m s^-2": {
+    "unit": "m s-2"
+  },
+
+  "km^2/yr": {
+    "unit": "km2 yr-1"
+  },
+  "km^3/year": {
+    "unit": "km3 yr-1"
+  },
+  "m^2/ha": {
+    "unit": "m2 ha-1"
+  },
+
+  "mg m^-3 yr^-1": {
+    "unit": "mg m-3 yr-1"
+  },
+  "mgc l^-1": {
+    "unit": "mgC L-1"
+  },
+  "grams per cubic meter": {
+    "unit": "g m-3"
+  },
+  "g/cm^3": {
+    "unit": "g cm-3"
+  },
+  "grams per cubic centimeter": {
+    "unit": "g cm-3"
+  },
+  "g cm^-3 ppt^-1": {
+    "unit": "g cm-3 ppt-1"
+  },
+  "kg kg^-1": {
+    "unit": "kg kg-1"
+  },
+
+  "kpa": {
+    "unit": "kPa"
+  },
+  "(kpa)^-1": {
+    "unit": "kPa-1"
+  },
+  "(kpa)^-2": {
+    "unit": "kPa-2"
+  },
+  "hpa km^-1": {
+    "unit": "hPa km-1"
+  },
+
+  "% per annum": {
+    "unit": "% yr-1"
+  },
+  "degrees celsius per century": {
+    "unit": "degC century-1"
+  },
+  "°c per year": {
+    "unit": "degC yr-1"
+  },
+
+  "m^2 kg^-1 (kpa)^-1": {
+    "unit": "m2 kg-1 kPa-1"
+  },
+  "m^2 s^-3": {
+    "unit": "m2 s-3"
+  },
+
+  "mW/m^2 sr cm^-1": {
+    "unit": "mW m-2 sr-1 cm"
+  },
+  "μw sr^-1 cm^-2 nm^-1": {
+    "unit": "uW sr-1 cm-2 nm-1"
+  },
+
+  "watts per meter per kelvin": {
+    "unit": "W m-1 K-1"
+  },
+
+  "μg l^-1 per year": {
+    "unit": "ug L-1 yr-1"
+  },
+  "μmol l^-1 per year": {
+    "unit": "umol L-1 yr-1"
+  },
+
+  "parts per thousand": {
+    "unit": "ppt"
+  },
+
+  "arc sec": {
+    "unit": "arcsec"
+  },
+  "arcminute": {
+    "unit": "arcmin"
+  },
+  "steradians": {
+    "unit": "sr"
+  },
+  "rad^-2": {
+    "unit": "rad-2"
+  },
+  "deg^-2": {
+    "unit": "deg-2"
+  },
+
+  "decibels": {
+    "unit": "dB"
+  },
+  "rpm": {
+    "unit": "rpm"
+  },
+
+  "oktas": {
+    "unit": "okta"
+  },
+
+  "formazin backscatter unit": {
+    "unit": "FBU"
+  },
+  "fbu": {
+    "unit": "FBU"
+  },
+  "°c": {
+    "unit": "degC"
+  },
+  "degree celsius": {
+    "unit": "degC"
+  },
+  "degrees celsius": {
+    "unit": "degC"
+  },
+  "degree c": {
+    "unit": "degC"
+  },
+  "degrees c": {
+    "unit": "degC"
+  },
+  "cm-1": {
+    "unit": "cm-1"
+  },
+  "cm^-1": {
+    "unit": "cm-1"
+  },
+  "per centimeter": {
+    "unit": "cm-1"
+  },
+  "wavenumber": {
+    "unit": "cm-1"
+  },
+  "g cm-2": {
+    "unit": "g cm-2"
+  },
+  "g/cm2": {
+    "unit": "g cm-2"
+  },
+  "g cm^-2": {
+    "unit": "g cm-2"
+  },
+  "atm cm": {
+    "unit": "atm cm"
+  },
+  "atm-cm": {
+    "unit": "atm cm"
+  },
+  "ppmv": {
+    "unit": "ppmv"
+  },
+  "ppm": {
+    "unit": "ppm"
+  },
+  "mb": {
+    "unit": "mb"
+  },
+  "mbar": {
+    "unit": "mb"
+  },
+  "hpa": {
+    "unit": "hPa"
+  },
+  "degree": {
+    "unit": "deg"
+  },
+  "degrees": {
+    "unit": "deg"
+  },
+  "deg": {
+    "unit": "deg"
+  },
+  "°": {
+    "unit": "deg"
+  },
+  "km": {
+    "unit": "km"
+  },
+  "kilometer": {
+    "unit": "km"
+  },
+  "kilometers": {
+    "unit": "km"
+  },
+  "ha": {
+    "unit": "ha"
+  },
+  "km-2 yr-1": {
+    "unit": "km^-2 yr^-1"
+  },
+  "km^-2 yr^-1": {
+    "unit": "km^-2 yr^-1"
+  },
+  "km−2 yr−1": {
+    "unit": "km^-2 yr^-1"
+  },
+  "km3/yr": {
+    "unit": "km3 yr-1"
+  },
+  "km³/yr": {
+    "unit": "km3 yr-1"
+  },
+  "km3 yr-1": {
+    "unit": "km3 yr-1"
+  },
+  "km^3/yr": {
+    "unit": "km3 yr-1"
+  },
+  "observations km-2 yr-1": {
+    "unit": "km^-2 yr^-1"
+  },
+  "m/s": {
+    "unit": "m s-1"
+  },
+  "m s^-1": {
+    "unit": "m s-1"
+  },
+  "ms-1": {
+    "unit": "m s-1"
+  },
+  "w m^-2": {
+    "unit": "W m-2"
+  },
+  "w m-2 sr-1 um-1": {
+    "unit": "W m-2 sr-1 um-1"
+  },
+  "w m^-2 sr^-1 um^-1": {
+    "unit": "W m-2 sr-1 um-1"
+  },
+  "mw cm-2 sr-1 cm": {
+    "unit": "mW cm-2 sr-1 cm"
+  },
+  "milliwatt cm-2 sr-1 cm": {
+    "unit": "mW cm-2 sr-1 cm"
+  },
+  "w m-2 um-1 sr-1": {
+    "unit": "W m-2 sr-1 um-1"
+  },
+  "w m-2 μm-1 sr-1": {
+    "unit": "W m-2 sr-1 um-1"
+  },
+  "w m^-2 um^-1 sr^-1": {
+    "unit": "W m-2 sr-1 um-1"
+  },
+  "w m^-2 μm^-1 sr^-1": {
+    "unit": "W m-2 sr-1 um-1"
+  },
+  "w/m2/sr/um": {
+    "unit": "W m-2 sr-1 um-1"
+  },
+  "w m-2 sr-1 µm-1": {
+    "unit": "W m-2 sr-1 um-1"
+  },
+  "hz": {
+    "unit": "Hz"
+  },
+  "minute": {
+    "unit": "min"
+  },
+  "minutes": {
+    "unit": "min"
+  },
+  "min": {
+    "unit": "min"
+  },
+  "hour": {
+    "unit": "h"
+  },
+  "hours": {
+    "unit": "h"
+  },
+  "hr": {
+    "unit": "h"
+  },
+  "hrs": {
+    "unit": "h"
+  },
+  "g/cm^2": {
+    "unit": "g cm-2"
+  },
+  "g cm−2": {
+    "unit": "g cm-2"
+  },
+  "kg/m2": {
+    "unit": "kg m-2"
+  },
+  "kg m^-2": {
+    "unit": "kg m-2"
+  },
+  "usd": {
+    "unit": "US$"
+  },
+  "atm": {
+    "unit": "atm"
+  },
+  "cells l-1": {
+    "unit": "cells L-1"
+  },
+  "cells ml-1": {
+    "unit": "cells mL-1"
+  },
+  "class": {
+    "unit": "class"
+  },
+  "cm": {
+    "unit": "cm"
+  },
+  "cm decade-1": {
+    "unit": "cm decade-1"
+  },
+  "count": {
+    "unit": "count"
+  },
+  "date": {
+    "time_unit": "date"
+  },
+  "days": {
+    "time_unit": "day"
+  },
+  "db": {
+    "unit": "dB"
+  },
+  "degc km-1": {
+    "unit": "degC km-1"
+  },
+  "degree_east": {
+    "unit": "degree_east"
+  },
+  "degree_north": {
+    "unit": "degree_north"
+  },
+  "dimensionless": {
+    "unit": "unitless"
+  },
+  "du": {
+    "unit": "DU"
+  },
+  "g": {
+    "unit": "g"
+  },
+  "g c m-2": {
+    "unit": "g C m-2"
+  },
+  "g c m-2 yr-1": {
+    "unit": "g C m-2 yr-1"
+  },
+  "g s-1": {
+    "unit": "g s-1"
+  },
+  "gt": {
+    "unit": "Gt"
+  },
+  "gt co2 yr-1": {
+    "unit": "Gt CO2 yr-1"
+  },
+  "index": {
+    "unit": "index"
+  },
+  "j": {
+    "unit": "J"
+  },
+  "j kg-1": {
+    "unit": "J kg-1"
+  },
+  "j kg-1 k-1": {
+    "unit": "J kg-1 K-1"
+  },
+  "k km-1": {
+    "unit": "K km-1"
+  },
+  "kg": {
+    "unit": "kg"
+  },
+  "kg c": {
+    "unit": "kg C"
+  },
+  "kg s-1": {
+    "unit": "kg s-1"
+  },
+  "km2": {
+    "unit": "km2"
+  },
+  "m yr-1": {
+    "unit": "m yr-1"
+  },
+  "m2": {
+    "unit": "m2"
+  },
+  "m2 g-1": {
+    "unit": "m2 g-1"
+  },
+  "m2 mg-1": {
+    "unit": "m2 mg-1"
+  },
+  "m2 s-2": {
+    "unit": "m2 s-2"
+  },
+  "m^-1": {
+    "unit": "m-1"
+  },
+  "meq l-1": {
+    "unit": "meq L-1"
+  },
+  "mg": {
+    "unit": "mg"
+  },
+  "mg c m-2 day-1": {
+    "unit": "mg C m-2 day-1"
+  },
+  "mg l-1": {
+    "unit": "mg L-1"
+  },
+  "mg/l": {
+    "unit": "mg L-1"
+  },
+  "million km2": {
+    "unit": "million km2"
+  },
+  "mm": {
+    "unit": "mm"
+  },
+  "mm h-1": {
+    "unit": "mm h-1"
+  },
+  "mm yr-1": {
+    "unit": "mm yr-1"
+  },
+  "mm yr-1 yr-1": {
+    "unit": "mm yr-2"
+  },
+  "mm yr-2": {
+    "unit": "mm yr-2"
+  },
+  "mm/yr": {
+    "unit": "mm yr-1"
+  },
+  "mm/yr2": {
+    "unit": "mm yr-2"
+  },
+  "mm2": {
+    "unit": "mm2"
+  },
+  "mmol m-3": {
+    "unit": "mmol m-3"
+  },
+  "mol cm-2": {
+    "unit": "mol cm-2"
+  },
+  "molecules cm-2": {
+    "unit": "molecules cm-2"
+  },
+  "month": {
+    "time_unit": "month"
+  },
+  "months": {
+    "time_unit": "month"
+  },
+  "ms cm-1": {
+    "unit": "mS cm-1"
+  },
+  "mw cm-2 um-1 sr-1": {
+    "unit": "mW cm-2 sr-1 um-1"
+  },
+  "n m-2": {
+    "unit": "N m-2"
+  },
+  "pa": {
+    "unit": "Pa"
+  },
+  "pg c yr-1": {
+    "unit": "Pg C yr-1"
+  },
+  "ppb": {
+    "unit": "ppb"
+  },
+  "s": {
+    "unit": "s"
+  },
+  "s m-1": {
+    "unit": "S m-1"
+  },
+  "s-1": {
+    "unit": "s-1"
+  },
+  "t yr-1": {
+    "unit": "t yr-1"
+  },
+  "ton": {
+    "unit": "t"
+  },
+  "uatm": {
+    "unit": "uatm"
+  },
+  "ug m-3": {
+    "unit": "ug m-3"
+  },
+  "umol kg-1": {
+    "unit": "umol kg-1"
+  },
+  "umol l-1": {
+    "unit": "umol L-1"
+  },
+  "umol mol-1": {
+    "unit": "umol mol-1"
+  },
+  "year": {
+    "time_unit": "yr"
+  },
+  "years": {
+    "time_unit": "yr"
+  },
+  "yr": {
+    "time_unit": "yr"
+  },
+  "zj": {
+    "unit": "ZJ"
+  },
+  "µg m-3": {
+    "unit": "ug m-3"
+  },
+  "km^2": {
+    "unit": "km2"
+  },
+  "°c/decade": {
+    "unit": "degC decade-1"
+  },
+  "μmol kg^-1": {
+    "unit": "umol kg-1"
+  },
+  "°n": {
+    "unit": "degree_north"
+  },
+  "mm/year": {
+    "unit": "mm yr-1"
+  },
+  "°c decade^-1": {
+    "unit": "degC decade-1"
+  },
+  "μatm": {
+    "unit": "uatm"
+  },
+  "mm year-2": {
+    "unit": "mm yr-2"
+  },
+  "%/year": {
+    "unit": "% yr-1"
+  },
+  "tonnes": {
+    "unit": "t"
+  },
+  "percentage": {
+    "unit": "%"
+  },
+  "mm yr^-1": {
+    "unit": "mm yr-1"
+  },
+  "tw": {
+    "unit": "TW"
+  },
+  "inches": {
+    "unit": "in"
+  },
+  "km^3": {
+    "unit": "km3"
+  },
+  "m^2": {
+    "unit": "m2"
+  },
+  "million km^2": {
+    "unit": "million km2"
+  },
+  "°c per century": {
+    "unit": "degC century-1"
+  },
+  "10^6 m^3 s^-1": {
+    "unit": "Sv"
+  },
+  "mg m^-2": {
+    "unit": "mg m-2"
+  },
+  "watts per square meter": {
+    "unit": "W m-2"
+  },
+  "m per year": {
+    "unit": "m yr-1"
+  },
+  "m/year": {
+    "unit": "m yr-1"
+  },
+  "practical salinity units": {
+    "unit": "psu"
+  },
+  "° latitude": {
+    "unit": "degree_north"
+  },
+  "° longitude": {
+    "unit": "degree_east"
+  },
+  "pw": {
+    "unit": "PW"
+  },
+  "°c/yr": {
+    "unit": "degC yr-1"
+  },
+  "nmol l^-1": {
+    "unit": "nmol L-1"
+  },
+  "feet": {
+    "unit": "ft"
+  },
+  "mmt": {
+    "unit": "million t"
+  },
+  "psu/km": {
+    "unit": "psu km-1"
+  },
+  "year-1": {
+    "time_unit": "yr-1"
+  },
+  "year^-1": {
+    "time_unit": "yr-1"
+  },
+  "m-3 s-1 100 m-1": {
+    "unit": "m3 s-1 (100 m)-1"
+  },
+  "μatm yr^-1": {
+    "unit": "uatm yr-1"
+  },
+  "μmol l^-1": {
+    "unit": "umol L-1"
+  },
+  "ghz": {
+    "unit": "GHz"
+  },
+  "j/yr": {
+    "unit": "J yr-1"
+  },
+  "mhz": {
+    "unit": "MHz"
+  },
+  "mm day^-1 century^-1": {
+    "unit": "mm day-1 century-1"
+  },
+  "zj decade^-1": {
+    "unit": "ZJ decade-1"
+  },
+  "μmol n_2o m^-2 day^-1": {
+    "unit": "umol N2O m-2 day-1"
+  },
+  "dec-1": {
+    "time_unit": "decade-1"
+  },
+  "in./century": {
+    "unit": "in century-1"
+  },
+  "l": {
+    "unit": "L"
+  },
+  "m^3 s^-1 (100 m)^-1 × 1000": {
+    "unit": "m3 s-1 (100 m)-1"
+  },
+  "m^3 s^-1 km^-1": {
+    "unit": "m3 s-1 km-1"
+  },
+  "pgc year-1": {
+    "unit": "Pg C yr-1"
+  },
+  "s$^{-1}$": {
+    "unit": "s-1"
+  },
+  "s$^{-2}$": {
+    "unit": "s-2"
+  },
+  "centimeters": {
+    "unit": "cm"
+  },
+  "cm/s/year": {
+    "unit": "cm s-1 yr-1"
+  },
+  "cm/year": {
+    "unit": "cm yr-1"
+  },
+  "dbw": {
+    "unit": "dBW"
+  },
+  "degrees kelvin per decade": {
+    "unit": "K decade-1"
+  },
+  "degrees/km": {
+    "unit": "deg km-1"
+  },
+  "j m^-1 yr^-1": {
+    "unit": "J m-1 yr-1"
+  },
+  "m/s per decade": {
+    "unit": "m s-1 decade-1"
+  },
+  "m^3 h^-1": {
+    "unit": "m3 h-1"
+  },
+  "mg c km^-2 yr^-1": {
+    "unit": "Mg C km-2 yr-1"
+  },
+  "petamoles": {
+    "unit": "Pmol"
+  },
+  "petawatts": {
+    "unit": "PW"
+  },
+  "weeks": {
+    "time_unit": "week"
+  },
+  "° kelvin/km": {
+    "unit": "K km-1"
+  },
+  "μg l-1": {
+    "unit": "ug L-1"
+  },
+  "μmol kg-1 yr-1": {
+    "unit": "umol kg-1 yr-1"
+  },
+  "μmol n_2o m^-2 d^-1": {
+    "unit": "umol N2O m-2 day-1"
+  },
+  "cm h^-1": {
+    "unit": "cm h-1"
+  },
+  "cm yr^-1": {
+    "unit": "cm yr-1"
+  },
+  "cubic meter": {
+    "unit": "m3"
+  },
+  "cubic meters": {
+    "unit": "m3"
+  },
+  "decade": {
+    "time_unit": "decade"
+  },
+  "decades": {
+    "time_unit": "decade"
+  },
+  "degree kelvin/km": {
+    "unit": "K km-1"
+  },
+  "degree latitude": {
+    "unit": "degree_north"
+  },
+  "femtomoles kg^-1": {
+    "unit": "fmol kg-1"
+  },
+  "formazin nephelometric ratio unit (fnru)": {
+    "unit": "FNRU"
+  },
+  "formazin nephelometric unit (fnu)": {
+    "unit": "FNU"
+  },
+  "g n m-2": {
+    "unit": "g N m-2"
+  },
+  "gt c": {
+    "unit": "Gt C"
+  },
+  "gt/yr": {
+    "unit": "Gt yr-1"
+  },
+  "h km^-2": {
+    "unit": "h km-2"
+  },
+  "hours fished per square kilometer": {
+    "unit": "h km-2"
+  },
+  "hours per square kilometer per month": {
+    "unit": "h km-2 month-1"
+  },
+  "in.": {
+    "unit": "in"
+  },
+  "inch": {
+    "unit": "in"
+  },
+  "inches/century": {
+    "unit": "in century-1"
+  },
+  "j kg^-1 k^-1": {
+    "unit": "J kg-1 K-1"
+  },
+  "j kg^-1 °c^-1": {
+    "unit": "J kg-1 K-1"
+  },
+  "j yr^-1": {
+    "unit": "J yr-1"
+  },
+  "j/m": {
+    "unit": "J m-1"
+  },
+  "k per decade": {
+    "unit": "K decade-1"
+  },
+  "kg^-1": {
+    "unit": "kg-1"
+  },
+  "km/h": {
+    "unit": "km h-1"
+  },
+  "km^2/decade": {
+    "unit": "km2 decade-1"
+  },
+  "km^3 per decade": {
+    "unit": "km3 decade-1"
+  },
+  "km^3 year^-2": {
+    "unit": "km3 yr-2"
+  },
+  "l atm k^-1 mol^-1": {
+    "unit": "L atm K-1 mol-1"
+  },
+  "m depth": {
+    "unit": "m"
+  },
+  "m yr^-1": {
+    "unit": "m yr-1"
+  },
+  "m^-2 d^-1": {
+    "unit": "m-2 day-1"
+  },
+  "m^2 s^-1": {
+    "unit": "m2 s-1"
+  },
+  "m^3 s^-1 yr^-1": {
+    "unit": "m3 s-1 yr-1"
+  },
+  "m^3/s": {
+    "unit": "m3 s-1"
+  },
+  "metric ton": {
+    "unit": "t"
+  },
+  "mg c": {
+    "unit": "Mg C"
+  },
+  "mg c km^{-2}": {
+    "unit": "Mg C km-2"
+  },
+  "mg co2": {
+    "unit": "Mg CO2"
+  },
+  "mile": {
+    "unit": "mi"
+  },
+  "millimeter": {
+    "unit": "mm"
+  },
+  "million km^2 per decade": {
+    "unit": "million km2 decade-1"
+  },
+  "million km^2 yr^-1": {
+    "unit": "million km2 yr-1"
+  },
+  "million metric tonnes": {
+    "unit": "million t"
+  },
+  "million metric tons": {
+    "unit": "million t"
+  },
+  "millions of km^2": {
+    "unit": "million km2"
+  },
+  "mm^2 year^-2": {
+    "unit": "mm2 yr-2"
+  },
+  "mmol c m^-2 d^-1": {
+    "unit": "mmol C m-2 day-1"
+  },
+  "mmol m^-3": {
+    "unit": "mmol m-3"
+  },
+  "mol co2 km^-2": {
+    "unit": "mol CO2 km-2"
+  },
+  "mph": {
+    "unit": "mi h-1"
+  },
+  "nautical mile": {
+    "unit": "nmi"
+  },
+  "nautical mile (nm)": {
+    "unit": "nmi"
+  },
+  "nephelometric turbidity ratio unit (ntru)": {
+    "unit": "NTRU"
+  },
+  "nephelometric turbidity unit (ntu)": {
+    "unit": "NTU"
+  },
+  "nmol kg-1": {
+    "unit": "nmol kg-1"
+  },
+  "nmol l^-1 atm^-1": {
+    "unit": "nmol L-1 atm-1"
+  },
+  "nondimensional positive number": {
+    "unit": "unitless"
+  },
+  "one": {
+    "unit": "unitless"
+  },
+  "pa decade^-1": {
+    "unit": "Pa decade-1"
+  },
+  "percent per decade": {
+    "unit": "% decade-1"
+  },
+  "pg": {
+    "unit": "Pg"
+  },
+  "pg co2": {
+    "unit": "Pg CO2"
+  },
+  "pgc year-2": {
+    "unit": "Pg C yr-2"
+  },
+  "s m^-1": {
+    "unit": "S m-1"
+  },
+  "terawatts": {
+    "unit": "TW"
+  },
+  "tg n year^-1": {
+    "unit": "Tg N yr-1"
+  },
+  "tons": {
+    "unit": "t"
+  },
+  "zettajoule": {
+    "unit": "ZJ"
+  },
+  "° e": {
+    "unit": "degree_east"
+  },
+  "°c dec^-1": {
+    "unit": "degC decade-1"
+  },
+  "°c yr^-1": {
+    "unit": "degC yr-1"
+  },
+  "°f": {
+    "unit": "degF"
+  },
+  "μmol kg-1 decade-1": {
+    "unit": "umol kg-1 decade-1"
+  },
+  "μmol l^-1 a^-1": {
+    "unit": "umol L-1 yr-1"
+  },
+  "μmol m^-3": {
+    "unit": "umol m-3"
+  },
+  "μmol/g-1": {
+    "unit": "umol g-1"
+  },
+  "mm per year": {
+    "unit": "mm yr-1"
+  },
+  "millimeters per year": {
+    "unit": "mm yr-1"
+  },
+  "degree celsius per decade": {
+    "unit": "degC decade-1"
+  },
+  "degrees celsius per decade": {
+    "unit": "degC decade-1"
+  },
+  "degree celsius per year": {
+    "unit": "degC yr-1"
+  },
+  "degrees celsius per year": {
+    "unit": "degC yr-1"
+  },
+  "micromol kg-1": {
+    "unit": "umol kg-1"
+  },
+  "microatmosphere": {
+    "unit": "uatm"
+  },
+  "metric tonne": {
+    "unit": "t"
+  },
+  "metric tonnes": {
+    "unit": "t"
+  },
+  "tonne": {
+    "unit": "t"
+  },
+  "foot": {
+    "unit": "ft"
+  },
+  "nautical miles": {
+    "unit": "nmi"
+  },
+  "bar": {
+    "unit": "bar"
+  },
+  "°c per decade": {
+    "unit": "degC decade-1"
+  },
+  "mm/year-1": {
+    "unit": "mm yr-1"
+  },
+  "m^3": {
+    "unit": "m3"
+  },
+  "k2": {
+    "unit": "K2"
+  },
+  "1 × 10^-9 mol kg^-1": {
+    "unit": "nmol kg-1"
+  },
+  "10^21 joules": {
+    "unit": "ZJ"
+  },
+  "10^5 pa": {
+    "unit": "bar"
+  },
+  "dbi": {
+    "unit": "dBi"
+  },
+  "mm/yr^2": {
+    "unit": "mm yr-2"
+  },
+  "kelvin squared": {
+    "unit": "K2"
+  },
+  "k^2": {
+    "unit": "K2"
+  },
+  "cubic metre": {
+    "unit": "m3"
+  },
+  "cubic metres": {
+    "unit": "m3"
+  },
+  "decibel isotropic": {
+    "unit": "dBi"
+  },
+  "million t": {
+    "unit": "million t"
+  }
+}

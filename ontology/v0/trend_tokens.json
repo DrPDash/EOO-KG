@@ -1,0 +1,354 @@
+{
+  "increase": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "increases": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "increased": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "increasing": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "rise": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "rises": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "rose": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "rising": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "growth": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "growing": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "warming": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "intensify": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "intensifies": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "intensified": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "intensifying": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "upward": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "decrease": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "decreases": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "decreased": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "decreasing": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "decline": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "declines": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "declined": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "declining": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "fall": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "falls": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "fell": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "falling": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "drop": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "drops": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "dropped": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "dropping": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "reduction": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "reductions": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "reducing": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "cooling": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "slowdown": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "slowdowns": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "weakening": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "weakened": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "downward": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "stable": {
+    "direction": "stable",
+    "magnitude_hint": "neutral"
+  },
+  "stability": {
+    "direction": "stable",
+    "magnitude_hint": "neutral"
+  },
+  "unchanged": {
+    "direction": "stable",
+    "magnitude_hint": "neutral"
+  },
+  "flat": {
+    "direction": "stable",
+    "magnitude_hint": "neutral"
+  },
+  "constant": {
+    "direction": "stable",
+    "magnitude_hint": "neutral"
+  },
+  "no change": {
+    "direction": "stable",
+    "magnitude_hint": "neutral"
+  },
+  "warms": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "warmed": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "strengthen": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "strengthens": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "strengthened": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "strengthening": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "reduce": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "reduces": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "reduced": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "cool": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "cools": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "cooled": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "weaken": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "weakens": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "steady": {
+    "direction": "stable",
+    "magnitude_hint": "neutral"
+  },
+  "remained stable": {
+    "direction": "stable",
+    "magnitude_hint": "neutral"
+  },
+  "remains stable": {
+    "direction": "stable",
+    "magnitude_hint": "neutral"
+  },
+  "no trend": {
+    "direction": "stable",
+    "magnitude_hint": "neutral"
+  },
+  "risen": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "increasing trend": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "increasing trends": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "warming trend": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "warming trends": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "positive trend": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "positive trends": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "upward trend": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "upward trends": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "warm anomaly": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "cold anomaly": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "spiking": {
+    "direction": "up",
+    "magnitude_hint": "positive"
+  },
+  "decreasing trend": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "decreasing trends": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "declining trend": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "declining trends": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "cooling trend": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "cooling trends": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "negative trend": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "negative trends": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "downward trend": {
+    "direction": "down",
+    "magnitude_hint": "negative"
+  },
+  "neutral trend": {
+    "direction": "stable",
+    "magnitude_hint": "neutral"
+  },
+  "lack of a trend": {
+    "direction": "stable",
+    "magnitude_hint": "neutral"
+  }
+}

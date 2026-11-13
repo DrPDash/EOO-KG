@@ -1,0 +1,21 @@
+
+{
+  "schema_version": 1,
+  "default_version": "v0",
+  "versions": [
+    {
+      "id": "v0",
+      "label": "v0 — September 2026",
+      "description": "September 2026 manuscript-associated ontology snapshot",
+      "status": "released",
+      "selectable": true
+    },
+    {
+      "id": "v1",
+      "label": "v1 — next version (near future)",
+      "description": "Subject to Manuscript Acceptance and Release Approval",
+      "status": "future",
+      "selectable": false
+    }
+  ]
+}
