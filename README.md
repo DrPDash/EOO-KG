@@ -33,7 +33,11 @@ For the scientific design, see [Architecture Overview](architecture.md).
 
 <table>
 <thead>
-<tr><th align="left">Vocabulary resource</th><th align="right">v0 — September 2026<br>MANUSCRIPT-ASSOCIATED</th><th align="right">v1 — November 2026<br>PROVISIONAL — NOT RELEASED</th></tr>
+<tr>
+  <th align="left">Vocabulary resource</th>
+  <th align="right">v0 — September 2026<br>MANUSCRIPT-ASSOCIATED</th>
+  <th align="right">v1 — Future Version<br>PROVISIONAL — NOT RELEASED</th>
+</tr>
 </thead>
 <tbody>
 <tr><td>Methods</td><td align="right">379</td><td align="right">462</td></tr>
