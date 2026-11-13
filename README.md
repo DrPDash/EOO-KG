@@ -20,16 +20,16 @@ Eight resources: **parameters, processes, methods, regions, sensors, systems, un
 
 For the scientific design, see [Architecture Overview](architecture.md).
 
-| Version | Snapshot       | Basis                                                      | Release status                                                      |
-| ------- | -------------- | ---------------------------------------------------------- | ------------------------------------------------------------------- |
-| `v0`    | September 2026 | Manuscript-associated ontology; 101 research papers        | Initial public release |
-| `v1`    | Next version   | Corpus-guided vocabulary expansion | **Provisional — not released**              |
+| Version | Snapshot | Basis | Release status |
+| ------- | -------- | ----- | -------------- |
+| `v0` | September 2026 | Manuscript-associated ontology; a seed corpus + 101 additional Earth observation research papers | Initial public release |
+| `v1` | Next version | Corpus-guided vocabulary expansion | **Provisional — not released** |
 
 ### Version summaries
 
-**v0: September 2026 (manuscript-associated snapshot).** Developed and evaluated using 101 Earth observation research documents. The verified snapshot comprises **8 vocabulary maps, 2,554 entries, 1,653 distinct canonical class values, 3,481 alias values, 653 parent assignments, and 272 unit assignments**. These figures agree with Table 2 of the CADENCE-EOO manuscript.
+**v0: September 2026 (manuscript-associated snapshot).** Developed and evaluated using an extensive, manually curated seed corpus of Earth observation literature, supplemented by 101 additional research documents. The verified snapshot comprises **8 vocabulary maps, 2,554 entries, 1,653 distinct canonical class values, 3,481 alias values, 653 parent assignments, and 272 unit assignments**. These figures agree with Table 2 of the CADENCE-EOO manuscript.
 
-**v1: November 2026 working snapshot (PROVISIONAL; NOT RELEASED).** A subsequent ontology expansion informed by approximately 500,000 Earth observation question–answer records. The working snapshot comprises **8 vocabulary maps, 3,180 entries, 2,075 canonical class values, 3,942 alias values, 766 parent assignments, and 329 unit assignments**. All v1 figures are **provisional and subject to further curation and validation**.
+**v1: Provisional working snapshot (NOT RELEASED).** A subsequent ontology expansion informed by approximately 500,000 Earth observation question–answer records. The working snapshot comprises **8 vocabulary maps, 3,180 entries, 2,075 canonical class values, 3,942 alias values, 766 parent assignments, and 329 unit assignments**. All v1 figures are **provisional and subject to further curation and validation**.
 
 <table>
 <thead>
